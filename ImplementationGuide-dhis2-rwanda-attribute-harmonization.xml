@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="dhis2.rwanda.attribute.harmonization"/>
+  <id value="dhis2-rwanda-attribute-harmonization"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>dhis2rwandaattributeharmonization</h2><p>The official URL for this implementation guide is: </p><pre>https://dhis2.org/ImplementationGuide/dhis2.rwanda.attribute.harmonization</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>dhis2rwandaattributeharmonization</h2><p>The official URL for this implementation guide is: </p><pre>https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization</pre></div>
   </text>
-  <url value="https://dhis2.org/ImplementationGuide/dhis2.rwanda.attribute.harmonization"/>
+  <url value="https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization"/>
   <version value="0.1.0"/>
   <name value="dhis2rwandaattributeharmonization"/>
   <status value="draft"/>
-  <date value="2024-05-27T08:58:56+00:00"/>
+  <date value="2024-05-27T09:10:49+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -18,7 +18,7 @@
       <value value="https://dhis2.org"/>
     </telecom>
   </contact>
-  <packageId value="dhis2.rwanda.attribute.harmonization"/>
+  <packageId value="dhis2-rwanda-attribute-harmonization"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">

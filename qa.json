@@ -1,13 +1,13 @@
 {
-  "url" : "https://dhis2.org/ImplementationGuide/dhis2.rwanda.attribute.harmonization",
+  "url" : "https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization",
   "name" : "dhis2rwandaattributeharmonization",
   "title" : null,
   "description" : null,
   "status" : "draft",
-  "package-id" : "dhis2.rwanda.attribute.harmonization",
+  "package-id" : "dhis2-rwanda-attribute-harmonization",
   "ig-ver" : "0.1.0",
-  "date" : "Mon, 27 May, 2024 08:58:56 +0000",
-  "dateISO8601" : "2024-05-27T08:58:56+00:00",
+  "date" : "Mon, 27 May, 2024 09:10:49 +0000",
+  "dateISO8601" : "2024-05-27T09:10:49+00:00",
   "errs" : 0,
   "warnings" : 5,
   "hints" : 0,
@@ -15,5 +15,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 950322552
+  "maxMemory" : 779369888
 }

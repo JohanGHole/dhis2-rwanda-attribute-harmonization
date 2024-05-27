@@ -5,18 +5,18 @@
 
 # - resource -------------------------------------------------------------------
 
-<https://dhis2.org/ImplementationGuide/dhis2.rwanda.attribute.harmonization> a fhir:ImplementationGuide ;
+<https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "dhis2.rwanda.attribute.harmonization"] ; # 
+  fhir:id [ fhir:v "dhis2-rwanda-attribute-harmonization"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>dhis2rwandaattributeharmonization</h2><p>The official URL for this implementation guide is: </p><pre>https://dhis2.org/ImplementationGuide/dhis2.rwanda.attribute.harmonization</pre></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>dhis2rwandaattributeharmonization</h2><p>The official URL for this implementation guide is: </p><pre>https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization</pre></div>"
   ] ; # 
-  fhir:url [ fhir:v "https://dhis2.org/ImplementationGuide/dhis2.rwanda.attribute.harmonization"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
   fhir:name [ fhir:v "dhis2rwandaattributeharmonization"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-05-27T08:58:56+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-05-27T09:10:49+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -25,7 +25,7 @@
        fhir:value [ fhir:v "https://dhis2.org" ]
      ] )
   ] ) ; # 
-  fhir:packageId [ fhir:v "dhis2.rwanda.attribute.harmonization"] ; # 
+  fhir:packageId [ fhir:v "dhis2-rwanda-attribute-harmonization"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
   fhir:dependsOn ( [
