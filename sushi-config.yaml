@@ -5,9 +5,9 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 id: dhis2-rwanda-attribute-harmonization
 canonical: https://dhis2.org
-name: dhis2-rwanda-attribute-harmonization
-# title: Example Title
-# description: Example Implementation Guide for getting started with SUSHI
+name: Dhis2RwandaAttributeHarmonization
+title: DHIS2 Rwanda Tracked Entity Attribute Harmonization IG
+description: IG to help with DHIS2 Tracker metadata governance in Rwanda
 status: draft # draft | active | retired | unknown
 version: 0.1.0
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
