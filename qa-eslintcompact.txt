@@ -1,4 +1,4 @@
-dhis2rwandaattributeharmonization
+Dhis2RwandaAttributeHarmonization
 =========================================
 
 Generic: line 0, col 0, Error - The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved (NOTFOUND)
@@ -56,7 +56,6 @@ Generic: line 0, col 0, Warning - The HTML fragment 'ip-statements.xhtml' is not
 Generic: line 0, col 0, Warning - An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide (NOTFOUND)
 Generic: line 0, col 0, Warning - The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide (NOTFOUND)
-/github/workspace/fsh-generated/resources/ImplementationGuide-dhis2-rwanda-attribute-harmonization.json: line 1, col 11919, Warning - Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' (INVARIANT)
 
-err = 0, warn = 5, info = 0
+err = 0, warn = 4, info = 0
 IG Publisher Version: 1.6.10

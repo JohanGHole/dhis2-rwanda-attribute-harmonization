@@ -1,19 +1,19 @@
 {
   "url" : "https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization",
-  "name" : "dhis2rwandaattributeharmonization",
-  "title" : null,
-  "description" : null,
+  "name" : "Dhis2RwandaAttributeHarmonization",
+  "title" : "DHIS2 Rwanda Tracked Entity Attribute Harmonization IG",
+  "description" : "IG to help with DHIS2 Tracker metadata governance in Rwanda",
   "status" : "draft",
   "package-id" : "dhis2-rwanda-attribute-harmonization",
   "ig-ver" : "0.1.0",
-  "date" : "Mon, 27 May, 2024 09:10:49 +0000",
-  "dateISO8601" : "2024-05-27T09:10:49+00:00",
+  "date" : "Mon, 27 May, 2024 13:19:02 +0000",
+  "dateISO8601" : "2024-05-27T13:19:02+00:00",
   "errs" : 0,
-  "warnings" : 5,
+  "warnings" : 4,
   "hints" : 0,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 779369888
+  "maxMemory" : 1124822176
 }

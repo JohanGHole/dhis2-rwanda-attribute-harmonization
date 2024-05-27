@@ -10,13 +10,14 @@
   fhir:id [ fhir:v "dhis2-rwanda-attribute-harmonization"] ; # 
   fhir:text [
      fhir:status [ fhir:v "extensions" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>dhis2rwandaattributeharmonization</h2><p>The official URL for this implementation guide is: </p><pre>https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization</pre></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Dhis2RwandaAttributeHarmonization</h2><p>The official URL for this implementation guide is: </p><pre>https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization</pre><div><p>IG to help with DHIS2 Tracker metadata governance in Rwanda</p>\n</div></div>"
   ] ; # 
   fhir:url [ fhir:v "https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "0.1.0"] ; # 
-  fhir:name [ fhir:v "dhis2rwandaattributeharmonization"] ; # 
+  fhir:name [ fhir:v "Dhis2RwandaAttributeHarmonization"] ; # 
+  fhir:title [ fhir:v "DHIS2 Rwanda Tracked Entity Attribute Harmonization IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-05-27T09:10:49+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-05-27T13:19:02+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -25,6 +26,7 @@
        fhir:value [ fhir:v "https://dhis2.org" ]
      ] )
   ] ) ; # 
+  fhir:description [ fhir:v "IG to help with DHIS2 Tracker metadata governance in Rwanda"] ; # 
   fhir:packageId [ fhir:v "dhis2-rwanda-attribute-harmonization"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 

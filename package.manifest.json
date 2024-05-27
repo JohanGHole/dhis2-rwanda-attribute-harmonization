@@ -1,6 +1,6 @@
 {
   "version" : "0.1.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20240527091006",
+  "date" : "20240527131827",
   "name" : "dhis2-rwanda-attribute-harmonization"
 }

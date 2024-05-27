@@ -1,11 +1,11 @@
-dhis2rwandaattributeharmonization : Validation Results
+Dhis2RwandaAttributeHarmonization : Validation Results
 =========================================
 
-err = 0, warn = 5, info = 0
+err = 0, warn = 4, info = 0
 $--
 Generated $--. FHIR version $-- for dhis2-rwanda-attribute-harmonization#$-- (canonical = https://dhis2.org)
  Build Errors : 51 / 4 / 0
- /github/workspace/fsh-generated/resources/ImplementationGuide-dhis2-rwanda-attribute-harmonization : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-dhis2-rwanda-attribute-harmonization : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-MyPatient : 0 / 0 / 1
 </table>
@@ -66,6 +66,5 @@ WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-v
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 == fsh-generated/resources/ImplementationGuide-dhis2-rwanda-attribute-harmonization.json ==
-WARNING: ImplementationGuide/dhis2-rwanda-attribute-harmonization: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
 == fsh-generated/resources/Patient-PatientExample.json ==
 == fsh-generated/resources/StructureDefinition-MyPatient.json ==

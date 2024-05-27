@@ -4,7 +4,7 @@
     "type" : "ImplementationGuide",
     "url" : "https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization",
     "version" : "0.1.0",
-    "name" : "dhis2rwandaattributeharmonization"
+    "name" : "Dhis2RwandaAttributeHarmonization"
   },
   {
     "id" : "MyPatient",
