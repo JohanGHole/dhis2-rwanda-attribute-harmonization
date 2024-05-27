@@ -3,7 +3,7 @@ dhis2rwandaattributeharmonization : Validation Results
 
 err = 0, warn = 5, info = 0
 IG Publisher Version: 1.6.10
-Generated Mon May 27 08:57:01 UTC 2024. FHIR version 4.0.1 for dhis2.rwanda.attribute.harmonization#0.1.0 (canonical = https://dhis2.org)
+Generated Mon May 27 08:59:18 UTC 2024. FHIR version 4.0.1 for dhis2.rwanda.attribute.harmonization#0.1.0 (canonical = https://dhis2.org)
  Build Errors : 17 / 4 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-dhis2.rwanda.attribute.harmonization : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
