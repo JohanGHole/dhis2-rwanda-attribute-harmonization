@@ -1,0 +1,111 @@
+"Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"BirthRegistration","BirthRegistration","","","",0,*,"","","","null {[]} {[]}
+","Birth Registration","Attributes for the 'Birth registration' tracker program.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"BirthRegistration.nin","BirthRegistration.nin","","","",0,1,"","","","string {[]} {[]}
+","NIN","NIN","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#lzae3BtWOIZ
+",,,,"BirthRegistration.nin",0,1,"",""
+"BirthRegistration.applicationnumber","BirthRegistration.applicationnumber","","","",0,1,"","","","string {[]} {[]}
+","applicationNumber","applicationNumber","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#Zf9XyUDtGFC
+",,,,"BirthRegistration.applicationnumber",0,1,"",""
+"BirthRegistration.citizenship","BirthRegistration.citizenship","","","",0,1,"","","","code {[]} {[]}
+","Citizenship","Citizenship","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#VYEGPSgn908
+",,,,"BirthRegistration.citizenship",0,1,"",""
+"BirthRegistration.twinsOrMore","BirthRegistration.twinsOrMore","","","",0,1,"","","","boolean {[]} {[]}
+","Twins or More","Twins or More","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#QyhGvFhiMF3
+",,,,"BirthRegistration.twinsOrMore",0,1,"",""
+"BirthRegistration.firstName","BirthRegistration.firstName","","","",0,1,"","","","string {[]} {[]}
+","First Name","First Name","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#e9BrRZAicPE
+",,,,"BirthRegistration.firstName",0,1,"",""
+"BirthRegistration.familyName","BirthRegistration.familyName","","","",0,1,"","","","string {[]} {[]}
+","Family Name","Family Name","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#sah5bll9Y6Q
+",,,,"BirthRegistration.familyName",0,1,"",""
+"BirthRegistration.dateOfBirth","BirthRegistration.dateOfBirth","","","",0,1,"","","","date {[]} {[]}
+","Date of birth","Date of birth","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#A31FfrjPqyp
+",,,,"BirthRegistration.dateOfBirth",0,1,"",""
+"BirthRegistration.placeOfBith","BirthRegistration.placeOfBith","","","",0,1,"","","","string {[]} {[]}
+","Place of Bith","Place of Bith","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#iCy9QPG9HY9
+",,,,"BirthRegistration.placeOfBith",0,1,"",""
+"BirthRegistration.gender","BirthRegistration.gender","","","",0,1,"","","","code {[]} {[]}
+","Gender","Gender","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#Rq4qM2wKYFL
+",,,,"BirthRegistration.gender",0,1,"",""
+"BirthRegistration.weightAtBirth","BirthRegistration.weightAtBirth","","","",0,1,"","","","decimal {[]} {[]}
+","Weight at Birth (Kgs)","Weight at Birth (Kgs)","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#cM7Q2YcXhH0
+",,,,"BirthRegistration.weightAtBirth",0,1,"",""
+"BirthRegistration.heightAtBirth","BirthRegistration.heightAtBirth","","","",0,1,"","","","decimal {[]} {[]}
+","Height at Birth(Cm)","Height at Birth(Cm)","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#yXIS60L4z9a
+",,,,"BirthRegistration.heightAtBirth",0,1,"",""
+"BirthRegistration.pregnancyNumber","BirthRegistration.pregnancyNumber","","","",0,1,"","","","decimal {[]} {[]}
+","Pregnancy Number","Pregnancy Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#TXDvRJ9wWBv
+",,,,"BirthRegistration.pregnancyNumber",0,1,"",""
+"BirthRegistration.caretaker","BirthRegistration.caretaker","","","",0,1,"","","","code {[]} {[]}
+","Caretaker","Caretaker","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#E5D1aKa2eFb
+",,,,"BirthRegistration.caretaker",0,1,"",""
+"BirthRegistration.mothersNames","BirthRegistration.mothersNames","","","",0,1,"","","","string {[]} {[]}
+","Mothers Names","Mothers Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#RzPmWr82V3p
+",,,,"BirthRegistration.mothersNames",0,1,"",""
+"BirthRegistration.mothersPhoneNumber","BirthRegistration.mothersPhoneNumber","","","",0,1,"","","","ContactPoint {[]} {[]}
+","Mothers Phone Number","Mothers Phone Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#IBcgUcOzYgB
+",,,,"BirthRegistration.mothersPhoneNumber",0,1,"",""
+"BirthRegistration.motherSIdNumber","BirthRegistration.motherSIdNumber","","","",0,1,"","","","string {[]} {[]}
+","Mother s ID number","Mother s ID number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#vBlHJN5gPSi
+",,,,"BirthRegistration.motherSIdNumber",0,1,"",""
+"BirthRegistration.mothersDateOfBirth","BirthRegistration.mothersDateOfBirth","","","",0,1,"","","","date {[]} {[]}
+","Mothers Date of Birth","Mothers Date of Birth","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#cUTcjBma2jK
+",,,,"BirthRegistration.mothersDateOfBirth",0,1,"",""
+"BirthRegistration.mothersEducationLevel","BirthRegistration.mothersEducationLevel","","","",0,1,"","","","code {[]} {[]}
+","Mothers Education Level","Mothers Education Level","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#YDWk8qQbFOh
+",,,,"BirthRegistration.mothersEducationLevel",0,1,"",""
+"BirthRegistration.fatherNames","BirthRegistration.fatherNames","","","",0,1,"","","","string {[]} {[]}
+","Father Names","Father Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#uLotdmVESxa
+",,,,"BirthRegistration.fatherNames",0,1,"",""
+"BirthRegistration.fatherPhoneNumber","BirthRegistration.fatherPhoneNumber","","","",0,1,"","","","ContactPoint {[]} {[]}
+","Father Phone Number","Father Phone Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#AClDcrZs6R3
+",,,,"BirthRegistration.fatherPhoneNumber",0,1,"",""
+"BirthRegistration.fathersIdNumber","BirthRegistration.fathersIdNumber","","","",0,1,"","","","string {[]} {[]}
+","Fathers ID Number","Fathers ID Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#KsNhcMy9iwH
+",,,,"BirthRegistration.fathersIdNumber",0,1,"",""
+"BirthRegistration.fatherEducationLevel","BirthRegistration.fatherEducationLevel","","","",0,1,"","","","code {[]} {[]}
+","Father Education Level","Father Education Level","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#hTdA8G5ZCEm
+",,,,"BirthRegistration.fatherEducationLevel",0,1,"",""
+"BirthRegistration.caretakerNames","BirthRegistration.caretakerNames","","","",0,1,"","","","string {[]} {[]}
+","Caretaker Names","Caretaker Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#OjVFFLxlAbo
+",,,,"BirthRegistration.caretakerNames",0,1,"",""
+"BirthRegistration.caretakerPhoneNumber","BirthRegistration.caretakerPhoneNumber","","","",0,1,"","","","ContactPoint {[]} {[]}
+","Caretaker Phone Number","Caretaker Phone Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#MfQkSwP7hiP
+",,,,"BirthRegistration.caretakerPhoneNumber",0,1,"",""
+"BirthRegistration.caretakerIdNumber","BirthRegistration.caretakerIdNumber","","","",0,1,"","","","string {[]} {[]}
+","Caretaker ID Number","Caretaker ID Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#QF1ewXEBT0o
+",,,,"BirthRegistration.caretakerIdNumber",0,1,"",""
+"BirthRegistration.socialCategory","BirthRegistration.socialCategory","","","",0,1,"","","","code {[]} {[]}
+","Social Category","Social Category","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#FIeADYwBKjB
+",,,,"BirthRegistration.socialCategory",0,1,"",""
+"BirthRegistration.sectorOfResidence","BirthRegistration.sectorOfResidence","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
+","Sector of Residence","Sector of Residence","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#rXWNI9jQhXs
+",,,,"BirthRegistration.sectorOfResidence",0,1,"",""
+"BirthRegistration.notificationdate","BirthRegistration.notificationdate","","","",0,1,"","","","date {[]} {[]}
+","notificationDate","notificationDate","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#LS3cqxurOem
+",,,,"BirthRegistration.notificationdate",0,1,"",""
+"BirthRegistration.registerFacilityname","BirthRegistration.registerFacilityname","","","",0,1,"","","","string {[]} {[]}
+","Register facilityName","Register facilityName","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#l70Rt7f0YNE
+",,,,"BirthRegistration.registerFacilityname",0,1,"",""
+"BirthRegistration.facilityofficetype","BirthRegistration.facilityofficetype","","","",0,1,"","","","string {[]} {[]}
+","facilityOfficeType","facilityOfficeType","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#csE2iyxUvZM
+",,,,"BirthRegistration.facilityofficetype",0,1,"",""
+"BirthRegistration.cellOfResidance","BirthRegistration.cellOfResidance","","","",0,1,"","","","string {[]} {[]}
+","Cell of Residance","Cell of Residance","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#t8YUbhAXCoq
+",,,,"BirthRegistration.cellOfResidance",0,1,"",""
+"BirthRegistration.villageOfResidance","BirthRegistration.villageOfResidance","","","",0,1,"","","","string {[]} {[]}
+","Village of Residance","Village of Residance","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#fSGeXjMM7Iw
+",,,,"BirthRegistration.villageOfResidance",0,1,"",""
+"BirthRegistration.villagecode","BirthRegistration.villagecode","","","",0,1,"","","","string {[]} {[]}
+","Villagecode","Villagecode","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#IYm5bpgSe3Y
+",,,,"BirthRegistration.villagecode",0,1,"",""
+"BirthRegistration.districtOfResidenceVacc","BirthRegistration.districtOfResidenceVacc","","","",0,1,"","","","code {[]} {[]}
+","District of residence_vacc","District of residence_vacc","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#getkVaLr2bw
+",,,,"BirthRegistration.districtOfResidenceVacc",0,1,"",""
+"BirthRegistration.provinceOfResidence","BirthRegistration.provinceOfResidence","","","",0,1,"","","","code {[]} {[]}
+","Province of residence","Province of residence","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#FBm5ftjnCj2
+",,,,"BirthRegistration.provinceOfResidence",0,1,"",""
+"BirthRegistration.inEIRAndCRVS","BirthRegistration.inEIRAndCRVS","","","",0,1,"","","","boolean {[]} {[]}
+","In EIR and CRVS","In EIR and CRVS","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#HnnLtwqPI7v
+",,,,"BirthRegistration.inEIRAndCRVS",0,1,"",""

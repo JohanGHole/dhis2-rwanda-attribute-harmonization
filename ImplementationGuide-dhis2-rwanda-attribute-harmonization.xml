@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="dhis2-rwanda-attribute-harmonization"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Dhis2RwandaAttributeHarmonization</h2><p>The official URL for this implementation guide is: </p><pre>https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization</pre><div><p>IG to help with DHIS2 Tracker metadata governance in Rwanda</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Dhis2RwandaAttributeHarmonization</h2><p>The official URL for this implementation guide is: </p><pre>https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization</pre><div><p>IG to help with DHIS2 Tracker metadata governance in</p>
 </div></div>
   </text>
   <url value="https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization"/>
@@ -11,7 +11,7 @@
   <name value="Dhis2RwandaAttributeHarmonization"/>
   <title value="DHIS2 Rwanda Tracked Entity Attribute Harmonization IG"/>
   <status value="draft"/>
-  <date value="2024-05-27T13:19:02+00:00"/>
+  <date value="2024-06-20T14:32:32+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -20,7 +20,7 @@
       <value value="https://dhis2.org"/>
     </telecom>
   </contact>
-  <description value="IG to help with DHIS2 Tracker metadata governance in Rwanda"/>
+  <description value="IG to help with DHIS2 Tracker metadata governance in"/>
   <packageId value="dhis2-rwanda-attribute-harmonization"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
@@ -54,7 +54,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="draft"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -257,7 +257,7 @@
         <valueCode value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="ci-build"/>
+        <valueString value="draft"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -444,6 +444,50 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/AmbulanceActivityReport"/>
+      </reference>
+      <name value="Ambulance Activity Report"/>
+      <description value="Attributes for the 'Ambulance Activity Report' tracker program."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BirthRegistration"/>
+      </reference>
+      <name value="Birth Registration"/>
+      <description value="Attributes for the 'Birth registration' tracker program."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/DHIS2Attributes"/>
+      </reference>
+      <name value="DHIS2 Tracked Entity Attributes"/>
+      <description value="This code system defines tracked entity attributes used in DHIS2"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:logical"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/Immunization"/>
+      </reference>
+      <name value="Immunization"/>
+      <description value="Attributes for the 'Immunization' tracker program."/>
+      <exampleBoolean value="false"/>
+    </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>

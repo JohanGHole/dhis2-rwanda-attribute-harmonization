@@ -1,0 +1,1315 @@
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "Immunization",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization\" title=\"Attributes for the 'Immunization' tracker program.\">Immunization</a><a name=\"Immunization\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/types.html#Base\">Base</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Immunization<br/><span style=\"font-weight:bold\">Instances of this logical model are not marked to be the target of a Reference</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.autoGenChildId\" title=\"Auto Gen Child ID\">autoGenChildId</a><a name=\"Immunization.autoGenChildId\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Auto Gen Child ID</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.citizenship\" title=\"Citizenship\">citizenship</a><a name=\"Immunization.citizenship\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Citizenship</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.childId\" title=\"Child ID (Register number)\">childId</a><a name=\"Immunization.childId\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Child ID (Register number)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.nin\" title=\"NIN\">nin</a><a name=\"Immunization.nin\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">NIN</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.applicationnumber\" title=\"applicationNumber\">applicationnumber</a><a name=\"Immunization.applicationnumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">applicationNumber</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.firstName\" title=\"First Name\">firstName</a><a name=\"Immunization.firstName\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">First Name</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.familyName\" title=\"Family Name\">familyName</a><a name=\"Immunization.familyName\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Family Name</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.dateOfBirth\" title=\"Date of birth\">dateOfBirth</a><a name=\"Immunization.dateOfBirth\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date of birth</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.twinsOrMore\" title=\"Twins or More\">twinsOrMore</a><a name=\"Immunization.twinsOrMore\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Twins or More</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.placeOfBith\" title=\"Place of Bith\">placeOfBith</a><a name=\"Immunization.placeOfBith\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Place of Bith</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.gender\" title=\"Gender\">gender</a><a name=\"Immunization.gender\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Gender</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.weightAtBirth\" title=\"Weight at Birth (Kgs)\">weightAtBirth</a><a name=\"Immunization.weightAtBirth\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#decimal\">decimal</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Weight at Birth (Kgs)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.heightAtBirth\" title=\"Height at Birth(Cm)\">heightAtBirth</a><a name=\"Immunization.heightAtBirth\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#decimal\">decimal</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Height at Birth(Cm)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.pregnancyNumber\" title=\"Pregnancy Number\">pregnancyNumber</a><a name=\"Immunization.pregnancyNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#decimal\">decimal</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Pregnancy Number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.caretaker\" title=\"Caretaker\">caretaker</a><a name=\"Immunization.caretaker\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Caretaker</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.mothersNames\" title=\"Mothers Names\">mothersNames</a><a name=\"Immunization.mothersNames\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Mothers Names</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.mothersPhoneNumber\" title=\"Mothers Phone Number\">mothersPhoneNumber</a><a name=\"Immunization.mothersPhoneNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#ContactPoint\">ContactPoint</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Mothers Phone Number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.motherSIdNumber\" title=\"Mother s ID number\">motherSIdNumber</a><a name=\"Immunization.motherSIdNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Mother s ID number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.mothersDateOfBirth\" title=\"Mothers Date of Birth\">mothersDateOfBirth</a><a name=\"Immunization.mothersDateOfBirth\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Mothers Date of Birth</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.mothersEducationLevel\" title=\"Mothers Education Level\">mothersEducationLevel</a><a name=\"Immunization.mothersEducationLevel\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Mothers Education Level</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.fatherNames\" title=\"Father Names\">fatherNames</a><a name=\"Immunization.fatherNames\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Father Names</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.fatherPhoneNumber\" title=\"Father Phone Number\">fatherPhoneNumber</a><a name=\"Immunization.fatherPhoneNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#ContactPoint\">ContactPoint</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Father Phone Number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.fathersIdNumber\" title=\"Fathers ID Number\">fathersIdNumber</a><a name=\"Immunization.fathersIdNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Fathers ID Number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.fatherEducationLevel\" title=\"Father Education Level\">fatherEducationLevel</a><a name=\"Immunization.fatherEducationLevel\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Father Education Level</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.caretakerNames\" title=\"Caretaker Names\">caretakerNames</a><a name=\"Immunization.caretakerNames\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Caretaker Names</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.caretakerPhoneNumber\" title=\"Caretaker Phone Number\">caretakerPhoneNumber</a><a name=\"Immunization.caretakerPhoneNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#ContactPoint\">ContactPoint</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Caretaker Phone Number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.caretakerIdNumber\" title=\"Caretaker ID Number\">caretakerIdNumber</a><a name=\"Immunization.caretakerIdNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Caretaker ID Number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.socialCategory\" title=\"Social Category\">socialCategory</a><a name=\"Immunization.socialCategory\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Social Category</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.provinceOfResidence\" title=\"Province of residence\">provinceOfResidence</a><a name=\"Immunization.provinceOfResidence\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Province of residence</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.districtOfResidenceVacc\" title=\"District of residence_vacc\">districtOfResidenceVacc</a><a name=\"Immunization.districtOfResidenceVacc\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">District of residence_vacc</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.sectorOfResidence\" title=\"Sector of Residence\">sectorOfResidence</a><a name=\"Immunization.sectorOfResidence\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"http://hl7.org/fhir/R4/organization.html\">Organization</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Sector of Residence</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.cellOfResidance\" title=\"Cell of Residance\">cellOfResidance</a><a name=\"Immunization.cellOfResidance\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Cell of Residance</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.villageOfResidance\" title=\"Village of Residance\">villageOfResidance</a><a name=\"Immunization.villageOfResidance\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Village of Residance</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.villagecode\" title=\"Villagecode\">villagecode</a><a name=\"Immunization.villagecode\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Villagecode</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.inEirAndCrvs\" title=\"In EIR and CRVS\">inEirAndCrvs</a><a name=\"Immunization.inEirAndCrvs\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">In EIR and CRVS</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.isDead\" title=\"Is Dead\">isDead</a><a name=\"Immunization.isDead\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Is Dead</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  },
+  "url" : "https://dhis2.org/StructureDefinition/Immunization",
+  "version" : "0.1.0",
+  "name" : "Immunization",
+  "title" : "Immunization",
+  "status" : "draft",
+  "date" : "2024-06-20T14:32:32+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org"
+    }]
+  }],
+  "description" : "Attributes for the 'Immunization' tracker program.",
+  "fhirVersion" : "4.0.1",
+  "kind" : "logical",
+  "abstract" : false,
+  "type" : "https://dhis2.org/StructureDefinition/Immunization",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Base",
+  "derivation" : "specialization",
+  "snapshot" : {
+    "element" : [{
+      "id" : "Immunization",
+      "path" : "Immunization",
+      "short" : "Immunization",
+      "definition" : "Attributes for the 'Immunization' tracker program.",
+      "min" : 0,
+      "max" : "*",
+      "base" : {
+        "path" : "Base",
+        "min" : 0,
+        "max" : "*"
+      },
+      "isModifier" : false
+    },
+    {
+      "id" : "Immunization.autoGenChildId",
+      "path" : "Immunization.autoGenChildId",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "jKahvk7wiQf"
+      }],
+      "short" : "Auto Gen Child ID",
+      "definition" : "Auto Gen Child ID",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.autoGenChildId",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.citizenship",
+      "path" : "Immunization.citizenship",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "VYEGPSgn908"
+      }],
+      "short" : "Citizenship",
+      "definition" : "Citizenship",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.citizenship",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.childId",
+      "path" : "Immunization.childId",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "yBT0DI1TTbT"
+      }],
+      "short" : "Child ID (Register number)",
+      "definition" : "Child ID (Register number)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.childId",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.nin",
+      "path" : "Immunization.nin",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "lzae3BtWOIZ"
+      }],
+      "short" : "NIN",
+      "definition" : "NIN",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.nin",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.applicationnumber",
+      "path" : "Immunization.applicationnumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "Zf9XyUDtGFC"
+      }],
+      "short" : "applicationNumber",
+      "definition" : "applicationNumber",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.applicationnumber",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.firstName",
+      "path" : "Immunization.firstName",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "e9BrRZAicPE"
+      }],
+      "short" : "First Name",
+      "definition" : "First Name",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.firstName",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.familyName",
+      "path" : "Immunization.familyName",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "sah5bll9Y6Q"
+      }],
+      "short" : "Family Name",
+      "definition" : "Family Name",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.familyName",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.dateOfBirth",
+      "path" : "Immunization.dateOfBirth",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "A31FfrjPqyp"
+      }],
+      "short" : "Date of birth",
+      "definition" : "Date of birth",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.dateOfBirth",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "Immunization.twinsOrMore",
+      "path" : "Immunization.twinsOrMore",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "QyhGvFhiMF3"
+      }],
+      "short" : "Twins or More",
+      "definition" : "Twins or More",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.twinsOrMore",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "Immunization.placeOfBith",
+      "path" : "Immunization.placeOfBith",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "iCy9QPG9HY9"
+      }],
+      "short" : "Place of Bith",
+      "definition" : "Place of Bith",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.placeOfBith",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.gender",
+      "path" : "Immunization.gender",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "Rq4qM2wKYFL"
+      }],
+      "short" : "Gender",
+      "definition" : "Gender",
+      "min" : 1,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.gender",
+        "min" : 1,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.weightAtBirth",
+      "path" : "Immunization.weightAtBirth",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "cM7Q2YcXhH0"
+      }],
+      "short" : "Weight at Birth (Kgs)",
+      "definition" : "Weight at Birth (Kgs)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.weightAtBirth",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "decimal"
+      }]
+    },
+    {
+      "id" : "Immunization.heightAtBirth",
+      "path" : "Immunization.heightAtBirth",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "yXIS60L4z9a"
+      }],
+      "short" : "Height at Birth(Cm)",
+      "definition" : "Height at Birth(Cm)",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.heightAtBirth",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "decimal"
+      }]
+    },
+    {
+      "id" : "Immunization.pregnancyNumber",
+      "path" : "Immunization.pregnancyNumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "TXDvRJ9wWBv"
+      }],
+      "short" : "Pregnancy Number",
+      "definition" : "Pregnancy Number",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.pregnancyNumber",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "decimal"
+      }]
+    },
+    {
+      "id" : "Immunization.caretaker",
+      "path" : "Immunization.caretaker",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "E5D1aKa2eFb"
+      }],
+      "short" : "Caretaker",
+      "definition" : "Caretaker",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.caretaker",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.mothersNames",
+      "path" : "Immunization.mothersNames",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "RzPmWr82V3p"
+      }],
+      "short" : "Mothers Names",
+      "definition" : "Mothers Names",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.mothersNames",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.mothersPhoneNumber",
+      "path" : "Immunization.mothersPhoneNumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "IBcgUcOzYgB"
+      }],
+      "short" : "Mothers Phone Number",
+      "definition" : "Mothers Phone Number",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.mothersPhoneNumber",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "ContactPoint"
+      }]
+    },
+    {
+      "id" : "Immunization.motherSIdNumber",
+      "path" : "Immunization.motherSIdNumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "vBlHJN5gPSi"
+      }],
+      "short" : "Mother s ID number",
+      "definition" : "Mother s ID number",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.motherSIdNumber",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.mothersDateOfBirth",
+      "path" : "Immunization.mothersDateOfBirth",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "cUTcjBma2jK"
+      }],
+      "short" : "Mothers Date of Birth",
+      "definition" : "Mothers Date of Birth",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.mothersDateOfBirth",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "Immunization.mothersEducationLevel",
+      "path" : "Immunization.mothersEducationLevel",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "YDWk8qQbFOh"
+      }],
+      "short" : "Mothers Education Level",
+      "definition" : "Mothers Education Level",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.mothersEducationLevel",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.fatherNames",
+      "path" : "Immunization.fatherNames",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "uLotdmVESxa"
+      }],
+      "short" : "Father Names",
+      "definition" : "Father Names",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.fatherNames",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.fatherPhoneNumber",
+      "path" : "Immunization.fatherPhoneNumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "AClDcrZs6R3"
+      }],
+      "short" : "Father Phone Number",
+      "definition" : "Father Phone Number",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.fatherPhoneNumber",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "ContactPoint"
+      }]
+    },
+    {
+      "id" : "Immunization.fathersIdNumber",
+      "path" : "Immunization.fathersIdNumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "KsNhcMy9iwH"
+      }],
+      "short" : "Fathers ID Number",
+      "definition" : "Fathers ID Number",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.fathersIdNumber",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.fatherEducationLevel",
+      "path" : "Immunization.fatherEducationLevel",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "hTdA8G5ZCEm"
+      }],
+      "short" : "Father Education Level",
+      "definition" : "Father Education Level",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.fatherEducationLevel",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.caretakerNames",
+      "path" : "Immunization.caretakerNames",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "OjVFFLxlAbo"
+      }],
+      "short" : "Caretaker Names",
+      "definition" : "Caretaker Names",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.caretakerNames",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.caretakerPhoneNumber",
+      "path" : "Immunization.caretakerPhoneNumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "MfQkSwP7hiP"
+      }],
+      "short" : "Caretaker Phone Number",
+      "definition" : "Caretaker Phone Number",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.caretakerPhoneNumber",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "ContactPoint"
+      }]
+    },
+    {
+      "id" : "Immunization.caretakerIdNumber",
+      "path" : "Immunization.caretakerIdNumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "QF1ewXEBT0o"
+      }],
+      "short" : "Caretaker ID Number",
+      "definition" : "Caretaker ID Number",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.caretakerIdNumber",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.socialCategory",
+      "path" : "Immunization.socialCategory",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "FIeADYwBKjB"
+      }],
+      "short" : "Social Category",
+      "definition" : "Social Category",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.socialCategory",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.provinceOfResidence",
+      "path" : "Immunization.provinceOfResidence",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "FBm5ftjnCj2"
+      }],
+      "short" : "Province of residence",
+      "definition" : "Province of residence",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.provinceOfResidence",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.districtOfResidenceVacc",
+      "path" : "Immunization.districtOfResidenceVacc",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "getkVaLr2bw"
+      }],
+      "short" : "District of residence_vacc",
+      "definition" : "District of residence_vacc",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.districtOfResidenceVacc",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.sectorOfResidence",
+      "path" : "Immunization.sectorOfResidence",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "rXWNI9jQhXs"
+      }],
+      "short" : "Sector of Residence",
+      "definition" : "Sector of Residence",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.sectorOfResidence",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization"]
+      }]
+    },
+    {
+      "id" : "Immunization.cellOfResidance",
+      "path" : "Immunization.cellOfResidance",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "t8YUbhAXCoq"
+      }],
+      "short" : "Cell of Residance",
+      "definition" : "Cell of Residance",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.cellOfResidance",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.villageOfResidance",
+      "path" : "Immunization.villageOfResidance",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "fSGeXjMM7Iw"
+      }],
+      "short" : "Village of Residance",
+      "definition" : "Village of Residance",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.villageOfResidance",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.villagecode",
+      "path" : "Immunization.villagecode",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "IYm5bpgSe3Y"
+      }],
+      "short" : "Villagecode",
+      "definition" : "Villagecode",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.villagecode",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.inEirAndCrvs",
+      "path" : "Immunization.inEirAndCrvs",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "HnnLtwqPI7v"
+      }],
+      "short" : "In EIR and CRVS",
+      "definition" : "In EIR and CRVS",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.inEirAndCrvs",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "Immunization.isDead",
+      "path" : "Immunization.isDead",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "EzCMBhxLaKU"
+      }],
+      "short" : "Is Dead",
+      "definition" : "Is Dead",
+      "min" : 0,
+      "max" : "1",
+      "base" : {
+        "path" : "Immunization.isDead",
+        "min" : 0,
+        "max" : "1"
+      },
+      "type" : [{
+        "code" : "boolean"
+      }]
+    }]
+  },
+  "differential" : {
+    "element" : [{
+      "id" : "Immunization",
+      "path" : "Immunization",
+      "short" : "Immunization",
+      "definition" : "Attributes for the 'Immunization' tracker program."
+    },
+    {
+      "id" : "Immunization.autoGenChildId",
+      "path" : "Immunization.autoGenChildId",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "jKahvk7wiQf"
+      }],
+      "short" : "Auto Gen Child ID",
+      "definition" : "Auto Gen Child ID",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.citizenship",
+      "path" : "Immunization.citizenship",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "VYEGPSgn908"
+      }],
+      "short" : "Citizenship",
+      "definition" : "Citizenship",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.childId",
+      "path" : "Immunization.childId",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "yBT0DI1TTbT"
+      }],
+      "short" : "Child ID (Register number)",
+      "definition" : "Child ID (Register number)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.nin",
+      "path" : "Immunization.nin",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "lzae3BtWOIZ"
+      }],
+      "short" : "NIN",
+      "definition" : "NIN",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.applicationnumber",
+      "path" : "Immunization.applicationnumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "Zf9XyUDtGFC"
+      }],
+      "short" : "applicationNumber",
+      "definition" : "applicationNumber",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.firstName",
+      "path" : "Immunization.firstName",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "e9BrRZAicPE"
+      }],
+      "short" : "First Name",
+      "definition" : "First Name",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.familyName",
+      "path" : "Immunization.familyName",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "sah5bll9Y6Q"
+      }],
+      "short" : "Family Name",
+      "definition" : "Family Name",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.dateOfBirth",
+      "path" : "Immunization.dateOfBirth",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "A31FfrjPqyp"
+      }],
+      "short" : "Date of birth",
+      "definition" : "Date of birth",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "Immunization.twinsOrMore",
+      "path" : "Immunization.twinsOrMore",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "QyhGvFhiMF3"
+      }],
+      "short" : "Twins or More",
+      "definition" : "Twins or More",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "Immunization.placeOfBith",
+      "path" : "Immunization.placeOfBith",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "iCy9QPG9HY9"
+      }],
+      "short" : "Place of Bith",
+      "definition" : "Place of Bith",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.gender",
+      "path" : "Immunization.gender",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "Rq4qM2wKYFL"
+      }],
+      "short" : "Gender",
+      "definition" : "Gender",
+      "min" : 1,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.weightAtBirth",
+      "path" : "Immunization.weightAtBirth",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "cM7Q2YcXhH0"
+      }],
+      "short" : "Weight at Birth (Kgs)",
+      "definition" : "Weight at Birth (Kgs)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "decimal"
+      }]
+    },
+    {
+      "id" : "Immunization.heightAtBirth",
+      "path" : "Immunization.heightAtBirth",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "yXIS60L4z9a"
+      }],
+      "short" : "Height at Birth(Cm)",
+      "definition" : "Height at Birth(Cm)",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "decimal"
+      }]
+    },
+    {
+      "id" : "Immunization.pregnancyNumber",
+      "path" : "Immunization.pregnancyNumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "TXDvRJ9wWBv"
+      }],
+      "short" : "Pregnancy Number",
+      "definition" : "Pregnancy Number",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "decimal"
+      }]
+    },
+    {
+      "id" : "Immunization.caretaker",
+      "path" : "Immunization.caretaker",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "E5D1aKa2eFb"
+      }],
+      "short" : "Caretaker",
+      "definition" : "Caretaker",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.mothersNames",
+      "path" : "Immunization.mothersNames",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "RzPmWr82V3p"
+      }],
+      "short" : "Mothers Names",
+      "definition" : "Mothers Names",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.mothersPhoneNumber",
+      "path" : "Immunization.mothersPhoneNumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "IBcgUcOzYgB"
+      }],
+      "short" : "Mothers Phone Number",
+      "definition" : "Mothers Phone Number",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "ContactPoint"
+      }]
+    },
+    {
+      "id" : "Immunization.motherSIdNumber",
+      "path" : "Immunization.motherSIdNumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "vBlHJN5gPSi"
+      }],
+      "short" : "Mother s ID number",
+      "definition" : "Mother s ID number",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.mothersDateOfBirth",
+      "path" : "Immunization.mothersDateOfBirth",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "cUTcjBma2jK"
+      }],
+      "short" : "Mothers Date of Birth",
+      "definition" : "Mothers Date of Birth",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "date"
+      }]
+    },
+    {
+      "id" : "Immunization.mothersEducationLevel",
+      "path" : "Immunization.mothersEducationLevel",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "YDWk8qQbFOh"
+      }],
+      "short" : "Mothers Education Level",
+      "definition" : "Mothers Education Level",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.fatherNames",
+      "path" : "Immunization.fatherNames",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "uLotdmVESxa"
+      }],
+      "short" : "Father Names",
+      "definition" : "Father Names",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.fatherPhoneNumber",
+      "path" : "Immunization.fatherPhoneNumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "AClDcrZs6R3"
+      }],
+      "short" : "Father Phone Number",
+      "definition" : "Father Phone Number",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "ContactPoint"
+      }]
+    },
+    {
+      "id" : "Immunization.fathersIdNumber",
+      "path" : "Immunization.fathersIdNumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "KsNhcMy9iwH"
+      }],
+      "short" : "Fathers ID Number",
+      "definition" : "Fathers ID Number",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.fatherEducationLevel",
+      "path" : "Immunization.fatherEducationLevel",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "hTdA8G5ZCEm"
+      }],
+      "short" : "Father Education Level",
+      "definition" : "Father Education Level",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.caretakerNames",
+      "path" : "Immunization.caretakerNames",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "OjVFFLxlAbo"
+      }],
+      "short" : "Caretaker Names",
+      "definition" : "Caretaker Names",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.caretakerPhoneNumber",
+      "path" : "Immunization.caretakerPhoneNumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "MfQkSwP7hiP"
+      }],
+      "short" : "Caretaker Phone Number",
+      "definition" : "Caretaker Phone Number",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "ContactPoint"
+      }]
+    },
+    {
+      "id" : "Immunization.caretakerIdNumber",
+      "path" : "Immunization.caretakerIdNumber",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "QF1ewXEBT0o"
+      }],
+      "short" : "Caretaker ID Number",
+      "definition" : "Caretaker ID Number",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.socialCategory",
+      "path" : "Immunization.socialCategory",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "FIeADYwBKjB"
+      }],
+      "short" : "Social Category",
+      "definition" : "Social Category",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.provinceOfResidence",
+      "path" : "Immunization.provinceOfResidence",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "FBm5ftjnCj2"
+      }],
+      "short" : "Province of residence",
+      "definition" : "Province of residence",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.districtOfResidenceVacc",
+      "path" : "Immunization.districtOfResidenceVacc",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "getkVaLr2bw"
+      }],
+      "short" : "District of residence_vacc",
+      "definition" : "District of residence_vacc",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "code"
+      }]
+    },
+    {
+      "id" : "Immunization.sectorOfResidence",
+      "path" : "Immunization.sectorOfResidence",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "rXWNI9jQhXs"
+      }],
+      "short" : "Sector of Residence",
+      "definition" : "Sector of Residence",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Reference",
+        "targetProfile" : ["http://hl7.org/fhir/StructureDefinition/Organization"]
+      }]
+    },
+    {
+      "id" : "Immunization.cellOfResidance",
+      "path" : "Immunization.cellOfResidance",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "t8YUbhAXCoq"
+      }],
+      "short" : "Cell of Residance",
+      "definition" : "Cell of Residance",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.villageOfResidance",
+      "path" : "Immunization.villageOfResidance",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "fSGeXjMM7Iw"
+      }],
+      "short" : "Village of Residance",
+      "definition" : "Village of Residance",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.villagecode",
+      "path" : "Immunization.villagecode",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "IYm5bpgSe3Y"
+      }],
+      "short" : "Villagecode",
+      "definition" : "Villagecode",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "string"
+      }]
+    },
+    {
+      "id" : "Immunization.inEirAndCrvs",
+      "path" : "Immunization.inEirAndCrvs",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "HnnLtwqPI7v"
+      }],
+      "short" : "In EIR and CRVS",
+      "definition" : "In EIR and CRVS",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    },
+    {
+      "id" : "Immunization.isDead",
+      "path" : "Immunization.isDead",
+      "code" : [{
+        "system" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+        "code" : "EzCMBhxLaKU"
+      }],
+      "short" : "Is Dead",
+      "definition" : "Is Dead",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "boolean"
+      }]
+    }]
+  }
+}

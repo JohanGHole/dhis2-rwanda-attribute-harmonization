@@ -1,4 +1,252 @@
 "Profile","Id","Path","Slice Name","Alias(s)","Label","Min","Max","Must Support?","Is Modifier?","Is Summary?","Type(s)","Short","Definition","Comments","Requirements","Default Value","Meaning When Missing","Fixed Value","Pattern","Example","Minimum Value","Maximum Value","Maximum Length","Binding Strength","Binding Description","Binding Value Set","Code","Slicing Discriminator","Slicing Description","Slicing Ordered","Slicing Rules","Base Path","Base Min","Base Max","Condition(s)","Constraint(s)"
+"AmbulanceActivityReport","AmbulanceActivityReport","AmbulanceActivityReport","","","",0,*,"","","","null {[]} {[]}
+","Ambulance Activity Report","Attributes for the 'Ambulance Activity Report' tracker program.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"AmbulanceActivityReport","AmbulanceActivityReport.ambulanceBrand","AmbulanceActivityReport.ambulanceBrand","","","",1,1,"","","","code {[]} {[]}
+","Ambulance Brand","Ambulance Brand","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#jCsa67YikZE
+",,,,"AmbulanceActivityReport.ambulanceBrand",1,1,"",""
+"AmbulanceActivityReport","AmbulanceActivityReport.plateNumber","AmbulanceActivityReport.plateNumber","","","",1,1,"","","","string {[]} {[]}
+","Plate Number","Plate Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#GUd2L4V5Qu5
+",,,,"AmbulanceActivityReport.plateNumber",1,1,"",""
+"AmbulanceActivityReport","AmbulanceActivityReport.yearOfFabrication","AmbulanceActivityReport.yearOfFabrication","","","",1,1,"","","","string {[]} {[]}
+","Year of fabrication","Year of fabrication","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#OPh3UFCaht4
+",,,,"AmbulanceActivityReport.yearOfFabrication",1,1,"",""
+"AmbulanceActivityReport","AmbulanceActivityReport.engineNumber","AmbulanceActivityReport.engineNumber","","","",1,1,"","","","string {[]} {[]}
+","Engine number (use capital letter)","Engine number (use capital letter)","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#GiTHeVlmcAK
+",,,,"AmbulanceActivityReport.engineNumber",1,1,"","capital-only:Only capital letters allowed. {$this.matches('[A-Z-.]*')}
+"
+"AmbulanceActivityReport","AmbulanceActivityReport.ambulanceAccountNumber","AmbulanceActivityReport.ambulanceAccountNumber","","","",1,1,"","","","string {[]} {[]}
+","Ambulance account number","Ambulance account number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#BEyqBJ1NOca
+",,,,"AmbulanceActivityReport.ambulanceAccountNumber",1,1,"",""
+"AmbulanceActivityReport","AmbulanceActivityReport.chassisNumber","AmbulanceActivityReport.chassisNumber","","","",0,1,"","","","string {[]} {[]}
+","Chassis number (use capital letter)","Chassis number (use capital letter)","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#krUV06sbefj
+",,,,"AmbulanceActivityReport.chassisNumber",0,1,"","capital-only:Only capital letters allowed. {$this.matches('[A-Z-.]*')}
+"
+"AmbulanceActivityReport","AmbulanceActivityReport.bankName","AmbulanceActivityReport.bankName","","","",0,1,"","","","code {[]} {[]}
+","Bank name","Bank name","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#bnuOdOujH9r
+",,,,"AmbulanceActivityReport.bankName",0,1,"",""
+"AmbulanceActivityReport","AmbulanceActivityReport.ambulancePurchaser","AmbulanceActivityReport.ambulancePurchaser","","","",1,1,"","","","code {[]} {[]}
+","Ambulance purchaser","Ambulance purchaser","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#MYKEpLGgVlX
+",,,,"AmbulanceActivityReport.ambulancePurchaser",1,1,"",""
+"BirthRegistration","BirthRegistration","BirthRegistration","","","",0,*,"","","","null {[]} {[]}
+","Birth Registration","Attributes for the 'Birth registration' tracker program.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"BirthRegistration","BirthRegistration.nin","BirthRegistration.nin","","","",0,1,"","","","string {[]} {[]}
+","NIN","NIN","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#lzae3BtWOIZ
+",,,,"BirthRegistration.nin",0,1,"",""
+"BirthRegistration","BirthRegistration.applicationnumber","BirthRegistration.applicationnumber","","","",0,1,"","","","string {[]} {[]}
+","applicationNumber","applicationNumber","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#Zf9XyUDtGFC
+",,,,"BirthRegistration.applicationnumber",0,1,"",""
+"BirthRegistration","BirthRegistration.citizenship","BirthRegistration.citizenship","","","",0,1,"","","","code {[]} {[]}
+","Citizenship","Citizenship","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#VYEGPSgn908
+",,,,"BirthRegistration.citizenship",0,1,"",""
+"BirthRegistration","BirthRegistration.twinsOrMore","BirthRegistration.twinsOrMore","","","",0,1,"","","","boolean {[]} {[]}
+","Twins or More","Twins or More","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#QyhGvFhiMF3
+",,,,"BirthRegistration.twinsOrMore",0,1,"",""
+"BirthRegistration","BirthRegistration.firstName","BirthRegistration.firstName","","","",0,1,"","","","string {[]} {[]}
+","First Name","First Name","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#e9BrRZAicPE
+",,,,"BirthRegistration.firstName",0,1,"",""
+"BirthRegistration","BirthRegistration.familyName","BirthRegistration.familyName","","","",0,1,"","","","string {[]} {[]}
+","Family Name","Family Name","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#sah5bll9Y6Q
+",,,,"BirthRegistration.familyName",0,1,"",""
+"BirthRegistration","BirthRegistration.dateOfBirth","BirthRegistration.dateOfBirth","","","",0,1,"","","","date {[]} {[]}
+","Date of birth","Date of birth","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#A31FfrjPqyp
+",,,,"BirthRegistration.dateOfBirth",0,1,"",""
+"BirthRegistration","BirthRegistration.placeOfBith","BirthRegistration.placeOfBith","","","",0,1,"","","","string {[]} {[]}
+","Place of Bith","Place of Bith","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#iCy9QPG9HY9
+",,,,"BirthRegistration.placeOfBith",0,1,"",""
+"BirthRegistration","BirthRegistration.gender","BirthRegistration.gender","","","",0,1,"","","","code {[]} {[]}
+","Gender","Gender","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#Rq4qM2wKYFL
+",,,,"BirthRegistration.gender",0,1,"",""
+"BirthRegistration","BirthRegistration.weightAtBirth","BirthRegistration.weightAtBirth","","","",0,1,"","","","decimal {[]} {[]}
+","Weight at Birth (Kgs)","Weight at Birth (Kgs)","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#cM7Q2YcXhH0
+",,,,"BirthRegistration.weightAtBirth",0,1,"",""
+"BirthRegistration","BirthRegistration.heightAtBirth","BirthRegistration.heightAtBirth","","","",0,1,"","","","decimal {[]} {[]}
+","Height at Birth(Cm)","Height at Birth(Cm)","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#yXIS60L4z9a
+",,,,"BirthRegistration.heightAtBirth",0,1,"",""
+"BirthRegistration","BirthRegistration.pregnancyNumber","BirthRegistration.pregnancyNumber","","","",0,1,"","","","decimal {[]} {[]}
+","Pregnancy Number","Pregnancy Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#TXDvRJ9wWBv
+",,,,"BirthRegistration.pregnancyNumber",0,1,"",""
+"BirthRegistration","BirthRegistration.caretaker","BirthRegistration.caretaker","","","",0,1,"","","","code {[]} {[]}
+","Caretaker","Caretaker","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#E5D1aKa2eFb
+",,,,"BirthRegistration.caretaker",0,1,"",""
+"BirthRegistration","BirthRegistration.mothersNames","BirthRegistration.mothersNames","","","",0,1,"","","","string {[]} {[]}
+","Mothers Names","Mothers Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#RzPmWr82V3p
+",,,,"BirthRegistration.mothersNames",0,1,"",""
+"BirthRegistration","BirthRegistration.mothersPhoneNumber","BirthRegistration.mothersPhoneNumber","","","",0,1,"","","","ContactPoint {[]} {[]}
+","Mothers Phone Number","Mothers Phone Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#IBcgUcOzYgB
+",,,,"BirthRegistration.mothersPhoneNumber",0,1,"",""
+"BirthRegistration","BirthRegistration.motherSIdNumber","BirthRegistration.motherSIdNumber","","","",0,1,"","","","string {[]} {[]}
+","Mother s ID number","Mother s ID number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#vBlHJN5gPSi
+",,,,"BirthRegistration.motherSIdNumber",0,1,"",""
+"BirthRegistration","BirthRegistration.mothersDateOfBirth","BirthRegistration.mothersDateOfBirth","","","",0,1,"","","","date {[]} {[]}
+","Mothers Date of Birth","Mothers Date of Birth","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#cUTcjBma2jK
+",,,,"BirthRegistration.mothersDateOfBirth",0,1,"",""
+"BirthRegistration","BirthRegistration.mothersEducationLevel","BirthRegistration.mothersEducationLevel","","","",0,1,"","","","code {[]} {[]}
+","Mothers Education Level","Mothers Education Level","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#YDWk8qQbFOh
+",,,,"BirthRegistration.mothersEducationLevel",0,1,"",""
+"BirthRegistration","BirthRegistration.fatherNames","BirthRegistration.fatherNames","","","",0,1,"","","","string {[]} {[]}
+","Father Names","Father Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#uLotdmVESxa
+",,,,"BirthRegistration.fatherNames",0,1,"",""
+"BirthRegistration","BirthRegistration.fatherPhoneNumber","BirthRegistration.fatherPhoneNumber","","","",0,1,"","","","ContactPoint {[]} {[]}
+","Father Phone Number","Father Phone Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#AClDcrZs6R3
+",,,,"BirthRegistration.fatherPhoneNumber",0,1,"",""
+"BirthRegistration","BirthRegistration.fathersIdNumber","BirthRegistration.fathersIdNumber","","","",0,1,"","","","string {[]} {[]}
+","Fathers ID Number","Fathers ID Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#KsNhcMy9iwH
+",,,,"BirthRegistration.fathersIdNumber",0,1,"",""
+"BirthRegistration","BirthRegistration.fatherEducationLevel","BirthRegistration.fatherEducationLevel","","","",0,1,"","","","code {[]} {[]}
+","Father Education Level","Father Education Level","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#hTdA8G5ZCEm
+",,,,"BirthRegistration.fatherEducationLevel",0,1,"",""
+"BirthRegistration","BirthRegistration.caretakerNames","BirthRegistration.caretakerNames","","","",0,1,"","","","string {[]} {[]}
+","Caretaker Names","Caretaker Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#OjVFFLxlAbo
+",,,,"BirthRegistration.caretakerNames",0,1,"",""
+"BirthRegistration","BirthRegistration.caretakerPhoneNumber","BirthRegistration.caretakerPhoneNumber","","","",0,1,"","","","ContactPoint {[]} {[]}
+","Caretaker Phone Number","Caretaker Phone Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#MfQkSwP7hiP
+",,,,"BirthRegistration.caretakerPhoneNumber",0,1,"",""
+"BirthRegistration","BirthRegistration.caretakerIdNumber","BirthRegistration.caretakerIdNumber","","","",0,1,"","","","string {[]} {[]}
+","Caretaker ID Number","Caretaker ID Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#QF1ewXEBT0o
+",,,,"BirthRegistration.caretakerIdNumber",0,1,"",""
+"BirthRegistration","BirthRegistration.socialCategory","BirthRegistration.socialCategory","","","",0,1,"","","","code {[]} {[]}
+","Social Category","Social Category","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#FIeADYwBKjB
+",,,,"BirthRegistration.socialCategory",0,1,"",""
+"BirthRegistration","BirthRegistration.sectorOfResidence","BirthRegistration.sectorOfResidence","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
+","Sector of Residence","Sector of Residence","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#rXWNI9jQhXs
+",,,,"BirthRegistration.sectorOfResidence",0,1,"",""
+"BirthRegistration","BirthRegistration.notificationdate","BirthRegistration.notificationdate","","","",0,1,"","","","date {[]} {[]}
+","notificationDate","notificationDate","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#LS3cqxurOem
+",,,,"BirthRegistration.notificationdate",0,1,"",""
+"BirthRegistration","BirthRegistration.registerFacilityname","BirthRegistration.registerFacilityname","","","",0,1,"","","","string {[]} {[]}
+","Register facilityName","Register facilityName","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#l70Rt7f0YNE
+",,,,"BirthRegistration.registerFacilityname",0,1,"",""
+"BirthRegistration","BirthRegistration.facilityofficetype","BirthRegistration.facilityofficetype","","","",0,1,"","","","string {[]} {[]}
+","facilityOfficeType","facilityOfficeType","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#csE2iyxUvZM
+",,,,"BirthRegistration.facilityofficetype",0,1,"",""
+"BirthRegistration","BirthRegistration.cellOfResidance","BirthRegistration.cellOfResidance","","","",0,1,"","","","string {[]} {[]}
+","Cell of Residance","Cell of Residance","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#t8YUbhAXCoq
+",,,,"BirthRegistration.cellOfResidance",0,1,"",""
+"BirthRegistration","BirthRegistration.villageOfResidance","BirthRegistration.villageOfResidance","","","",0,1,"","","","string {[]} {[]}
+","Village of Residance","Village of Residance","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#fSGeXjMM7Iw
+",,,,"BirthRegistration.villageOfResidance",0,1,"",""
+"BirthRegistration","BirthRegistration.villagecode","BirthRegistration.villagecode","","","",0,1,"","","","string {[]} {[]}
+","Villagecode","Villagecode","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#IYm5bpgSe3Y
+",,,,"BirthRegistration.villagecode",0,1,"",""
+"BirthRegistration","BirthRegistration.districtOfResidenceVacc","BirthRegistration.districtOfResidenceVacc","","","",0,1,"","","","code {[]} {[]}
+","District of residence_vacc","District of residence_vacc","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#getkVaLr2bw
+",,,,"BirthRegistration.districtOfResidenceVacc",0,1,"",""
+"BirthRegistration","BirthRegistration.provinceOfResidence","BirthRegistration.provinceOfResidence","","","",0,1,"","","","code {[]} {[]}
+","Province of residence","Province of residence","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#FBm5ftjnCj2
+",,,,"BirthRegistration.provinceOfResidence",0,1,"",""
+"BirthRegistration","BirthRegistration.inEIRAndCRVS","BirthRegistration.inEIRAndCRVS","","","",0,1,"","","","boolean {[]} {[]}
+","In EIR and CRVS","In EIR and CRVS","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#HnnLtwqPI7v
+",,,,"BirthRegistration.inEIRAndCRVS",0,1,"",""
+"Immunization","Immunization","Immunization","","","",0,*,"","","","null {[]} {[]}
+","Immunization","Attributes for the 'Immunization' tracker program.","","","","","","","","","",,,,,"",,,,"Base",0,*,"",""
+"Immunization","Immunization.autoGenChildId","Immunization.autoGenChildId","","","",1,1,"","","","string {[]} {[]}
+","Auto Gen Child ID","Auto Gen Child ID","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#jKahvk7wiQf
+",,,,"Immunization.autoGenChildId",1,1,"",""
+"Immunization","Immunization.citizenship","Immunization.citizenship","","","",0,1,"","","","code {[]} {[]}
+","Citizenship","Citizenship","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#VYEGPSgn908
+",,,,"Immunization.citizenship",0,1,"",""
+"Immunization","Immunization.childId","Immunization.childId","","","",0,1,"","","","string {[]} {[]}
+","Child ID (Register number)","Child ID (Register number)","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#yBT0DI1TTbT
+",,,,"Immunization.childId",0,1,"",""
+"Immunization","Immunization.nin","Immunization.nin","","","",0,1,"","","","string {[]} {[]}
+","NIN","NIN","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#lzae3BtWOIZ
+",,,,"Immunization.nin",0,1,"",""
+"Immunization","Immunization.applicationnumber","Immunization.applicationnumber","","","",0,1,"","","","string {[]} {[]}
+","applicationNumber","applicationNumber","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#Zf9XyUDtGFC
+",,,,"Immunization.applicationnumber",0,1,"",""
+"Immunization","Immunization.firstName","Immunization.firstName","","","",1,1,"","","","string {[]} {[]}
+","First Name","First Name","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#e9BrRZAicPE
+",,,,"Immunization.firstName",1,1,"",""
+"Immunization","Immunization.familyName","Immunization.familyName","","","",0,1,"","","","string {[]} {[]}
+","Family Name","Family Name","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#sah5bll9Y6Q
+",,,,"Immunization.familyName",0,1,"",""
+"Immunization","Immunization.dateOfBirth","Immunization.dateOfBirth","","","",1,1,"","","","date {[]} {[]}
+","Date of birth","Date of birth","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#A31FfrjPqyp
+",,,,"Immunization.dateOfBirth",1,1,"",""
+"Immunization","Immunization.twinsOrMore","Immunization.twinsOrMore","","","",0,1,"","","","boolean {[]} {[]}
+","Twins or More","Twins or More","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#QyhGvFhiMF3
+",,,,"Immunization.twinsOrMore",0,1,"",""
+"Immunization","Immunization.placeOfBith","Immunization.placeOfBith","","","",0,1,"","","","string {[]} {[]}
+","Place of Bith","Place of Bith","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#iCy9QPG9HY9
+",,,,"Immunization.placeOfBith",0,1,"",""
+"Immunization","Immunization.gender","Immunization.gender","","","",1,1,"","","","code {[]} {[]}
+","Gender","Gender","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#Rq4qM2wKYFL
+",,,,"Immunization.gender",1,1,"",""
+"Immunization","Immunization.weightAtBirth","Immunization.weightAtBirth","","","",0,1,"","","","decimal {[]} {[]}
+","Weight at Birth (Kgs)","Weight at Birth (Kgs)","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#cM7Q2YcXhH0
+",,,,"Immunization.weightAtBirth",0,1,"",""
+"Immunization","Immunization.heightAtBirth","Immunization.heightAtBirth","","","",0,1,"","","","decimal {[]} {[]}
+","Height at Birth(Cm)","Height at Birth(Cm)","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#yXIS60L4z9a
+",,,,"Immunization.heightAtBirth",0,1,"",""
+"Immunization","Immunization.pregnancyNumber","Immunization.pregnancyNumber","","","",0,1,"","","","decimal {[]} {[]}
+","Pregnancy Number","Pregnancy Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#TXDvRJ9wWBv
+",,,,"Immunization.pregnancyNumber",0,1,"",""
+"Immunization","Immunization.caretaker","Immunization.caretaker","","","",0,1,"","","","code {[]} {[]}
+","Caretaker","Caretaker","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#E5D1aKa2eFb
+",,,,"Immunization.caretaker",0,1,"",""
+"Immunization","Immunization.mothersNames","Immunization.mothersNames","","","",0,1,"","","","string {[]} {[]}
+","Mothers Names","Mothers Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#RzPmWr82V3p
+",,,,"Immunization.mothersNames",0,1,"",""
+"Immunization","Immunization.mothersPhoneNumber","Immunization.mothersPhoneNumber","","","",0,1,"","","","ContactPoint {[]} {[]}
+","Mothers Phone Number","Mothers Phone Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#IBcgUcOzYgB
+",,,,"Immunization.mothersPhoneNumber",0,1,"",""
+"Immunization","Immunization.motherSIdNumber","Immunization.motherSIdNumber","","","",0,1,"","","","string {[]} {[]}
+","Mother s ID number","Mother s ID number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#vBlHJN5gPSi
+",,,,"Immunization.motherSIdNumber",0,1,"",""
+"Immunization","Immunization.mothersDateOfBirth","Immunization.mothersDateOfBirth","","","",0,1,"","","","date {[]} {[]}
+","Mothers Date of Birth","Mothers Date of Birth","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#cUTcjBma2jK
+",,,,"Immunization.mothersDateOfBirth",0,1,"",""
+"Immunization","Immunization.mothersEducationLevel","Immunization.mothersEducationLevel","","","",0,1,"","","","code {[]} {[]}
+","Mothers Education Level","Mothers Education Level","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#YDWk8qQbFOh
+",,,,"Immunization.mothersEducationLevel",0,1,"",""
+"Immunization","Immunization.fatherNames","Immunization.fatherNames","","","",0,1,"","","","string {[]} {[]}
+","Father Names","Father Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#uLotdmVESxa
+",,,,"Immunization.fatherNames",0,1,"",""
+"Immunization","Immunization.fatherPhoneNumber","Immunization.fatherPhoneNumber","","","",0,1,"","","","ContactPoint {[]} {[]}
+","Father Phone Number","Father Phone Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#AClDcrZs6R3
+",,,,"Immunization.fatherPhoneNumber",0,1,"",""
+"Immunization","Immunization.fathersIdNumber","Immunization.fathersIdNumber","","","",0,1,"","","","string {[]} {[]}
+","Fathers ID Number","Fathers ID Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#KsNhcMy9iwH
+",,,,"Immunization.fathersIdNumber",0,1,"",""
+"Immunization","Immunization.fatherEducationLevel","Immunization.fatherEducationLevel","","","",0,1,"","","","code {[]} {[]}
+","Father Education Level","Father Education Level","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#hTdA8G5ZCEm
+",,,,"Immunization.fatherEducationLevel",0,1,"",""
+"Immunization","Immunization.caretakerNames","Immunization.caretakerNames","","","",0,1,"","","","string {[]} {[]}
+","Caretaker Names","Caretaker Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#OjVFFLxlAbo
+",,,,"Immunization.caretakerNames",0,1,"",""
+"Immunization","Immunization.caretakerPhoneNumber","Immunization.caretakerPhoneNumber","","","",0,1,"","","","ContactPoint {[]} {[]}
+","Caretaker Phone Number","Caretaker Phone Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#MfQkSwP7hiP
+",,,,"Immunization.caretakerPhoneNumber",0,1,"",""
+"Immunization","Immunization.caretakerIdNumber","Immunization.caretakerIdNumber","","","",0,1,"","","","string {[]} {[]}
+","Caretaker ID Number","Caretaker ID Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#QF1ewXEBT0o
+",,,,"Immunization.caretakerIdNumber",0,1,"",""
+"Immunization","Immunization.socialCategory","Immunization.socialCategory","","","",0,1,"","","","code {[]} {[]}
+","Social Category","Social Category","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#FIeADYwBKjB
+",,,,"Immunization.socialCategory",0,1,"",""
+"Immunization","Immunization.provinceOfResidence","Immunization.provinceOfResidence","","","",0,1,"","","","code {[]} {[]}
+","Province of residence","Province of residence","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#FBm5ftjnCj2
+",,,,"Immunization.provinceOfResidence",0,1,"",""
+"Immunization","Immunization.districtOfResidenceVacc","Immunization.districtOfResidenceVacc","","","",0,1,"","","","code {[]} {[]}
+","District of residence_vacc","District of residence_vacc","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#getkVaLr2bw
+",,,,"Immunization.districtOfResidenceVacc",0,1,"",""
+"Immunization","Immunization.sectorOfResidence","Immunization.sectorOfResidence","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
+","Sector of Residence","Sector of Residence","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#rXWNI9jQhXs
+",,,,"Immunization.sectorOfResidence",0,1,"",""
+"Immunization","Immunization.cellOfResidance","Immunization.cellOfResidance","","","",0,1,"","","","string {[]} {[]}
+","Cell of Residance","Cell of Residance","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#t8YUbhAXCoq
+",,,,"Immunization.cellOfResidance",0,1,"",""
+"Immunization","Immunization.villageOfResidance","Immunization.villageOfResidance","","","",0,1,"","","","string {[]} {[]}
+","Village of Residance","Village of Residance","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#fSGeXjMM7Iw
+",,,,"Immunization.villageOfResidance",0,1,"",""
+"Immunization","Immunization.villagecode","Immunization.villagecode","","","",0,1,"","","","string {[]} {[]}
+","Villagecode","Villagecode","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#IYm5bpgSe3Y
+",,,,"Immunization.villagecode",0,1,"",""
+"Immunization","Immunization.inEirAndCrvs","Immunization.inEirAndCrvs","","","",0,1,"","","","boolean {[]} {[]}
+","In EIR and CRVS","In EIR and CRVS","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#HnnLtwqPI7v
+",,,,"Immunization.inEirAndCrvs",0,1,"",""
+"Immunization","Immunization.isDead","Immunization.isDead","","","",0,1,"","","","boolean {[]} {[]}
+","Is Dead","Is Dead","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#EzCMBhxLaKU
+",,,,"Immunization.isDead",0,1,"",""
 "MyPatient","Patient","Patient","","SubjectOfCare Client Resident
 ","",0,*,"","","","null {[]} {[]}
 ","Information about an individual or animal receiving health care services","Demographics and other administrative information about an individual or animal receiving care or other health-related services.","","","","","","","","","",,,,,"",,,,"Patient",0,*,"","dom-2:If the resource is contained in another resource, it SHALL NOT contain nested Resources {contained.contained.empty()}

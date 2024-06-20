@@ -1,1 +1,2 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Used
+https://dhis2.org/CodeSystem/DHIS2Attributes,0.1.0,draft,,DHIS2Attributes,DHIS2 Tracked Entity Attributes,"This code system defines tracked entity attributes used in DHIS2",

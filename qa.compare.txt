@@ -1,70 +1,351 @@
 Dhis2RwandaAttributeHarmonization : Validation Results
 =========================================
 
-err = 0, warn = 4, info = 0
+err = 2, warn = 16, info = 160
 $--
 Generated $--. FHIR version $-- for dhis2-rwanda-attribute-harmonization#$-- (canonical = https://dhis2.org)
- Build Errors : 51 / 4 / 0
+ Build Errors : 150 / 4 / 0
+ /github/workspace/fsh-generated/resources/CodeSystem-DHIS2Attributes : 2 / 12 / 1
  /github/workspace/fsh-generated/resources/ImplementationGuide-dhis2-rwanda-attribute-harmonization : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-AmbulanceActivityReport : 0 / 0 / 17
+ /github/workspace/fsh-generated/resources/StructureDefinition-BirthRegistration : 0 / 0 / 73
+ /github/workspace/fsh-generated/resources/StructureDefinition-Immunization : 0 / 0 / 73
  /github/workspace/fsh-generated/resources/StructureDefinition-MyPatient : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: /github/workspace/output/Patient-PatientExample.change.history.html#/html/body/div/div/div/a at Line 105, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/Patient-PatientExample.change.history.html#/html/body/div/div/div/p/a at Line 223, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/Patient-PatientExample.change.history.html#/html/body/div/div/div/p/span/a at Line 230, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/Patient-PatientExample.html#/html/body/div/div/div/a at Line 101, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/Patient-PatientExample.html#/html/body/div/div/div/p/a at Line 232, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/Patient-PatientExample.html#/html/body/div/div/div/p/span/a at Line 239, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/Patient-PatientExample.json.html#/html/body/div/div/div/a at Line 103, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/Patient-PatientExample.json.html#/html/body/div/div/div/p/a at Line 253, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/Patient-PatientExample.json.html#/html/body/div/div/div/p/span/a at Line 260, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/Patient-PatientExample.ttl.html#/html/body/div/div/div/a at Line 103, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/Patient-PatientExample.ttl.html#/html/body/div/div/div/p/a at Line 258, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/Patient-PatientExample.ttl.html#/html/body/div/div/div/p/span/a at Line 265, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/Patient-PatientExample.xml.html#/html/body/div/div/div/a at Line 103, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/Patient-PatientExample.xml.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/Patient-PatientExample.xml.html#/html/body/div/div/div/p/span/a at Line 254, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/a at Line 105, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/p/a at Line 579, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/p/span/a at Line 586, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient-examples.html#/html/body/div/div/div/a at Line 105, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient-examples.html#/html/body/div/div/div/p/a at Line 291, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient-examples.html#/html/body/div/div/div/p/span/a at Line 298, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient-mappings.html#/html/body/div/div/div/a at Line 105, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient-mappings.html#/html/body/div/div/div/p/a at Line 392, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient-mappings.html#/html/body/div/div/div/p/span/a at Line 399, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient-testing.html#/html/body/div/div/div/a at Line 105, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient-testing.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient-testing.html#/html/body/div/div/div/p/span/a at Line 294, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.html#/html/body/div/div/div/a at Line 105, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.html#/html/body/div/div/div/p/a at Line 1628, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.html#/html/body/div/div/div/p/span/a at Line 1635, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/div/a at Line 105, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/div/p/a at Line 269, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/div/p/span/a at Line 276, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/div/a at Line 109, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/div/p/a at Line 2494, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/div/p/span/a at Line 2501, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/div/a at Line 109, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/div/p/a at Line 1872, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1879, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/a at Line 109, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/p/a at Line 2341, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2348, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/a at Line 101, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/span/a at Line 238, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/a at Line 101, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/span/a at Line 244, column 107: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/a at Line 101, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 179, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/span/a at Line 186, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.html#/html/body/div/div/div/p/a at Line 905, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.html#/html/body/div/div/div/p/span/a at Line 912, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.json.html#/html/body/div/div/div/p/a at Line 1327, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.json.html#/html/body/div/div/div/p/span/a at Line 1334, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.ttl.html#/html/body/div/div/div/p/a at Line 1123, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.ttl.html#/html/body/div/div/div/p/span/a at Line 1130, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.xml.html#/html/body/div/div/div/p/a at Line 1333, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.xml.html#/html/body/div/div/div/p/span/a at Line 1340, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.html#/html/body/div/div/div/p/a at Line 233, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.html#/html/body/div/div/div/p/span/a at Line 240, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.json.html#/html/body/div/div/div/p/a at Line 254, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.json.html#/html/body/div/div/div/p/span/a at Line 261, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.ttl.html#/html/body/div/div/div/p/a at Line 259, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.ttl.html#/html/body/div/div/div/p/span/a at Line 266, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.xml.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/Patient-PatientExample.xml.html#/html/body/div/div/div/p/span/a at Line 255, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport-definitions.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport-definitions.html#/html/body/div/div/div/p/a at Line 375, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport-definitions.html#/html/body/div/div/div/p/span/a at Line 382, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport-examples.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport-examples.html#/html/body/div/div/div/p/a at Line 271, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport-mappings.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport-mappings.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport-mappings.html#/html/body/div/div/div/p/span/a at Line 277, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport-testing.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport-testing.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.html#/html/body/div/div/div/p/a at Line 936, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.html#/html/body/div/div/div/p/span/a at Line 943, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.profile.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.profile.history.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.profile.json.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.profile.json.html#/html/body/div/div/div/p/a at Line 718, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.profile.json.html#/html/body/div/div/div/p/span/a at Line 725, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.profile.ttl.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.profile.ttl.html#/html/body/div/div/div/p/a at Line 578, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 585, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.profile.xml.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.profile.xml.html#/html/body/div/div/div/p/a at Line 637, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-AmbulanceActivityReport.profile.xml.html#/html/body/div/div/div/p/span/a at Line 644, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-definitions.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-definitions.html#/html/body/div/div/div/p/a at Line 627, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-definitions.html#/html/body/div/div/div/p/span/a at Line 634, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-examples.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-examples.html#/html/body/div/div/div/p/a at Line 271, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-mappings.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-mappings.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-mappings.html#/html/body/div/div/div/p/span/a at Line 277, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-testing.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-testing.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.html#/html/body/div/div/div/p/a at Line 1954, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.html#/html/body/div/div/div/p/span/a at Line 1961, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.history.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.json.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.json.html#/html/body/div/div/div/p/a at Line 1892, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.json.html#/html/body/div/div/div/p/span/a at Line 1899, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.ttl.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.ttl.html#/html/body/div/div/div/p/a at Line 1280, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1287, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.xml.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.xml.html#/html/body/div/div/div/p/a at Line 1560, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1567, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization-definitions.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization-definitions.html#/html/body/div/div/div/p/a at Line 627, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization-definitions.html#/html/body/div/div/div/p/span/a at Line 634, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization-examples.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization-examples.html#/html/body/div/div/div/p/a at Line 271, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization-examples.html#/html/body/div/div/div/p/span/a at Line 278, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization-mappings.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization-mappings.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization-mappings.html#/html/body/div/div/div/p/span/a at Line 277, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization-testing.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization-testing.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.html#/html/body/div/div/div/p/a at Line 1946, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.html#/html/body/div/div/div/p/span/a at Line 1953, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.history.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.json.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.json.html#/html/body/div/div/div/p/a at Line 1892, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.json.html#/html/body/div/div/div/p/span/a at Line 1899, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.ttl.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.ttl.html#/html/body/div/div/div/p/a at Line 1280, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1287, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.xml.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.xml.html#/html/body/div/div/div/p/a at Line 1557, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1564, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/p/a at Line 580, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/p/span/a at Line 587, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-examples.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-examples.html#/html/body/div/div/div/p/a at Line 292, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-examples.html#/html/body/div/div/div/p/span/a at Line 299, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-mappings.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-mappings.html#/html/body/div/div/div/p/a at Line 393, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-mappings.html#/html/body/div/div/div/p/span/a at Line 400, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-testing.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-testing.html#/html/body/div/div/div/p/a at Line 288, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient-testing.html#/html/body/div/div/div/p/span/a at Line 295, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.html#/html/body/div/div/div/p/a at Line 1629, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.html#/html/body/div/div/div/p/span/a at Line 1636, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/div/p/a at Line 270, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.history.html#/html/body/div/div/div/p/span/a at Line 277, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/div/p/a at Line 2495, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.json.html#/html/body/div/div/div/p/span/a at Line 2502, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/div/p/a at Line 1873, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1880, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/p/a at Line 2342, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2349, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 290, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/span/a at Line 297, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/span/a at Line 245, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/a at Line 180, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/span/a at Line 187, column 107: The link 'license.html' for "License" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/CodeSystem-DHIS2Attributes.json ==
+ERROR: CodeSystem/DHIS2Attributes: CodeSystem.meta.profile[0]: Canonical URL 'http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem' does not resolve
+ERROR: CodeSystem/DHIS2Attributes: CodeSystem.meta.profile[1]: Canonical URL 'http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem' does not resolve
+WARNING: CodeSystem/DHIS2Attributes: CodeSystem.concept[73].display: value should not start or finish with whitespace 'Eye reason of enrollement '
+WARNING: CodeSystem/DHIS2Attributes: CodeSystem.concept[73].definition: value should not start or finish with whitespace 'Eye reason of enrollement '
+WARNING: CodeSystem/DHIS2Attributes: CodeSystem.concept[102].display: value should not start or finish with whitespace 'LB_If other University specify '
+WARNING: CodeSystem/DHIS2Attributes: CodeSystem.concept[102].definition: value should not start or finish with whitespace 'LB_If other University specify '
+WARNING: CodeSystem/DHIS2Attributes: CodeSystem.concept[109].display: value should not start or finish with whitespace 'LB_University '
+WARNING: CodeSystem/DHIS2Attributes: CodeSystem.concept[109].definition: value should not start or finish with whitespace 'LB_University '
+WARNING: CodeSystem/DHIS2Attributes: CodeSystem.concept[139].display: value should not start or finish with whitespace 'Plate number '
+WARNING: CodeSystem/DHIS2Attributes: CodeSystem.concept[139].definition: value should not start or finish with whitespace 'Plate number '
+WARNING: CodeSystem/DHIS2Attributes: CodeSystem.concept[205].display: value should not start or finish with whitespace 'rbf_month of birth '
+WARNING: CodeSystem/DHIS2Attributes: CodeSystem.concept[205].definition: value should not start or finish with whitespace 'rbf_month of birth '
+WARNING: CodeSystem/DHIS2Attributes: CodeSystem.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+WARNING: CodeSystem/DHIS2Attributes: CodeSystem.meta.profile[1]: Profile reference 'http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 == fsh-generated/resources/ImplementationGuide-dhis2-rwanda-attribute-harmonization.json ==
 == fsh-generated/resources/Patient-PatientExample.json ==
+== fsh-generated/resources/StructureDefinition-AmbulanceActivityReport.json ==
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.snapshot.element[1].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.snapshot.element[2].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.snapshot.element[3].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.snapshot.element[4].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.snapshot.element[5].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.snapshot.element[6].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.snapshot.element[7].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.snapshot.element[8].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.differential.element[1].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.differential.element[2].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.differential.element[3].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.differential.element[4].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.differential.element[5].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.differential.element[6].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.differential.element[7].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/AmbulanceActivityReport: StructureDefinition.differential.element[8].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+== fsh-generated/resources/StructureDefinition-BirthRegistration.json ==
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[1].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[2].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[3].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[4].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[5].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[6].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[7].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[8].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[9].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[10].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[11].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[12].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[13].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[14].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[15].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[16].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[17].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[18].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[19].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[20].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[21].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[22].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[23].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[24].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[25].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[26].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[27].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[28].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[29].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[30].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[31].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[32].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[33].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[34].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[35].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.snapshot.element[36].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[1].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[2].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[3].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[4].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[5].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[6].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[7].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[8].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[9].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[10].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[11].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[12].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[13].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[14].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[15].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[16].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[17].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[18].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[19].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[20].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[21].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[22].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[23].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[24].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[25].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[26].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[27].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[28].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[29].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[30].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[31].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[32].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[33].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[34].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[35].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/BirthRegistration: StructureDefinition.differential.element[36].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+== fsh-generated/resources/StructureDefinition-Immunization.json ==
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[1].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[2].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[3].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[4].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[5].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[6].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[7].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[8].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[9].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[10].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[11].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[12].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[13].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[14].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[15].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[16].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[17].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[18].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[19].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[20].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[21].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[22].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[23].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[24].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[25].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[26].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[27].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[28].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[29].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[30].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[31].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[32].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[33].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[34].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[35].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.snapshot.element[36].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[1].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[2].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[3].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[4].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[5].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[6].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[7].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[8].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[9].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[10].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[11].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[12].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[13].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[14].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[15].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[16].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[17].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[18].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[19].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[20].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[21].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[22].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[23].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[24].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[25].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[26].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[27].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[28].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[29].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[30].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[31].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[32].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[33].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[34].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[35].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
+INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[36].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
 == fsh-generated/resources/StructureDefinition-MyPatient.json ==

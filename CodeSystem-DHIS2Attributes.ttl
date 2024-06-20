@@ -1,0 +1,878 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/CodeSystem/DHIS2Attributes> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "DHIS2Attributes"] ; # 
+  fhir:meta [
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem>
+     ] [
+       fhir:v "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This case-insensitive code system <code>https://dhis2.org/CodeSystem/DHIS2Attributes</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">NGeJP9rTUI3<a name=\"DHIS2Attributes-NGeJP9rTUI3\"> </a></td><td>Address (New)</td><td>Address (New)</td></tr><tr><td style=\"white-space:nowrap\">eRGolzpzbsV<a name=\"DHIS2Attributes-eRGolzpzbsV\"> </a></td><td>Afite Ibibari mu nkanka</td><td>Afite Ibibari mu nkanka</td></tr><tr><td style=\"white-space:nowrap\">WLP2idn6CPZ<a name=\"DHIS2Attributes-WLP2idn6CPZ\"> </a></td><td>Afite ikibari ku munwa</td><td>Afite ikibari ku munwa</td></tr><tr><td style=\"white-space:nowrap\">CEOwe5r8PFS<a name=\"DHIS2Attributes-CEOwe5r8PFS\"> </a></td><td>Age</td><td>Age</td></tr><tr><td style=\"white-space:nowrap\">J2c9TNIpHd0<a name=\"DHIS2Attributes-J2c9TNIpHd0\"> </a></td><td>Age_1</td><td>Age</td></tr><tr><td style=\"white-space:nowrap\">c6gUKezht7U<a name=\"DHIS2Attributes-c6gUKezht7U\"> </a></td><td>Akagari</td><td>Akagari</td></tr><tr><td style=\"white-space:nowrap\">jsHnkLgaLne<a name=\"DHIS2Attributes-jsHnkLgaLne\"> </a></td><td>Akarere</td><td>Akarere</td></tr><tr><td style=\"white-space:nowrap\">IWCa9RY9pqt<a name=\"DHIS2Attributes-IWCa9RY9pqt\"> </a></td><td>Amazina y umwana</td><td>Amazina y umwana</td></tr><tr><td style=\"white-space:nowrap\">VlP9V51JaYP<a name=\"DHIS2Attributes-VlP9V51JaYP\"> </a></td><td>Amazina ya Nyina</td><td>Amazina ya Nyina</td></tr><tr><td style=\"white-space:nowrap\">RP0jtvuebcN<a name=\"DHIS2Attributes-RP0jtvuebcN\"> </a></td><td>Amazina ya Se Cyangwa umurera</td><td>Amazina ya Se Cyangwa umurera</td></tr><tr><td style=\"white-space:nowrap\">BEyqBJ1NOca<a name=\"DHIS2Attributes-BEyqBJ1NOca\"> </a></td><td>Ambulance account number</td><td>Ambulance account number</td></tr><tr><td style=\"white-space:nowrap\">jCsa67YikZE<a name=\"DHIS2Attributes-jCsa67YikZE\"> </a></td><td>Ambulance brand</td><td>Ambulance brand</td></tr><tr><td style=\"white-space:nowrap\">MYKEpLGgVlX<a name=\"DHIS2Attributes-MYKEpLGgVlX\"> </a></td><td>Ambulance purchaser</td><td>Ambulance purchaser</td></tr><tr><td style=\"white-space:nowrap\">jKahvk7wiQf<a name=\"DHIS2Attributes-jKahvk7wiQf\"> </a></td><td>Auto Gen Child ID</td><td>Auto Gen Child ID</td></tr><tr><td style=\"white-space:nowrap\">IaZ89ZIN1va<a name=\"DHIS2Attributes-IaZ89ZIN1va\"> </a></td><td>Auto Gen Leprosy ID</td><td>Auto Gen Leprosy ID</td></tr><tr><td style=\"white-space:nowrap\">DEVBM6Bogtv<a name=\"DHIS2Attributes-DEVBM6Bogtv\"> </a></td><td>Auto Gen Patient ID</td><td>Auto Gen Patient ID</td></tr><tr><td style=\"white-space:nowrap\">bnuOdOujH9r<a name=\"DHIS2Attributes-bnuOdOujH9r\"> </a></td><td>Bank name</td><td>Bank name</td></tr><tr><td style=\"white-space:nowrap\">wYgV5mGqymu<a name=\"DHIS2Attributes-wYgV5mGqymu\"> </a></td><td>Birth date</td><td>Birth date</td></tr><tr><td style=\"white-space:nowrap\">FAkQHm3kesU<a name=\"DHIS2Attributes-FAkQHm3kesU\"> </a></td><td>CDT of Origin</td><td>CDT of Origin</td></tr><tr><td style=\"white-space:nowrap\">K9zM5Tq8G5f<a name=\"DHIS2Attributes-K9zM5Tq8G5f\"> </a></td><td>CHWID</td><td>CHWID</td></tr><tr><td style=\"white-space:nowrap\">kHYxRPCqCaJ<a name=\"DHIS2Attributes-kHYxRPCqCaJ\"> </a></td><td>CHWrole</td><td>CHWrole</td></tr><tr><td style=\"white-space:nowrap\">wZZt54vCaiY<a name=\"DHIS2Attributes-wZZt54vCaiY\"> </a></td><td>CSO District Address</td><td>CSO District Address</td></tr><tr><td style=\"white-space:nowrap\">TMRU1mlwWgI<a name=\"DHIS2Attributes-TMRU1mlwWgI\"> </a></td><td>CSO Email</td><td>CSO Email</td></tr><tr><td style=\"white-space:nowrap\">CgaGH5n91Jl<a name=\"DHIS2Attributes-CgaGH5n91Jl\"> </a></td><td>CSO Sector</td><td>CSO Sector</td></tr><tr><td style=\"white-space:nowrap\">bewrz2DDWZK<a name=\"DHIS2Attributes-bewrz2DDWZK\"> </a></td><td>CSO Telephone</td><td>CSO Telephone</td></tr><tr><td style=\"white-space:nowrap\">Z5RG5JkLehv<a name=\"DHIS2Attributes-Z5RG5JkLehv\"> </a></td><td>CSO Website</td><td>CSO Website</td></tr><tr><td style=\"white-space:nowrap\">E5D1aKa2eFb<a name=\"DHIS2Attributes-E5D1aKa2eFb\"> </a></td><td>Caretaker</td><td>Caretaker</td></tr><tr><td style=\"white-space:nowrap\">QF1ewXEBT0o<a name=\"DHIS2Attributes-QF1ewXEBT0o\"> </a></td><td>Caretaker ID Number</td><td>Caretaker ID Number</td></tr><tr><td style=\"white-space:nowrap\">OjVFFLxlAbo<a name=\"DHIS2Attributes-OjVFFLxlAbo\"> </a></td><td>Caretaker Names</td><td>Caretaker Names</td></tr><tr><td style=\"white-space:nowrap\">MfQkSwP7hiP<a name=\"DHIS2Attributes-MfQkSwP7hiP\"> </a></td><td>Caretaker Phone Number</td><td>Caretaker Phone Number</td></tr><tr><td style=\"white-space:nowrap\">QQNwqxcZqCW<a name=\"DHIS2Attributes-QQNwqxcZqCW\"> </a></td><td>Case Unique ID</td><td>Case Unique ID</td></tr><tr><td style=\"white-space:nowrap\">VUOPFCmLGDA<a name=\"DHIS2Attributes-VUOPFCmLGDA\"> </a></td><td>Cell Cell</td><td>Cell Cell</td></tr><tr><td style=\"white-space:nowrap\">McdXE0wk05G<a name=\"DHIS2Attributes-McdXE0wk05G\"> </a></td><td>Cell Current residence</td><td>Cell Current residence</td></tr><tr><td style=\"white-space:nowrap\">t8YUbhAXCoq<a name=\"DHIS2Attributes-t8YUbhAXCoq\"> </a></td><td>Cell of Residance</td><td>Cell of Residance</td></tr><tr><td style=\"white-space:nowrap\">s6EJmfbbvnA<a name=\"DHIS2Attributes-s6EJmfbbvnA\"> </a></td><td>Cell of residence</td><td>Cell of residence</td></tr><tr><td style=\"white-space:nowrap\">LAeWtKjFYNG<a name=\"DHIS2Attributes-LAeWtKjFYNG\"> </a></td><td>Cell of residence (New)</td><td>Cell of residence (New)</td></tr><tr><td style=\"white-space:nowrap\">KDxwNieLdee<a name=\"DHIS2Attributes-KDxwNieLdee\"> </a></td><td>Cell of the client</td><td>client Cell</td></tr><tr><td style=\"white-space:nowrap\">OzMkoLsiwJM<a name=\"DHIS2Attributes-OzMkoLsiwJM\"> </a></td><td>Cellcode</td><td>CHWcellcode</td></tr><tr><td style=\"white-space:nowrap\">krUV06sbefj<a name=\"DHIS2Attributes-krUV06sbefj\"> </a></td><td>Chassis number (use capital letter)</td><td>Chassis number (use capital letter)</td></tr><tr><td style=\"white-space:nowrap\">yBT0DI1TTbT<a name=\"DHIS2Attributes-yBT0DI1TTbT\"> </a></td><td>Child ID (Register number)</td><td>Child ID (Register number)</td></tr><tr><td style=\"white-space:nowrap\">VYEGPSgn908<a name=\"DHIS2Attributes-VYEGPSgn908\"> </a></td><td>Citizenship</td><td>Citizenship</td></tr><tr><td style=\"white-space:nowrap\">ImsEZyLWjOu<a name=\"DHIS2Attributes-ImsEZyLWjOu\"> </a></td><td>Contact_Cell</td><td>Contact_Cell</td></tr><tr><td style=\"white-space:nowrap\">zekrj7ti8lq<a name=\"DHIS2Attributes-zekrj7ti8lq\"> </a></td><td>Contact_District</td><td>Contact_District</td></tr><tr><td style=\"white-space:nowrap\">eqM44PJGAod<a name=\"DHIS2Attributes-eqM44PJGAod\"> </a></td><td>Contact_Sector</td><td>Contact_Sector</td></tr><tr><td style=\"white-space:nowrap\">Fk4qy2RY1xm<a name=\"DHIS2Attributes-Fk4qy2RY1xm\"> </a></td><td>Contact_Village</td><td>Contact_Village</td></tr><tr><td style=\"white-space:nowrap\">F7b4wG4dxsn<a name=\"DHIS2Attributes-F7b4wG4dxsn\"> </a></td><td>Country</td><td>Country</td></tr><tr><td style=\"white-space:nowrap\">q70u29fMclV<a name=\"DHIS2Attributes-q70u29fMclV\"> </a></td><td>Cso Name</td><td>Cso Name</td></tr><tr><td style=\"white-space:nowrap\">B9bfWW6w0e2<a name=\"DHIS2Attributes-B9bfWW6w0e2\"> </a></td><td>DOB type</td><td>DOB type</td></tr><tr><td style=\"white-space:nowrap\">q6ojcpdv1m3<a name=\"DHIS2Attributes-q6ojcpdv1m3\"> </a></td><td>Data Entry Date</td><td>Data Entry Date</td></tr><tr><td style=\"white-space:nowrap\">UFUIiaHn0vh<a name=\"DHIS2Attributes-UFUIiaHn0vh\"> </a></td><td>Date birth_FSW</td><td>Date birth_FSW</td></tr><tr><td style=\"white-space:nowrap\">uVpef29Fwc9<a name=\"DHIS2Attributes-uVpef29Fwc9\"> </a></td><td>Date of Birth of the client</td><td>Client Date of Birth</td></tr><tr><td style=\"white-space:nowrap\">A31FfrjPqyp<a name=\"DHIS2Attributes-A31FfrjPqyp\"> </a></td><td>Date of birth</td><td>Date of birth</td></tr><tr><td style=\"white-space:nowrap\">Z1rLc1rVHK8<a name=\"DHIS2Attributes-Z1rLc1rVHK8\"> </a></td><td>Date of birth is estimated</td><td>Date of birth is estimated</td></tr><tr><td style=\"white-space:nowrap\">EUNJhnqOyQf<a name=\"DHIS2Attributes-EUNJhnqOyQf\"> </a></td><td>Date of birth of first-born child</td><td>Date of birth of first-born child</td></tr><tr><td style=\"white-space:nowrap\">KkY64Uyz5y5<a name=\"DHIS2Attributes-KkY64Uyz5y5\"> </a></td><td>Date of birth of last born</td><td>Date of birth of last born</td></tr><tr><td style=\"white-space:nowrap\">YC6gjC3VqXd<a name=\"DHIS2Attributes-YC6gjC3VqXd\"> </a></td><td>Date of enrollment in CSO program</td><td>Date of enrollment in CSO program</td></tr><tr><td style=\"white-space:nowrap\">sY7Fyd3KdXK<a name=\"DHIS2Attributes-sY7Fyd3KdXK\"> </a></td><td>Date of reception</td><td>Date of reception</td></tr><tr><td style=\"white-space:nowrap\">wyPB0rnIOQa<a name=\"DHIS2Attributes-wyPB0rnIOQa\"> </a></td><td>Death date</td><td>Death date</td></tr><tr><td style=\"white-space:nowrap\">iEXJRQkfSOC<a name=\"DHIS2Attributes-iEXJRQkfSOC\"> </a></td><td>District Current residence</td><td>District Current residence</td></tr><tr><td style=\"white-space:nowrap\">AUiAvQrWQEa<a name=\"DHIS2Attributes-AUiAvQrWQEa\"> </a></td><td>District Home address</td><td>District Home address</td></tr><tr><td style=\"white-space:nowrap\">Y72SyQdDhIX<a name=\"DHIS2Attributes-Y72SyQdDhIX\"> </a></td><td>District of next of kin</td><td>District of orgin</td></tr><tr><td style=\"white-space:nowrap\">p2Nqf8AphI6<a name=\"DHIS2Attributes-p2Nqf8AphI6\"> </a></td><td>District of residence</td><td>District of residence</td></tr><tr><td style=\"white-space:nowrap\">getkVaLr2bw<a name=\"DHIS2Attributes-getkVaLr2bw\"> </a></td><td>District of residence_vacc</td><td>District of residence_vacc</td></tr><tr><td style=\"white-space:nowrap\">Kanzoi8DTom<a name=\"DHIS2Attributes-Kanzoi8DTom\"> </a></td><td>District of the client</td><td>District of the client</td></tr><tr><td style=\"white-space:nowrap\">hKGmiEPrCCg<a name=\"DHIS2Attributes-hKGmiEPrCCg\"> </a></td><td>E_mail of the client</td><td>E-mail of the client</td></tr><tr><td style=\"white-space:nowrap\">ODkP0myM8az<a name=\"DHIS2Attributes-ODkP0myM8az\"> </a></td><td>Education</td><td>Education</td></tr><tr><td style=\"white-space:nowrap\">DZ2uRcXYVp8<a name=\"DHIS2Attributes-DZ2uRcXYVp8\"> </a></td><td>Education level_FSW</td><td>Education level_FSW</td></tr><tr><td style=\"white-space:nowrap\">GiTHeVlmcAK<a name=\"DHIS2Attributes-GiTHeVlmcAK\"> </a></td><td>Engine number (use capital letter)</td><td>Engine number (use capital letter)</td></tr><tr><td style=\"white-space:nowrap\">yAoKZU1ileI<a name=\"DHIS2Attributes-yAoKZU1ileI\"> </a></td><td>Enrolled in HIV program</td><td>Enrolled in HIV program</td></tr><tr><td style=\"white-space:nowrap\">gmviIGeQAGl<a name=\"DHIS2Attributes-gmviIGeQAGl\"> </a></td><td>Enrollment date(Registration Date)</td><td>Enrollment date(Registration Date)</td></tr><tr><td style=\"white-space:nowrap\">Z6u6ysYu07K<a name=\"DHIS2Attributes-Z6u6ysYu07K\"> </a></td><td>Ever married</td><td>Ever married</td></tr><tr><td style=\"white-space:nowrap\">wLwmg1ntjs1<a name=\"DHIS2Attributes-wLwmg1ntjs1\"> </a></td><td>Ever tested for HIV</td><td>Ever tested for HIV</td></tr><tr><td style=\"white-space:nowrap\">e8SIFhxBHCv<a name=\"DHIS2Attributes-e8SIFhxBHCv\"> </a></td><td>Eye  Health Insurance type</td><td>Eye  Health Insurance type</td></tr><tr><td style=\"white-space:nowrap\">YtNcplQ1Tvb<a name=\"DHIS2Attributes-YtNcplQ1Tvb\"> </a></td><td>Eye reason of enrollement </td><td>Eye reason of enrollement </td></tr><tr><td style=\"white-space:nowrap\">sC7kVVEY8MJ<a name=\"DHIS2Attributes-sC7kVVEY8MJ\"> </a></td><td>FOSAID</td><td>FOSAID</td></tr><tr><td style=\"white-space:nowrap\">tLgQEW71GZT<a name=\"DHIS2Attributes-tLgQEW71GZT\"> </a></td><td>FSW Code Auto</td><td>FSW Code Auto</td></tr><tr><td style=\"white-space:nowrap\">nDQcbnq2DHV<a name=\"DHIS2Attributes-nDQcbnq2DHV\"> </a></td><td>FSW code</td><td>FSW code</td></tr><tr><td style=\"white-space:nowrap\">sah5bll9Y6Q<a name=\"DHIS2Attributes-sah5bll9Y6Q\"> </a></td><td>Family Name</td><td>Family Name</td></tr><tr><td style=\"white-space:nowrap\">hTdA8G5ZCEm<a name=\"DHIS2Attributes-hTdA8G5ZCEm\"> </a></td><td>Father Education Level</td><td>Father Education Level</td></tr><tr><td style=\"white-space:nowrap\">uLotdmVESxa<a name=\"DHIS2Attributes-uLotdmVESxa\"> </a></td><td>Father Names</td><td>Father Names</td></tr><tr><td style=\"white-space:nowrap\">AClDcrZs6R3<a name=\"DHIS2Attributes-AClDcrZs6R3\"> </a></td><td>Father Phone Number</td><td>Father Phone Number</td></tr><tr><td style=\"white-space:nowrap\">KsNhcMy9iwH<a name=\"DHIS2Attributes-KsNhcMy9iwH\"> </a></td><td>Fathers ID Number</td><td>Fathers ID Number</td></tr><tr><td style=\"white-space:nowrap\">fY3yuQxkaUS<a name=\"DHIS2Attributes-fY3yuQxkaUS\"> </a></td><td>Fellowship Expected Graduation Date</td><td>Fellowship Expected Graduation Date</td></tr><tr><td style=\"white-space:nowrap\">ISPdSEPTMBn<a name=\"DHIS2Attributes-ISPdSEPTMBn\"> </a></td><td>Fellowship program</td><td>Fellowship program</td></tr><tr><td style=\"white-space:nowrap\">e9BrRZAicPE<a name=\"DHIS2Attributes-e9BrRZAicPE\"> </a></td><td>First Name</td><td>Name of the patient, Lastname Firstname</td></tr><tr><td style=\"white-space:nowrap\">yKhbGyUiLLq<a name=\"DHIS2Attributes-yKhbGyUiLLq\"> </a></td><td>First Name of the client</td><td>client Name</td></tr><tr><td style=\"white-space:nowrap\">Ovu9BhmWgbL<a name=\"DHIS2Attributes-Ovu9BhmWgbL\"> </a></td><td>Full name</td><td>Full name</td></tr><tr><td style=\"white-space:nowrap\">Rq4qM2wKYFL<a name=\"DHIS2Attributes-Rq4qM2wKYFL\"> </a></td><td>Gender</td><td>Gender</td></tr><tr><td style=\"white-space:nowrap\">Ug49QUIKsxh<a name=\"DHIS2Attributes-Ug49QUIKsxh\"> </a></td><td>Gender/SEX</td><td>Gender</td></tr><tr><td style=\"white-space:nowrap\">TfdH5KvFmMy<a name=\"DHIS2Attributes-TfdH5KvFmMy\"> </a></td><td>Given Name/Prenom</td><td>Given Name/Prenom</td></tr><tr><td style=\"white-space:nowrap\">yXIS60L4z9a<a name=\"DHIS2Attributes-yXIS60L4z9a\"> </a></td><td>Height at Birth(Cm)</td><td>Height at Birth(Cm)</td></tr><tr><td style=\"white-space:nowrap\">iZYMynh3Q6a<a name=\"DHIS2Attributes-iZYMynh3Q6a\"> </a></td><td>Home address</td><td>Home address</td></tr><tr><td style=\"white-space:nowrap\">RTR4TP32gx8<a name=\"DHIS2Attributes-RTR4TP32gx8\"> </a></td><td>Igitsina</td><td>Igitsina</td></tr><tr><td style=\"white-space:nowrap\">HnnLtwqPI7v<a name=\"DHIS2Attributes-HnnLtwqPI7v\"> </a></td><td>In EIR and CRVS</td><td>In EIR and CRVS</td></tr><tr><td style=\"white-space:nowrap\">R5KfdqlJsHA<a name=\"DHIS2Attributes-R5KfdqlJsHA\"> </a></td><td>Indangamuntu ya Nyina</td><td>Indangamuntu ya Nyina</td></tr><tr><td style=\"white-space:nowrap\">Gsjdt8LULYw<a name=\"DHIS2Attributes-Gsjdt8LULYw\"> </a></td><td>Indangamuntu ya Se cyangwa Umurera</td><td>Indangamuntu ya Se cyangwa Umurera</td></tr><tr><td style=\"white-space:nowrap\">EzCMBhxLaKU<a name=\"DHIS2Attributes-EzCMBhxLaKU\"> </a></td><td>Is Dead</td><td>Is Dead</td></tr><tr><td style=\"white-space:nowrap\">fKsHl5oaWtO<a name=\"DHIS2Attributes-fKsHl5oaWtO\"> </a></td><td>Is under age</td><td>Is under age</td></tr><tr><td style=\"white-space:nowrap\">ekHx5Cql2T7<a name=\"DHIS2Attributes-ekHx5Cql2T7\"> </a></td><td>Join date</td><td>Join date</td></tr><tr><td style=\"white-space:nowrap\">evDmVzLwfMV<a name=\"DHIS2Attributes-evDmVzLwfMV\"> </a></td><td>LB_Country of education</td><td>LB_Country of education</td></tr><tr><td style=\"white-space:nowrap\">wbRH4bxGQos<a name=\"DHIS2Attributes-wbRH4bxGQos\"> </a></td><td>LB_Date of commencement</td><td>LB_Date of commencement</td></tr><tr><td style=\"white-space:nowrap\">iYJiCmxPFHh<a name=\"DHIS2Attributes-iYJiCmxPFHh\"> </a></td><td>LB_Email</td><td>LB_Email</td></tr><tr><td style=\"white-space:nowrap\">cuHQ94m2xyu<a name=\"DHIS2Attributes-cuHQ94m2xyu\"> </a></td><td>LB_If other University specify </td><td>LB_If other University specify </td></tr><tr><td style=\"white-space:nowrap\">bDeIY6PcPvy<a name=\"DHIS2Attributes-bDeIY6PcPvy\"> </a></td><td>LB_Intern End date</td><td>LB_Intern End date</td></tr><tr><td style=\"white-space:nowrap\">tkZYf0cfz7g<a name=\"DHIS2Attributes-tkZYf0cfz7g\"> </a></td><td>LB_Intern type</td><td>LB_Intern type</td></tr><tr><td style=\"white-space:nowrap\">fzIRPb8eOGx<a name=\"DHIS2Attributes-fzIRPb8eOGx\"> </a></td><td>LB_Nationality</td><td>LB_Nationality</td></tr><tr><td style=\"white-space:nowrap\">iv9ywpPBd3f<a name=\"DHIS2Attributes-iv9ywpPBd3f\"> </a></td><td>LB_Passport Number</td><td>LB_Passport Number</td></tr><tr><td style=\"white-space:nowrap\">CiJzESXEEEI<a name=\"DHIS2Attributes-CiJzESXEEEI\"> </a></td><td>LB_Provisional License Number</td><td>LB_Provisional License Number</td></tr><tr><td style=\"white-space:nowrap\">wqUtd3xa3al<a name=\"DHIS2Attributes-wqUtd3xa3al\"> </a></td><td>LB_Unique ID</td><td>LB_Unique ID</td></tr><tr><td style=\"white-space:nowrap\">dCAh9Y9K6aM<a name=\"DHIS2Attributes-dCAh9Y9K6aM\"> </a></td><td>LB_University </td><td>LB_University </td></tr><tr><td style=\"white-space:nowrap\">ABVa8kNzkh8<a name=\"DHIS2Attributes-ABVa8kNzkh8\"> </a></td><td>Last Name of the client</td><td>client last name</td></tr><tr><td style=\"white-space:nowrap\">UQNrumJTziw<a name=\"DHIS2Attributes-UQNrumJTziw\"> </a></td><td>Leprosy Case Number</td><td>Leprosy Case Number</td></tr><tr><td style=\"white-space:nowrap\">MGTvCH8utlf<a name=\"DHIS2Attributes-MGTvCH8utlf\"> </a></td><td>Leprosy Contact Number</td><td>Leprosy Contact Number</td></tr><tr><td style=\"white-space:nowrap\">gwTNODsqr5L<a name=\"DHIS2Attributes-gwTNODsqr5L\"> </a></td><td>Leprosy _Current age</td><td>Leprosy _Current age</td></tr><tr><td style=\"white-space:nowrap\">gRQgNqnWtc1<a name=\"DHIS2Attributes-gRQgNqnWtc1\"> </a></td><td>License Number</td><td>License Number</td></tr><tr><td style=\"white-space:nowrap\">O99WyJz6onQ<a name=\"DHIS2Attributes-O99WyJz6onQ\"> </a></td><td>Live alone</td><td>Live alone</td></tr><tr><td style=\"white-space:nowrap\">UXezg9UjJv2<a name=\"DHIS2Attributes-UXezg9UjJv2\"> </a></td><td>Live with family</td><td>Live with family</td></tr><tr><td style=\"white-space:nowrap\">f038nOc9uRF<a name=\"DHIS2Attributes-f038nOc9uRF\"> </a></td><td>Location of residence</td><td>The location (coordinates) of the place of residence.</td></tr><tr><td style=\"white-space:nowrap\">vBlHJN5gPSi<a name=\"DHIS2Attributes-vBlHJN5gPSi\"> </a></td><td>Mother s ID number</td><td>Mother s ID number</td></tr><tr><td style=\"white-space:nowrap\">cUTcjBma2jK<a name=\"DHIS2Attributes-cUTcjBma2jK\"> </a></td><td>Mothers Date of Birth</td><td>Mothers Date of Birth</td></tr><tr><td style=\"white-space:nowrap\">YDWk8qQbFOh<a name=\"DHIS2Attributes-YDWk8qQbFOh\"> </a></td><td>Mothers Education Level</td><td>Mothers Education Level</td></tr><tr><td style=\"white-space:nowrap\">RzPmWr82V3p<a name=\"DHIS2Attributes-RzPmWr82V3p\"> </a></td><td>Mothers Names</td><td>Mothers Names</td></tr><tr><td style=\"white-space:nowrap\">IBcgUcOzYgB<a name=\"DHIS2Attributes-IBcgUcOzYgB\"> </a></td><td>Mothers Phone Number</td><td>Mothers Phone Number</td></tr><tr><td style=\"white-space:nowrap\">lzae3BtWOIZ<a name=\"DHIS2Attributes-lzae3BtWOIZ\"> </a></td><td>NIN</td><td>NIN</td></tr><tr><td style=\"white-space:nowrap\">aW66s2QSosT<a name=\"DHIS2Attributes-aW66s2QSosT\"> </a></td><td>Name/Nom</td><td>Name/Nom</td></tr><tr><td style=\"white-space:nowrap\">PEhSKbBKoXS<a name=\"DHIS2Attributes-PEhSKbBKoXS\"> </a></td><td>Names</td><td>Names</td></tr><tr><td style=\"white-space:nowrap\">O7P9OMwtpwL<a name=\"DHIS2Attributes-O7P9OMwtpwL\"> </a></td><td>National ID</td><td>Patient National ID</td></tr><tr><td style=\"white-space:nowrap\">haL5t4KtUis<a name=\"DHIS2Attributes-haL5t4KtUis\"> </a></td><td>National ID (new)</td><td>National ID (new)</td></tr><tr><td style=\"white-space:nowrap\">eiMG6z23BJh<a name=\"DHIS2Attributes-eiMG6z23BJh\"> </a></td><td>Next of Kin Firstname</td><td>Next of Kin Firstname</td></tr><tr><td style=\"white-space:nowrap\">opFwwerYZzV<a name=\"DHIS2Attributes-opFwwerYZzV\"> </a></td><td>Next of Kin Lastname</td><td>Next of kin LN</td></tr><tr><td style=\"white-space:nowrap\">DLC9w54MA59<a name=\"DHIS2Attributes-DLC9w54MA59\"> </a></td><td>Next of Kin Telephone</td><td>Next of Kin Phone</td></tr><tr><td style=\"white-space:nowrap\">ZE2FHgj3EE1<a name=\"DHIS2Attributes-ZE2FHgj3EE1\"> </a></td><td>Number of children</td><td>Number of children</td></tr><tr><td style=\"white-space:nowrap\">ZLdEQatuagP<a name=\"DHIS2Attributes-ZLdEQatuagP\"> </a></td><td>Number of dependents</td><td>Number of dependents</td></tr><tr><td style=\"white-space:nowrap\">Ewi7FUfcHAD<a name=\"DHIS2Attributes-Ewi7FUfcHAD\"> </a></td><td>Patient Unique ID</td><td>Patient Unique ID</td></tr><tr><td style=\"white-space:nowrap\">epBHliNRBLh<a name=\"DHIS2Attributes-epBHliNRBLh\"> </a></td><td>Phone number</td><td>Phone number</td></tr><tr><td style=\"white-space:nowrap\">CT6aPmeOhXw<a name=\"DHIS2Attributes-CT6aPmeOhXw\"> </a></td><td>Phone number_FSW</td><td>Phone number_FSW</td></tr><tr><td style=\"white-space:nowrap\">iCy9QPG9HY9<a name=\"DHIS2Attributes-iCy9QPG9HY9\"> </a></td><td>Place of Bith</td><td>Place of Bith</td></tr><tr><td style=\"white-space:nowrap\">j0RWl7MZZjF<a name=\"DHIS2Attributes-j0RWl7MZZjF\"> </a></td><td>Place of birth_FSW</td><td>Place of birth_FSW</td></tr><tr><td style=\"white-space:nowrap\">tbLiYMxG0M1<a name=\"DHIS2Attributes-tbLiYMxG0M1\"> </a></td><td>Place of first commercial sex_District</td><td>Place of first commercial sex_District</td></tr><tr><td style=\"white-space:nowrap\">GUd2L4V5Qu5<a name=\"DHIS2Attributes-GUd2L4V5Qu5\"> </a></td><td>Plate number </td><td>Plate number </td></tr><tr><td style=\"white-space:nowrap\">TXDvRJ9wWBv<a name=\"DHIS2Attributes-TXDvRJ9wWBv\"> </a></td><td>Pregnancy Number</td><td>Pregnancy Number</td></tr><tr><td style=\"white-space:nowrap\">xngC89Ip5E7<a name=\"DHIS2Attributes-xngC89Ip5E7\"> </a></td><td>Program Type</td><td>Program Type</td></tr><tr><td style=\"white-space:nowrap\">nuqA7EFKonT<a name=\"DHIS2Attributes-nuqA7EFKonT\"> </a></td><td>Program duration</td><td>Program duration</td></tr><tr><td style=\"white-space:nowrap\">l9WS5ketbhX<a name=\"DHIS2Attributes-l9WS5ketbhX\"> </a></td><td>Province of next of kin</td><td>Province of orgin</td></tr><tr><td style=\"white-space:nowrap\">FBm5ftjnCj2<a name=\"DHIS2Attributes-FBm5ftjnCj2\"> </a></td><td>Province of residence</td><td>Province of residence</td></tr><tr><td style=\"white-space:nowrap\">bayoL96sEsL<a name=\"DHIS2Attributes-bayoL96sEsL\"> </a></td><td>Province of the client</td><td>Province of the client</td></tr><tr><td style=\"white-space:nowrap\">l70Rt7f0YNE<a name=\"DHIS2Attributes-l70Rt7f0YNE\"> </a></td><td>Register facilityName</td><td>Register facilityName</td></tr><tr><td style=\"white-space:nowrap\">I0RIIcxm6G3<a name=\"DHIS2Attributes-I0RIIcxm6G3\"> </a></td><td>Registration date</td><td>Registration date</td></tr><tr><td style=\"white-space:nowrap\">pDx163TL9N2<a name=\"DHIS2Attributes-pDx163TL9N2\"> </a></td><td>Relationship</td><td>Relationship patient</td></tr><tr><td style=\"white-space:nowrap\">ysatfqnP6ZJ<a name=\"DHIS2Attributes-ysatfqnP6ZJ\"> </a></td><td>Rwanda nationality ?</td><td>Rwanda nationality ?</td></tr><tr><td style=\"white-space:nowrap\">wnfbyVsNj4h<a name=\"DHIS2Attributes-wnfbyVsNj4h\"> </a></td><td>Sector Current residence</td><td>Sector Current residence</td></tr><tr><td style=\"white-space:nowrap\">rXWNI9jQhXs<a name=\"DHIS2Attributes-rXWNI9jQhXs\"> </a></td><td>Sector of Residence</td><td>Sector of Residence</td></tr><tr><td style=\"white-space:nowrap\">bUnEh0yWeC0<a name=\"DHIS2Attributes-bUnEh0yWeC0\"> </a></td><td>Sector of next of kin</td><td>Sector of orgin</td></tr><tr><td style=\"white-space:nowrap\">rMxZNZXHIFQ<a name=\"DHIS2Attributes-rMxZNZXHIFQ\"> </a></td><td>Sector of residence</td><td>Sector of residence</td></tr><tr><td style=\"white-space:nowrap\">T4oNeTO7Tk8<a name=\"DHIS2Attributes-T4oNeTO7Tk8\"> </a></td><td>Sector of the client</td><td>Sector of the client</td></tr><tr><td style=\"white-space:nowrap\">CklPZdOd6H1<a name=\"DHIS2Attributes-CklPZdOd6H1\"> </a></td><td>Sex</td><td>Gender of Person</td></tr><tr><td style=\"white-space:nowrap\">y1x29lfx2Pl<a name=\"DHIS2Attributes-y1x29lfx2Pl\"> </a></td><td>Sex of the client</td><td>Sex of the client</td></tr><tr><td style=\"white-space:nowrap\">KIWNuC2w5K7<a name=\"DHIS2Attributes-KIWNuC2w5K7\"> </a></td><td>Site_FSW</td><td>Site_FSW</td></tr><tr><td style=\"white-space:nowrap\">FIeADYwBKjB<a name=\"DHIS2Attributes-FIeADYwBKjB\"> </a></td><td>Social Category</td><td>Social Category</td></tr><tr><td style=\"white-space:nowrap\">JE04bCG3rk2<a name=\"DHIS2Attributes-JE04bCG3rk2\"> </a></td><td>Staff</td><td>Staff</td></tr><tr><td style=\"white-space:nowrap\">ldGZfMMlzFZ<a name=\"DHIS2Attributes-ldGZfMMlzFZ\"> </a></td><td>Student Registration Number</td><td>Student Registration Number</td></tr><tr><td style=\"white-space:nowrap\">c18OAOb1qet<a name=\"DHIS2Attributes-c18OAOb1qet\"> </a></td><td>TB Case Number</td><td>TB Case Number</td></tr><tr><td style=\"white-space:nowrap\">BxV3tbviVZq<a name=\"DHIS2Attributes-BxV3tbviVZq\"> </a></td><td>TB_Current age</td><td>TB_Current age</td></tr><tr><td style=\"white-space:nowrap\">t71wTbckFTI<a name=\"DHIS2Attributes-t71wTbckFTI\"> </a></td><td>Telefone ya Nyina</td><td>Telefone ya Nyina</td></tr><tr><td style=\"white-space:nowrap\">WamA2Upu9ii<a name=\"DHIS2Attributes-WamA2Upu9ii\"> </a></td><td>Telefone ya Se Cyangwa Umurera</td><td>Telefone ya Se Cyangwa Umurera</td></tr><tr><td style=\"white-space:nowrap\">TueBWX6YRtp<a name=\"DHIS2Attributes-TueBWX6YRtp\"> </a></td><td>Telefoni y'Umujyanama w'ubuzima</td><td>Telefoni y'Umujyanama w'ubuzima</td></tr><tr><td style=\"white-space:nowrap\">BvHmOeOGIG7<a name=\"DHIS2Attributes-BvHmOeOGIG7\"> </a></td><td>Telephone (new)</td><td>Telephone (new)</td></tr><tr><td style=\"white-space:nowrap\">pB7G5BZh6bJ<a name=\"DHIS2Attributes-pB7G5BZh6bJ\"> </a></td><td>Telephone of the client</td><td>Telephone Number</td></tr><tr><td style=\"white-space:nowrap\">QyhGvFhiMF3<a name=\"DHIS2Attributes-QyhGvFhiMF3\"> </a></td><td>Twins or More</td><td>Twins or More</td></tr><tr><td style=\"white-space:nowrap\">zH60KBzMsBo<a name=\"DHIS2Attributes-zH60KBzMsBo\"> </a></td><td>Ubudehe category</td><td>Ubudehe category</td></tr><tr><td style=\"white-space:nowrap\">Z5LvDzazkft<a name=\"DHIS2Attributes-Z5LvDzazkft\"> </a></td><td>Ubwishingizi</td><td>Ubwishingizi</td></tr><tr><td style=\"white-space:nowrap\">utBUvfIq5Dl<a name=\"DHIS2Attributes-utBUvfIq5Dl\"> </a></td><td>Umudugudu</td><td>Umudugudu</td></tr><tr><td style=\"white-space:nowrap\">Za5dJxPRUfg<a name=\"DHIS2Attributes-Za5dJxPRUfg\"> </a></td><td>Umujyanama w'ubuzima</td><td>Umujyanama w'ubuzima</td></tr><tr><td style=\"white-space:nowrap\">HKAjtWQUMCq<a name=\"DHIS2Attributes-HKAjtWQUMCq\"> </a></td><td>Umurenge</td><td>Umurenge</td></tr><tr><td style=\"white-space:nowrap\">z0JpTH95uHR<a name=\"DHIS2Attributes-z0JpTH95uHR\"> </a></td><td>Unique Identification Code_FSW</td><td>Unique Identification Code_FSW</td></tr><tr><td style=\"white-space:nowrap\">O5oZvRUPYIQ<a name=\"DHIS2Attributes-O5oZvRUPYIQ\"> </a></td><td>Village Current residence</td><td>Village Current residence</td></tr><tr><td style=\"white-space:nowrap\">fSGeXjMM7Iw<a name=\"DHIS2Attributes-fSGeXjMM7Iw\"> </a></td><td>Village of Residance</td><td>Village of Residance</td></tr><tr><td style=\"white-space:nowrap\">ZB2q2bG9j4s<a name=\"DHIS2Attributes-ZB2q2bG9j4s\"> </a></td><td>Village of Residance (New)</td><td>Village of Residance (New)</td></tr><tr><td style=\"white-space:nowrap\">frmU1Hjwp6w<a name=\"DHIS2Attributes-frmU1Hjwp6w\"> </a></td><td>Village of next of kin</td><td>Village of orgin</td></tr><tr><td style=\"white-space:nowrap\">fSS6j77BXyo<a name=\"DHIS2Attributes-fSS6j77BXyo\"> </a></td><td>Village of residence</td><td>Village of residence</td></tr><tr><td style=\"white-space:nowrap\">qq0Ly8akdYR<a name=\"DHIS2Attributes-qq0Ly8akdYR\"> </a></td><td>Village of the client</td><td>Village of the client</td></tr><tr><td style=\"white-space:nowrap\">IYm5bpgSe3Y<a name=\"DHIS2Attributes-IYm5bpgSe3Y\"> </a></td><td>Villagecode</td><td>Villagecode</td></tr><tr><td style=\"white-space:nowrap\">niy3ldrnH1k<a name=\"DHIS2Attributes-niy3ldrnH1k\"> </a></td><td>Vocation Training Received_FSW</td><td>Vocation Training Received_FSW</td></tr><tr><td style=\"white-space:nowrap\">t9i9Bc9MNwX<a name=\"DHIS2Attributes-t9i9Bc9MNwX\"> </a></td><td>Warranty Duration (in months)</td><td>Warranty Duration (in months)</td></tr><tr><td style=\"white-space:nowrap\">aH29RtPc19V<a name=\"DHIS2Attributes-aH29RtPc19V\"> </a></td><td>Warranty start date</td><td>Warranty start date</td></tr><tr><td style=\"white-space:nowrap\">cM7Q2YcXhH0<a name=\"DHIS2Attributes-cM7Q2YcXhH0\"> </a></td><td>Weight at Birth (Kgs)</td><td>Weight at Birth (Kgs)</td></tr><tr><td style=\"white-space:nowrap\">OPh3UFCaht4<a name=\"DHIS2Attributes-OPh3UFCaht4\"> </a></td><td>Year of fabrication</td><td>Year of fabrication</td></tr><tr><td style=\"white-space:nowrap\">AE6ExmcrLmo<a name=\"DHIS2Attributes-AE6ExmcrLmo\"> </a></td><td>Year started commercial sex</td><td>Year started commercial sex</td></tr><tr><td style=\"white-space:nowrap\">dx3uJl25IKr<a name=\"DHIS2Attributes-dx3uJl25IKr\"> </a></td><td>Yigeze avurwa</td><td>Yigeze avurwa</td></tr><tr><td style=\"white-space:nowrap\">Zf9XyUDtGFC<a name=\"DHIS2Attributes-Zf9XyUDtGFC\"> </a></td><td>applicationNumber</td><td>applicationNumber</td></tr><tr><td style=\"white-space:nowrap\">csE2iyxUvZM<a name=\"DHIS2Attributes-csE2iyxUvZM\"> </a></td><td>facilityOfficeType</td><td>facilityOfficeType</td></tr><tr><td style=\"white-space:nowrap\">LS3cqxurOem<a name=\"DHIS2Attributes-LS3cqxurOem\"> </a></td><td>notificationDate</td><td>notificationDate</td></tr><tr><td style=\"white-space:nowrap\">af8cbO1aI9Y<a name=\"DHIS2Attributes-af8cbO1aI9Y\"> </a></td><td>rbf-Mother TRACnet number</td><td>rbf-Mother TRACnet number</td></tr><tr><td style=\"white-space:nowrap\">C1V9Q8GeV2m<a name=\"DHIS2Attributes-C1V9Q8GeV2m\"> </a></td><td>rbf_Did the child took Nevirapine at birth</td><td>rbf_Did the child took Nevirapine at birth</td></tr><tr><td style=\"white-space:nowrap\">d2g1HtmUlHj<a name=\"DHIS2Attributes-d2g1HtmUlHj\"> </a></td><td>rbf_Does HF have an exposed infant in the period April,May,June 2016</td><td>rbf_Does HF have an exposed infant in the period April,May,June 2016</td></tr><tr><td style=\"white-space:nowrap\">OBt2GiMHgHy<a name=\"DHIS2Attributes-OBt2GiMHgHy\"> </a></td><td>rbf_Does HF have an exposed infant in the period July,2016-June,2017?</td><td>rbf_Does HF have an exposed infant in the period July,2016-June,2017?</td></tr><tr><td style=\"white-space:nowrap\">eN57OHpTlQQ<a name=\"DHIS2Attributes-eN57OHpTlQQ\"> </a></td><td>rbf_Does HF have an exposed infant in the period July,2017-June,2018?</td><td>rbf_Does HF have an exposed infant in the period July,2017-June,2018?</td></tr><tr><td style=\"white-space:nowrap\">MuHGufOGFw9<a name=\"DHIS2Attributes-MuHGufOGFw9\"> </a></td><td>rbf_Does HF have an exposed infant in the period July,2018-June,2019?</td><td>rbf_Does HF have an exposed infant in the period July,2018-June,2019?</td></tr><tr><td style=\"white-space:nowrap\">QN0VAPDV8BG<a name=\"DHIS2Attributes-QN0VAPDV8BG\"> </a></td><td>rbf_Does HF have an exposed infant in the period July,2019-June,2020?</td><td>rbf_Does HF have an exposed infant in the period July,2019-June,2020?</td></tr><tr><td style=\"white-space:nowrap\">tkcL6xyUGjN<a name=\"DHIS2Attributes-tkcL6xyUGjN\"> </a></td><td>rbf_ID</td><td>rbf_ID</td></tr><tr><td style=\"white-space:nowrap\">Tiz0xDPMXC9<a name=\"DHIS2Attributes-Tiz0xDPMXC9\"> </a></td><td>rbf_Patient DoB</td><td>rbf_Patient DoB</td></tr><tr><td style=\"white-space:nowrap\">QzUggPwl61f<a name=\"DHIS2Attributes-QzUggPwl61f\"> </a></td><td>rbf_Patient Tracknet Number</td><td>rbf_Patient Tracknet Number</td></tr><tr><td style=\"white-space:nowrap\">axUuQMzM1PD<a name=\"DHIS2Attributes-axUuQMzM1PD\"> </a></td><td>rbf_Patient sex</td><td>rbf_Patient sex</td></tr><tr><td style=\"white-space:nowrap\">ATMg1kDxkZi<a name=\"DHIS2Attributes-ATMg1kDxkZi\"> </a></td><td>rbf_Regisration date</td><td>rbf_Regisration date</td></tr><tr><td style=\"white-space:nowrap\">W0p422otuka<a name=\"DHIS2Attributes-W0p422otuka\"> </a></td><td>rbf_Registration place</td><td>rbf_Registration place</td></tr><tr><td style=\"white-space:nowrap\">oMCcGOzPpOI<a name=\"DHIS2Attributes-oMCcGOzPpOI\"> </a></td><td>rbf_month of birth </td><td>rbf_month of birth </td></tr><tr><td style=\"white-space:nowrap\">C6XGReyQjst<a name=\"DHIS2Attributes-C6XGReyQjst\"> </a></td><td>rbf_month of birth old</td><td>rbf_month of birth old</td></tr><tr><td style=\"white-space:nowrap\">ztFYx9bppif<a name=\"DHIS2Attributes-ztFYx9bppif\"> </a></td><td>rbf_order number</td><td>rbf_order number</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "DHIS2Attributes"] ; # 
+  fhir:title [ fhir:v "DHIS2 Tracked Entity Attributes"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:experimental [ fhir:v "true"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2024-06-20T14:32:32+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This code system defines tracked entity attributes used in DHIS2"] ; # 
+  fhir:caseSensitive [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "208"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "NGeJP9rTUI3" ] ;
+     fhir:display [ fhir:v "Address (New)" ] ;
+     fhir:definition [ fhir:v "Address (New)" ]
+  ] [
+     fhir:code [ fhir:v "eRGolzpzbsV" ] ;
+     fhir:display [ fhir:v "Afite Ibibari mu nkanka" ] ;
+     fhir:definition [ fhir:v "Afite Ibibari mu nkanka" ]
+  ] [
+     fhir:code [ fhir:v "WLP2idn6CPZ" ] ;
+     fhir:display [ fhir:v "Afite ikibari ku munwa" ] ;
+     fhir:definition [ fhir:v "Afite ikibari ku munwa" ]
+  ] [
+     fhir:code [ fhir:v "CEOwe5r8PFS" ] ;
+     fhir:display [ fhir:v "Age" ] ;
+     fhir:definition [ fhir:v "Age" ]
+  ] [
+     fhir:code [ fhir:v "J2c9TNIpHd0" ] ;
+     fhir:display [ fhir:v "Age_1" ] ;
+     fhir:definition [ fhir:v "Age" ]
+  ] [
+     fhir:code [ fhir:v "c6gUKezht7U" ] ;
+     fhir:display [ fhir:v "Akagari" ] ;
+     fhir:definition [ fhir:v "Akagari" ]
+  ] [
+     fhir:code [ fhir:v "jsHnkLgaLne" ] ;
+     fhir:display [ fhir:v "Akarere" ] ;
+     fhir:definition [ fhir:v "Akarere" ]
+  ] [
+     fhir:code [ fhir:v "IWCa9RY9pqt" ] ;
+     fhir:display [ fhir:v "Amazina y umwana" ] ;
+     fhir:definition [ fhir:v "Amazina y umwana" ]
+  ] [
+     fhir:code [ fhir:v "VlP9V51JaYP" ] ;
+     fhir:display [ fhir:v "Amazina ya Nyina" ] ;
+     fhir:definition [ fhir:v "Amazina ya Nyina" ]
+  ] [
+     fhir:code [ fhir:v "RP0jtvuebcN" ] ;
+     fhir:display [ fhir:v "Amazina ya Se Cyangwa umurera" ] ;
+     fhir:definition [ fhir:v "Amazina ya Se Cyangwa umurera" ]
+  ] [
+     fhir:code [ fhir:v "BEyqBJ1NOca" ] ;
+     fhir:display [ fhir:v "Ambulance account number" ] ;
+     fhir:definition [ fhir:v "Ambulance account number" ]
+  ] [
+     fhir:code [ fhir:v "jCsa67YikZE" ] ;
+     fhir:display [ fhir:v "Ambulance brand" ] ;
+     fhir:definition [ fhir:v "Ambulance brand" ]
+  ] [
+     fhir:code [ fhir:v "MYKEpLGgVlX" ] ;
+     fhir:display [ fhir:v "Ambulance purchaser" ] ;
+     fhir:definition [ fhir:v "Ambulance purchaser" ]
+  ] [
+     fhir:code [ fhir:v "jKahvk7wiQf" ] ;
+     fhir:display [ fhir:v "Auto Gen Child ID" ] ;
+     fhir:definition [ fhir:v "Auto Gen Child ID" ]
+  ] [
+     fhir:code [ fhir:v "IaZ89ZIN1va" ] ;
+     fhir:display [ fhir:v "Auto Gen Leprosy ID" ] ;
+     fhir:definition [ fhir:v "Auto Gen Leprosy ID" ]
+  ] [
+     fhir:code [ fhir:v "DEVBM6Bogtv" ] ;
+     fhir:display [ fhir:v "Auto Gen Patient ID" ] ;
+     fhir:definition [ fhir:v "Auto Gen Patient ID" ]
+  ] [
+     fhir:code [ fhir:v "bnuOdOujH9r" ] ;
+     fhir:display [ fhir:v "Bank name" ] ;
+     fhir:definition [ fhir:v "Bank name" ]
+  ] [
+     fhir:code [ fhir:v "wYgV5mGqymu" ] ;
+     fhir:display [ fhir:v "Birth date" ] ;
+     fhir:definition [ fhir:v "Birth date" ]
+  ] [
+     fhir:code [ fhir:v "FAkQHm3kesU" ] ;
+     fhir:display [ fhir:v "CDT of Origin" ] ;
+     fhir:definition [ fhir:v "CDT of Origin" ]
+  ] [
+     fhir:code [ fhir:v "K9zM5Tq8G5f" ] ;
+     fhir:display [ fhir:v "CHWID" ] ;
+     fhir:definition [ fhir:v "CHWID" ]
+  ] [
+     fhir:code [ fhir:v "kHYxRPCqCaJ" ] ;
+     fhir:display [ fhir:v "CHWrole" ] ;
+     fhir:definition [ fhir:v "CHWrole" ]
+  ] [
+     fhir:code [ fhir:v "wZZt54vCaiY" ] ;
+     fhir:display [ fhir:v "CSO District Address" ] ;
+     fhir:definition [ fhir:v "CSO District Address" ]
+  ] [
+     fhir:code [ fhir:v "TMRU1mlwWgI" ] ;
+     fhir:display [ fhir:v "CSO Email" ] ;
+     fhir:definition [ fhir:v "CSO Email" ]
+  ] [
+     fhir:code [ fhir:v "CgaGH5n91Jl" ] ;
+     fhir:display [ fhir:v "CSO Sector" ] ;
+     fhir:definition [ fhir:v "CSO Sector" ]
+  ] [
+     fhir:code [ fhir:v "bewrz2DDWZK" ] ;
+     fhir:display [ fhir:v "CSO Telephone" ] ;
+     fhir:definition [ fhir:v "CSO Telephone" ]
+  ] [
+     fhir:code [ fhir:v "Z5RG5JkLehv" ] ;
+     fhir:display [ fhir:v "CSO Website" ] ;
+     fhir:definition [ fhir:v "CSO Website" ]
+  ] [
+     fhir:code [ fhir:v "E5D1aKa2eFb" ] ;
+     fhir:display [ fhir:v "Caretaker" ] ;
+     fhir:definition [ fhir:v "Caretaker" ]
+  ] [
+     fhir:code [ fhir:v "QF1ewXEBT0o" ] ;
+     fhir:display [ fhir:v "Caretaker ID Number" ] ;
+     fhir:definition [ fhir:v "Caretaker ID Number" ]
+  ] [
+     fhir:code [ fhir:v "OjVFFLxlAbo" ] ;
+     fhir:display [ fhir:v "Caretaker Names" ] ;
+     fhir:definition [ fhir:v "Caretaker Names" ]
+  ] [
+     fhir:code [ fhir:v "MfQkSwP7hiP" ] ;
+     fhir:display [ fhir:v "Caretaker Phone Number" ] ;
+     fhir:definition [ fhir:v "Caretaker Phone Number" ]
+  ] [
+     fhir:code [ fhir:v "QQNwqxcZqCW" ] ;
+     fhir:display [ fhir:v "Case Unique ID" ] ;
+     fhir:definition [ fhir:v "Case Unique ID" ]
+  ] [
+     fhir:code [ fhir:v "VUOPFCmLGDA" ] ;
+     fhir:display [ fhir:v "Cell Cell" ] ;
+     fhir:definition [ fhir:v "Cell Cell" ]
+  ] [
+     fhir:code [ fhir:v "McdXE0wk05G" ] ;
+     fhir:display [ fhir:v "Cell Current residence" ] ;
+     fhir:definition [ fhir:v "Cell Current residence" ]
+  ] [
+     fhir:code [ fhir:v "t8YUbhAXCoq" ] ;
+     fhir:display [ fhir:v "Cell of Residance" ] ;
+     fhir:definition [ fhir:v "Cell of Residance" ]
+  ] [
+     fhir:code [ fhir:v "s6EJmfbbvnA" ] ;
+     fhir:display [ fhir:v "Cell of residence" ] ;
+     fhir:definition [ fhir:v "Cell of residence" ]
+  ] [
+     fhir:code [ fhir:v "LAeWtKjFYNG" ] ;
+     fhir:display [ fhir:v "Cell of residence (New)" ] ;
+     fhir:definition [ fhir:v "Cell of residence (New)" ]
+  ] [
+     fhir:code [ fhir:v "KDxwNieLdee" ] ;
+     fhir:display [ fhir:v "Cell of the client" ] ;
+     fhir:definition [ fhir:v "client Cell" ]
+  ] [
+     fhir:code [ fhir:v "OzMkoLsiwJM" ] ;
+     fhir:display [ fhir:v "Cellcode" ] ;
+     fhir:definition [ fhir:v "CHWcellcode" ]
+  ] [
+     fhir:code [ fhir:v "krUV06sbefj" ] ;
+     fhir:display [ fhir:v "Chassis number (use capital letter)" ] ;
+     fhir:definition [ fhir:v "Chassis number (use capital letter)" ]
+  ] [
+     fhir:code [ fhir:v "yBT0DI1TTbT" ] ;
+     fhir:display [ fhir:v "Child ID (Register number)" ] ;
+     fhir:definition [ fhir:v "Child ID (Register number)" ]
+  ] [
+     fhir:code [ fhir:v "VYEGPSgn908" ] ;
+     fhir:display [ fhir:v "Citizenship" ] ;
+     fhir:definition [ fhir:v "Citizenship" ]
+  ] [
+     fhir:code [ fhir:v "ImsEZyLWjOu" ] ;
+     fhir:display [ fhir:v "Contact_Cell" ] ;
+     fhir:definition [ fhir:v "Contact_Cell" ]
+  ] [
+     fhir:code [ fhir:v "zekrj7ti8lq" ] ;
+     fhir:display [ fhir:v "Contact_District" ] ;
+     fhir:definition [ fhir:v "Contact_District" ]
+  ] [
+     fhir:code [ fhir:v "eqM44PJGAod" ] ;
+     fhir:display [ fhir:v "Contact_Sector" ] ;
+     fhir:definition [ fhir:v "Contact_Sector" ]
+  ] [
+     fhir:code [ fhir:v "Fk4qy2RY1xm" ] ;
+     fhir:display [ fhir:v "Contact_Village" ] ;
+     fhir:definition [ fhir:v "Contact_Village" ]
+  ] [
+     fhir:code [ fhir:v "F7b4wG4dxsn" ] ;
+     fhir:display [ fhir:v "Country" ] ;
+     fhir:definition [ fhir:v "Country" ]
+  ] [
+     fhir:code [ fhir:v "q70u29fMclV" ] ;
+     fhir:display [ fhir:v "Cso Name" ] ;
+     fhir:definition [ fhir:v "Cso Name" ]
+  ] [
+     fhir:code [ fhir:v "B9bfWW6w0e2" ] ;
+     fhir:display [ fhir:v "DOB type" ] ;
+     fhir:definition [ fhir:v "DOB type" ]
+  ] [
+     fhir:code [ fhir:v "q6ojcpdv1m3" ] ;
+     fhir:display [ fhir:v "Data Entry Date" ] ;
+     fhir:definition [ fhir:v "Data Entry Date" ]
+  ] [
+     fhir:code [ fhir:v "UFUIiaHn0vh" ] ;
+     fhir:display [ fhir:v "Date birth_FSW" ] ;
+     fhir:definition [ fhir:v "Date birth_FSW" ]
+  ] [
+     fhir:code [ fhir:v "uVpef29Fwc9" ] ;
+     fhir:display [ fhir:v "Date of Birth of the client" ] ;
+     fhir:definition [ fhir:v "Client Date of Birth" ]
+  ] [
+     fhir:code [ fhir:v "A31FfrjPqyp" ] ;
+     fhir:display [ fhir:v "Date of birth" ] ;
+     fhir:definition [ fhir:v "Date of birth" ]
+  ] [
+     fhir:code [ fhir:v "Z1rLc1rVHK8" ] ;
+     fhir:display [ fhir:v "Date of birth is estimated" ] ;
+     fhir:definition [ fhir:v "Date of birth is estimated" ]
+  ] [
+     fhir:code [ fhir:v "EUNJhnqOyQf" ] ;
+     fhir:display [ fhir:v "Date of birth of first-born child" ] ;
+     fhir:definition [ fhir:v "Date of birth of first-born child" ]
+  ] [
+     fhir:code [ fhir:v "KkY64Uyz5y5" ] ;
+     fhir:display [ fhir:v "Date of birth of last born" ] ;
+     fhir:definition [ fhir:v "Date of birth of last born" ]
+  ] [
+     fhir:code [ fhir:v "YC6gjC3VqXd" ] ;
+     fhir:display [ fhir:v "Date of enrollment in CSO program" ] ;
+     fhir:definition [ fhir:v "Date of enrollment in CSO program" ]
+  ] [
+     fhir:code [ fhir:v "sY7Fyd3KdXK" ] ;
+     fhir:display [ fhir:v "Date of reception" ] ;
+     fhir:definition [ fhir:v "Date of reception" ]
+  ] [
+     fhir:code [ fhir:v "wyPB0rnIOQa" ] ;
+     fhir:display [ fhir:v "Death date" ] ;
+     fhir:definition [ fhir:v "Death date" ]
+  ] [
+     fhir:code [ fhir:v "iEXJRQkfSOC" ] ;
+     fhir:display [ fhir:v "District Current residence" ] ;
+     fhir:definition [ fhir:v "District Current residence" ]
+  ] [
+     fhir:code [ fhir:v "AUiAvQrWQEa" ] ;
+     fhir:display [ fhir:v "District Home address" ] ;
+     fhir:definition [ fhir:v "District Home address" ]
+  ] [
+     fhir:code [ fhir:v "Y72SyQdDhIX" ] ;
+     fhir:display [ fhir:v "District of next of kin" ] ;
+     fhir:definition [ fhir:v "District of orgin" ]
+  ] [
+     fhir:code [ fhir:v "p2Nqf8AphI6" ] ;
+     fhir:display [ fhir:v "District of residence" ] ;
+     fhir:definition [ fhir:v "District of residence" ]
+  ] [
+     fhir:code [ fhir:v "getkVaLr2bw" ] ;
+     fhir:display [ fhir:v "District of residence_vacc" ] ;
+     fhir:definition [ fhir:v "District of residence_vacc" ]
+  ] [
+     fhir:code [ fhir:v "Kanzoi8DTom" ] ;
+     fhir:display [ fhir:v "District of the client" ] ;
+     fhir:definition [ fhir:v "District of the client" ]
+  ] [
+     fhir:code [ fhir:v "hKGmiEPrCCg" ] ;
+     fhir:display [ fhir:v "E_mail of the client" ] ;
+     fhir:definition [ fhir:v "E-mail of the client" ]
+  ] [
+     fhir:code [ fhir:v "ODkP0myM8az" ] ;
+     fhir:display [ fhir:v "Education" ] ;
+     fhir:definition [ fhir:v "Education" ]
+  ] [
+     fhir:code [ fhir:v "DZ2uRcXYVp8" ] ;
+     fhir:display [ fhir:v "Education level_FSW" ] ;
+     fhir:definition [ fhir:v "Education level_FSW" ]
+  ] [
+     fhir:code [ fhir:v "GiTHeVlmcAK" ] ;
+     fhir:display [ fhir:v "Engine number (use capital letter)" ] ;
+     fhir:definition [ fhir:v "Engine number (use capital letter)" ]
+  ] [
+     fhir:code [ fhir:v "yAoKZU1ileI" ] ;
+     fhir:display [ fhir:v "Enrolled in HIV program" ] ;
+     fhir:definition [ fhir:v "Enrolled in HIV program" ]
+  ] [
+     fhir:code [ fhir:v "gmviIGeQAGl" ] ;
+     fhir:display [ fhir:v "Enrollment date(Registration Date)" ] ;
+     fhir:definition [ fhir:v "Enrollment date(Registration Date)" ]
+  ] [
+     fhir:code [ fhir:v "Z6u6ysYu07K" ] ;
+     fhir:display [ fhir:v "Ever married" ] ;
+     fhir:definition [ fhir:v "Ever married" ]
+  ] [
+     fhir:code [ fhir:v "wLwmg1ntjs1" ] ;
+     fhir:display [ fhir:v "Ever tested for HIV" ] ;
+     fhir:definition [ fhir:v "Ever tested for HIV" ]
+  ] [
+     fhir:code [ fhir:v "e8SIFhxBHCv" ] ;
+     fhir:display [ fhir:v "Eye  Health Insurance type" ] ;
+     fhir:definition [ fhir:v "Eye  Health Insurance type" ]
+  ] [
+     fhir:code [ fhir:v "YtNcplQ1Tvb" ] ;
+     fhir:display [ fhir:v "Eye reason of enrollement " ] ;
+     fhir:definition [ fhir:v "Eye reason of enrollement " ]
+  ] [
+     fhir:code [ fhir:v "sC7kVVEY8MJ" ] ;
+     fhir:display [ fhir:v "FOSAID" ] ;
+     fhir:definition [ fhir:v "FOSAID" ]
+  ] [
+     fhir:code [ fhir:v "tLgQEW71GZT" ] ;
+     fhir:display [ fhir:v "FSW Code Auto" ] ;
+     fhir:definition [ fhir:v "FSW Code Auto" ]
+  ] [
+     fhir:code [ fhir:v "nDQcbnq2DHV" ] ;
+     fhir:display [ fhir:v "FSW code" ] ;
+     fhir:definition [ fhir:v "FSW code" ]
+  ] [
+     fhir:code [ fhir:v "sah5bll9Y6Q" ] ;
+     fhir:display [ fhir:v "Family Name" ] ;
+     fhir:definition [ fhir:v "Family Name" ]
+  ] [
+     fhir:code [ fhir:v "hTdA8G5ZCEm" ] ;
+     fhir:display [ fhir:v "Father Education Level" ] ;
+     fhir:definition [ fhir:v "Father Education Level" ]
+  ] [
+     fhir:code [ fhir:v "uLotdmVESxa" ] ;
+     fhir:display [ fhir:v "Father Names" ] ;
+     fhir:definition [ fhir:v "Father Names" ]
+  ] [
+     fhir:code [ fhir:v "AClDcrZs6R3" ] ;
+     fhir:display [ fhir:v "Father Phone Number" ] ;
+     fhir:definition [ fhir:v "Father Phone Number" ]
+  ] [
+     fhir:code [ fhir:v "KsNhcMy9iwH" ] ;
+     fhir:display [ fhir:v "Fathers ID Number" ] ;
+     fhir:definition [ fhir:v "Fathers ID Number" ]
+  ] [
+     fhir:code [ fhir:v "fY3yuQxkaUS" ] ;
+     fhir:display [ fhir:v "Fellowship Expected Graduation Date" ] ;
+     fhir:definition [ fhir:v "Fellowship Expected Graduation Date" ]
+  ] [
+     fhir:code [ fhir:v "ISPdSEPTMBn" ] ;
+     fhir:display [ fhir:v "Fellowship program" ] ;
+     fhir:definition [ fhir:v "Fellowship program" ]
+  ] [
+     fhir:code [ fhir:v "e9BrRZAicPE" ] ;
+     fhir:display [ fhir:v "First Name" ] ;
+     fhir:definition [ fhir:v "Name of the patient, Lastname Firstname" ]
+  ] [
+     fhir:code [ fhir:v "yKhbGyUiLLq" ] ;
+     fhir:display [ fhir:v "First Name of the client" ] ;
+     fhir:definition [ fhir:v "client Name" ]
+  ] [
+     fhir:code [ fhir:v "Ovu9BhmWgbL" ] ;
+     fhir:display [ fhir:v "Full name" ] ;
+     fhir:definition [ fhir:v "Full name" ]
+  ] [
+     fhir:code [ fhir:v "Rq4qM2wKYFL" ] ;
+     fhir:display [ fhir:v "Gender" ] ;
+     fhir:definition [ fhir:v "Gender" ]
+  ] [
+     fhir:code [ fhir:v "Ug49QUIKsxh" ] ;
+     fhir:display [ fhir:v "Gender/SEX" ] ;
+     fhir:definition [ fhir:v "Gender" ]
+  ] [
+     fhir:code [ fhir:v "TfdH5KvFmMy" ] ;
+     fhir:display [ fhir:v "Given Name/Prenom" ] ;
+     fhir:definition [ fhir:v "Given Name/Prenom" ]
+  ] [
+     fhir:code [ fhir:v "yXIS60L4z9a" ] ;
+     fhir:display [ fhir:v "Height at Birth(Cm)" ] ;
+     fhir:definition [ fhir:v "Height at Birth(Cm)" ]
+  ] [
+     fhir:code [ fhir:v "iZYMynh3Q6a" ] ;
+     fhir:display [ fhir:v "Home address" ] ;
+     fhir:definition [ fhir:v "Home address" ]
+  ] [
+     fhir:code [ fhir:v "RTR4TP32gx8" ] ;
+     fhir:display [ fhir:v "Igitsina" ] ;
+     fhir:definition [ fhir:v "Igitsina" ]
+  ] [
+     fhir:code [ fhir:v "HnnLtwqPI7v" ] ;
+     fhir:display [ fhir:v "In EIR and CRVS" ] ;
+     fhir:definition [ fhir:v "In EIR and CRVS" ]
+  ] [
+     fhir:code [ fhir:v "R5KfdqlJsHA" ] ;
+     fhir:display [ fhir:v "Indangamuntu ya Nyina" ] ;
+     fhir:definition [ fhir:v "Indangamuntu ya Nyina" ]
+  ] [
+     fhir:code [ fhir:v "Gsjdt8LULYw" ] ;
+     fhir:display [ fhir:v "Indangamuntu ya Se cyangwa Umurera" ] ;
+     fhir:definition [ fhir:v "Indangamuntu ya Se cyangwa Umurera" ]
+  ] [
+     fhir:code [ fhir:v "EzCMBhxLaKU" ] ;
+     fhir:display [ fhir:v "Is Dead" ] ;
+     fhir:definition [ fhir:v "Is Dead" ]
+  ] [
+     fhir:code [ fhir:v "fKsHl5oaWtO" ] ;
+     fhir:display [ fhir:v "Is under age" ] ;
+     fhir:definition [ fhir:v "Is under age" ]
+  ] [
+     fhir:code [ fhir:v "ekHx5Cql2T7" ] ;
+     fhir:display [ fhir:v "Join date" ] ;
+     fhir:definition [ fhir:v "Join date" ]
+  ] [
+     fhir:code [ fhir:v "evDmVzLwfMV" ] ;
+     fhir:display [ fhir:v "LB_Country of education" ] ;
+     fhir:definition [ fhir:v "LB_Country of education" ]
+  ] [
+     fhir:code [ fhir:v "wbRH4bxGQos" ] ;
+     fhir:display [ fhir:v "LB_Date of commencement" ] ;
+     fhir:definition [ fhir:v "LB_Date of commencement" ]
+  ] [
+     fhir:code [ fhir:v "iYJiCmxPFHh" ] ;
+     fhir:display [ fhir:v "LB_Email" ] ;
+     fhir:definition [ fhir:v "LB_Email" ]
+  ] [
+     fhir:code [ fhir:v "cuHQ94m2xyu" ] ;
+     fhir:display [ fhir:v "LB_If other University specify " ] ;
+     fhir:definition [ fhir:v "LB_If other University specify " ]
+  ] [
+     fhir:code [ fhir:v "bDeIY6PcPvy" ] ;
+     fhir:display [ fhir:v "LB_Intern End date" ] ;
+     fhir:definition [ fhir:v "LB_Intern End date" ]
+  ] [
+     fhir:code [ fhir:v "tkZYf0cfz7g" ] ;
+     fhir:display [ fhir:v "LB_Intern type" ] ;
+     fhir:definition [ fhir:v "LB_Intern type" ]
+  ] [
+     fhir:code [ fhir:v "fzIRPb8eOGx" ] ;
+     fhir:display [ fhir:v "LB_Nationality" ] ;
+     fhir:definition [ fhir:v "LB_Nationality" ]
+  ] [
+     fhir:code [ fhir:v "iv9ywpPBd3f" ] ;
+     fhir:display [ fhir:v "LB_Passport Number" ] ;
+     fhir:definition [ fhir:v "LB_Passport Number" ]
+  ] [
+     fhir:code [ fhir:v "CiJzESXEEEI" ] ;
+     fhir:display [ fhir:v "LB_Provisional License Number" ] ;
+     fhir:definition [ fhir:v "LB_Provisional License Number" ]
+  ] [
+     fhir:code [ fhir:v "wqUtd3xa3al" ] ;
+     fhir:display [ fhir:v "LB_Unique ID" ] ;
+     fhir:definition [ fhir:v "LB_Unique ID" ]
+  ] [
+     fhir:code [ fhir:v "dCAh9Y9K6aM" ] ;
+     fhir:display [ fhir:v "LB_University " ] ;
+     fhir:definition [ fhir:v "LB_University " ]
+  ] [
+     fhir:code [ fhir:v "ABVa8kNzkh8" ] ;
+     fhir:display [ fhir:v "Last Name of the client" ] ;
+     fhir:definition [ fhir:v "client last name" ]
+  ] [
+     fhir:code [ fhir:v "UQNrumJTziw" ] ;
+     fhir:display [ fhir:v "Leprosy Case Number" ] ;
+     fhir:definition [ fhir:v "Leprosy Case Number" ]
+  ] [
+     fhir:code [ fhir:v "MGTvCH8utlf" ] ;
+     fhir:display [ fhir:v "Leprosy Contact Number" ] ;
+     fhir:definition [ fhir:v "Leprosy Contact Number" ]
+  ] [
+     fhir:code [ fhir:v "gwTNODsqr5L" ] ;
+     fhir:display [ fhir:v "Leprosy _Current age" ] ;
+     fhir:definition [ fhir:v "Leprosy _Current age" ]
+  ] [
+     fhir:code [ fhir:v "gRQgNqnWtc1" ] ;
+     fhir:display [ fhir:v "License Number" ] ;
+     fhir:definition [ fhir:v "License Number" ]
+  ] [
+     fhir:code [ fhir:v "O99WyJz6onQ" ] ;
+     fhir:display [ fhir:v "Live alone" ] ;
+     fhir:definition [ fhir:v "Live alone" ]
+  ] [
+     fhir:code [ fhir:v "UXezg9UjJv2" ] ;
+     fhir:display [ fhir:v "Live with family" ] ;
+     fhir:definition [ fhir:v "Live with family" ]
+  ] [
+     fhir:code [ fhir:v "f038nOc9uRF" ] ;
+     fhir:display [ fhir:v "Location of residence" ] ;
+     fhir:definition [ fhir:v "The location (coordinates) of the place of residence." ]
+  ] [
+     fhir:code [ fhir:v "vBlHJN5gPSi" ] ;
+     fhir:display [ fhir:v "Mother s ID number" ] ;
+     fhir:definition [ fhir:v "Mother s ID number" ]
+  ] [
+     fhir:code [ fhir:v "cUTcjBma2jK" ] ;
+     fhir:display [ fhir:v "Mothers Date of Birth" ] ;
+     fhir:definition [ fhir:v "Mothers Date of Birth" ]
+  ] [
+     fhir:code [ fhir:v "YDWk8qQbFOh" ] ;
+     fhir:display [ fhir:v "Mothers Education Level" ] ;
+     fhir:definition [ fhir:v "Mothers Education Level" ]
+  ] [
+     fhir:code [ fhir:v "RzPmWr82V3p" ] ;
+     fhir:display [ fhir:v "Mothers Names" ] ;
+     fhir:definition [ fhir:v "Mothers Names" ]
+  ] [
+     fhir:code [ fhir:v "IBcgUcOzYgB" ] ;
+     fhir:display [ fhir:v "Mothers Phone Number" ] ;
+     fhir:definition [ fhir:v "Mothers Phone Number" ]
+  ] [
+     fhir:code [ fhir:v "lzae3BtWOIZ" ] ;
+     fhir:display [ fhir:v "NIN" ] ;
+     fhir:definition [ fhir:v "NIN" ]
+  ] [
+     fhir:code [ fhir:v "aW66s2QSosT" ] ;
+     fhir:display [ fhir:v "Name/Nom" ] ;
+     fhir:definition [ fhir:v "Name/Nom" ]
+  ] [
+     fhir:code [ fhir:v "PEhSKbBKoXS" ] ;
+     fhir:display [ fhir:v "Names" ] ;
+     fhir:definition [ fhir:v "Names" ]
+  ] [
+     fhir:code [ fhir:v "O7P9OMwtpwL" ] ;
+     fhir:display [ fhir:v "National ID" ] ;
+     fhir:definition [ fhir:v "Patient National ID" ]
+  ] [
+     fhir:code [ fhir:v "haL5t4KtUis" ] ;
+     fhir:display [ fhir:v "National ID (new)" ] ;
+     fhir:definition [ fhir:v "National ID (new)" ]
+  ] [
+     fhir:code [ fhir:v "eiMG6z23BJh" ] ;
+     fhir:display [ fhir:v "Next of Kin Firstname" ] ;
+     fhir:definition [ fhir:v "Next of Kin Firstname" ]
+  ] [
+     fhir:code [ fhir:v "opFwwerYZzV" ] ;
+     fhir:display [ fhir:v "Next of Kin Lastname" ] ;
+     fhir:definition [ fhir:v "Next of kin LN" ]
+  ] [
+     fhir:code [ fhir:v "DLC9w54MA59" ] ;
+     fhir:display [ fhir:v "Next of Kin Telephone" ] ;
+     fhir:definition [ fhir:v "Next of Kin Phone" ]
+  ] [
+     fhir:code [ fhir:v "ZE2FHgj3EE1" ] ;
+     fhir:display [ fhir:v "Number of children" ] ;
+     fhir:definition [ fhir:v "Number of children" ]
+  ] [
+     fhir:code [ fhir:v "ZLdEQatuagP" ] ;
+     fhir:display [ fhir:v "Number of dependents" ] ;
+     fhir:definition [ fhir:v "Number of dependents" ]
+  ] [
+     fhir:code [ fhir:v "Ewi7FUfcHAD" ] ;
+     fhir:display [ fhir:v "Patient Unique ID" ] ;
+     fhir:definition [ fhir:v "Patient Unique ID" ]
+  ] [
+     fhir:code [ fhir:v "epBHliNRBLh" ] ;
+     fhir:display [ fhir:v "Phone number" ] ;
+     fhir:definition [ fhir:v "Phone number" ]
+  ] [
+     fhir:code [ fhir:v "CT6aPmeOhXw" ] ;
+     fhir:display [ fhir:v "Phone number_FSW" ] ;
+     fhir:definition [ fhir:v "Phone number_FSW" ]
+  ] [
+     fhir:code [ fhir:v "iCy9QPG9HY9" ] ;
+     fhir:display [ fhir:v "Place of Bith" ] ;
+     fhir:definition [ fhir:v "Place of Bith" ]
+  ] [
+     fhir:code [ fhir:v "j0RWl7MZZjF" ] ;
+     fhir:display [ fhir:v "Place of birth_FSW" ] ;
+     fhir:definition [ fhir:v "Place of birth_FSW" ]
+  ] [
+     fhir:code [ fhir:v "tbLiYMxG0M1" ] ;
+     fhir:display [ fhir:v "Place of first commercial sex_District" ] ;
+     fhir:definition [ fhir:v "Place of first commercial sex_District" ]
+  ] [
+     fhir:code [ fhir:v "GUd2L4V5Qu5" ] ;
+     fhir:display [ fhir:v "Plate number " ] ;
+     fhir:definition [ fhir:v "Plate number " ]
+  ] [
+     fhir:code [ fhir:v "TXDvRJ9wWBv" ] ;
+     fhir:display [ fhir:v "Pregnancy Number" ] ;
+     fhir:definition [ fhir:v "Pregnancy Number" ]
+  ] [
+     fhir:code [ fhir:v "xngC89Ip5E7" ] ;
+     fhir:display [ fhir:v "Program Type" ] ;
+     fhir:definition [ fhir:v "Program Type" ]
+  ] [
+     fhir:code [ fhir:v "nuqA7EFKonT" ] ;
+     fhir:display [ fhir:v "Program duration" ] ;
+     fhir:definition [ fhir:v "Program duration" ]
+  ] [
+     fhir:code [ fhir:v "l9WS5ketbhX" ] ;
+     fhir:display [ fhir:v "Province of next of kin" ] ;
+     fhir:definition [ fhir:v "Province of orgin" ]
+  ] [
+     fhir:code [ fhir:v "FBm5ftjnCj2" ] ;
+     fhir:display [ fhir:v "Province of residence" ] ;
+     fhir:definition [ fhir:v "Province of residence" ]
+  ] [
+     fhir:code [ fhir:v "bayoL96sEsL" ] ;
+     fhir:display [ fhir:v "Province of the client" ] ;
+     fhir:definition [ fhir:v "Province of the client" ]
+  ] [
+     fhir:code [ fhir:v "l70Rt7f0YNE" ] ;
+     fhir:display [ fhir:v "Register facilityName" ] ;
+     fhir:definition [ fhir:v "Register facilityName" ]
+  ] [
+     fhir:code [ fhir:v "I0RIIcxm6G3" ] ;
+     fhir:display [ fhir:v "Registration date" ] ;
+     fhir:definition [ fhir:v "Registration date" ]
+  ] [
+     fhir:code [ fhir:v "pDx163TL9N2" ] ;
+     fhir:display [ fhir:v "Relationship" ] ;
+     fhir:definition [ fhir:v "Relationship patient" ]
+  ] [
+     fhir:code [ fhir:v "ysatfqnP6ZJ" ] ;
+     fhir:display [ fhir:v "Rwanda nationality ?" ] ;
+     fhir:definition [ fhir:v "Rwanda nationality ?" ]
+  ] [
+     fhir:code [ fhir:v "wnfbyVsNj4h" ] ;
+     fhir:display [ fhir:v "Sector Current residence" ] ;
+     fhir:definition [ fhir:v "Sector Current residence" ]
+  ] [
+     fhir:code [ fhir:v "rXWNI9jQhXs" ] ;
+     fhir:display [ fhir:v "Sector of Residence" ] ;
+     fhir:definition [ fhir:v "Sector of Residence" ]
+  ] [
+     fhir:code [ fhir:v "bUnEh0yWeC0" ] ;
+     fhir:display [ fhir:v "Sector of next of kin" ] ;
+     fhir:definition [ fhir:v "Sector of orgin" ]
+  ] [
+     fhir:code [ fhir:v "rMxZNZXHIFQ" ] ;
+     fhir:display [ fhir:v "Sector of residence" ] ;
+     fhir:definition [ fhir:v "Sector of residence" ]
+  ] [
+     fhir:code [ fhir:v "T4oNeTO7Tk8" ] ;
+     fhir:display [ fhir:v "Sector of the client" ] ;
+     fhir:definition [ fhir:v "Sector of the client" ]
+  ] [
+     fhir:code [ fhir:v "CklPZdOd6H1" ] ;
+     fhir:display [ fhir:v "Sex" ] ;
+     fhir:definition [ fhir:v "Gender of Person" ]
+  ] [
+     fhir:code [ fhir:v "y1x29lfx2Pl" ] ;
+     fhir:display [ fhir:v "Sex of the client" ] ;
+     fhir:definition [ fhir:v "Sex of the client" ]
+  ] [
+     fhir:code [ fhir:v "KIWNuC2w5K7" ] ;
+     fhir:display [ fhir:v "Site_FSW" ] ;
+     fhir:definition [ fhir:v "Site_FSW" ]
+  ] [
+     fhir:code [ fhir:v "FIeADYwBKjB" ] ;
+     fhir:display [ fhir:v "Social Category" ] ;
+     fhir:definition [ fhir:v "Social Category" ]
+  ] [
+     fhir:code [ fhir:v "JE04bCG3rk2" ] ;
+     fhir:display [ fhir:v "Staff" ] ;
+     fhir:definition [ fhir:v "Staff" ]
+  ] [
+     fhir:code [ fhir:v "ldGZfMMlzFZ" ] ;
+     fhir:display [ fhir:v "Student Registration Number" ] ;
+     fhir:definition [ fhir:v "Student Registration Number" ]
+  ] [
+     fhir:code [ fhir:v "c18OAOb1qet" ] ;
+     fhir:display [ fhir:v "TB Case Number" ] ;
+     fhir:definition [ fhir:v "TB Case Number" ]
+  ] [
+     fhir:code [ fhir:v "BxV3tbviVZq" ] ;
+     fhir:display [ fhir:v "TB_Current age" ] ;
+     fhir:definition [ fhir:v "TB_Current age" ]
+  ] [
+     fhir:code [ fhir:v "t71wTbckFTI" ] ;
+     fhir:display [ fhir:v "Telefone ya Nyina" ] ;
+     fhir:definition [ fhir:v "Telefone ya Nyina" ]
+  ] [
+     fhir:code [ fhir:v "WamA2Upu9ii" ] ;
+     fhir:display [ fhir:v "Telefone ya Se Cyangwa Umurera" ] ;
+     fhir:definition [ fhir:v "Telefone ya Se Cyangwa Umurera" ]
+  ] [
+     fhir:code [ fhir:v "TueBWX6YRtp" ] ;
+     fhir:display [ fhir:v "Telefoni y'Umujyanama w'ubuzima" ] ;
+     fhir:definition [ fhir:v "Telefoni y'Umujyanama w'ubuzima" ]
+  ] [
+     fhir:code [ fhir:v "BvHmOeOGIG7" ] ;
+     fhir:display [ fhir:v "Telephone (new)" ] ;
+     fhir:definition [ fhir:v "Telephone (new)" ]
+  ] [
+     fhir:code [ fhir:v "pB7G5BZh6bJ" ] ;
+     fhir:display [ fhir:v "Telephone of the client" ] ;
+     fhir:definition [ fhir:v "Telephone Number" ]
+  ] [
+     fhir:code [ fhir:v "QyhGvFhiMF3" ] ;
+     fhir:display [ fhir:v "Twins or More" ] ;
+     fhir:definition [ fhir:v "Twins or More" ]
+  ] [
+     fhir:code [ fhir:v "zH60KBzMsBo" ] ;
+     fhir:display [ fhir:v "Ubudehe category" ] ;
+     fhir:definition [ fhir:v "Ubudehe category" ]
+  ] [
+     fhir:code [ fhir:v "Z5LvDzazkft" ] ;
+     fhir:display [ fhir:v "Ubwishingizi" ] ;
+     fhir:definition [ fhir:v "Ubwishingizi" ]
+  ] [
+     fhir:code [ fhir:v "utBUvfIq5Dl" ] ;
+     fhir:display [ fhir:v "Umudugudu" ] ;
+     fhir:definition [ fhir:v "Umudugudu" ]
+  ] [
+     fhir:code [ fhir:v "Za5dJxPRUfg" ] ;
+     fhir:display [ fhir:v "Umujyanama w'ubuzima" ] ;
+     fhir:definition [ fhir:v "Umujyanama w'ubuzima" ]
+  ] [
+     fhir:code [ fhir:v "HKAjtWQUMCq" ] ;
+     fhir:display [ fhir:v "Umurenge" ] ;
+     fhir:definition [ fhir:v "Umurenge" ]
+  ] [
+     fhir:code [ fhir:v "z0JpTH95uHR" ] ;
+     fhir:display [ fhir:v "Unique Identification Code_FSW" ] ;
+     fhir:definition [ fhir:v "Unique Identification Code_FSW" ]
+  ] [
+     fhir:code [ fhir:v "O5oZvRUPYIQ" ] ;
+     fhir:display [ fhir:v "Village Current residence" ] ;
+     fhir:definition [ fhir:v "Village Current residence" ]
+  ] [
+     fhir:code [ fhir:v "fSGeXjMM7Iw" ] ;
+     fhir:display [ fhir:v "Village of Residance" ] ;
+     fhir:definition [ fhir:v "Village of Residance" ]
+  ] [
+     fhir:code [ fhir:v "ZB2q2bG9j4s" ] ;
+     fhir:display [ fhir:v "Village of Residance (New)" ] ;
+     fhir:definition [ fhir:v "Village of Residance (New)" ]
+  ] [
+     fhir:code [ fhir:v "frmU1Hjwp6w" ] ;
+     fhir:display [ fhir:v "Village of next of kin" ] ;
+     fhir:definition [ fhir:v "Village of orgin" ]
+  ] [
+     fhir:code [ fhir:v "fSS6j77BXyo" ] ;
+     fhir:display [ fhir:v "Village of residence" ] ;
+     fhir:definition [ fhir:v "Village of residence" ]
+  ] [
+     fhir:code [ fhir:v "qq0Ly8akdYR" ] ;
+     fhir:display [ fhir:v "Village of the client" ] ;
+     fhir:definition [ fhir:v "Village of the client" ]
+  ] [
+     fhir:code [ fhir:v "IYm5bpgSe3Y" ] ;
+     fhir:display [ fhir:v "Villagecode" ] ;
+     fhir:definition [ fhir:v "Villagecode" ]
+  ] [
+     fhir:code [ fhir:v "niy3ldrnH1k" ] ;
+     fhir:display [ fhir:v "Vocation Training Received_FSW" ] ;
+     fhir:definition [ fhir:v "Vocation Training Received_FSW" ]
+  ] [
+     fhir:code [ fhir:v "t9i9Bc9MNwX" ] ;
+     fhir:display [ fhir:v "Warranty Duration (in months)" ] ;
+     fhir:definition [ fhir:v "Warranty Duration (in months)" ]
+  ] [
+     fhir:code [ fhir:v "aH29RtPc19V" ] ;
+     fhir:display [ fhir:v "Warranty start date" ] ;
+     fhir:definition [ fhir:v "Warranty start date" ]
+  ] [
+     fhir:code [ fhir:v "cM7Q2YcXhH0" ] ;
+     fhir:display [ fhir:v "Weight at Birth (Kgs)" ] ;
+     fhir:definition [ fhir:v "Weight at Birth (Kgs)" ]
+  ] [
+     fhir:code [ fhir:v "OPh3UFCaht4" ] ;
+     fhir:display [ fhir:v "Year of fabrication" ] ;
+     fhir:definition [ fhir:v "Year of fabrication" ]
+  ] [
+     fhir:code [ fhir:v "AE6ExmcrLmo" ] ;
+     fhir:display [ fhir:v "Year started commercial sex" ] ;
+     fhir:definition [ fhir:v "Year started commercial sex" ]
+  ] [
+     fhir:code [ fhir:v "dx3uJl25IKr" ] ;
+     fhir:display [ fhir:v "Yigeze avurwa" ] ;
+     fhir:definition [ fhir:v "Yigeze avurwa" ]
+  ] [
+     fhir:code [ fhir:v "Zf9XyUDtGFC" ] ;
+     fhir:display [ fhir:v "applicationNumber" ] ;
+     fhir:definition [ fhir:v "applicationNumber" ]
+  ] [
+     fhir:code [ fhir:v "csE2iyxUvZM" ] ;
+     fhir:display [ fhir:v "facilityOfficeType" ] ;
+     fhir:definition [ fhir:v "facilityOfficeType" ]
+  ] [
+     fhir:code [ fhir:v "LS3cqxurOem" ] ;
+     fhir:display [ fhir:v "notificationDate" ] ;
+     fhir:definition [ fhir:v "notificationDate" ]
+  ] [
+     fhir:code [ fhir:v "af8cbO1aI9Y" ] ;
+     fhir:display [ fhir:v "rbf-Mother TRACnet number" ] ;
+     fhir:definition [ fhir:v "rbf-Mother TRACnet number" ]
+  ] [
+     fhir:code [ fhir:v "C1V9Q8GeV2m" ] ;
+     fhir:display [ fhir:v "rbf_Did the child took Nevirapine at birth" ] ;
+     fhir:definition [ fhir:v "rbf_Did the child took Nevirapine at birth" ]
+  ] [
+     fhir:code [ fhir:v "d2g1HtmUlHj" ] ;
+     fhir:display [ fhir:v "rbf_Does HF have an exposed infant in the period April,May,June 2016" ] ;
+     fhir:definition [ fhir:v "rbf_Does HF have an exposed infant in the period April,May,June 2016" ]
+  ] [
+     fhir:code [ fhir:v "OBt2GiMHgHy" ] ;
+     fhir:display [ fhir:v "rbf_Does HF have an exposed infant in the period July,2016-June,2017?" ] ;
+     fhir:definition [ fhir:v "rbf_Does HF have an exposed infant in the period July,2016-June,2017?" ]
+  ] [
+     fhir:code [ fhir:v "eN57OHpTlQQ" ] ;
+     fhir:display [ fhir:v "rbf_Does HF have an exposed infant in the period July,2017-June,2018?" ] ;
+     fhir:definition [ fhir:v "rbf_Does HF have an exposed infant in the period July,2017-June,2018?" ]
+  ] [
+     fhir:code [ fhir:v "MuHGufOGFw9" ] ;
+     fhir:display [ fhir:v "rbf_Does HF have an exposed infant in the period July,2018-June,2019?" ] ;
+     fhir:definition [ fhir:v "rbf_Does HF have an exposed infant in the period July,2018-June,2019?" ]
+  ] [
+     fhir:code [ fhir:v "QN0VAPDV8BG" ] ;
+     fhir:display [ fhir:v "rbf_Does HF have an exposed infant in the period July,2019-June,2020?" ] ;
+     fhir:definition [ fhir:v "rbf_Does HF have an exposed infant in the period July,2019-June,2020?" ]
+  ] [
+     fhir:code [ fhir:v "tkcL6xyUGjN" ] ;
+     fhir:display [ fhir:v "rbf_ID" ] ;
+     fhir:definition [ fhir:v "rbf_ID" ]
+  ] [
+     fhir:code [ fhir:v "Tiz0xDPMXC9" ] ;
+     fhir:display [ fhir:v "rbf_Patient DoB" ] ;
+     fhir:definition [ fhir:v "rbf_Patient DoB" ]
+  ] [
+     fhir:code [ fhir:v "QzUggPwl61f" ] ;
+     fhir:display [ fhir:v "rbf_Patient Tracknet Number" ] ;
+     fhir:definition [ fhir:v "rbf_Patient Tracknet Number" ]
+  ] [
+     fhir:code [ fhir:v "axUuQMzM1PD" ] ;
+     fhir:display [ fhir:v "rbf_Patient sex" ] ;
+     fhir:definition [ fhir:v "rbf_Patient sex" ]
+  ] [
+     fhir:code [ fhir:v "ATMg1kDxkZi" ] ;
+     fhir:display [ fhir:v "rbf_Regisration date" ] ;
+     fhir:definition [ fhir:v "rbf_Regisration date" ]
+  ] [
+     fhir:code [ fhir:v "W0p422otuka" ] ;
+     fhir:display [ fhir:v "rbf_Registration place" ] ;
+     fhir:definition [ fhir:v "rbf_Registration place" ]
+  ] [
+     fhir:code [ fhir:v "oMCcGOzPpOI" ] ;
+     fhir:display [ fhir:v "rbf_month of birth " ] ;
+     fhir:definition [ fhir:v "rbf_month of birth " ]
+  ] [
+     fhir:code [ fhir:v "C6XGReyQjst" ] ;
+     fhir:display [ fhir:v "rbf_month of birth old" ] ;
+     fhir:definition [ fhir:v "rbf_month of birth old" ]
+  ] [
+     fhir:code [ fhir:v "ztFYx9bppif" ] ;
+     fhir:display [ fhir:v "rbf_order number" ] ;
+     fhir:definition [ fhir:v "rbf_order number" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

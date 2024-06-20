@@ -1,4 +1,8 @@
 Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
-/fsh-generated/resources/ImplementationGuide-dhis2-rwanda-attribute-harmonization.json	1702	-	0	0	0	0	0	0	11	90	0	0	0	0	0	0	0	0	0	0	88	59	0	0	0	3	0	0
-fsh-generated/resources/Patient-PatientExample.json	248	12	0	0	0	0	0	0	0	27	0	0	0	0	0	0	0	0	0	0	12	16	0	0	1	0	0	0
-fsh-generated/resources/StructureDefinition-MyPatient.json	596	12	1	0	0	0	0	93	0	69	0	0	0	0	0	0	0	2	0	0	235	1655	0	0	0	9	1	1
+/fsh-generated/resources/ImplementationGuide-dhis2-rwanda-attribute-harmonization.json	2773	-	0	0	0	0	0	0	8	49	0	0	0	0	0	0	0	0	0	0	95	68	0	0	0	2	0	1
+fsh-generated/resources/CodeSystem-DHIS2Attributes.json	26329	15	1	0	1	0	0	0	4	56	0	0	1	0	0	0	0	1	0	0	204	1690	0	0	0	8	0	0
+fsh-generated/resources/Patient-PatientExample.json	248	13	0	0	0	0	0	0	0	16	0	0	0	0	0	0	0	0	0	0	13	13	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-AmbulanceActivityReport.json	5472	11	0	0	0	0	0	18	0	31	0	0	0	0	0	0	0	1	0	0	92	645	0	0	0	2	0	0
+fsh-generated/resources/StructureDefinition-BirthRegistration.json	18025	17	0	0	0	0	0	22	0	30	0	0	0	0	0	0	0	0	0	0	250	606	0	0	0	6	0	0
+fsh-generated/resources/StructureDefinition-Immunization.json	17550	22	0	0	0	0	0	21	0	30	0	0	0	0	0	0	0	0	0	0	252	477	0	0	0	5	0	1
+fsh-generated/resources/StructureDefinition-MyPatient.json	596	13	0	0	0	0	0	50	0	21	0	0	0	0	0	0	0	1	0	0	204	814	0	0	0	10	0	0

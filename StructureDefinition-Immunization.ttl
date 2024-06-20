@@ -1,0 +1,1261 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/StructureDefinition/Immunization> a fhir:StructureDefinition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Immunization"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;\"><tr style=\"border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top\"><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"The logical name of the element\">Name</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Information about the use of the element\">Flags</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Minimum and Maximum # of times the the element can appear in the instance\">Card.</a></th><th style=\"width: 100px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Reference to the type of the element\">Type</a></th><th style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Additional information about the element\">Description &amp; Constraints</a><span style=\"float: right\"><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/></a></span></th></tr><tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_element.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Element\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization\" title=\"Attributes for the 'Immunization' tracker program.\">Immunization</a><a name=\"Immunization\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><span style=\"opacity: 0.5\">0</span><span style=\"opacity: 0.5\">..</span><span style=\"opacity: 0.5\">*</span></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://build.fhir.org/types.html#Base\">Base</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Immunization<br/><span style=\"font-weight:bold\">Instances of this logical model are not marked to be the target of a Reference</span></td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.autoGenChildId\" title=\"Auto Gen Child ID\">autoGenChildId</a><a name=\"Immunization.autoGenChildId\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Auto Gen Child ID</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.citizenship\" title=\"Citizenship\">citizenship</a><a name=\"Immunization.citizenship\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Citizenship</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.childId\" title=\"Child ID (Register number)\">childId</a><a name=\"Immunization.childId\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Child ID (Register number)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.nin\" title=\"NIN\">nin</a><a name=\"Immunization.nin\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">NIN</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.applicationnumber\" title=\"applicationNumber\">applicationnumber</a><a name=\"Immunization.applicationnumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">applicationNumber</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.firstName\" title=\"First Name\">firstName</a><a name=\"Immunization.firstName\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">First Name</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.familyName\" title=\"Family Name\">familyName</a><a name=\"Immunization.familyName\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Family Name</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.dateOfBirth\" title=\"Date of birth\">dateOfBirth</a><a name=\"Immunization.dateOfBirth\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Date of birth</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.twinsOrMore\" title=\"Twins or More\">twinsOrMore</a><a name=\"Immunization.twinsOrMore\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Twins or More</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.placeOfBith\" title=\"Place of Bith\">placeOfBith</a><a name=\"Immunization.placeOfBith\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Place of Bith</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.gender\" title=\"Gender\">gender</a><a name=\"Immunization.gender\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">1..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Gender</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.weightAtBirth\" title=\"Weight at Birth (Kgs)\">weightAtBirth</a><a name=\"Immunization.weightAtBirth\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#decimal\">decimal</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Weight at Birth (Kgs)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.heightAtBirth\" title=\"Height at Birth(Cm)\">heightAtBirth</a><a name=\"Immunization.heightAtBirth\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#decimal\">decimal</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Height at Birth(Cm)</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.pregnancyNumber\" title=\"Pregnancy Number\">pregnancyNumber</a><a name=\"Immunization.pregnancyNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#decimal\">decimal</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Pregnancy Number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.caretaker\" title=\"Caretaker\">caretaker</a><a name=\"Immunization.caretaker\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Caretaker</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.mothersNames\" title=\"Mothers Names\">mothersNames</a><a name=\"Immunization.mothersNames\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Mothers Names</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.mothersPhoneNumber\" title=\"Mothers Phone Number\">mothersPhoneNumber</a><a name=\"Immunization.mothersPhoneNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#ContactPoint\">ContactPoint</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Mothers Phone Number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.motherSIdNumber\" title=\"Mother s ID number\">motherSIdNumber</a><a name=\"Immunization.motherSIdNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Mother s ID number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.mothersDateOfBirth\" title=\"Mothers Date of Birth\">mothersDateOfBirth</a><a name=\"Immunization.mothersDateOfBirth\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#date\">date</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Mothers Date of Birth</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.mothersEducationLevel\" title=\"Mothers Education Level\">mothersEducationLevel</a><a name=\"Immunization.mothersEducationLevel\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Mothers Education Level</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.fatherNames\" title=\"Father Names\">fatherNames</a><a name=\"Immunization.fatherNames\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Father Names</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.fatherPhoneNumber\" title=\"Father Phone Number\">fatherPhoneNumber</a><a name=\"Immunization.fatherPhoneNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#ContactPoint\">ContactPoint</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Father Phone Number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.fathersIdNumber\" title=\"Fathers ID Number\">fathersIdNumber</a><a name=\"Immunization.fathersIdNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Fathers ID Number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.fatherEducationLevel\" title=\"Father Education Level\">fatherEducationLevel</a><a name=\"Immunization.fatherEducationLevel\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Father Education Level</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.caretakerNames\" title=\"Caretaker Names\">caretakerNames</a><a name=\"Immunization.caretakerNames\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Caretaker Names</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_datatype.gif\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.caretakerPhoneNumber\" title=\"Caretaker Phone Number\">caretakerPhoneNumber</a><a name=\"Immunization.caretakerPhoneNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#ContactPoint\">ContactPoint</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Caretaker Phone Number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.caretakerIdNumber\" title=\"Caretaker ID Number\">caretakerIdNumber</a><a name=\"Immunization.caretakerIdNumber\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Caretaker ID Number</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.socialCategory\" title=\"Social Category\">socialCategory</a><a name=\"Immunization.socialCategory\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Social Category</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.provinceOfResidence\" title=\"Province of residence\">provinceOfResidence</a><a name=\"Immunization.provinceOfResidence\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Province of residence</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.districtOfResidenceVacc\" title=\"District of residence_vacc\">districtOfResidenceVacc</a><a name=\"Immunization.districtOfResidenceVacc\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#code\">code</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">District of residence_vacc</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_reference.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Reference to another Resource\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.sectorOfResidence\" title=\"Sector of Residence\">sectorOfResidence</a><a name=\"Immunization.sectorOfResidence\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/references.html\">Reference</a>(<a href=\"http://hl7.org/fhir/R4/organization.html\">Organization</a>)</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Sector of Residence</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.cellOfResidance\" title=\"Cell of Residance\">cellOfResidance</a><a name=\"Immunization.cellOfResidance\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Cell of Residance</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.villageOfResidance\" title=\"Village of Residance\">villageOfResidance</a><a name=\"Immunization.villageOfResidance\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Village of Residance</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.villagecode\" title=\"Villagecode\">villagecode</a><a name=\"Immunization.villagecode\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#string\">string</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Villagecode</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7\"><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: #F7F7F7; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.inEirAndCrvs\" title=\"In EIR and CRVS\">inEirAndCrvs</a><a name=\"Immunization.inEirAndCrvs\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">In EIR and CRVS</td></tr>\r\n<tr style=\"border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white\"><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)\" class=\"hierarchy\"><img src=\"tbl_spacer.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"tbl_vjoin_end.png\" alt=\".\" style=\"background-color: inherit\" class=\"hierarchy\"/><img src=\"icon_primitive.png\" alt=\".\" style=\"background-color: white; background-color: inherit\" title=\"Primitive Data Type\" class=\"hierarchy\"/> <a href=\"StructureDefinition-Immunization-definitions.html#Immunization.isDead\" title=\"Is Dead\">isDead</a><a name=\"Immunization.isDead\"> </a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"/><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">0..1</td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\"><a href=\"http://hl7.org/fhir/R4/datatypes.html#boolean\">boolean</a></td><td style=\"vertical-align: top; text-align : left; background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px\" class=\"hierarchy\">Is Dead</td></tr>\r\n<tr><td colspan=\"5\" class=\"hierarchy\"><br/><a href=\"https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views\" title=\"Legend for this format\"><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3goXBCwdPqAP0wAAAldJREFUOMuNk0tIlFEYhp9z/vE2jHkhxXA0zJCMitrUQlq4lnSltEqCFhFG2MJFhIvIFpkEWaTQqjaWZRkp0g26URZkTpbaaOJkDqk10szoODP//7XIMUe0elcfnPd9zsfLOYplGrpRwZaqTtw3K7PtGem7Q6FoidbGgqHVy/HRb669R+56zx7eRV1L31JGxYbBtjKK93cxeqfyQHbehkZbUkK20goELEuIzEd+dHS+qz/Y8PTSif0FnGkbiwcAjHaU1+QWOptFiyCLp/LnKptpqIuXHx6rbR26kJcBX3yLgBfnd7CxwJmflpP2wUg0HIAoUUpZBmKzELGWcN8nAr6Gpu7tLU/CkwAaoKTWRSQyt89Q8w6J+oVQkKnBoblH7V0PPvUOvDYXfopE/SJmALsxnVm6LbkotrUtNowMeIrVrBcBpaMmdS0j9df7abpSuy7HWehwJdt1lhVwi/J58U5beXGAF6c3UXLycw1wdFklArBn87xdh0ZsZtArghBdAA3+OEDVubG4UEzP6x1FOWneHh2VDAHBAt80IbdXDcesNoCvs3E5AFyNSU5nbrDPZpcUEQQTFZiEVx+51fxMhhyJEAgvlriadIJZZksRuwBYMOPBbO3hePVVqgEJhFeUuFLhIPkRP6BQLIBrmMenujm/3g4zc398awIe90Zb5A1vREALqneMcYgP/xVQWlG+Ncu5vgwwlaUNx+3799rfe96u9K0JSDXcOzOTJg4B6IgmXfsygc7/Bvg9g9E58/cDVmGIBOP/zT8Bz1zqWqpbXIsd0O9hajXfL6u4BaOS6SeWAAAAAElFTkSuQmCC\" alt=\"doco\" style=\"background-color: inherit\"/> Documentation for this format</a></td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/StructureDefinition/Immunization"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "Immunization"] ; # 
+  fhir:title [ fhir:v "Immunization"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-06-20T14:32:32+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "Attributes for the 'Immunization' tracker program."] ; # 
+  fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
+  fhir:kind [ fhir:v "logical"] ; # 
+  fhir:abstract [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:type [ fhir:v "https://dhis2.org/StructureDefinition/Immunization"^^xsd:anyURI] ; # 
+  fhir:baseDefinition [
+     fhir:v "http://hl7.org/fhir/StructureDefinition/Base"^^xsd:anyURI ;
+     fhir:link <http://hl7.org/fhir/StructureDefinition/Base>
+  ] ; # 
+  fhir:derivation [ fhir:v "specialization"] ; # 
+  fhir:snapshot [
+     fhir:element ( [
+       fhir:id [ fhir:v "Immunization" ] ;
+       fhir:path [ fhir:v "Immunization" ] ;
+       fhir:short [ fhir:v "Immunization" ] ;
+       fhir:definition [ fhir:v "Attributes for the 'Immunization' tracker program." ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "*" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Base" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "*" ]
+       ] ;
+       fhir:isModifier [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:id [ fhir:v "Immunization.autoGenChildId" ] ;
+       fhir:path [ fhir:v "Immunization.autoGenChildId" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "jKahvk7wiQf" ]
+       ] ) ;
+       fhir:short [ fhir:v "Auto Gen Child ID" ] ;
+       fhir:definition [ fhir:v "Auto Gen Child ID" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.autoGenChildId" ] ;
+         fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.citizenship" ] ;
+       fhir:path [ fhir:v "Immunization.citizenship" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "VYEGPSgn908" ]
+       ] ) ;
+       fhir:short [ fhir:v "Citizenship" ] ;
+       fhir:definition [ fhir:v "Citizenship" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.citizenship" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.childId" ] ;
+       fhir:path [ fhir:v "Immunization.childId" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "yBT0DI1TTbT" ]
+       ] ) ;
+       fhir:short [ fhir:v "Child ID (Register number)" ] ;
+       fhir:definition [ fhir:v "Child ID (Register number)" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.childId" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.nin" ] ;
+       fhir:path [ fhir:v "Immunization.nin" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "lzae3BtWOIZ" ]
+       ] ) ;
+       fhir:short [ fhir:v "NIN" ] ;
+       fhir:definition [ fhir:v "NIN" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.nin" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.applicationnumber" ] ;
+       fhir:path [ fhir:v "Immunization.applicationnumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Zf9XyUDtGFC" ]
+       ] ) ;
+       fhir:short [ fhir:v "applicationNumber" ] ;
+       fhir:definition [ fhir:v "applicationNumber" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.applicationnumber" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.firstName" ] ;
+       fhir:path [ fhir:v "Immunization.firstName" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "e9BrRZAicPE" ]
+       ] ) ;
+       fhir:short [ fhir:v "First Name" ] ;
+       fhir:definition [ fhir:v "First Name" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.firstName" ] ;
+         fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.familyName" ] ;
+       fhir:path [ fhir:v "Immunization.familyName" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "sah5bll9Y6Q" ]
+       ] ) ;
+       fhir:short [ fhir:v "Family Name" ] ;
+       fhir:definition [ fhir:v "Family Name" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.familyName" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.dateOfBirth" ] ;
+       fhir:path [ fhir:v "Immunization.dateOfBirth" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "A31FfrjPqyp" ]
+       ] ) ;
+       fhir:short [ fhir:v "Date of birth" ] ;
+       fhir:definition [ fhir:v "Date of birth" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.dateOfBirth" ] ;
+         fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "date"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.twinsOrMore" ] ;
+       fhir:path [ fhir:v "Immunization.twinsOrMore" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "QyhGvFhiMF3" ]
+       ] ) ;
+       fhir:short [ fhir:v "Twins or More" ] ;
+       fhir:definition [ fhir:v "Twins or More" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.twinsOrMore" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "boolean"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.placeOfBith" ] ;
+       fhir:path [ fhir:v "Immunization.placeOfBith" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "iCy9QPG9HY9" ]
+       ] ) ;
+       fhir:short [ fhir:v "Place of Bith" ] ;
+       fhir:definition [ fhir:v "Place of Bith" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.placeOfBith" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.gender" ] ;
+       fhir:path [ fhir:v "Immunization.gender" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Rq4qM2wKYFL" ]
+       ] ) ;
+       fhir:short [ fhir:v "Gender" ] ;
+       fhir:definition [ fhir:v "Gender" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.gender" ] ;
+         fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.weightAtBirth" ] ;
+       fhir:path [ fhir:v "Immunization.weightAtBirth" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "cM7Q2YcXhH0" ]
+       ] ) ;
+       fhir:short [ fhir:v "Weight at Birth (Kgs)" ] ;
+       fhir:definition [ fhir:v "Weight at Birth (Kgs)" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.weightAtBirth" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "decimal"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.heightAtBirth" ] ;
+       fhir:path [ fhir:v "Immunization.heightAtBirth" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "yXIS60L4z9a" ]
+       ] ) ;
+       fhir:short [ fhir:v "Height at Birth(Cm)" ] ;
+       fhir:definition [ fhir:v "Height at Birth(Cm)" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.heightAtBirth" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "decimal"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.pregnancyNumber" ] ;
+       fhir:path [ fhir:v "Immunization.pregnancyNumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "TXDvRJ9wWBv" ]
+       ] ) ;
+       fhir:short [ fhir:v "Pregnancy Number" ] ;
+       fhir:definition [ fhir:v "Pregnancy Number" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.pregnancyNumber" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "decimal"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.caretaker" ] ;
+       fhir:path [ fhir:v "Immunization.caretaker" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "E5D1aKa2eFb" ]
+       ] ) ;
+       fhir:short [ fhir:v "Caretaker" ] ;
+       fhir:definition [ fhir:v "Caretaker" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.caretaker" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.mothersNames" ] ;
+       fhir:path [ fhir:v "Immunization.mothersNames" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "RzPmWr82V3p" ]
+       ] ) ;
+       fhir:short [ fhir:v "Mothers Names" ] ;
+       fhir:definition [ fhir:v "Mothers Names" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.mothersNames" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.mothersPhoneNumber" ] ;
+       fhir:path [ fhir:v "Immunization.mothersPhoneNumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "IBcgUcOzYgB" ]
+       ] ) ;
+       fhir:short [ fhir:v "Mothers Phone Number" ] ;
+       fhir:definition [ fhir:v "Mothers Phone Number" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.mothersPhoneNumber" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "ContactPoint"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.motherSIdNumber" ] ;
+       fhir:path [ fhir:v "Immunization.motherSIdNumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "vBlHJN5gPSi" ]
+       ] ) ;
+       fhir:short [ fhir:v "Mother s ID number" ] ;
+       fhir:definition [ fhir:v "Mother s ID number" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.motherSIdNumber" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.mothersDateOfBirth" ] ;
+       fhir:path [ fhir:v "Immunization.mothersDateOfBirth" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "cUTcjBma2jK" ]
+       ] ) ;
+       fhir:short [ fhir:v "Mothers Date of Birth" ] ;
+       fhir:definition [ fhir:v "Mothers Date of Birth" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.mothersDateOfBirth" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "date"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.mothersEducationLevel" ] ;
+       fhir:path [ fhir:v "Immunization.mothersEducationLevel" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "YDWk8qQbFOh" ]
+       ] ) ;
+       fhir:short [ fhir:v "Mothers Education Level" ] ;
+       fhir:definition [ fhir:v "Mothers Education Level" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.mothersEducationLevel" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.fatherNames" ] ;
+       fhir:path [ fhir:v "Immunization.fatherNames" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "uLotdmVESxa" ]
+       ] ) ;
+       fhir:short [ fhir:v "Father Names" ] ;
+       fhir:definition [ fhir:v "Father Names" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.fatherNames" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.fatherPhoneNumber" ] ;
+       fhir:path [ fhir:v "Immunization.fatherPhoneNumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "AClDcrZs6R3" ]
+       ] ) ;
+       fhir:short [ fhir:v "Father Phone Number" ] ;
+       fhir:definition [ fhir:v "Father Phone Number" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.fatherPhoneNumber" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "ContactPoint"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.fathersIdNumber" ] ;
+       fhir:path [ fhir:v "Immunization.fathersIdNumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "KsNhcMy9iwH" ]
+       ] ) ;
+       fhir:short [ fhir:v "Fathers ID Number" ] ;
+       fhir:definition [ fhir:v "Fathers ID Number" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.fathersIdNumber" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.fatherEducationLevel" ] ;
+       fhir:path [ fhir:v "Immunization.fatherEducationLevel" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "hTdA8G5ZCEm" ]
+       ] ) ;
+       fhir:short [ fhir:v "Father Education Level" ] ;
+       fhir:definition [ fhir:v "Father Education Level" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.fatherEducationLevel" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.caretakerNames" ] ;
+       fhir:path [ fhir:v "Immunization.caretakerNames" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "OjVFFLxlAbo" ]
+       ] ) ;
+       fhir:short [ fhir:v "Caretaker Names" ] ;
+       fhir:definition [ fhir:v "Caretaker Names" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.caretakerNames" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.caretakerPhoneNumber" ] ;
+       fhir:path [ fhir:v "Immunization.caretakerPhoneNumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "MfQkSwP7hiP" ]
+       ] ) ;
+       fhir:short [ fhir:v "Caretaker Phone Number" ] ;
+       fhir:definition [ fhir:v "Caretaker Phone Number" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.caretakerPhoneNumber" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "ContactPoint"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.caretakerIdNumber" ] ;
+       fhir:path [ fhir:v "Immunization.caretakerIdNumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "QF1ewXEBT0o" ]
+       ] ) ;
+       fhir:short [ fhir:v "Caretaker ID Number" ] ;
+       fhir:definition [ fhir:v "Caretaker ID Number" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.caretakerIdNumber" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.socialCategory" ] ;
+       fhir:path [ fhir:v "Immunization.socialCategory" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "FIeADYwBKjB" ]
+       ] ) ;
+       fhir:short [ fhir:v "Social Category" ] ;
+       fhir:definition [ fhir:v "Social Category" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.socialCategory" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.provinceOfResidence" ] ;
+       fhir:path [ fhir:v "Immunization.provinceOfResidence" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "FBm5ftjnCj2" ]
+       ] ) ;
+       fhir:short [ fhir:v "Province of residence" ] ;
+       fhir:definition [ fhir:v "Province of residence" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.provinceOfResidence" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.districtOfResidenceVacc" ] ;
+       fhir:path [ fhir:v "Immunization.districtOfResidenceVacc" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "getkVaLr2bw" ]
+       ] ) ;
+       fhir:short [ fhir:v "District of residence_vacc" ] ;
+       fhir:definition [ fhir:v "District of residence_vacc" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.districtOfResidenceVacc" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.sectorOfResidence" ] ;
+       fhir:path [ fhir:v "Immunization.sectorOfResidence" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "rXWNI9jQhXs" ]
+       ] ) ;
+       fhir:short [ fhir:v "Sector of Residence" ] ;
+       fhir:definition [ fhir:v "Sector of Residence" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.sectorOfResidence" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
+         fhir:targetProfile ( [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+         ] )
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.cellOfResidance" ] ;
+       fhir:path [ fhir:v "Immunization.cellOfResidance" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "t8YUbhAXCoq" ]
+       ] ) ;
+       fhir:short [ fhir:v "Cell of Residance" ] ;
+       fhir:definition [ fhir:v "Cell of Residance" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.cellOfResidance" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.villageOfResidance" ] ;
+       fhir:path [ fhir:v "Immunization.villageOfResidance" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "fSGeXjMM7Iw" ]
+       ] ) ;
+       fhir:short [ fhir:v "Village of Residance" ] ;
+       fhir:definition [ fhir:v "Village of Residance" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.villageOfResidance" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.villagecode" ] ;
+       fhir:path [ fhir:v "Immunization.villagecode" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "IYm5bpgSe3Y" ]
+       ] ) ;
+       fhir:short [ fhir:v "Villagecode" ] ;
+       fhir:definition [ fhir:v "Villagecode" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.villagecode" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.inEirAndCrvs" ] ;
+       fhir:path [ fhir:v "Immunization.inEirAndCrvs" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "HnnLtwqPI7v" ]
+       ] ) ;
+       fhir:short [ fhir:v "In EIR and CRVS" ] ;
+       fhir:definition [ fhir:v "In EIR and CRVS" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.inEirAndCrvs" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "boolean"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.isDead" ] ;
+       fhir:path [ fhir:v "Immunization.isDead" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "EzCMBhxLaKU" ]
+       ] ) ;
+       fhir:short [ fhir:v "Is Dead" ] ;
+       fhir:definition [ fhir:v "Is Dead" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:base [
+         fhir:path [ fhir:v "Immunization.isDead" ] ;
+         fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+         fhir:max [ fhir:v "1" ]
+       ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "boolean"^^xsd:anyURI ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:differential [
+     fhir:element ( [
+       fhir:id [ fhir:v "Immunization" ] ;
+       fhir:path [ fhir:v "Immunization" ] ;
+       fhir:short [ fhir:v "Immunization" ] ;
+       fhir:definition [ fhir:v "Attributes for the 'Immunization' tracker program." ]
+     ] [
+       fhir:id [ fhir:v "Immunization.autoGenChildId" ] ;
+       fhir:path [ fhir:v "Immunization.autoGenChildId" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "jKahvk7wiQf" ]
+       ] ) ;
+       fhir:short [ fhir:v "Auto Gen Child ID" ] ;
+       fhir:definition [ fhir:v "Auto Gen Child ID" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.citizenship" ] ;
+       fhir:path [ fhir:v "Immunization.citizenship" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "VYEGPSgn908" ]
+       ] ) ;
+       fhir:short [ fhir:v "Citizenship" ] ;
+       fhir:definition [ fhir:v "Citizenship" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.childId" ] ;
+       fhir:path [ fhir:v "Immunization.childId" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "yBT0DI1TTbT" ]
+       ] ) ;
+       fhir:short [ fhir:v "Child ID (Register number)" ] ;
+       fhir:definition [ fhir:v "Child ID (Register number)" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.nin" ] ;
+       fhir:path [ fhir:v "Immunization.nin" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "lzae3BtWOIZ" ]
+       ] ) ;
+       fhir:short [ fhir:v "NIN" ] ;
+       fhir:definition [ fhir:v "NIN" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.applicationnumber" ] ;
+       fhir:path [ fhir:v "Immunization.applicationnumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Zf9XyUDtGFC" ]
+       ] ) ;
+       fhir:short [ fhir:v "applicationNumber" ] ;
+       fhir:definition [ fhir:v "applicationNumber" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.firstName" ] ;
+       fhir:path [ fhir:v "Immunization.firstName" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "e9BrRZAicPE" ]
+       ] ) ;
+       fhir:short [ fhir:v "First Name" ] ;
+       fhir:definition [ fhir:v "First Name" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.familyName" ] ;
+       fhir:path [ fhir:v "Immunization.familyName" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "sah5bll9Y6Q" ]
+       ] ) ;
+       fhir:short [ fhir:v "Family Name" ] ;
+       fhir:definition [ fhir:v "Family Name" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.dateOfBirth" ] ;
+       fhir:path [ fhir:v "Immunization.dateOfBirth" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "A31FfrjPqyp" ]
+       ] ) ;
+       fhir:short [ fhir:v "Date of birth" ] ;
+       fhir:definition [ fhir:v "Date of birth" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "date"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.twinsOrMore" ] ;
+       fhir:path [ fhir:v "Immunization.twinsOrMore" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "QyhGvFhiMF3" ]
+       ] ) ;
+       fhir:short [ fhir:v "Twins or More" ] ;
+       fhir:definition [ fhir:v "Twins or More" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "boolean"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.placeOfBith" ] ;
+       fhir:path [ fhir:v "Immunization.placeOfBith" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "iCy9QPG9HY9" ]
+       ] ) ;
+       fhir:short [ fhir:v "Place of Bith" ] ;
+       fhir:definition [ fhir:v "Place of Bith" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.gender" ] ;
+       fhir:path [ fhir:v "Immunization.gender" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "Rq4qM2wKYFL" ]
+       ] ) ;
+       fhir:short [ fhir:v "Gender" ] ;
+       fhir:definition [ fhir:v "Gender" ] ;
+       fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.weightAtBirth" ] ;
+       fhir:path [ fhir:v "Immunization.weightAtBirth" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "cM7Q2YcXhH0" ]
+       ] ) ;
+       fhir:short [ fhir:v "Weight at Birth (Kgs)" ] ;
+       fhir:definition [ fhir:v "Weight at Birth (Kgs)" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "decimal"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.heightAtBirth" ] ;
+       fhir:path [ fhir:v "Immunization.heightAtBirth" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "yXIS60L4z9a" ]
+       ] ) ;
+       fhir:short [ fhir:v "Height at Birth(Cm)" ] ;
+       fhir:definition [ fhir:v "Height at Birth(Cm)" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "decimal"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.pregnancyNumber" ] ;
+       fhir:path [ fhir:v "Immunization.pregnancyNumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "TXDvRJ9wWBv" ]
+       ] ) ;
+       fhir:short [ fhir:v "Pregnancy Number" ] ;
+       fhir:definition [ fhir:v "Pregnancy Number" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "decimal"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.caretaker" ] ;
+       fhir:path [ fhir:v "Immunization.caretaker" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "E5D1aKa2eFb" ]
+       ] ) ;
+       fhir:short [ fhir:v "Caretaker" ] ;
+       fhir:definition [ fhir:v "Caretaker" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.mothersNames" ] ;
+       fhir:path [ fhir:v "Immunization.mothersNames" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "RzPmWr82V3p" ]
+       ] ) ;
+       fhir:short [ fhir:v "Mothers Names" ] ;
+       fhir:definition [ fhir:v "Mothers Names" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.mothersPhoneNumber" ] ;
+       fhir:path [ fhir:v "Immunization.mothersPhoneNumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "IBcgUcOzYgB" ]
+       ] ) ;
+       fhir:short [ fhir:v "Mothers Phone Number" ] ;
+       fhir:definition [ fhir:v "Mothers Phone Number" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "ContactPoint"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.motherSIdNumber" ] ;
+       fhir:path [ fhir:v "Immunization.motherSIdNumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "vBlHJN5gPSi" ]
+       ] ) ;
+       fhir:short [ fhir:v "Mother s ID number" ] ;
+       fhir:definition [ fhir:v "Mother s ID number" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.mothersDateOfBirth" ] ;
+       fhir:path [ fhir:v "Immunization.mothersDateOfBirth" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "cUTcjBma2jK" ]
+       ] ) ;
+       fhir:short [ fhir:v "Mothers Date of Birth" ] ;
+       fhir:definition [ fhir:v "Mothers Date of Birth" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "date"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.mothersEducationLevel" ] ;
+       fhir:path [ fhir:v "Immunization.mothersEducationLevel" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "YDWk8qQbFOh" ]
+       ] ) ;
+       fhir:short [ fhir:v "Mothers Education Level" ] ;
+       fhir:definition [ fhir:v "Mothers Education Level" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.fatherNames" ] ;
+       fhir:path [ fhir:v "Immunization.fatherNames" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "uLotdmVESxa" ]
+       ] ) ;
+       fhir:short [ fhir:v "Father Names" ] ;
+       fhir:definition [ fhir:v "Father Names" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.fatherPhoneNumber" ] ;
+       fhir:path [ fhir:v "Immunization.fatherPhoneNumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "AClDcrZs6R3" ]
+       ] ) ;
+       fhir:short [ fhir:v "Father Phone Number" ] ;
+       fhir:definition [ fhir:v "Father Phone Number" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "ContactPoint"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.fathersIdNumber" ] ;
+       fhir:path [ fhir:v "Immunization.fathersIdNumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "KsNhcMy9iwH" ]
+       ] ) ;
+       fhir:short [ fhir:v "Fathers ID Number" ] ;
+       fhir:definition [ fhir:v "Fathers ID Number" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.fatherEducationLevel" ] ;
+       fhir:path [ fhir:v "Immunization.fatherEducationLevel" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "hTdA8G5ZCEm" ]
+       ] ) ;
+       fhir:short [ fhir:v "Father Education Level" ] ;
+       fhir:definition [ fhir:v "Father Education Level" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.caretakerNames" ] ;
+       fhir:path [ fhir:v "Immunization.caretakerNames" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "OjVFFLxlAbo" ]
+       ] ) ;
+       fhir:short [ fhir:v "Caretaker Names" ] ;
+       fhir:definition [ fhir:v "Caretaker Names" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.caretakerPhoneNumber" ] ;
+       fhir:path [ fhir:v "Immunization.caretakerPhoneNumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "MfQkSwP7hiP" ]
+       ] ) ;
+       fhir:short [ fhir:v "Caretaker Phone Number" ] ;
+       fhir:definition [ fhir:v "Caretaker Phone Number" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "ContactPoint"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.caretakerIdNumber" ] ;
+       fhir:path [ fhir:v "Immunization.caretakerIdNumber" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "QF1ewXEBT0o" ]
+       ] ) ;
+       fhir:short [ fhir:v "Caretaker ID Number" ] ;
+       fhir:definition [ fhir:v "Caretaker ID Number" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.socialCategory" ] ;
+       fhir:path [ fhir:v "Immunization.socialCategory" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "FIeADYwBKjB" ]
+       ] ) ;
+       fhir:short [ fhir:v "Social Category" ] ;
+       fhir:definition [ fhir:v "Social Category" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.provinceOfResidence" ] ;
+       fhir:path [ fhir:v "Immunization.provinceOfResidence" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "FBm5ftjnCj2" ]
+       ] ) ;
+       fhir:short [ fhir:v "Province of residence" ] ;
+       fhir:definition [ fhir:v "Province of residence" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.districtOfResidenceVacc" ] ;
+       fhir:path [ fhir:v "Immunization.districtOfResidenceVacc" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "getkVaLr2bw" ]
+       ] ) ;
+       fhir:short [ fhir:v "District of residence_vacc" ] ;
+       fhir:definition [ fhir:v "District of residence_vacc" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "code"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.sectorOfResidence" ] ;
+       fhir:path [ fhir:v "Immunization.sectorOfResidence" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "rXWNI9jQhXs" ]
+       ] ) ;
+       fhir:short [ fhir:v "Sector of Residence" ] ;
+       fhir:definition [ fhir:v "Sector of Residence" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "Reference"^^xsd:anyURI ] ;
+         fhir:targetProfile ( [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
+           fhir:link <http://hl7.org/fhir/StructureDefinition/Organization>
+         ] )
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.cellOfResidance" ] ;
+       fhir:path [ fhir:v "Immunization.cellOfResidance" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "t8YUbhAXCoq" ]
+       ] ) ;
+       fhir:short [ fhir:v "Cell of Residance" ] ;
+       fhir:definition [ fhir:v "Cell of Residance" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.villageOfResidance" ] ;
+       fhir:path [ fhir:v "Immunization.villageOfResidance" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "fSGeXjMM7Iw" ]
+       ] ) ;
+       fhir:short [ fhir:v "Village of Residance" ] ;
+       fhir:definition [ fhir:v "Village of Residance" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.villagecode" ] ;
+       fhir:path [ fhir:v "Immunization.villagecode" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "IYm5bpgSe3Y" ]
+       ] ) ;
+       fhir:short [ fhir:v "Villagecode" ] ;
+       fhir:definition [ fhir:v "Villagecode" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "string"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.inEirAndCrvs" ] ;
+       fhir:path [ fhir:v "Immunization.inEirAndCrvs" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "HnnLtwqPI7v" ]
+       ] ) ;
+       fhir:short [ fhir:v "In EIR and CRVS" ] ;
+       fhir:definition [ fhir:v "In EIR and CRVS" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "boolean"^^xsd:anyURI ]
+       ] )
+     ] [
+       fhir:id [ fhir:v "Immunization.isDead" ] ;
+       fhir:path [ fhir:v "Immunization.isDead" ] ;
+       fhir:code ( [
+         fhir:system [ fhir:v "https://dhis2.org/CodeSystem/DHIS2Attributes"^^xsd:anyURI ] ;
+         fhir:code [ fhir:v "EzCMBhxLaKU" ]
+       ] ) ;
+       fhir:short [ fhir:v "Is Dead" ] ;
+       fhir:definition [ fhir:v "Is Dead" ] ;
+       fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
+       fhir:max [ fhir:v "1" ] ;
+       fhir:type ( [
+         fhir:code [ fhir:v "boolean"^^xsd:anyURI ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

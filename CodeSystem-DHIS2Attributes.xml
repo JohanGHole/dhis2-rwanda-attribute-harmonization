@@ -1,0 +1,1071 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="DHIS2Attributes"/>
+  <meta>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem"/>
+    <profile value="http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This case-insensitive code system <code>https://dhis2.org/CodeSystem/DHIS2Attributes</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">NGeJP9rTUI3<a name="DHIS2Attributes-NGeJP9rTUI3"> </a></td><td>Address (New)</td><td>Address (New)</td></tr><tr><td style="white-space:nowrap">eRGolzpzbsV<a name="DHIS2Attributes-eRGolzpzbsV"> </a></td><td>Afite Ibibari mu nkanka</td><td>Afite Ibibari mu nkanka</td></tr><tr><td style="white-space:nowrap">WLP2idn6CPZ<a name="DHIS2Attributes-WLP2idn6CPZ"> </a></td><td>Afite ikibari ku munwa</td><td>Afite ikibari ku munwa</td></tr><tr><td style="white-space:nowrap">CEOwe5r8PFS<a name="DHIS2Attributes-CEOwe5r8PFS"> </a></td><td>Age</td><td>Age</td></tr><tr><td style="white-space:nowrap">J2c9TNIpHd0<a name="DHIS2Attributes-J2c9TNIpHd0"> </a></td><td>Age_1</td><td>Age</td></tr><tr><td style="white-space:nowrap">c6gUKezht7U<a name="DHIS2Attributes-c6gUKezht7U"> </a></td><td>Akagari</td><td>Akagari</td></tr><tr><td style="white-space:nowrap">jsHnkLgaLne<a name="DHIS2Attributes-jsHnkLgaLne"> </a></td><td>Akarere</td><td>Akarere</td></tr><tr><td style="white-space:nowrap">IWCa9RY9pqt<a name="DHIS2Attributes-IWCa9RY9pqt"> </a></td><td>Amazina y umwana</td><td>Amazina y umwana</td></tr><tr><td style="white-space:nowrap">VlP9V51JaYP<a name="DHIS2Attributes-VlP9V51JaYP"> </a></td><td>Amazina ya Nyina</td><td>Amazina ya Nyina</td></tr><tr><td style="white-space:nowrap">RP0jtvuebcN<a name="DHIS2Attributes-RP0jtvuebcN"> </a></td><td>Amazina ya Se Cyangwa umurera</td><td>Amazina ya Se Cyangwa umurera</td></tr><tr><td style="white-space:nowrap">BEyqBJ1NOca<a name="DHIS2Attributes-BEyqBJ1NOca"> </a></td><td>Ambulance account number</td><td>Ambulance account number</td></tr><tr><td style="white-space:nowrap">jCsa67YikZE<a name="DHIS2Attributes-jCsa67YikZE"> </a></td><td>Ambulance brand</td><td>Ambulance brand</td></tr><tr><td style="white-space:nowrap">MYKEpLGgVlX<a name="DHIS2Attributes-MYKEpLGgVlX"> </a></td><td>Ambulance purchaser</td><td>Ambulance purchaser</td></tr><tr><td style="white-space:nowrap">jKahvk7wiQf<a name="DHIS2Attributes-jKahvk7wiQf"> </a></td><td>Auto Gen Child ID</td><td>Auto Gen Child ID</td></tr><tr><td style="white-space:nowrap">IaZ89ZIN1va<a name="DHIS2Attributes-IaZ89ZIN1va"> </a></td><td>Auto Gen Leprosy ID</td><td>Auto Gen Leprosy ID</td></tr><tr><td style="white-space:nowrap">DEVBM6Bogtv<a name="DHIS2Attributes-DEVBM6Bogtv"> </a></td><td>Auto Gen Patient ID</td><td>Auto Gen Patient ID</td></tr><tr><td style="white-space:nowrap">bnuOdOujH9r<a name="DHIS2Attributes-bnuOdOujH9r"> </a></td><td>Bank name</td><td>Bank name</td></tr><tr><td style="white-space:nowrap">wYgV5mGqymu<a name="DHIS2Attributes-wYgV5mGqymu"> </a></td><td>Birth date</td><td>Birth date</td></tr><tr><td style="white-space:nowrap">FAkQHm3kesU<a name="DHIS2Attributes-FAkQHm3kesU"> </a></td><td>CDT of Origin</td><td>CDT of Origin</td></tr><tr><td style="white-space:nowrap">K9zM5Tq8G5f<a name="DHIS2Attributes-K9zM5Tq8G5f"> </a></td><td>CHWID</td><td>CHWID</td></tr><tr><td style="white-space:nowrap">kHYxRPCqCaJ<a name="DHIS2Attributes-kHYxRPCqCaJ"> </a></td><td>CHWrole</td><td>CHWrole</td></tr><tr><td style="white-space:nowrap">wZZt54vCaiY<a name="DHIS2Attributes-wZZt54vCaiY"> </a></td><td>CSO District Address</td><td>CSO District Address</td></tr><tr><td style="white-space:nowrap">TMRU1mlwWgI<a name="DHIS2Attributes-TMRU1mlwWgI"> </a></td><td>CSO Email</td><td>CSO Email</td></tr><tr><td style="white-space:nowrap">CgaGH5n91Jl<a name="DHIS2Attributes-CgaGH5n91Jl"> </a></td><td>CSO Sector</td><td>CSO Sector</td></tr><tr><td style="white-space:nowrap">bewrz2DDWZK<a name="DHIS2Attributes-bewrz2DDWZK"> </a></td><td>CSO Telephone</td><td>CSO Telephone</td></tr><tr><td style="white-space:nowrap">Z5RG5JkLehv<a name="DHIS2Attributes-Z5RG5JkLehv"> </a></td><td>CSO Website</td><td>CSO Website</td></tr><tr><td style="white-space:nowrap">E5D1aKa2eFb<a name="DHIS2Attributes-E5D1aKa2eFb"> </a></td><td>Caretaker</td><td>Caretaker</td></tr><tr><td style="white-space:nowrap">QF1ewXEBT0o<a name="DHIS2Attributes-QF1ewXEBT0o"> </a></td><td>Caretaker ID Number</td><td>Caretaker ID Number</td></tr><tr><td style="white-space:nowrap">OjVFFLxlAbo<a name="DHIS2Attributes-OjVFFLxlAbo"> </a></td><td>Caretaker Names</td><td>Caretaker Names</td></tr><tr><td style="white-space:nowrap">MfQkSwP7hiP<a name="DHIS2Attributes-MfQkSwP7hiP"> </a></td><td>Caretaker Phone Number</td><td>Caretaker Phone Number</td></tr><tr><td style="white-space:nowrap">QQNwqxcZqCW<a name="DHIS2Attributes-QQNwqxcZqCW"> </a></td><td>Case Unique ID</td><td>Case Unique ID</td></tr><tr><td style="white-space:nowrap">VUOPFCmLGDA<a name="DHIS2Attributes-VUOPFCmLGDA"> </a></td><td>Cell Cell</td><td>Cell Cell</td></tr><tr><td style="white-space:nowrap">McdXE0wk05G<a name="DHIS2Attributes-McdXE0wk05G"> </a></td><td>Cell Current residence</td><td>Cell Current residence</td></tr><tr><td style="white-space:nowrap">t8YUbhAXCoq<a name="DHIS2Attributes-t8YUbhAXCoq"> </a></td><td>Cell of Residance</td><td>Cell of Residance</td></tr><tr><td style="white-space:nowrap">s6EJmfbbvnA<a name="DHIS2Attributes-s6EJmfbbvnA"> </a></td><td>Cell of residence</td><td>Cell of residence</td></tr><tr><td style="white-space:nowrap">LAeWtKjFYNG<a name="DHIS2Attributes-LAeWtKjFYNG"> </a></td><td>Cell of residence (New)</td><td>Cell of residence (New)</td></tr><tr><td style="white-space:nowrap">KDxwNieLdee<a name="DHIS2Attributes-KDxwNieLdee"> </a></td><td>Cell of the client</td><td>client Cell</td></tr><tr><td style="white-space:nowrap">OzMkoLsiwJM<a name="DHIS2Attributes-OzMkoLsiwJM"> </a></td><td>Cellcode</td><td>CHWcellcode</td></tr><tr><td style="white-space:nowrap">krUV06sbefj<a name="DHIS2Attributes-krUV06sbefj"> </a></td><td>Chassis number (use capital letter)</td><td>Chassis number (use capital letter)</td></tr><tr><td style="white-space:nowrap">yBT0DI1TTbT<a name="DHIS2Attributes-yBT0DI1TTbT"> </a></td><td>Child ID (Register number)</td><td>Child ID (Register number)</td></tr><tr><td style="white-space:nowrap">VYEGPSgn908<a name="DHIS2Attributes-VYEGPSgn908"> </a></td><td>Citizenship</td><td>Citizenship</td></tr><tr><td style="white-space:nowrap">ImsEZyLWjOu<a name="DHIS2Attributes-ImsEZyLWjOu"> </a></td><td>Contact_Cell</td><td>Contact_Cell</td></tr><tr><td style="white-space:nowrap">zekrj7ti8lq<a name="DHIS2Attributes-zekrj7ti8lq"> </a></td><td>Contact_District</td><td>Contact_District</td></tr><tr><td style="white-space:nowrap">eqM44PJGAod<a name="DHIS2Attributes-eqM44PJGAod"> </a></td><td>Contact_Sector</td><td>Contact_Sector</td></tr><tr><td style="white-space:nowrap">Fk4qy2RY1xm<a name="DHIS2Attributes-Fk4qy2RY1xm"> </a></td><td>Contact_Village</td><td>Contact_Village</td></tr><tr><td style="white-space:nowrap">F7b4wG4dxsn<a name="DHIS2Attributes-F7b4wG4dxsn"> </a></td><td>Country</td><td>Country</td></tr><tr><td style="white-space:nowrap">q70u29fMclV<a name="DHIS2Attributes-q70u29fMclV"> </a></td><td>Cso Name</td><td>Cso Name</td></tr><tr><td style="white-space:nowrap">B9bfWW6w0e2<a name="DHIS2Attributes-B9bfWW6w0e2"> </a></td><td>DOB type</td><td>DOB type</td></tr><tr><td style="white-space:nowrap">q6ojcpdv1m3<a name="DHIS2Attributes-q6ojcpdv1m3"> </a></td><td>Data Entry Date</td><td>Data Entry Date</td></tr><tr><td style="white-space:nowrap">UFUIiaHn0vh<a name="DHIS2Attributes-UFUIiaHn0vh"> </a></td><td>Date birth_FSW</td><td>Date birth_FSW</td></tr><tr><td style="white-space:nowrap">uVpef29Fwc9<a name="DHIS2Attributes-uVpef29Fwc9"> </a></td><td>Date of Birth of the client</td><td>Client Date of Birth</td></tr><tr><td style="white-space:nowrap">A31FfrjPqyp<a name="DHIS2Attributes-A31FfrjPqyp"> </a></td><td>Date of birth</td><td>Date of birth</td></tr><tr><td style="white-space:nowrap">Z1rLc1rVHK8<a name="DHIS2Attributes-Z1rLc1rVHK8"> </a></td><td>Date of birth is estimated</td><td>Date of birth is estimated</td></tr><tr><td style="white-space:nowrap">EUNJhnqOyQf<a name="DHIS2Attributes-EUNJhnqOyQf"> </a></td><td>Date of birth of first-born child</td><td>Date of birth of first-born child</td></tr><tr><td style="white-space:nowrap">KkY64Uyz5y5<a name="DHIS2Attributes-KkY64Uyz5y5"> </a></td><td>Date of birth of last born</td><td>Date of birth of last born</td></tr><tr><td style="white-space:nowrap">YC6gjC3VqXd<a name="DHIS2Attributes-YC6gjC3VqXd"> </a></td><td>Date of enrollment in CSO program</td><td>Date of enrollment in CSO program</td></tr><tr><td style="white-space:nowrap">sY7Fyd3KdXK<a name="DHIS2Attributes-sY7Fyd3KdXK"> </a></td><td>Date of reception</td><td>Date of reception</td></tr><tr><td style="white-space:nowrap">wyPB0rnIOQa<a name="DHIS2Attributes-wyPB0rnIOQa"> </a></td><td>Death date</td><td>Death date</td></tr><tr><td style="white-space:nowrap">iEXJRQkfSOC<a name="DHIS2Attributes-iEXJRQkfSOC"> </a></td><td>District Current residence</td><td>District Current residence</td></tr><tr><td style="white-space:nowrap">AUiAvQrWQEa<a name="DHIS2Attributes-AUiAvQrWQEa"> </a></td><td>District Home address</td><td>District Home address</td></tr><tr><td style="white-space:nowrap">Y72SyQdDhIX<a name="DHIS2Attributes-Y72SyQdDhIX"> </a></td><td>District of next of kin</td><td>District of orgin</td></tr><tr><td style="white-space:nowrap">p2Nqf8AphI6<a name="DHIS2Attributes-p2Nqf8AphI6"> </a></td><td>District of residence</td><td>District of residence</td></tr><tr><td style="white-space:nowrap">getkVaLr2bw<a name="DHIS2Attributes-getkVaLr2bw"> </a></td><td>District of residence_vacc</td><td>District of residence_vacc</td></tr><tr><td style="white-space:nowrap">Kanzoi8DTom<a name="DHIS2Attributes-Kanzoi8DTom"> </a></td><td>District of the client</td><td>District of the client</td></tr><tr><td style="white-space:nowrap">hKGmiEPrCCg<a name="DHIS2Attributes-hKGmiEPrCCg"> </a></td><td>E_mail of the client</td><td>E-mail of the client</td></tr><tr><td style="white-space:nowrap">ODkP0myM8az<a name="DHIS2Attributes-ODkP0myM8az"> </a></td><td>Education</td><td>Education</td></tr><tr><td style="white-space:nowrap">DZ2uRcXYVp8<a name="DHIS2Attributes-DZ2uRcXYVp8"> </a></td><td>Education level_FSW</td><td>Education level_FSW</td></tr><tr><td style="white-space:nowrap">GiTHeVlmcAK<a name="DHIS2Attributes-GiTHeVlmcAK"> </a></td><td>Engine number (use capital letter)</td><td>Engine number (use capital letter)</td></tr><tr><td style="white-space:nowrap">yAoKZU1ileI<a name="DHIS2Attributes-yAoKZU1ileI"> </a></td><td>Enrolled in HIV program</td><td>Enrolled in HIV program</td></tr><tr><td style="white-space:nowrap">gmviIGeQAGl<a name="DHIS2Attributes-gmviIGeQAGl"> </a></td><td>Enrollment date(Registration Date)</td><td>Enrollment date(Registration Date)</td></tr><tr><td style="white-space:nowrap">Z6u6ysYu07K<a name="DHIS2Attributes-Z6u6ysYu07K"> </a></td><td>Ever married</td><td>Ever married</td></tr><tr><td style="white-space:nowrap">wLwmg1ntjs1<a name="DHIS2Attributes-wLwmg1ntjs1"> </a></td><td>Ever tested for HIV</td><td>Ever tested for HIV</td></tr><tr><td style="white-space:nowrap">e8SIFhxBHCv<a name="DHIS2Attributes-e8SIFhxBHCv"> </a></td><td>Eye  Health Insurance type</td><td>Eye  Health Insurance type</td></tr><tr><td style="white-space:nowrap">YtNcplQ1Tvb<a name="DHIS2Attributes-YtNcplQ1Tvb"> </a></td><td>Eye reason of enrollement </td><td>Eye reason of enrollement </td></tr><tr><td style="white-space:nowrap">sC7kVVEY8MJ<a name="DHIS2Attributes-sC7kVVEY8MJ"> </a></td><td>FOSAID</td><td>FOSAID</td></tr><tr><td style="white-space:nowrap">tLgQEW71GZT<a name="DHIS2Attributes-tLgQEW71GZT"> </a></td><td>FSW Code Auto</td><td>FSW Code Auto</td></tr><tr><td style="white-space:nowrap">nDQcbnq2DHV<a name="DHIS2Attributes-nDQcbnq2DHV"> </a></td><td>FSW code</td><td>FSW code</td></tr><tr><td style="white-space:nowrap">sah5bll9Y6Q<a name="DHIS2Attributes-sah5bll9Y6Q"> </a></td><td>Family Name</td><td>Family Name</td></tr><tr><td style="white-space:nowrap">hTdA8G5ZCEm<a name="DHIS2Attributes-hTdA8G5ZCEm"> </a></td><td>Father Education Level</td><td>Father Education Level</td></tr><tr><td style="white-space:nowrap">uLotdmVESxa<a name="DHIS2Attributes-uLotdmVESxa"> </a></td><td>Father Names</td><td>Father Names</td></tr><tr><td style="white-space:nowrap">AClDcrZs6R3<a name="DHIS2Attributes-AClDcrZs6R3"> </a></td><td>Father Phone Number</td><td>Father Phone Number</td></tr><tr><td style="white-space:nowrap">KsNhcMy9iwH<a name="DHIS2Attributes-KsNhcMy9iwH"> </a></td><td>Fathers ID Number</td><td>Fathers ID Number</td></tr><tr><td style="white-space:nowrap">fY3yuQxkaUS<a name="DHIS2Attributes-fY3yuQxkaUS"> </a></td><td>Fellowship Expected Graduation Date</td><td>Fellowship Expected Graduation Date</td></tr><tr><td style="white-space:nowrap">ISPdSEPTMBn<a name="DHIS2Attributes-ISPdSEPTMBn"> </a></td><td>Fellowship program</td><td>Fellowship program</td></tr><tr><td style="white-space:nowrap">e9BrRZAicPE<a name="DHIS2Attributes-e9BrRZAicPE"> </a></td><td>First Name</td><td>Name of the patient, Lastname Firstname</td></tr><tr><td style="white-space:nowrap">yKhbGyUiLLq<a name="DHIS2Attributes-yKhbGyUiLLq"> </a></td><td>First Name of the client</td><td>client Name</td></tr><tr><td style="white-space:nowrap">Ovu9BhmWgbL<a name="DHIS2Attributes-Ovu9BhmWgbL"> </a></td><td>Full name</td><td>Full name</td></tr><tr><td style="white-space:nowrap">Rq4qM2wKYFL<a name="DHIS2Attributes-Rq4qM2wKYFL"> </a></td><td>Gender</td><td>Gender</td></tr><tr><td style="white-space:nowrap">Ug49QUIKsxh<a name="DHIS2Attributes-Ug49QUIKsxh"> </a></td><td>Gender/SEX</td><td>Gender</td></tr><tr><td style="white-space:nowrap">TfdH5KvFmMy<a name="DHIS2Attributes-TfdH5KvFmMy"> </a></td><td>Given Name/Prenom</td><td>Given Name/Prenom</td></tr><tr><td style="white-space:nowrap">yXIS60L4z9a<a name="DHIS2Attributes-yXIS60L4z9a"> </a></td><td>Height at Birth(Cm)</td><td>Height at Birth(Cm)</td></tr><tr><td style="white-space:nowrap">iZYMynh3Q6a<a name="DHIS2Attributes-iZYMynh3Q6a"> </a></td><td>Home address</td><td>Home address</td></tr><tr><td style="white-space:nowrap">RTR4TP32gx8<a name="DHIS2Attributes-RTR4TP32gx8"> </a></td><td>Igitsina</td><td>Igitsina</td></tr><tr><td style="white-space:nowrap">HnnLtwqPI7v<a name="DHIS2Attributes-HnnLtwqPI7v"> </a></td><td>In EIR and CRVS</td><td>In EIR and CRVS</td></tr><tr><td style="white-space:nowrap">R5KfdqlJsHA<a name="DHIS2Attributes-R5KfdqlJsHA"> </a></td><td>Indangamuntu ya Nyina</td><td>Indangamuntu ya Nyina</td></tr><tr><td style="white-space:nowrap">Gsjdt8LULYw<a name="DHIS2Attributes-Gsjdt8LULYw"> </a></td><td>Indangamuntu ya Se cyangwa Umurera</td><td>Indangamuntu ya Se cyangwa Umurera</td></tr><tr><td style="white-space:nowrap">EzCMBhxLaKU<a name="DHIS2Attributes-EzCMBhxLaKU"> </a></td><td>Is Dead</td><td>Is Dead</td></tr><tr><td style="white-space:nowrap">fKsHl5oaWtO<a name="DHIS2Attributes-fKsHl5oaWtO"> </a></td><td>Is under age</td><td>Is under age</td></tr><tr><td style="white-space:nowrap">ekHx5Cql2T7<a name="DHIS2Attributes-ekHx5Cql2T7"> </a></td><td>Join date</td><td>Join date</td></tr><tr><td style="white-space:nowrap">evDmVzLwfMV<a name="DHIS2Attributes-evDmVzLwfMV"> </a></td><td>LB_Country of education</td><td>LB_Country of education</td></tr><tr><td style="white-space:nowrap">wbRH4bxGQos<a name="DHIS2Attributes-wbRH4bxGQos"> </a></td><td>LB_Date of commencement</td><td>LB_Date of commencement</td></tr><tr><td style="white-space:nowrap">iYJiCmxPFHh<a name="DHIS2Attributes-iYJiCmxPFHh"> </a></td><td>LB_Email</td><td>LB_Email</td></tr><tr><td style="white-space:nowrap">cuHQ94m2xyu<a name="DHIS2Attributes-cuHQ94m2xyu"> </a></td><td>LB_If other University specify </td><td>LB_If other University specify </td></tr><tr><td style="white-space:nowrap">bDeIY6PcPvy<a name="DHIS2Attributes-bDeIY6PcPvy"> </a></td><td>LB_Intern End date</td><td>LB_Intern End date</td></tr><tr><td style="white-space:nowrap">tkZYf0cfz7g<a name="DHIS2Attributes-tkZYf0cfz7g"> </a></td><td>LB_Intern type</td><td>LB_Intern type</td></tr><tr><td style="white-space:nowrap">fzIRPb8eOGx<a name="DHIS2Attributes-fzIRPb8eOGx"> </a></td><td>LB_Nationality</td><td>LB_Nationality</td></tr><tr><td style="white-space:nowrap">iv9ywpPBd3f<a name="DHIS2Attributes-iv9ywpPBd3f"> </a></td><td>LB_Passport Number</td><td>LB_Passport Number</td></tr><tr><td style="white-space:nowrap">CiJzESXEEEI<a name="DHIS2Attributes-CiJzESXEEEI"> </a></td><td>LB_Provisional License Number</td><td>LB_Provisional License Number</td></tr><tr><td style="white-space:nowrap">wqUtd3xa3al<a name="DHIS2Attributes-wqUtd3xa3al"> </a></td><td>LB_Unique ID</td><td>LB_Unique ID</td></tr><tr><td style="white-space:nowrap">dCAh9Y9K6aM<a name="DHIS2Attributes-dCAh9Y9K6aM"> </a></td><td>LB_University </td><td>LB_University </td></tr><tr><td style="white-space:nowrap">ABVa8kNzkh8<a name="DHIS2Attributes-ABVa8kNzkh8"> </a></td><td>Last Name of the client</td><td>client last name</td></tr><tr><td style="white-space:nowrap">UQNrumJTziw<a name="DHIS2Attributes-UQNrumJTziw"> </a></td><td>Leprosy Case Number</td><td>Leprosy Case Number</td></tr><tr><td style="white-space:nowrap">MGTvCH8utlf<a name="DHIS2Attributes-MGTvCH8utlf"> </a></td><td>Leprosy Contact Number</td><td>Leprosy Contact Number</td></tr><tr><td style="white-space:nowrap">gwTNODsqr5L<a name="DHIS2Attributes-gwTNODsqr5L"> </a></td><td>Leprosy _Current age</td><td>Leprosy _Current age</td></tr><tr><td style="white-space:nowrap">gRQgNqnWtc1<a name="DHIS2Attributes-gRQgNqnWtc1"> </a></td><td>License Number</td><td>License Number</td></tr><tr><td style="white-space:nowrap">O99WyJz6onQ<a name="DHIS2Attributes-O99WyJz6onQ"> </a></td><td>Live alone</td><td>Live alone</td></tr><tr><td style="white-space:nowrap">UXezg9UjJv2<a name="DHIS2Attributes-UXezg9UjJv2"> </a></td><td>Live with family</td><td>Live with family</td></tr><tr><td style="white-space:nowrap">f038nOc9uRF<a name="DHIS2Attributes-f038nOc9uRF"> </a></td><td>Location of residence</td><td>The location (coordinates) of the place of residence.</td></tr><tr><td style="white-space:nowrap">vBlHJN5gPSi<a name="DHIS2Attributes-vBlHJN5gPSi"> </a></td><td>Mother s ID number</td><td>Mother s ID number</td></tr><tr><td style="white-space:nowrap">cUTcjBma2jK<a name="DHIS2Attributes-cUTcjBma2jK"> </a></td><td>Mothers Date of Birth</td><td>Mothers Date of Birth</td></tr><tr><td style="white-space:nowrap">YDWk8qQbFOh<a name="DHIS2Attributes-YDWk8qQbFOh"> </a></td><td>Mothers Education Level</td><td>Mothers Education Level</td></tr><tr><td style="white-space:nowrap">RzPmWr82V3p<a name="DHIS2Attributes-RzPmWr82V3p"> </a></td><td>Mothers Names</td><td>Mothers Names</td></tr><tr><td style="white-space:nowrap">IBcgUcOzYgB<a name="DHIS2Attributes-IBcgUcOzYgB"> </a></td><td>Mothers Phone Number</td><td>Mothers Phone Number</td></tr><tr><td style="white-space:nowrap">lzae3BtWOIZ<a name="DHIS2Attributes-lzae3BtWOIZ"> </a></td><td>NIN</td><td>NIN</td></tr><tr><td style="white-space:nowrap">aW66s2QSosT<a name="DHIS2Attributes-aW66s2QSosT"> </a></td><td>Name/Nom</td><td>Name/Nom</td></tr><tr><td style="white-space:nowrap">PEhSKbBKoXS<a name="DHIS2Attributes-PEhSKbBKoXS"> </a></td><td>Names</td><td>Names</td></tr><tr><td style="white-space:nowrap">O7P9OMwtpwL<a name="DHIS2Attributes-O7P9OMwtpwL"> </a></td><td>National ID</td><td>Patient National ID</td></tr><tr><td style="white-space:nowrap">haL5t4KtUis<a name="DHIS2Attributes-haL5t4KtUis"> </a></td><td>National ID (new)</td><td>National ID (new)</td></tr><tr><td style="white-space:nowrap">eiMG6z23BJh<a name="DHIS2Attributes-eiMG6z23BJh"> </a></td><td>Next of Kin Firstname</td><td>Next of Kin Firstname</td></tr><tr><td style="white-space:nowrap">opFwwerYZzV<a name="DHIS2Attributes-opFwwerYZzV"> </a></td><td>Next of Kin Lastname</td><td>Next of kin LN</td></tr><tr><td style="white-space:nowrap">DLC9w54MA59<a name="DHIS2Attributes-DLC9w54MA59"> </a></td><td>Next of Kin Telephone</td><td>Next of Kin Phone</td></tr><tr><td style="white-space:nowrap">ZE2FHgj3EE1<a name="DHIS2Attributes-ZE2FHgj3EE1"> </a></td><td>Number of children</td><td>Number of children</td></tr><tr><td style="white-space:nowrap">ZLdEQatuagP<a name="DHIS2Attributes-ZLdEQatuagP"> </a></td><td>Number of dependents</td><td>Number of dependents</td></tr><tr><td style="white-space:nowrap">Ewi7FUfcHAD<a name="DHIS2Attributes-Ewi7FUfcHAD"> </a></td><td>Patient Unique ID</td><td>Patient Unique ID</td></tr><tr><td style="white-space:nowrap">epBHliNRBLh<a name="DHIS2Attributes-epBHliNRBLh"> </a></td><td>Phone number</td><td>Phone number</td></tr><tr><td style="white-space:nowrap">CT6aPmeOhXw<a name="DHIS2Attributes-CT6aPmeOhXw"> </a></td><td>Phone number_FSW</td><td>Phone number_FSW</td></tr><tr><td style="white-space:nowrap">iCy9QPG9HY9<a name="DHIS2Attributes-iCy9QPG9HY9"> </a></td><td>Place of Bith</td><td>Place of Bith</td></tr><tr><td style="white-space:nowrap">j0RWl7MZZjF<a name="DHIS2Attributes-j0RWl7MZZjF"> </a></td><td>Place of birth_FSW</td><td>Place of birth_FSW</td></tr><tr><td style="white-space:nowrap">tbLiYMxG0M1<a name="DHIS2Attributes-tbLiYMxG0M1"> </a></td><td>Place of first commercial sex_District</td><td>Place of first commercial sex_District</td></tr><tr><td style="white-space:nowrap">GUd2L4V5Qu5<a name="DHIS2Attributes-GUd2L4V5Qu5"> </a></td><td>Plate number </td><td>Plate number </td></tr><tr><td style="white-space:nowrap">TXDvRJ9wWBv<a name="DHIS2Attributes-TXDvRJ9wWBv"> </a></td><td>Pregnancy Number</td><td>Pregnancy Number</td></tr><tr><td style="white-space:nowrap">xngC89Ip5E7<a name="DHIS2Attributes-xngC89Ip5E7"> </a></td><td>Program Type</td><td>Program Type</td></tr><tr><td style="white-space:nowrap">nuqA7EFKonT<a name="DHIS2Attributes-nuqA7EFKonT"> </a></td><td>Program duration</td><td>Program duration</td></tr><tr><td style="white-space:nowrap">l9WS5ketbhX<a name="DHIS2Attributes-l9WS5ketbhX"> </a></td><td>Province of next of kin</td><td>Province of orgin</td></tr><tr><td style="white-space:nowrap">FBm5ftjnCj2<a name="DHIS2Attributes-FBm5ftjnCj2"> </a></td><td>Province of residence</td><td>Province of residence</td></tr><tr><td style="white-space:nowrap">bayoL96sEsL<a name="DHIS2Attributes-bayoL96sEsL"> </a></td><td>Province of the client</td><td>Province of the client</td></tr><tr><td style="white-space:nowrap">l70Rt7f0YNE<a name="DHIS2Attributes-l70Rt7f0YNE"> </a></td><td>Register facilityName</td><td>Register facilityName</td></tr><tr><td style="white-space:nowrap">I0RIIcxm6G3<a name="DHIS2Attributes-I0RIIcxm6G3"> </a></td><td>Registration date</td><td>Registration date</td></tr><tr><td style="white-space:nowrap">pDx163TL9N2<a name="DHIS2Attributes-pDx163TL9N2"> </a></td><td>Relationship</td><td>Relationship patient</td></tr><tr><td style="white-space:nowrap">ysatfqnP6ZJ<a name="DHIS2Attributes-ysatfqnP6ZJ"> </a></td><td>Rwanda nationality ?</td><td>Rwanda nationality ?</td></tr><tr><td style="white-space:nowrap">wnfbyVsNj4h<a name="DHIS2Attributes-wnfbyVsNj4h"> </a></td><td>Sector Current residence</td><td>Sector Current residence</td></tr><tr><td style="white-space:nowrap">rXWNI9jQhXs<a name="DHIS2Attributes-rXWNI9jQhXs"> </a></td><td>Sector of Residence</td><td>Sector of Residence</td></tr><tr><td style="white-space:nowrap">bUnEh0yWeC0<a name="DHIS2Attributes-bUnEh0yWeC0"> </a></td><td>Sector of next of kin</td><td>Sector of orgin</td></tr><tr><td style="white-space:nowrap">rMxZNZXHIFQ<a name="DHIS2Attributes-rMxZNZXHIFQ"> </a></td><td>Sector of residence</td><td>Sector of residence</td></tr><tr><td style="white-space:nowrap">T4oNeTO7Tk8<a name="DHIS2Attributes-T4oNeTO7Tk8"> </a></td><td>Sector of the client</td><td>Sector of the client</td></tr><tr><td style="white-space:nowrap">CklPZdOd6H1<a name="DHIS2Attributes-CklPZdOd6H1"> </a></td><td>Sex</td><td>Gender of Person</td></tr><tr><td style="white-space:nowrap">y1x29lfx2Pl<a name="DHIS2Attributes-y1x29lfx2Pl"> </a></td><td>Sex of the client</td><td>Sex of the client</td></tr><tr><td style="white-space:nowrap">KIWNuC2w5K7<a name="DHIS2Attributes-KIWNuC2w5K7"> </a></td><td>Site_FSW</td><td>Site_FSW</td></tr><tr><td style="white-space:nowrap">FIeADYwBKjB<a name="DHIS2Attributes-FIeADYwBKjB"> </a></td><td>Social Category</td><td>Social Category</td></tr><tr><td style="white-space:nowrap">JE04bCG3rk2<a name="DHIS2Attributes-JE04bCG3rk2"> </a></td><td>Staff</td><td>Staff</td></tr><tr><td style="white-space:nowrap">ldGZfMMlzFZ<a name="DHIS2Attributes-ldGZfMMlzFZ"> </a></td><td>Student Registration Number</td><td>Student Registration Number</td></tr><tr><td style="white-space:nowrap">c18OAOb1qet<a name="DHIS2Attributes-c18OAOb1qet"> </a></td><td>TB Case Number</td><td>TB Case Number</td></tr><tr><td style="white-space:nowrap">BxV3tbviVZq<a name="DHIS2Attributes-BxV3tbviVZq"> </a></td><td>TB_Current age</td><td>TB_Current age</td></tr><tr><td style="white-space:nowrap">t71wTbckFTI<a name="DHIS2Attributes-t71wTbckFTI"> </a></td><td>Telefone ya Nyina</td><td>Telefone ya Nyina</td></tr><tr><td style="white-space:nowrap">WamA2Upu9ii<a name="DHIS2Attributes-WamA2Upu9ii"> </a></td><td>Telefone ya Se Cyangwa Umurera</td><td>Telefone ya Se Cyangwa Umurera</td></tr><tr><td style="white-space:nowrap">TueBWX6YRtp<a name="DHIS2Attributes-TueBWX6YRtp"> </a></td><td>Telefoni y'Umujyanama w'ubuzima</td><td>Telefoni y'Umujyanama w'ubuzima</td></tr><tr><td style="white-space:nowrap">BvHmOeOGIG7<a name="DHIS2Attributes-BvHmOeOGIG7"> </a></td><td>Telephone (new)</td><td>Telephone (new)</td></tr><tr><td style="white-space:nowrap">pB7G5BZh6bJ<a name="DHIS2Attributes-pB7G5BZh6bJ"> </a></td><td>Telephone of the client</td><td>Telephone Number</td></tr><tr><td style="white-space:nowrap">QyhGvFhiMF3<a name="DHIS2Attributes-QyhGvFhiMF3"> </a></td><td>Twins or More</td><td>Twins or More</td></tr><tr><td style="white-space:nowrap">zH60KBzMsBo<a name="DHIS2Attributes-zH60KBzMsBo"> </a></td><td>Ubudehe category</td><td>Ubudehe category</td></tr><tr><td style="white-space:nowrap">Z5LvDzazkft<a name="DHIS2Attributes-Z5LvDzazkft"> </a></td><td>Ubwishingizi</td><td>Ubwishingizi</td></tr><tr><td style="white-space:nowrap">utBUvfIq5Dl<a name="DHIS2Attributes-utBUvfIq5Dl"> </a></td><td>Umudugudu</td><td>Umudugudu</td></tr><tr><td style="white-space:nowrap">Za5dJxPRUfg<a name="DHIS2Attributes-Za5dJxPRUfg"> </a></td><td>Umujyanama w'ubuzima</td><td>Umujyanama w'ubuzima</td></tr><tr><td style="white-space:nowrap">HKAjtWQUMCq<a name="DHIS2Attributes-HKAjtWQUMCq"> </a></td><td>Umurenge</td><td>Umurenge</td></tr><tr><td style="white-space:nowrap">z0JpTH95uHR<a name="DHIS2Attributes-z0JpTH95uHR"> </a></td><td>Unique Identification Code_FSW</td><td>Unique Identification Code_FSW</td></tr><tr><td style="white-space:nowrap">O5oZvRUPYIQ<a name="DHIS2Attributes-O5oZvRUPYIQ"> </a></td><td>Village Current residence</td><td>Village Current residence</td></tr><tr><td style="white-space:nowrap">fSGeXjMM7Iw<a name="DHIS2Attributes-fSGeXjMM7Iw"> </a></td><td>Village of Residance</td><td>Village of Residance</td></tr><tr><td style="white-space:nowrap">ZB2q2bG9j4s<a name="DHIS2Attributes-ZB2q2bG9j4s"> </a></td><td>Village of Residance (New)</td><td>Village of Residance (New)</td></tr><tr><td style="white-space:nowrap">frmU1Hjwp6w<a name="DHIS2Attributes-frmU1Hjwp6w"> </a></td><td>Village of next of kin</td><td>Village of orgin</td></tr><tr><td style="white-space:nowrap">fSS6j77BXyo<a name="DHIS2Attributes-fSS6j77BXyo"> </a></td><td>Village of residence</td><td>Village of residence</td></tr><tr><td style="white-space:nowrap">qq0Ly8akdYR<a name="DHIS2Attributes-qq0Ly8akdYR"> </a></td><td>Village of the client</td><td>Village of the client</td></tr><tr><td style="white-space:nowrap">IYm5bpgSe3Y<a name="DHIS2Attributes-IYm5bpgSe3Y"> </a></td><td>Villagecode</td><td>Villagecode</td></tr><tr><td style="white-space:nowrap">niy3ldrnH1k<a name="DHIS2Attributes-niy3ldrnH1k"> </a></td><td>Vocation Training Received_FSW</td><td>Vocation Training Received_FSW</td></tr><tr><td style="white-space:nowrap">t9i9Bc9MNwX<a name="DHIS2Attributes-t9i9Bc9MNwX"> </a></td><td>Warranty Duration (in months)</td><td>Warranty Duration (in months)</td></tr><tr><td style="white-space:nowrap">aH29RtPc19V<a name="DHIS2Attributes-aH29RtPc19V"> </a></td><td>Warranty start date</td><td>Warranty start date</td></tr><tr><td style="white-space:nowrap">cM7Q2YcXhH0<a name="DHIS2Attributes-cM7Q2YcXhH0"> </a></td><td>Weight at Birth (Kgs)</td><td>Weight at Birth (Kgs)</td></tr><tr><td style="white-space:nowrap">OPh3UFCaht4<a name="DHIS2Attributes-OPh3UFCaht4"> </a></td><td>Year of fabrication</td><td>Year of fabrication</td></tr><tr><td style="white-space:nowrap">AE6ExmcrLmo<a name="DHIS2Attributes-AE6ExmcrLmo"> </a></td><td>Year started commercial sex</td><td>Year started commercial sex</td></tr><tr><td style="white-space:nowrap">dx3uJl25IKr<a name="DHIS2Attributes-dx3uJl25IKr"> </a></td><td>Yigeze avurwa</td><td>Yigeze avurwa</td></tr><tr><td style="white-space:nowrap">Zf9XyUDtGFC<a name="DHIS2Attributes-Zf9XyUDtGFC"> </a></td><td>applicationNumber</td><td>applicationNumber</td></tr><tr><td style="white-space:nowrap">csE2iyxUvZM<a name="DHIS2Attributes-csE2iyxUvZM"> </a></td><td>facilityOfficeType</td><td>facilityOfficeType</td></tr><tr><td style="white-space:nowrap">LS3cqxurOem<a name="DHIS2Attributes-LS3cqxurOem"> </a></td><td>notificationDate</td><td>notificationDate</td></tr><tr><td style="white-space:nowrap">af8cbO1aI9Y<a name="DHIS2Attributes-af8cbO1aI9Y"> </a></td><td>rbf-Mother TRACnet number</td><td>rbf-Mother TRACnet number</td></tr><tr><td style="white-space:nowrap">C1V9Q8GeV2m<a name="DHIS2Attributes-C1V9Q8GeV2m"> </a></td><td>rbf_Did the child took Nevirapine at birth</td><td>rbf_Did the child took Nevirapine at birth</td></tr><tr><td style="white-space:nowrap">d2g1HtmUlHj<a name="DHIS2Attributes-d2g1HtmUlHj"> </a></td><td>rbf_Does HF have an exposed infant in the period April,May,June 2016</td><td>rbf_Does HF have an exposed infant in the period April,May,June 2016</td></tr><tr><td style="white-space:nowrap">OBt2GiMHgHy<a name="DHIS2Attributes-OBt2GiMHgHy"> </a></td><td>rbf_Does HF have an exposed infant in the period July,2016-June,2017?</td><td>rbf_Does HF have an exposed infant in the period July,2016-June,2017?</td></tr><tr><td style="white-space:nowrap">eN57OHpTlQQ<a name="DHIS2Attributes-eN57OHpTlQQ"> </a></td><td>rbf_Does HF have an exposed infant in the period July,2017-June,2018?</td><td>rbf_Does HF have an exposed infant in the period July,2017-June,2018?</td></tr><tr><td style="white-space:nowrap">MuHGufOGFw9<a name="DHIS2Attributes-MuHGufOGFw9"> </a></td><td>rbf_Does HF have an exposed infant in the period July,2018-June,2019?</td><td>rbf_Does HF have an exposed infant in the period July,2018-June,2019?</td></tr><tr><td style="white-space:nowrap">QN0VAPDV8BG<a name="DHIS2Attributes-QN0VAPDV8BG"> </a></td><td>rbf_Does HF have an exposed infant in the period July,2019-June,2020?</td><td>rbf_Does HF have an exposed infant in the period July,2019-June,2020?</td></tr><tr><td style="white-space:nowrap">tkcL6xyUGjN<a name="DHIS2Attributes-tkcL6xyUGjN"> </a></td><td>rbf_ID</td><td>rbf_ID</td></tr><tr><td style="white-space:nowrap">Tiz0xDPMXC9<a name="DHIS2Attributes-Tiz0xDPMXC9"> </a></td><td>rbf_Patient DoB</td><td>rbf_Patient DoB</td></tr><tr><td style="white-space:nowrap">QzUggPwl61f<a name="DHIS2Attributes-QzUggPwl61f"> </a></td><td>rbf_Patient Tracknet Number</td><td>rbf_Patient Tracknet Number</td></tr><tr><td style="white-space:nowrap">axUuQMzM1PD<a name="DHIS2Attributes-axUuQMzM1PD"> </a></td><td>rbf_Patient sex</td><td>rbf_Patient sex</td></tr><tr><td style="white-space:nowrap">ATMg1kDxkZi<a name="DHIS2Attributes-ATMg1kDxkZi"> </a></td><td>rbf_Regisration date</td><td>rbf_Regisration date</td></tr><tr><td style="white-space:nowrap">W0p422otuka<a name="DHIS2Attributes-W0p422otuka"> </a></td><td>rbf_Registration place</td><td>rbf_Registration place</td></tr><tr><td style="white-space:nowrap">oMCcGOzPpOI<a name="DHIS2Attributes-oMCcGOzPpOI"> </a></td><td>rbf_month of birth </td><td>rbf_month of birth </td></tr><tr><td style="white-space:nowrap">C6XGReyQjst<a name="DHIS2Attributes-C6XGReyQjst"> </a></td><td>rbf_month of birth old</td><td>rbf_month of birth old</td></tr><tr><td style="white-space:nowrap">ztFYx9bppif<a name="DHIS2Attributes-ztFYx9bppif"> </a></td><td>rbf_order number</td><td>rbf_order number</td></tr></table></div>
+  </text>
+  <url value="https://dhis2.org/CodeSystem/DHIS2Attributes"/>
+  <version value="0.1.0"/>
+  <name value="DHIS2Attributes"/>
+  <title value="DHIS2 Tracked Entity Attributes"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2024-06-20T14:32:32+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="This code system defines tracked entity attributes used in DHIS2"/>
+  <caseSensitive value="false"/>
+  <content value="complete"/>
+  <count value="208"/>
+  <concept>
+    <code value="NGeJP9rTUI3"/>
+    <display value="Address (New)"/>
+    <definition value="Address (New)"/>
+  </concept>
+  <concept>
+    <code value="eRGolzpzbsV"/>
+    <display value="Afite Ibibari mu nkanka"/>
+    <definition value="Afite Ibibari mu nkanka"/>
+  </concept>
+  <concept>
+    <code value="WLP2idn6CPZ"/>
+    <display value="Afite ikibari ku munwa"/>
+    <definition value="Afite ikibari ku munwa"/>
+  </concept>
+  <concept>
+    <code value="CEOwe5r8PFS"/>
+    <display value="Age"/>
+    <definition value="Age"/>
+  </concept>
+  <concept>
+    <code value="J2c9TNIpHd0"/>
+    <display value="Age_1"/>
+    <definition value="Age"/>
+  </concept>
+  <concept>
+    <code value="c6gUKezht7U"/>
+    <display value="Akagari"/>
+    <definition value="Akagari"/>
+  </concept>
+  <concept>
+    <code value="jsHnkLgaLne"/>
+    <display value="Akarere"/>
+    <definition value="Akarere"/>
+  </concept>
+  <concept>
+    <code value="IWCa9RY9pqt"/>
+    <display value="Amazina y umwana"/>
+    <definition value="Amazina y umwana"/>
+  </concept>
+  <concept>
+    <code value="VlP9V51JaYP"/>
+    <display value="Amazina ya Nyina"/>
+    <definition value="Amazina ya Nyina"/>
+  </concept>
+  <concept>
+    <code value="RP0jtvuebcN"/>
+    <display value="Amazina ya Se Cyangwa umurera"/>
+    <definition value="Amazina ya Se Cyangwa umurera"/>
+  </concept>
+  <concept>
+    <code value="BEyqBJ1NOca"/>
+    <display value="Ambulance account number"/>
+    <definition value="Ambulance account number"/>
+  </concept>
+  <concept>
+    <code value="jCsa67YikZE"/>
+    <display value="Ambulance brand"/>
+    <definition value="Ambulance brand"/>
+  </concept>
+  <concept>
+    <code value="MYKEpLGgVlX"/>
+    <display value="Ambulance purchaser"/>
+    <definition value="Ambulance purchaser"/>
+  </concept>
+  <concept>
+    <code value="jKahvk7wiQf"/>
+    <display value="Auto Gen Child ID"/>
+    <definition value="Auto Gen Child ID"/>
+  </concept>
+  <concept>
+    <code value="IaZ89ZIN1va"/>
+    <display value="Auto Gen Leprosy ID"/>
+    <definition value="Auto Gen Leprosy ID"/>
+  </concept>
+  <concept>
+    <code value="DEVBM6Bogtv"/>
+    <display value="Auto Gen Patient ID"/>
+    <definition value="Auto Gen Patient ID"/>
+  </concept>
+  <concept>
+    <code value="bnuOdOujH9r"/>
+    <display value="Bank name"/>
+    <definition value="Bank name"/>
+  </concept>
+  <concept>
+    <code value="wYgV5mGqymu"/>
+    <display value="Birth date"/>
+    <definition value="Birth date"/>
+  </concept>
+  <concept>
+    <code value="FAkQHm3kesU"/>
+    <display value="CDT of Origin"/>
+    <definition value="CDT of Origin"/>
+  </concept>
+  <concept>
+    <code value="K9zM5Tq8G5f"/>
+    <display value="CHWID"/>
+    <definition value="CHWID"/>
+  </concept>
+  <concept>
+    <code value="kHYxRPCqCaJ"/>
+    <display value="CHWrole"/>
+    <definition value="CHWrole"/>
+  </concept>
+  <concept>
+    <code value="wZZt54vCaiY"/>
+    <display value="CSO District Address"/>
+    <definition value="CSO District Address"/>
+  </concept>
+  <concept>
+    <code value="TMRU1mlwWgI"/>
+    <display value="CSO Email"/>
+    <definition value="CSO Email"/>
+  </concept>
+  <concept>
+    <code value="CgaGH5n91Jl"/>
+    <display value="CSO Sector"/>
+    <definition value="CSO Sector"/>
+  </concept>
+  <concept>
+    <code value="bewrz2DDWZK"/>
+    <display value="CSO Telephone"/>
+    <definition value="CSO Telephone"/>
+  </concept>
+  <concept>
+    <code value="Z5RG5JkLehv"/>
+    <display value="CSO Website"/>
+    <definition value="CSO Website"/>
+  </concept>
+  <concept>
+    <code value="E5D1aKa2eFb"/>
+    <display value="Caretaker"/>
+    <definition value="Caretaker"/>
+  </concept>
+  <concept>
+    <code value="QF1ewXEBT0o"/>
+    <display value="Caretaker ID Number"/>
+    <definition value="Caretaker ID Number"/>
+  </concept>
+  <concept>
+    <code value="OjVFFLxlAbo"/>
+    <display value="Caretaker Names"/>
+    <definition value="Caretaker Names"/>
+  </concept>
+  <concept>
+    <code value="MfQkSwP7hiP"/>
+    <display value="Caretaker Phone Number"/>
+    <definition value="Caretaker Phone Number"/>
+  </concept>
+  <concept>
+    <code value="QQNwqxcZqCW"/>
+    <display value="Case Unique ID"/>
+    <definition value="Case Unique ID"/>
+  </concept>
+  <concept>
+    <code value="VUOPFCmLGDA"/>
+    <display value="Cell Cell"/>
+    <definition value="Cell Cell"/>
+  </concept>
+  <concept>
+    <code value="McdXE0wk05G"/>
+    <display value="Cell Current residence"/>
+    <definition value="Cell Current residence"/>
+  </concept>
+  <concept>
+    <code value="t8YUbhAXCoq"/>
+    <display value="Cell of Residance"/>
+    <definition value="Cell of Residance"/>
+  </concept>
+  <concept>
+    <code value="s6EJmfbbvnA"/>
+    <display value="Cell of residence"/>
+    <definition value="Cell of residence"/>
+  </concept>
+  <concept>
+    <code value="LAeWtKjFYNG"/>
+    <display value="Cell of residence (New)"/>
+    <definition value="Cell of residence (New)"/>
+  </concept>
+  <concept>
+    <code value="KDxwNieLdee"/>
+    <display value="Cell of the client"/>
+    <definition value="client Cell"/>
+  </concept>
+  <concept>
+    <code value="OzMkoLsiwJM"/>
+    <display value="Cellcode"/>
+    <definition value="CHWcellcode"/>
+  </concept>
+  <concept>
+    <code value="krUV06sbefj"/>
+    <display value="Chassis number (use capital letter)"/>
+    <definition value="Chassis number (use capital letter)"/>
+  </concept>
+  <concept>
+    <code value="yBT0DI1TTbT"/>
+    <display value="Child ID (Register number)"/>
+    <definition value="Child ID (Register number)"/>
+  </concept>
+  <concept>
+    <code value="VYEGPSgn908"/>
+    <display value="Citizenship"/>
+    <definition value="Citizenship"/>
+  </concept>
+  <concept>
+    <code value="ImsEZyLWjOu"/>
+    <display value="Contact_Cell"/>
+    <definition value="Contact_Cell"/>
+  </concept>
+  <concept>
+    <code value="zekrj7ti8lq"/>
+    <display value="Contact_District"/>
+    <definition value="Contact_District"/>
+  </concept>
+  <concept>
+    <code value="eqM44PJGAod"/>
+    <display value="Contact_Sector"/>
+    <definition value="Contact_Sector"/>
+  </concept>
+  <concept>
+    <code value="Fk4qy2RY1xm"/>
+    <display value="Contact_Village"/>
+    <definition value="Contact_Village"/>
+  </concept>
+  <concept>
+    <code value="F7b4wG4dxsn"/>
+    <display value="Country"/>
+    <definition value="Country"/>
+  </concept>
+  <concept>
+    <code value="q70u29fMclV"/>
+    <display value="Cso Name"/>
+    <definition value="Cso Name"/>
+  </concept>
+  <concept>
+    <code value="B9bfWW6w0e2"/>
+    <display value="DOB type"/>
+    <definition value="DOB type"/>
+  </concept>
+  <concept>
+    <code value="q6ojcpdv1m3"/>
+    <display value="Data Entry Date"/>
+    <definition value="Data Entry Date"/>
+  </concept>
+  <concept>
+    <code value="UFUIiaHn0vh"/>
+    <display value="Date birth_FSW"/>
+    <definition value="Date birth_FSW"/>
+  </concept>
+  <concept>
+    <code value="uVpef29Fwc9"/>
+    <display value="Date of Birth of the client"/>
+    <definition value="Client Date of Birth"/>
+  </concept>
+  <concept>
+    <code value="A31FfrjPqyp"/>
+    <display value="Date of birth"/>
+    <definition value="Date of birth"/>
+  </concept>
+  <concept>
+    <code value="Z1rLc1rVHK8"/>
+    <display value="Date of birth is estimated"/>
+    <definition value="Date of birth is estimated"/>
+  </concept>
+  <concept>
+    <code value="EUNJhnqOyQf"/>
+    <display value="Date of birth of first-born child"/>
+    <definition value="Date of birth of first-born child"/>
+  </concept>
+  <concept>
+    <code value="KkY64Uyz5y5"/>
+    <display value="Date of birth of last born"/>
+    <definition value="Date of birth of last born"/>
+  </concept>
+  <concept>
+    <code value="YC6gjC3VqXd"/>
+    <display value="Date of enrollment in CSO program"/>
+    <definition value="Date of enrollment in CSO program"/>
+  </concept>
+  <concept>
+    <code value="sY7Fyd3KdXK"/>
+    <display value="Date of reception"/>
+    <definition value="Date of reception"/>
+  </concept>
+  <concept>
+    <code value="wyPB0rnIOQa"/>
+    <display value="Death date"/>
+    <definition value="Death date"/>
+  </concept>
+  <concept>
+    <code value="iEXJRQkfSOC"/>
+    <display value="District Current residence"/>
+    <definition value="District Current residence"/>
+  </concept>
+  <concept>
+    <code value="AUiAvQrWQEa"/>
+    <display value="District Home address"/>
+    <definition value="District Home address"/>
+  </concept>
+  <concept>
+    <code value="Y72SyQdDhIX"/>
+    <display value="District of next of kin"/>
+    <definition value="District of orgin"/>
+  </concept>
+  <concept>
+    <code value="p2Nqf8AphI6"/>
+    <display value="District of residence"/>
+    <definition value="District of residence"/>
+  </concept>
+  <concept>
+    <code value="getkVaLr2bw"/>
+    <display value="District of residence_vacc"/>
+    <definition value="District of residence_vacc"/>
+  </concept>
+  <concept>
+    <code value="Kanzoi8DTom"/>
+    <display value="District of the client"/>
+    <definition value="District of the client"/>
+  </concept>
+  <concept>
+    <code value="hKGmiEPrCCg"/>
+    <display value="E_mail of the client"/>
+    <definition value="E-mail of the client"/>
+  </concept>
+  <concept>
+    <code value="ODkP0myM8az"/>
+    <display value="Education"/>
+    <definition value="Education"/>
+  </concept>
+  <concept>
+    <code value="DZ2uRcXYVp8"/>
+    <display value="Education level_FSW"/>
+    <definition value="Education level_FSW"/>
+  </concept>
+  <concept>
+    <code value="GiTHeVlmcAK"/>
+    <display value="Engine number (use capital letter)"/>
+    <definition value="Engine number (use capital letter)"/>
+  </concept>
+  <concept>
+    <code value="yAoKZU1ileI"/>
+    <display value="Enrolled in HIV program"/>
+    <definition value="Enrolled in HIV program"/>
+  </concept>
+  <concept>
+    <code value="gmviIGeQAGl"/>
+    <display value="Enrollment date(Registration Date)"/>
+    <definition value="Enrollment date(Registration Date)"/>
+  </concept>
+  <concept>
+    <code value="Z6u6ysYu07K"/>
+    <display value="Ever married"/>
+    <definition value="Ever married"/>
+  </concept>
+  <concept>
+    <code value="wLwmg1ntjs1"/>
+    <display value="Ever tested for HIV"/>
+    <definition value="Ever tested for HIV"/>
+  </concept>
+  <concept>
+    <code value="e8SIFhxBHCv"/>
+    <display value="Eye  Health Insurance type"/>
+    <definition value="Eye  Health Insurance type"/>
+  </concept>
+  <concept>
+    <code value="YtNcplQ1Tvb"/>
+    <display value="Eye reason of enrollement "/>
+    <definition value="Eye reason of enrollement "/>
+  </concept>
+  <concept>
+    <code value="sC7kVVEY8MJ"/>
+    <display value="FOSAID"/>
+    <definition value="FOSAID"/>
+  </concept>
+  <concept>
+    <code value="tLgQEW71GZT"/>
+    <display value="FSW Code Auto"/>
+    <definition value="FSW Code Auto"/>
+  </concept>
+  <concept>
+    <code value="nDQcbnq2DHV"/>
+    <display value="FSW code"/>
+    <definition value="FSW code"/>
+  </concept>
+  <concept>
+    <code value="sah5bll9Y6Q"/>
+    <display value="Family Name"/>
+    <definition value="Family Name"/>
+  </concept>
+  <concept>
+    <code value="hTdA8G5ZCEm"/>
+    <display value="Father Education Level"/>
+    <definition value="Father Education Level"/>
+  </concept>
+  <concept>
+    <code value="uLotdmVESxa"/>
+    <display value="Father Names"/>
+    <definition value="Father Names"/>
+  </concept>
+  <concept>
+    <code value="AClDcrZs6R3"/>
+    <display value="Father Phone Number"/>
+    <definition value="Father Phone Number"/>
+  </concept>
+  <concept>
+    <code value="KsNhcMy9iwH"/>
+    <display value="Fathers ID Number"/>
+    <definition value="Fathers ID Number"/>
+  </concept>
+  <concept>
+    <code value="fY3yuQxkaUS"/>
+    <display value="Fellowship Expected Graduation Date"/>
+    <definition value="Fellowship Expected Graduation Date"/>
+  </concept>
+  <concept>
+    <code value="ISPdSEPTMBn"/>
+    <display value="Fellowship program"/>
+    <definition value="Fellowship program"/>
+  </concept>
+  <concept>
+    <code value="e9BrRZAicPE"/>
+    <display value="First Name"/>
+    <definition value="Name of the patient, Lastname Firstname"/>
+  </concept>
+  <concept>
+    <code value="yKhbGyUiLLq"/>
+    <display value="First Name of the client"/>
+    <definition value="client Name"/>
+  </concept>
+  <concept>
+    <code value="Ovu9BhmWgbL"/>
+    <display value="Full name"/>
+    <definition value="Full name"/>
+  </concept>
+  <concept>
+    <code value="Rq4qM2wKYFL"/>
+    <display value="Gender"/>
+    <definition value="Gender"/>
+  </concept>
+  <concept>
+    <code value="Ug49QUIKsxh"/>
+    <display value="Gender/SEX"/>
+    <definition value="Gender"/>
+  </concept>
+  <concept>
+    <code value="TfdH5KvFmMy"/>
+    <display value="Given Name/Prenom"/>
+    <definition value="Given Name/Prenom"/>
+  </concept>
+  <concept>
+    <code value="yXIS60L4z9a"/>
+    <display value="Height at Birth(Cm)"/>
+    <definition value="Height at Birth(Cm)"/>
+  </concept>
+  <concept>
+    <code value="iZYMynh3Q6a"/>
+    <display value="Home address"/>
+    <definition value="Home address"/>
+  </concept>
+  <concept>
+    <code value="RTR4TP32gx8"/>
+    <display value="Igitsina"/>
+    <definition value="Igitsina"/>
+  </concept>
+  <concept>
+    <code value="HnnLtwqPI7v"/>
+    <display value="In EIR and CRVS"/>
+    <definition value="In EIR and CRVS"/>
+  </concept>
+  <concept>
+    <code value="R5KfdqlJsHA"/>
+    <display value="Indangamuntu ya Nyina"/>
+    <definition value="Indangamuntu ya Nyina"/>
+  </concept>
+  <concept>
+    <code value="Gsjdt8LULYw"/>
+    <display value="Indangamuntu ya Se cyangwa Umurera"/>
+    <definition value="Indangamuntu ya Se cyangwa Umurera"/>
+  </concept>
+  <concept>
+    <code value="EzCMBhxLaKU"/>
+    <display value="Is Dead"/>
+    <definition value="Is Dead"/>
+  </concept>
+  <concept>
+    <code value="fKsHl5oaWtO"/>
+    <display value="Is under age"/>
+    <definition value="Is under age"/>
+  </concept>
+  <concept>
+    <code value="ekHx5Cql2T7"/>
+    <display value="Join date"/>
+    <definition value="Join date"/>
+  </concept>
+  <concept>
+    <code value="evDmVzLwfMV"/>
+    <display value="LB_Country of education"/>
+    <definition value="LB_Country of education"/>
+  </concept>
+  <concept>
+    <code value="wbRH4bxGQos"/>
+    <display value="LB_Date of commencement"/>
+    <definition value="LB_Date of commencement"/>
+  </concept>
+  <concept>
+    <code value="iYJiCmxPFHh"/>
+    <display value="LB_Email"/>
+    <definition value="LB_Email"/>
+  </concept>
+  <concept>
+    <code value="cuHQ94m2xyu"/>
+    <display value="LB_If other University specify "/>
+    <definition value="LB_If other University specify "/>
+  </concept>
+  <concept>
+    <code value="bDeIY6PcPvy"/>
+    <display value="LB_Intern End date"/>
+    <definition value="LB_Intern End date"/>
+  </concept>
+  <concept>
+    <code value="tkZYf0cfz7g"/>
+    <display value="LB_Intern type"/>
+    <definition value="LB_Intern type"/>
+  </concept>
+  <concept>
+    <code value="fzIRPb8eOGx"/>
+    <display value="LB_Nationality"/>
+    <definition value="LB_Nationality"/>
+  </concept>
+  <concept>
+    <code value="iv9ywpPBd3f"/>
+    <display value="LB_Passport Number"/>
+    <definition value="LB_Passport Number"/>
+  </concept>
+  <concept>
+    <code value="CiJzESXEEEI"/>
+    <display value="LB_Provisional License Number"/>
+    <definition value="LB_Provisional License Number"/>
+  </concept>
+  <concept>
+    <code value="wqUtd3xa3al"/>
+    <display value="LB_Unique ID"/>
+    <definition value="LB_Unique ID"/>
+  </concept>
+  <concept>
+    <code value="dCAh9Y9K6aM"/>
+    <display value="LB_University "/>
+    <definition value="LB_University "/>
+  </concept>
+  <concept>
+    <code value="ABVa8kNzkh8"/>
+    <display value="Last Name of the client"/>
+    <definition value="client last name"/>
+  </concept>
+  <concept>
+    <code value="UQNrumJTziw"/>
+    <display value="Leprosy Case Number"/>
+    <definition value="Leprosy Case Number"/>
+  </concept>
+  <concept>
+    <code value="MGTvCH8utlf"/>
+    <display value="Leprosy Contact Number"/>
+    <definition value="Leprosy Contact Number"/>
+  </concept>
+  <concept>
+    <code value="gwTNODsqr5L"/>
+    <display value="Leprosy _Current age"/>
+    <definition value="Leprosy _Current age"/>
+  </concept>
+  <concept>
+    <code value="gRQgNqnWtc1"/>
+    <display value="License Number"/>
+    <definition value="License Number"/>
+  </concept>
+  <concept>
+    <code value="O99WyJz6onQ"/>
+    <display value="Live alone"/>
+    <definition value="Live alone"/>
+  </concept>
+  <concept>
+    <code value="UXezg9UjJv2"/>
+    <display value="Live with family"/>
+    <definition value="Live with family"/>
+  </concept>
+  <concept>
+    <code value="f038nOc9uRF"/>
+    <display value="Location of residence"/>
+    <definition value="The location (coordinates) of the place of residence."/>
+  </concept>
+  <concept>
+    <code value="vBlHJN5gPSi"/>
+    <display value="Mother s ID number"/>
+    <definition value="Mother s ID number"/>
+  </concept>
+  <concept>
+    <code value="cUTcjBma2jK"/>
+    <display value="Mothers Date of Birth"/>
+    <definition value="Mothers Date of Birth"/>
+  </concept>
+  <concept>
+    <code value="YDWk8qQbFOh"/>
+    <display value="Mothers Education Level"/>
+    <definition value="Mothers Education Level"/>
+  </concept>
+  <concept>
+    <code value="RzPmWr82V3p"/>
+    <display value="Mothers Names"/>
+    <definition value="Mothers Names"/>
+  </concept>
+  <concept>
+    <code value="IBcgUcOzYgB"/>
+    <display value="Mothers Phone Number"/>
+    <definition value="Mothers Phone Number"/>
+  </concept>
+  <concept>
+    <code value="lzae3BtWOIZ"/>
+    <display value="NIN"/>
+    <definition value="NIN"/>
+  </concept>
+  <concept>
+    <code value="aW66s2QSosT"/>
+    <display value="Name/Nom"/>
+    <definition value="Name/Nom"/>
+  </concept>
+  <concept>
+    <code value="PEhSKbBKoXS"/>
+    <display value="Names"/>
+    <definition value="Names"/>
+  </concept>
+  <concept>
+    <code value="O7P9OMwtpwL"/>
+    <display value="National ID"/>
+    <definition value="Patient National ID"/>
+  </concept>
+  <concept>
+    <code value="haL5t4KtUis"/>
+    <display value="National ID (new)"/>
+    <definition value="National ID (new)"/>
+  </concept>
+  <concept>
+    <code value="eiMG6z23BJh"/>
+    <display value="Next of Kin Firstname"/>
+    <definition value="Next of Kin Firstname"/>
+  </concept>
+  <concept>
+    <code value="opFwwerYZzV"/>
+    <display value="Next of Kin Lastname"/>
+    <definition value="Next of kin LN"/>
+  </concept>
+  <concept>
+    <code value="DLC9w54MA59"/>
+    <display value="Next of Kin Telephone"/>
+    <definition value="Next of Kin Phone"/>
+  </concept>
+  <concept>
+    <code value="ZE2FHgj3EE1"/>
+    <display value="Number of children"/>
+    <definition value="Number of children"/>
+  </concept>
+  <concept>
+    <code value="ZLdEQatuagP"/>
+    <display value="Number of dependents"/>
+    <definition value="Number of dependents"/>
+  </concept>
+  <concept>
+    <code value="Ewi7FUfcHAD"/>
+    <display value="Patient Unique ID"/>
+    <definition value="Patient Unique ID"/>
+  </concept>
+  <concept>
+    <code value="epBHliNRBLh"/>
+    <display value="Phone number"/>
+    <definition value="Phone number"/>
+  </concept>
+  <concept>
+    <code value="CT6aPmeOhXw"/>
+    <display value="Phone number_FSW"/>
+    <definition value="Phone number_FSW"/>
+  </concept>
+  <concept>
+    <code value="iCy9QPG9HY9"/>
+    <display value="Place of Bith"/>
+    <definition value="Place of Bith"/>
+  </concept>
+  <concept>
+    <code value="j0RWl7MZZjF"/>
+    <display value="Place of birth_FSW"/>
+    <definition value="Place of birth_FSW"/>
+  </concept>
+  <concept>
+    <code value="tbLiYMxG0M1"/>
+    <display value="Place of first commercial sex_District"/>
+    <definition value="Place of first commercial sex_District"/>
+  </concept>
+  <concept>
+    <code value="GUd2L4V5Qu5"/>
+    <display value="Plate number "/>
+    <definition value="Plate number "/>
+  </concept>
+  <concept>
+    <code value="TXDvRJ9wWBv"/>
+    <display value="Pregnancy Number"/>
+    <definition value="Pregnancy Number"/>
+  </concept>
+  <concept>
+    <code value="xngC89Ip5E7"/>
+    <display value="Program Type"/>
+    <definition value="Program Type"/>
+  </concept>
+  <concept>
+    <code value="nuqA7EFKonT"/>
+    <display value="Program duration"/>
+    <definition value="Program duration"/>
+  </concept>
+  <concept>
+    <code value="l9WS5ketbhX"/>
+    <display value="Province of next of kin"/>
+    <definition value="Province of orgin"/>
+  </concept>
+  <concept>
+    <code value="FBm5ftjnCj2"/>
+    <display value="Province of residence"/>
+    <definition value="Province of residence"/>
+  </concept>
+  <concept>
+    <code value="bayoL96sEsL"/>
+    <display value="Province of the client"/>
+    <definition value="Province of the client"/>
+  </concept>
+  <concept>
+    <code value="l70Rt7f0YNE"/>
+    <display value="Register facilityName"/>
+    <definition value="Register facilityName"/>
+  </concept>
+  <concept>
+    <code value="I0RIIcxm6G3"/>
+    <display value="Registration date"/>
+    <definition value="Registration date"/>
+  </concept>
+  <concept>
+    <code value="pDx163TL9N2"/>
+    <display value="Relationship"/>
+    <definition value="Relationship patient"/>
+  </concept>
+  <concept>
+    <code value="ysatfqnP6ZJ"/>
+    <display value="Rwanda nationality ?"/>
+    <definition value="Rwanda nationality ?"/>
+  </concept>
+  <concept>
+    <code value="wnfbyVsNj4h"/>
+    <display value="Sector Current residence"/>
+    <definition value="Sector Current residence"/>
+  </concept>
+  <concept>
+    <code value="rXWNI9jQhXs"/>
+    <display value="Sector of Residence"/>
+    <definition value="Sector of Residence"/>
+  </concept>
+  <concept>
+    <code value="bUnEh0yWeC0"/>
+    <display value="Sector of next of kin"/>
+    <definition value="Sector of orgin"/>
+  </concept>
+  <concept>
+    <code value="rMxZNZXHIFQ"/>
+    <display value="Sector of residence"/>
+    <definition value="Sector of residence"/>
+  </concept>
+  <concept>
+    <code value="T4oNeTO7Tk8"/>
+    <display value="Sector of the client"/>
+    <definition value="Sector of the client"/>
+  </concept>
+  <concept>
+    <code value="CklPZdOd6H1"/>
+    <display value="Sex"/>
+    <definition value="Gender of Person"/>
+  </concept>
+  <concept>
+    <code value="y1x29lfx2Pl"/>
+    <display value="Sex of the client"/>
+    <definition value="Sex of the client"/>
+  </concept>
+  <concept>
+    <code value="KIWNuC2w5K7"/>
+    <display value="Site_FSW"/>
+    <definition value="Site_FSW"/>
+  </concept>
+  <concept>
+    <code value="FIeADYwBKjB"/>
+    <display value="Social Category"/>
+    <definition value="Social Category"/>
+  </concept>
+  <concept>
+    <code value="JE04bCG3rk2"/>
+    <display value="Staff"/>
+    <definition value="Staff"/>
+  </concept>
+  <concept>
+    <code value="ldGZfMMlzFZ"/>
+    <display value="Student Registration Number"/>
+    <definition value="Student Registration Number"/>
+  </concept>
+  <concept>
+    <code value="c18OAOb1qet"/>
+    <display value="TB Case Number"/>
+    <definition value="TB Case Number"/>
+  </concept>
+  <concept>
+    <code value="BxV3tbviVZq"/>
+    <display value="TB_Current age"/>
+    <definition value="TB_Current age"/>
+  </concept>
+  <concept>
+    <code value="t71wTbckFTI"/>
+    <display value="Telefone ya Nyina"/>
+    <definition value="Telefone ya Nyina"/>
+  </concept>
+  <concept>
+    <code value="WamA2Upu9ii"/>
+    <display value="Telefone ya Se Cyangwa Umurera"/>
+    <definition value="Telefone ya Se Cyangwa Umurera"/>
+  </concept>
+  <concept>
+    <code value="TueBWX6YRtp"/>
+    <display value="Telefoni y'Umujyanama w'ubuzima"/>
+    <definition value="Telefoni y'Umujyanama w'ubuzima"/>
+  </concept>
+  <concept>
+    <code value="BvHmOeOGIG7"/>
+    <display value="Telephone (new)"/>
+    <definition value="Telephone (new)"/>
+  </concept>
+  <concept>
+    <code value="pB7G5BZh6bJ"/>
+    <display value="Telephone of the client"/>
+    <definition value="Telephone Number"/>
+  </concept>
+  <concept>
+    <code value="QyhGvFhiMF3"/>
+    <display value="Twins or More"/>
+    <definition value="Twins or More"/>
+  </concept>
+  <concept>
+    <code value="zH60KBzMsBo"/>
+    <display value="Ubudehe category"/>
+    <definition value="Ubudehe category"/>
+  </concept>
+  <concept>
+    <code value="Z5LvDzazkft"/>
+    <display value="Ubwishingizi"/>
+    <definition value="Ubwishingizi"/>
+  </concept>
+  <concept>
+    <code value="utBUvfIq5Dl"/>
+    <display value="Umudugudu"/>
+    <definition value="Umudugudu"/>
+  </concept>
+  <concept>
+    <code value="Za5dJxPRUfg"/>
+    <display value="Umujyanama w'ubuzima"/>
+    <definition value="Umujyanama w'ubuzima"/>
+  </concept>
+  <concept>
+    <code value="HKAjtWQUMCq"/>
+    <display value="Umurenge"/>
+    <definition value="Umurenge"/>
+  </concept>
+  <concept>
+    <code value="z0JpTH95uHR"/>
+    <display value="Unique Identification Code_FSW"/>
+    <definition value="Unique Identification Code_FSW"/>
+  </concept>
+  <concept>
+    <code value="O5oZvRUPYIQ"/>
+    <display value="Village Current residence"/>
+    <definition value="Village Current residence"/>
+  </concept>
+  <concept>
+    <code value="fSGeXjMM7Iw"/>
+    <display value="Village of Residance"/>
+    <definition value="Village of Residance"/>
+  </concept>
+  <concept>
+    <code value="ZB2q2bG9j4s"/>
+    <display value="Village of Residance (New)"/>
+    <definition value="Village of Residance (New)"/>
+  </concept>
+  <concept>
+    <code value="frmU1Hjwp6w"/>
+    <display value="Village of next of kin"/>
+    <definition value="Village of orgin"/>
+  </concept>
+  <concept>
+    <code value="fSS6j77BXyo"/>
+    <display value="Village of residence"/>
+    <definition value="Village of residence"/>
+  </concept>
+  <concept>
+    <code value="qq0Ly8akdYR"/>
+    <display value="Village of the client"/>
+    <definition value="Village of the client"/>
+  </concept>
+  <concept>
+    <code value="IYm5bpgSe3Y"/>
+    <display value="Villagecode"/>
+    <definition value="Villagecode"/>
+  </concept>
+  <concept>
+    <code value="niy3ldrnH1k"/>
+    <display value="Vocation Training Received_FSW"/>
+    <definition value="Vocation Training Received_FSW"/>
+  </concept>
+  <concept>
+    <code value="t9i9Bc9MNwX"/>
+    <display value="Warranty Duration (in months)"/>
+    <definition value="Warranty Duration (in months)"/>
+  </concept>
+  <concept>
+    <code value="aH29RtPc19V"/>
+    <display value="Warranty start date"/>
+    <definition value="Warranty start date"/>
+  </concept>
+  <concept>
+    <code value="cM7Q2YcXhH0"/>
+    <display value="Weight at Birth (Kgs)"/>
+    <definition value="Weight at Birth (Kgs)"/>
+  </concept>
+  <concept>
+    <code value="OPh3UFCaht4"/>
+    <display value="Year of fabrication"/>
+    <definition value="Year of fabrication"/>
+  </concept>
+  <concept>
+    <code value="AE6ExmcrLmo"/>
+    <display value="Year started commercial sex"/>
+    <definition value="Year started commercial sex"/>
+  </concept>
+  <concept>
+    <code value="dx3uJl25IKr"/>
+    <display value="Yigeze avurwa"/>
+    <definition value="Yigeze avurwa"/>
+  </concept>
+  <concept>
+    <code value="Zf9XyUDtGFC"/>
+    <display value="applicationNumber"/>
+    <definition value="applicationNumber"/>
+  </concept>
+  <concept>
+    <code value="csE2iyxUvZM"/>
+    <display value="facilityOfficeType"/>
+    <definition value="facilityOfficeType"/>
+  </concept>
+  <concept>
+    <code value="LS3cqxurOem"/>
+    <display value="notificationDate"/>
+    <definition value="notificationDate"/>
+  </concept>
+  <concept>
+    <code value="af8cbO1aI9Y"/>
+    <display value="rbf-Mother TRACnet number"/>
+    <definition value="rbf-Mother TRACnet number"/>
+  </concept>
+  <concept>
+    <code value="C1V9Q8GeV2m"/>
+    <display value="rbf_Did the child took Nevirapine at birth"/>
+    <definition value="rbf_Did the child took Nevirapine at birth"/>
+  </concept>
+  <concept>
+    <code value="d2g1HtmUlHj"/>
+    <display value="rbf_Does HF have an exposed infant in the period April,May,June 2016"/>
+    <definition value="rbf_Does HF have an exposed infant in the period April,May,June 2016"/>
+  </concept>
+  <concept>
+    <code value="OBt2GiMHgHy"/>
+    <display value="rbf_Does HF have an exposed infant in the period July,2016-June,2017?"/>
+    <definition value="rbf_Does HF have an exposed infant in the period July,2016-June,2017?"/>
+  </concept>
+  <concept>
+    <code value="eN57OHpTlQQ"/>
+    <display value="rbf_Does HF have an exposed infant in the period July,2017-June,2018?"/>
+    <definition value="rbf_Does HF have an exposed infant in the period July,2017-June,2018?"/>
+  </concept>
+  <concept>
+    <code value="MuHGufOGFw9"/>
+    <display value="rbf_Does HF have an exposed infant in the period July,2018-June,2019?"/>
+    <definition value="rbf_Does HF have an exposed infant in the period July,2018-June,2019?"/>
+  </concept>
+  <concept>
+    <code value="QN0VAPDV8BG"/>
+    <display value="rbf_Does HF have an exposed infant in the period July,2019-June,2020?"/>
+    <definition value="rbf_Does HF have an exposed infant in the period July,2019-June,2020?"/>
+  </concept>
+  <concept>
+    <code value="tkcL6xyUGjN"/>
+    <display value="rbf_ID"/>
+    <definition value="rbf_ID"/>
+  </concept>
+  <concept>
+    <code value="Tiz0xDPMXC9"/>
+    <display value="rbf_Patient DoB"/>
+    <definition value="rbf_Patient DoB"/>
+  </concept>
+  <concept>
+    <code value="QzUggPwl61f"/>
+    <display value="rbf_Patient Tracknet Number"/>
+    <definition value="rbf_Patient Tracknet Number"/>
+  </concept>
+  <concept>
+    <code value="axUuQMzM1PD"/>
+    <display value="rbf_Patient sex"/>
+    <definition value="rbf_Patient sex"/>
+  </concept>
+  <concept>
+    <code value="ATMg1kDxkZi"/>
+    <display value="rbf_Regisration date"/>
+    <definition value="rbf_Regisration date"/>
+  </concept>
+  <concept>
+    <code value="W0p422otuka"/>
+    <display value="rbf_Registration place"/>
+    <definition value="rbf_Registration place"/>
+  </concept>
+  <concept>
+    <code value="oMCcGOzPpOI"/>
+    <display value="rbf_month of birth "/>
+    <definition value="rbf_month of birth "/>
+  </concept>
+  <concept>
+    <code value="C6XGReyQjst"/>
+    <display value="rbf_month of birth old"/>
+    <definition value="rbf_month of birth old"/>
+  </concept>
+  <concept>
+    <code value="ztFYx9bppif"/>
+    <display value="rbf_order number"/>
+    <definition value="rbf_order number"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,936 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>DHIS2 Tracked Entity Attributes - DHIS2 Rwanda Tracked Entity Attribute Harmonization IG v0.1.0</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link rel="stylesheet" href="fhir.css"/>
+    <link rel="stylesheet" href="assets/css/fa-all.css" type="text/css"/>
+      <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
+
+      <!-- Project extras -->
+    <link rel="stylesheet" href="assets/css/project.css"/>
+    <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
+    <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
+  	<link rel="stylesheet" href="assets/css/prism.css"/>
+      <!-- Placeholder for child template CSS declarations -->
+    <link rel="stylesheet" href="assets/css/who.css"/>
+    <link rel="stylesheet" href="assets/css/lforms.min.css"/>
+
+  <!-- Placeholder for child template CSS declarations -->
+<link rel="stylesheet" href="assets/css/colors.css"/>
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
+      <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+      <!-- [if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif] -->
+
+      <!-- Favicons -->
+    <link sizes="144x144" rel="fhir-logo" href="assets/ico/icon-fhir-144.png"/>
+    <link sizes="114x114" rel="fhir-logo" href="assets/ico/icon-fhir-114.png"/>
+    <link sizes="72x72" rel="fhir-logo" href="assets/ico/icon-fhir-72.png"/>
+    <link rel="fhir-logo" href="assets/ico/icon-fhir-57.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"2.5"}
+    h3,h4,h5,h6{--heading-prefix:"2.5"}</style>
+    <div id="segment-header" class="segment">    <!-- segment-header -->
+
+      <div id="segment-navbar" class="segment">    <!-- segment-navbar -->
+        <div id="stripe"> </div>
+        <div class="container">    <!-- container -->
+            <!-- HEADER CONTENT -->
+  
+          <nav class="navbar navbar-inverse">
+              <!-- status-bar -->
+            <div class="container">
+              <button data-target=".navbar-inverse-collapse" data-toggle="collapse" type="button" class="navbar-toggle">
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+                <span class="icon-bar"> </span>
+              </button>
+              <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
+              <div class="nav-collapse collapse navbar-inverse-collapse">
+                  <!-- menu.xml -->
+
+<ul class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+              </div>    <!-- /.nav-collapse -->
+
+              <div data-placeholder-label="Language Selector and Search" style="display: flex; justify-content: flex-end; align-items: center;" class="sf_colsIn col-md-8  navbar-right-container" data-sf-element="LanguageSelectorSearch">
+                  <!-- This div will be pushed to the right -->
+                <div style="margin-left: auto; background-color: #00477d; color: white;" class="language-selector">
+                  <i class="fa fa-language fa-lg"></i>
+                  <label for="language-selector"> </label>
+                  <select onChange="openLink(value)" name="language-selector" id="language-selector">
+                    <option disabled="null" selected="null">Select language</option>
+                    <option value="en" class="selected">English</option>
+                  </select>
+                  <i class="fas fa-angle-down"></i>
+                </div>
+                  <!-- Search Content -->
+              </div>
+            </div>    <!-- /.container -->
+          </nav>    <!-- /.navbar -->
+          <!-- /HEADER CONTENT -->
+        </div>    <!-- /container -->
+      </div>    <!-- /segment-navbar -->
+      
+
+      <div style=" justify-content: space-between; align-items: left;" class="container">
+
+          <!-- Left logo - typically the publisher's logo - project or affiliate -->
+<div id="project-nav"><a name="l176">​</a>
+    <a no-external="true" id="project-logo" href="https://dhis2.org/integration/fhir/">
+      <img src="assets/images/dhis2.png" alt="Project home" height="60"/>
+    </a>
+  </div>
+
+  <!-- Right logo - for example the FHIR logo -->
+  <!-- Make sure you have authorization to use the FHIR logo -->
+  <div id="family-nav">
+    <a no-external="true" id="family-logo" href="http://hl7.org/fhir"><img src="assets/images/fhir.png" alt="FHIR website" height="80"/> </a>
+  </div>
+
+  <!-- search icon - if you want -->
+  <!-- <div id="hl7-search">
+    <a id="hl7-search-lnk" no-external="true" href="http://hl7.org/fhir/search.cfm"><img alt="Search FHIR" src="assets/images/search.png"/></a>
+  </div> -->
+
+        <div id="ig-status" class="ig-status-draft">
+          <p><span style="font-size:12pt;font-weight:bold">DHIS2 Rwanda Tracked Entity Attribute Harmonization IG</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - draft
+
+
+            </span>
+          </p>
+        </div>
+      </div>   <!-- /container -->
+    </div>    <!-- /segment-header -->
+
+
+      <!-- status-bar -->
+
+    <div id="segment-breadcrumb" class="segment">    <!-- segment-breadcrumb -->
+      <div class="container">    <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href="toc.html"><b>Table of Contents</b></a></li><li><a href="artifacts.html"><b>Artifacts Summary</b></a></li><li><b>DHIS2 Tracked Entity Attributes</b></li>
+
+        </ul>
+      </div>    <!-- /container -->
+    </div>    <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">    <!-- segment-content -->
+      <div class="container">    <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+    <!-- ReleaseHeader --><p id="publish-box">DHIS2 Rwanda Tracked Entity Attribute Harmonization IG - Local Development build (v0.1.0) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="https://dhis2.org/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+
+  
+    <li>
+      <a href="CodeSystem-DHIS2Attributes.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-DHIS2Attributes.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="CodeSystem-DHIS2Attributes.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">CodeSystem: DHIS2 Tracked Entity Attributes
+(Experimental)
+  </h2>
+
+  <table class="colsd">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://dhis2.org/CodeSystem/DHIS2Attributes<button data-clipboard-text="https://dhis2.org/CodeSystem/DHIS2Attributes" title="Click to copy URL" class="btn-copy"></button></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button data-clipboard-text="https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0" title="Click to copy versioned URL" class="btn-copy"></button></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Draft
+          
+            as of 2024-06-20
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">DHIS2Attributes</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>This code system defines tracked entity attributes used in DHIS2</p>
+
+</p>
+
+    <!-- insert intro if present -->
+  
+
+
+
+  <p>
+  This Code system is referenced in the content logical definition of the following value sets:
+  </p>
+
+  
+<ul><li>This CodeSystem is not used here; it may be used elsewhere (e.g. specifications and/or implementations that use this content)</li></ul>
+
+
+  <div><p>This case-insensitive code system <code>https://dhis2.org/CodeSystem/DHIS2Attributes</code> defines the following codes:</p>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr>
+<tr><td style="white-space:nowrap">NGeJP9rTUI3<a name="DHIS2Attributes-NGeJP9rTUI3"> </a></td>
+<td>Address (New)</td>
+<td>Address (New)</td></tr>
+<tr><td style="white-space:nowrap">eRGolzpzbsV<a name="DHIS2Attributes-eRGolzpzbsV"> </a></td>
+<td>Afite Ibibari mu nkanka</td>
+<td>Afite Ibibari mu nkanka</td></tr>
+<tr><td style="white-space:nowrap">WLP2idn6CPZ<a name="DHIS2Attributes-WLP2idn6CPZ"> </a></td>
+<td>Afite ikibari ku munwa</td>
+<td>Afite ikibari ku munwa</td></tr>
+<tr><td style="white-space:nowrap">CEOwe5r8PFS<a name="DHIS2Attributes-CEOwe5r8PFS"> </a></td>
+<td>Age</td>
+<td>Age</td></tr>
+<tr><td style="white-space:nowrap">J2c9TNIpHd0<a name="DHIS2Attributes-J2c9TNIpHd0"> </a></td>
+<td>Age_1</td>
+<td>Age</td></tr>
+<tr><td style="white-space:nowrap">c6gUKezht7U<a name="DHIS2Attributes-c6gUKezht7U"> </a></td>
+<td>Akagari</td>
+<td>Akagari</td></tr>
+<tr><td style="white-space:nowrap">jsHnkLgaLne<a name="DHIS2Attributes-jsHnkLgaLne"> </a></td>
+<td>Akarere</td>
+<td>Akarere</td></tr>
+<tr><td style="white-space:nowrap">IWCa9RY9pqt<a name="DHIS2Attributes-IWCa9RY9pqt"> </a></td>
+<td>Amazina y umwana</td>
+<td>Amazina y umwana</td></tr>
+<tr><td style="white-space:nowrap">VlP9V51JaYP<a name="DHIS2Attributes-VlP9V51JaYP"> </a></td>
+<td>Amazina ya Nyina</td>
+<td>Amazina ya Nyina</td></tr>
+<tr><td style="white-space:nowrap">RP0jtvuebcN<a name="DHIS2Attributes-RP0jtvuebcN"> </a></td>
+<td>Amazina ya Se Cyangwa umurera</td>
+<td>Amazina ya Se Cyangwa umurera</td></tr>
+<tr><td style="white-space:nowrap">BEyqBJ1NOca<a name="DHIS2Attributes-BEyqBJ1NOca"> </a></td>
+<td>Ambulance account number</td>
+<td>Ambulance account number</td></tr>
+<tr><td style="white-space:nowrap">jCsa67YikZE<a name="DHIS2Attributes-jCsa67YikZE"> </a></td>
+<td>Ambulance brand</td>
+<td>Ambulance brand</td></tr>
+<tr><td style="white-space:nowrap">MYKEpLGgVlX<a name="DHIS2Attributes-MYKEpLGgVlX"> </a></td>
+<td>Ambulance purchaser</td>
+<td>Ambulance purchaser</td></tr>
+<tr><td style="white-space:nowrap">jKahvk7wiQf<a name="DHIS2Attributes-jKahvk7wiQf"> </a></td>
+<td>Auto Gen Child ID</td>
+<td>Auto Gen Child ID</td></tr>
+<tr><td style="white-space:nowrap">IaZ89ZIN1va<a name="DHIS2Attributes-IaZ89ZIN1va"> </a></td>
+<td>Auto Gen Leprosy ID</td>
+<td>Auto Gen Leprosy ID</td></tr>
+<tr><td style="white-space:nowrap">DEVBM6Bogtv<a name="DHIS2Attributes-DEVBM6Bogtv"> </a></td>
+<td>Auto Gen Patient ID</td>
+<td>Auto Gen Patient ID</td></tr>
+<tr><td style="white-space:nowrap">bnuOdOujH9r<a name="DHIS2Attributes-bnuOdOujH9r"> </a></td>
+<td>Bank name</td>
+<td>Bank name</td></tr>
+<tr><td style="white-space:nowrap">wYgV5mGqymu<a name="DHIS2Attributes-wYgV5mGqymu"> </a></td>
+<td>Birth date</td>
+<td>Birth date</td></tr>
+<tr><td style="white-space:nowrap">FAkQHm3kesU<a name="DHIS2Attributes-FAkQHm3kesU"> </a></td>
+<td>CDT of Origin</td>
+<td>CDT of Origin</td></tr>
+<tr><td style="white-space:nowrap">K9zM5Tq8G5f<a name="DHIS2Attributes-K9zM5Tq8G5f"> </a></td>
+<td>CHWID</td>
+<td>CHWID</td></tr>
+<tr><td style="white-space:nowrap">kHYxRPCqCaJ<a name="DHIS2Attributes-kHYxRPCqCaJ"> </a></td>
+<td>CHWrole</td>
+<td>CHWrole</td></tr>
+<tr><td style="white-space:nowrap">wZZt54vCaiY<a name="DHIS2Attributes-wZZt54vCaiY"> </a></td>
+<td>CSO District Address</td>
+<td>CSO District Address</td></tr>
+<tr><td style="white-space:nowrap">TMRU1mlwWgI<a name="DHIS2Attributes-TMRU1mlwWgI"> </a></td>
+<td>CSO Email</td>
+<td>CSO Email</td></tr>
+<tr><td style="white-space:nowrap">CgaGH5n91Jl<a name="DHIS2Attributes-CgaGH5n91Jl"> </a></td>
+<td>CSO Sector</td>
+<td>CSO Sector</td></tr>
+<tr><td style="white-space:nowrap">bewrz2DDWZK<a name="DHIS2Attributes-bewrz2DDWZK"> </a></td>
+<td>CSO Telephone</td>
+<td>CSO Telephone</td></tr>
+<tr><td style="white-space:nowrap">Z5RG5JkLehv<a name="DHIS2Attributes-Z5RG5JkLehv"> </a></td>
+<td>CSO Website</td>
+<td>CSO Website</td></tr>
+<tr><td style="white-space:nowrap">E5D1aKa2eFb<a name="DHIS2Attributes-E5D1aKa2eFb"> </a></td>
+<td>Caretaker</td>
+<td>Caretaker</td></tr>
+<tr><td style="white-space:nowrap">QF1ewXEBT0o<a name="DHIS2Attributes-QF1ewXEBT0o"> </a></td>
+<td>Caretaker ID Number</td>
+<td>Caretaker ID Number</td></tr>
+<tr><td style="white-space:nowrap">OjVFFLxlAbo<a name="DHIS2Attributes-OjVFFLxlAbo"> </a></td>
+<td>Caretaker Names</td>
+<td>Caretaker Names</td></tr>
+<tr><td style="white-space:nowrap">MfQkSwP7hiP<a name="DHIS2Attributes-MfQkSwP7hiP"> </a></td>
+<td>Caretaker Phone Number</td>
+<td>Caretaker Phone Number</td></tr>
+<tr><td style="white-space:nowrap">QQNwqxcZqCW<a name="DHIS2Attributes-QQNwqxcZqCW"> </a></td>
+<td>Case Unique ID</td>
+<td>Case Unique ID</td></tr>
+<tr><td style="white-space:nowrap">VUOPFCmLGDA<a name="DHIS2Attributes-VUOPFCmLGDA"> </a></td>
+<td>Cell Cell</td>
+<td>Cell Cell</td></tr>
+<tr><td style="white-space:nowrap">McdXE0wk05G<a name="DHIS2Attributes-McdXE0wk05G"> </a></td>
+<td>Cell Current residence</td>
+<td>Cell Current residence</td></tr>
+<tr><td style="white-space:nowrap">t8YUbhAXCoq<a name="DHIS2Attributes-t8YUbhAXCoq"> </a></td>
+<td>Cell of Residance</td>
+<td>Cell of Residance</td></tr>
+<tr><td style="white-space:nowrap">s6EJmfbbvnA<a name="DHIS2Attributes-s6EJmfbbvnA"> </a></td>
+<td>Cell of residence</td>
+<td>Cell of residence</td></tr>
+<tr><td style="white-space:nowrap">LAeWtKjFYNG<a name="DHIS2Attributes-LAeWtKjFYNG"> </a></td>
+<td>Cell of residence (New)</td>
+<td>Cell of residence (New)</td></tr>
+<tr><td style="white-space:nowrap">KDxwNieLdee<a name="DHIS2Attributes-KDxwNieLdee"> </a></td>
+<td>Cell of the client</td>
+<td>client Cell</td></tr>
+<tr><td style="white-space:nowrap">OzMkoLsiwJM<a name="DHIS2Attributes-OzMkoLsiwJM"> </a></td>
+<td>Cellcode</td>
+<td>CHWcellcode</td></tr>
+<tr><td style="white-space:nowrap">krUV06sbefj<a name="DHIS2Attributes-krUV06sbefj"> </a></td>
+<td>Chassis number (use capital letter)</td>
+<td>Chassis number (use capital letter)</td></tr>
+<tr><td style="white-space:nowrap">yBT0DI1TTbT<a name="DHIS2Attributes-yBT0DI1TTbT"> </a></td>
+<td>Child ID (Register number)</td>
+<td>Child ID (Register number)</td></tr>
+<tr><td style="white-space:nowrap">VYEGPSgn908<a name="DHIS2Attributes-VYEGPSgn908"> </a></td>
+<td>Citizenship</td>
+<td>Citizenship</td></tr>
+<tr><td style="white-space:nowrap">ImsEZyLWjOu<a name="DHIS2Attributes-ImsEZyLWjOu"> </a></td>
+<td>Contact_Cell</td>
+<td>Contact_Cell</td></tr>
+<tr><td style="white-space:nowrap">zekrj7ti8lq<a name="DHIS2Attributes-zekrj7ti8lq"> </a></td>
+<td>Contact_District</td>
+<td>Contact_District</td></tr>
+<tr><td style="white-space:nowrap">eqM44PJGAod<a name="DHIS2Attributes-eqM44PJGAod"> </a></td>
+<td>Contact_Sector</td>
+<td>Contact_Sector</td></tr>
+<tr><td style="white-space:nowrap">Fk4qy2RY1xm<a name="DHIS2Attributes-Fk4qy2RY1xm"> </a></td>
+<td>Contact_Village</td>
+<td>Contact_Village</td></tr>
+<tr><td style="white-space:nowrap">F7b4wG4dxsn<a name="DHIS2Attributes-F7b4wG4dxsn"> </a></td>
+<td>Country</td>
+<td>Country</td></tr>
+<tr><td style="white-space:nowrap">q70u29fMclV<a name="DHIS2Attributes-q70u29fMclV"> </a></td>
+<td>Cso Name</td>
+<td>Cso Name</td></tr>
+<tr><td style="white-space:nowrap">B9bfWW6w0e2<a name="DHIS2Attributes-B9bfWW6w0e2"> </a></td>
+<td>DOB type</td>
+<td>DOB type</td></tr>
+<tr><td style="white-space:nowrap">q6ojcpdv1m3<a name="DHIS2Attributes-q6ojcpdv1m3"> </a></td>
+<td>Data Entry Date</td>
+<td>Data Entry Date</td></tr>
+<tr><td style="white-space:nowrap">UFUIiaHn0vh<a name="DHIS2Attributes-UFUIiaHn0vh"> </a></td>
+<td>Date birth_FSW</td>
+<td>Date birth_FSW</td></tr>
+<tr><td style="white-space:nowrap">uVpef29Fwc9<a name="DHIS2Attributes-uVpef29Fwc9"> </a></td>
+<td>Date of Birth of the client</td>
+<td>Client Date of Birth</td></tr>
+<tr><td style="white-space:nowrap">A31FfrjPqyp<a name="DHIS2Attributes-A31FfrjPqyp"> </a></td>
+<td>Date of birth</td>
+<td>Date of birth</td></tr>
+<tr><td style="white-space:nowrap">Z1rLc1rVHK8<a name="DHIS2Attributes-Z1rLc1rVHK8"> </a></td>
+<td>Date of birth is estimated</td>
+<td>Date of birth is estimated</td></tr>
+<tr><td style="white-space:nowrap">EUNJhnqOyQf<a name="DHIS2Attributes-EUNJhnqOyQf"> </a></td>
+<td>Date of birth of first-born child</td>
+<td>Date of birth of first-born child</td></tr>
+<tr><td style="white-space:nowrap">KkY64Uyz5y5<a name="DHIS2Attributes-KkY64Uyz5y5"> </a></td>
+<td>Date of birth of last born</td>
+<td>Date of birth of last born</td></tr>
+<tr><td style="white-space:nowrap">YC6gjC3VqXd<a name="DHIS2Attributes-YC6gjC3VqXd"> </a></td>
+<td>Date of enrollment in CSO program</td>
+<td>Date of enrollment in CSO program</td></tr>
+<tr><td style="white-space:nowrap">sY7Fyd3KdXK<a name="DHIS2Attributes-sY7Fyd3KdXK"> </a></td>
+<td>Date of reception</td>
+<td>Date of reception</td></tr>
+<tr><td style="white-space:nowrap">wyPB0rnIOQa<a name="DHIS2Attributes-wyPB0rnIOQa"> </a></td>
+<td>Death date</td>
+<td>Death date</td></tr>
+<tr><td style="white-space:nowrap">iEXJRQkfSOC<a name="DHIS2Attributes-iEXJRQkfSOC"> </a></td>
+<td>District Current residence</td>
+<td>District Current residence</td></tr>
+<tr><td style="white-space:nowrap">AUiAvQrWQEa<a name="DHIS2Attributes-AUiAvQrWQEa"> </a></td>
+<td>District Home address</td>
+<td>District Home address</td></tr>
+<tr><td style="white-space:nowrap">Y72SyQdDhIX<a name="DHIS2Attributes-Y72SyQdDhIX"> </a></td>
+<td>District of next of kin</td>
+<td>District of orgin</td></tr>
+<tr><td style="white-space:nowrap">p2Nqf8AphI6<a name="DHIS2Attributes-p2Nqf8AphI6"> </a></td>
+<td>District of residence</td>
+<td>District of residence</td></tr>
+<tr><td style="white-space:nowrap">getkVaLr2bw<a name="DHIS2Attributes-getkVaLr2bw"> </a></td>
+<td>District of residence_vacc</td>
+<td>District of residence_vacc</td></tr>
+<tr><td style="white-space:nowrap">Kanzoi8DTom<a name="DHIS2Attributes-Kanzoi8DTom"> </a></td>
+<td>District of the client</td>
+<td>District of the client</td></tr>
+<tr><td style="white-space:nowrap">hKGmiEPrCCg<a name="DHIS2Attributes-hKGmiEPrCCg"> </a></td>
+<td>E_mail of the client</td>
+<td>E-mail of the client</td></tr>
+<tr><td style="white-space:nowrap">ODkP0myM8az<a name="DHIS2Attributes-ODkP0myM8az"> </a></td>
+<td>Education</td>
+<td>Education</td></tr>
+<tr><td style="white-space:nowrap">DZ2uRcXYVp8<a name="DHIS2Attributes-DZ2uRcXYVp8"> </a></td>
+<td>Education level_FSW</td>
+<td>Education level_FSW</td></tr>
+<tr><td style="white-space:nowrap">GiTHeVlmcAK<a name="DHIS2Attributes-GiTHeVlmcAK"> </a></td>
+<td>Engine number (use capital letter)</td>
+<td>Engine number (use capital letter)</td></tr>
+<tr><td style="white-space:nowrap">yAoKZU1ileI<a name="DHIS2Attributes-yAoKZU1ileI"> </a></td>
+<td>Enrolled in HIV program</td>
+<td>Enrolled in HIV program</td></tr>
+<tr><td style="white-space:nowrap">gmviIGeQAGl<a name="DHIS2Attributes-gmviIGeQAGl"> </a></td>
+<td>Enrollment date(Registration Date)</td>
+<td>Enrollment date(Registration Date)</td></tr>
+<tr><td style="white-space:nowrap">Z6u6ysYu07K<a name="DHIS2Attributes-Z6u6ysYu07K"> </a></td>
+<td>Ever married</td>
+<td>Ever married</td></tr>
+<tr><td style="white-space:nowrap">wLwmg1ntjs1<a name="DHIS2Attributes-wLwmg1ntjs1"> </a></td>
+<td>Ever tested for HIV</td>
+<td>Ever tested for HIV</td></tr>
+<tr><td style="white-space:nowrap">e8SIFhxBHCv<a name="DHIS2Attributes-e8SIFhxBHCv"> </a></td>
+<td>Eye  Health Insurance type</td>
+<td>Eye  Health Insurance type</td></tr>
+<tr><td style="white-space:nowrap">YtNcplQ1Tvb<a name="DHIS2Attributes-YtNcplQ1Tvb"> </a></td>
+<td>Eye reason of enrollement </td>
+<td>Eye reason of enrollement </td></tr>
+<tr><td style="white-space:nowrap">sC7kVVEY8MJ<a name="DHIS2Attributes-sC7kVVEY8MJ"> </a></td>
+<td>FOSAID</td>
+<td>FOSAID</td></tr>
+<tr><td style="white-space:nowrap">tLgQEW71GZT<a name="DHIS2Attributes-tLgQEW71GZT"> </a></td>
+<td>FSW Code Auto</td>
+<td>FSW Code Auto</td></tr>
+<tr><td style="white-space:nowrap">nDQcbnq2DHV<a name="DHIS2Attributes-nDQcbnq2DHV"> </a></td>
+<td>FSW code</td>
+<td>FSW code</td></tr>
+<tr><td style="white-space:nowrap">sah5bll9Y6Q<a name="DHIS2Attributes-sah5bll9Y6Q"> </a></td>
+<td>Family Name</td>
+<td>Family Name</td></tr>
+<tr><td style="white-space:nowrap">hTdA8G5ZCEm<a name="DHIS2Attributes-hTdA8G5ZCEm"> </a></td>
+<td>Father Education Level</td>
+<td>Father Education Level</td></tr>
+<tr><td style="white-space:nowrap">uLotdmVESxa<a name="DHIS2Attributes-uLotdmVESxa"> </a></td>
+<td>Father Names</td>
+<td>Father Names</td></tr>
+<tr><td style="white-space:nowrap">AClDcrZs6R3<a name="DHIS2Attributes-AClDcrZs6R3"> </a></td>
+<td>Father Phone Number</td>
+<td>Father Phone Number</td></tr>
+<tr><td style="white-space:nowrap">KsNhcMy9iwH<a name="DHIS2Attributes-KsNhcMy9iwH"> </a></td>
+<td>Fathers ID Number</td>
+<td>Fathers ID Number</td></tr>
+<tr><td style="white-space:nowrap">fY3yuQxkaUS<a name="DHIS2Attributes-fY3yuQxkaUS"> </a></td>
+<td>Fellowship Expected Graduation Date</td>
+<td>Fellowship Expected Graduation Date</td></tr>
+<tr><td style="white-space:nowrap">ISPdSEPTMBn<a name="DHIS2Attributes-ISPdSEPTMBn"> </a></td>
+<td>Fellowship program</td>
+<td>Fellowship program</td></tr>
+<tr><td style="white-space:nowrap">e9BrRZAicPE<a name="DHIS2Attributes-e9BrRZAicPE"> </a></td>
+<td>First Name</td>
+<td>Name of the patient, Lastname Firstname</td></tr>
+<tr><td style="white-space:nowrap">yKhbGyUiLLq<a name="DHIS2Attributes-yKhbGyUiLLq"> </a></td>
+<td>First Name of the client</td>
+<td>client Name</td></tr>
+<tr><td style="white-space:nowrap">Ovu9BhmWgbL<a name="DHIS2Attributes-Ovu9BhmWgbL"> </a></td>
+<td>Full name</td>
+<td>Full name</td></tr>
+<tr><td style="white-space:nowrap">Rq4qM2wKYFL<a name="DHIS2Attributes-Rq4qM2wKYFL"> </a></td>
+<td>Gender</td>
+<td>Gender</td></tr>
+<tr><td style="white-space:nowrap">Ug49QUIKsxh<a name="DHIS2Attributes-Ug49QUIKsxh"> </a></td>
+<td>Gender/SEX</td>
+<td>Gender</td></tr>
+<tr><td style="white-space:nowrap">TfdH5KvFmMy<a name="DHIS2Attributes-TfdH5KvFmMy"> </a></td>
+<td>Given Name/Prenom</td>
+<td>Given Name/Prenom</td></tr>
+<tr><td style="white-space:nowrap">yXIS60L4z9a<a name="DHIS2Attributes-yXIS60L4z9a"> </a></td>
+<td>Height at Birth(Cm)</td>
+<td>Height at Birth(Cm)</td></tr>
+<tr><td style="white-space:nowrap">iZYMynh3Q6a<a name="DHIS2Attributes-iZYMynh3Q6a"> </a></td>
+<td>Home address</td>
+<td>Home address</td></tr>
+<tr><td style="white-space:nowrap">RTR4TP32gx8<a name="DHIS2Attributes-RTR4TP32gx8"> </a></td>
+<td>Igitsina</td>
+<td>Igitsina</td></tr>
+<tr><td style="white-space:nowrap">HnnLtwqPI7v<a name="DHIS2Attributes-HnnLtwqPI7v"> </a></td>
+<td>In EIR and CRVS</td>
+<td>In EIR and CRVS</td></tr>
+<tr><td style="white-space:nowrap">R5KfdqlJsHA<a name="DHIS2Attributes-R5KfdqlJsHA"> </a></td>
+<td>Indangamuntu ya Nyina</td>
+<td>Indangamuntu ya Nyina</td></tr>
+<tr><td style="white-space:nowrap">Gsjdt8LULYw<a name="DHIS2Attributes-Gsjdt8LULYw"> </a></td>
+<td>Indangamuntu ya Se cyangwa Umurera</td>
+<td>Indangamuntu ya Se cyangwa Umurera</td></tr>
+<tr><td style="white-space:nowrap">EzCMBhxLaKU<a name="DHIS2Attributes-EzCMBhxLaKU"> </a></td>
+<td>Is Dead</td>
+<td>Is Dead</td></tr>
+<tr><td style="white-space:nowrap">fKsHl5oaWtO<a name="DHIS2Attributes-fKsHl5oaWtO"> </a></td>
+<td>Is under age</td>
+<td>Is under age</td></tr>
+<tr><td style="white-space:nowrap">ekHx5Cql2T7<a name="DHIS2Attributes-ekHx5Cql2T7"> </a></td>
+<td>Join date</td>
+<td>Join date</td></tr>
+<tr><td style="white-space:nowrap">evDmVzLwfMV<a name="DHIS2Attributes-evDmVzLwfMV"> </a></td>
+<td>LB_Country of education</td>
+<td>LB_Country of education</td></tr>
+<tr><td style="white-space:nowrap">wbRH4bxGQos<a name="DHIS2Attributes-wbRH4bxGQos"> </a></td>
+<td>LB_Date of commencement</td>
+<td>LB_Date of commencement</td></tr>
+<tr><td style="white-space:nowrap">iYJiCmxPFHh<a name="DHIS2Attributes-iYJiCmxPFHh"> </a></td>
+<td>LB_Email</td>
+<td>LB_Email</td></tr>
+<tr><td style="white-space:nowrap">cuHQ94m2xyu<a name="DHIS2Attributes-cuHQ94m2xyu"> </a></td>
+<td>LB_If other University specify </td>
+<td>LB_If other University specify </td></tr>
+<tr><td style="white-space:nowrap">bDeIY6PcPvy<a name="DHIS2Attributes-bDeIY6PcPvy"> </a></td>
+<td>LB_Intern End date</td>
+<td>LB_Intern End date</td></tr>
+<tr><td style="white-space:nowrap">tkZYf0cfz7g<a name="DHIS2Attributes-tkZYf0cfz7g"> </a></td>
+<td>LB_Intern type</td>
+<td>LB_Intern type</td></tr>
+<tr><td style="white-space:nowrap">fzIRPb8eOGx<a name="DHIS2Attributes-fzIRPb8eOGx"> </a></td>
+<td>LB_Nationality</td>
+<td>LB_Nationality</td></tr>
+<tr><td style="white-space:nowrap">iv9ywpPBd3f<a name="DHIS2Attributes-iv9ywpPBd3f"> </a></td>
+<td>LB_Passport Number</td>
+<td>LB_Passport Number</td></tr>
+<tr><td style="white-space:nowrap">CiJzESXEEEI<a name="DHIS2Attributes-CiJzESXEEEI"> </a></td>
+<td>LB_Provisional License Number</td>
+<td>LB_Provisional License Number</td></tr>
+<tr><td style="white-space:nowrap">wqUtd3xa3al<a name="DHIS2Attributes-wqUtd3xa3al"> </a></td>
+<td>LB_Unique ID</td>
+<td>LB_Unique ID</td></tr>
+<tr><td style="white-space:nowrap">dCAh9Y9K6aM<a name="DHIS2Attributes-dCAh9Y9K6aM"> </a></td>
+<td>LB_University </td>
+<td>LB_University </td></tr>
+<tr><td style="white-space:nowrap">ABVa8kNzkh8<a name="DHIS2Attributes-ABVa8kNzkh8"> </a></td>
+<td>Last Name of the client</td>
+<td>client last name</td></tr>
+<tr><td style="white-space:nowrap">UQNrumJTziw<a name="DHIS2Attributes-UQNrumJTziw"> </a></td>
+<td>Leprosy Case Number</td>
+<td>Leprosy Case Number</td></tr>
+<tr><td style="white-space:nowrap">MGTvCH8utlf<a name="DHIS2Attributes-MGTvCH8utlf"> </a></td>
+<td>Leprosy Contact Number</td>
+<td>Leprosy Contact Number</td></tr>
+<tr><td style="white-space:nowrap">gwTNODsqr5L<a name="DHIS2Attributes-gwTNODsqr5L"> </a></td>
+<td>Leprosy _Current age</td>
+<td>Leprosy _Current age</td></tr>
+<tr><td style="white-space:nowrap">gRQgNqnWtc1<a name="DHIS2Attributes-gRQgNqnWtc1"> </a></td>
+<td>License Number</td>
+<td>License Number</td></tr>
+<tr><td style="white-space:nowrap">O99WyJz6onQ<a name="DHIS2Attributes-O99WyJz6onQ"> </a></td>
+<td>Live alone</td>
+<td>Live alone</td></tr>
+<tr><td style="white-space:nowrap">UXezg9UjJv2<a name="DHIS2Attributes-UXezg9UjJv2"> </a></td>
+<td>Live with family</td>
+<td>Live with family</td></tr>
+<tr><td style="white-space:nowrap">f038nOc9uRF<a name="DHIS2Attributes-f038nOc9uRF"> </a></td>
+<td>Location of residence</td>
+<td>The location (coordinates) of the place of residence.</td></tr>
+<tr><td style="white-space:nowrap">vBlHJN5gPSi<a name="DHIS2Attributes-vBlHJN5gPSi"> </a></td>
+<td>Mother s ID number</td>
+<td>Mother s ID number</td></tr>
+<tr><td style="white-space:nowrap">cUTcjBma2jK<a name="DHIS2Attributes-cUTcjBma2jK"> </a></td>
+<td>Mothers Date of Birth</td>
+<td>Mothers Date of Birth</td></tr>
+<tr><td style="white-space:nowrap">YDWk8qQbFOh<a name="DHIS2Attributes-YDWk8qQbFOh"> </a></td>
+<td>Mothers Education Level</td>
+<td>Mothers Education Level</td></tr>
+<tr><td style="white-space:nowrap">RzPmWr82V3p<a name="DHIS2Attributes-RzPmWr82V3p"> </a></td>
+<td>Mothers Names</td>
+<td>Mothers Names</td></tr>
+<tr><td style="white-space:nowrap">IBcgUcOzYgB<a name="DHIS2Attributes-IBcgUcOzYgB"> </a></td>
+<td>Mothers Phone Number</td>
+<td>Mothers Phone Number</td></tr>
+<tr><td style="white-space:nowrap">lzae3BtWOIZ<a name="DHIS2Attributes-lzae3BtWOIZ"> </a></td>
+<td>NIN</td>
+<td>NIN</td></tr>
+<tr><td style="white-space:nowrap">aW66s2QSosT<a name="DHIS2Attributes-aW66s2QSosT"> </a></td>
+<td>Name/Nom</td>
+<td>Name/Nom</td></tr>
+<tr><td style="white-space:nowrap">PEhSKbBKoXS<a name="DHIS2Attributes-PEhSKbBKoXS"> </a></td>
+<td>Names</td>
+<td>Names</td></tr>
+<tr><td style="white-space:nowrap">O7P9OMwtpwL<a name="DHIS2Attributes-O7P9OMwtpwL"> </a></td>
+<td>National ID</td>
+<td>Patient National ID</td></tr>
+<tr><td style="white-space:nowrap">haL5t4KtUis<a name="DHIS2Attributes-haL5t4KtUis"> </a></td>
+<td>National ID (new)</td>
+<td>National ID (new)</td></tr>
+<tr><td style="white-space:nowrap">eiMG6z23BJh<a name="DHIS2Attributes-eiMG6z23BJh"> </a></td>
+<td>Next of Kin Firstname</td>
+<td>Next of Kin Firstname</td></tr>
+<tr><td style="white-space:nowrap">opFwwerYZzV<a name="DHIS2Attributes-opFwwerYZzV"> </a></td>
+<td>Next of Kin Lastname</td>
+<td>Next of kin LN</td></tr>
+<tr><td style="white-space:nowrap">DLC9w54MA59<a name="DHIS2Attributes-DLC9w54MA59"> </a></td>
+<td>Next of Kin Telephone</td>
+<td>Next of Kin Phone</td></tr>
+<tr><td style="white-space:nowrap">ZE2FHgj3EE1<a name="DHIS2Attributes-ZE2FHgj3EE1"> </a></td>
+<td>Number of children</td>
+<td>Number of children</td></tr>
+<tr><td style="white-space:nowrap">ZLdEQatuagP<a name="DHIS2Attributes-ZLdEQatuagP"> </a></td>
+<td>Number of dependents</td>
+<td>Number of dependents</td></tr>
+<tr><td style="white-space:nowrap">Ewi7FUfcHAD<a name="DHIS2Attributes-Ewi7FUfcHAD"> </a></td>
+<td>Patient Unique ID</td>
+<td>Patient Unique ID</td></tr>
+<tr><td style="white-space:nowrap">epBHliNRBLh<a name="DHIS2Attributes-epBHliNRBLh"> </a></td>
+<td>Phone number</td>
+<td>Phone number</td></tr>
+<tr><td style="white-space:nowrap">CT6aPmeOhXw<a name="DHIS2Attributes-CT6aPmeOhXw"> </a></td>
+<td>Phone number_FSW</td>
+<td>Phone number_FSW</td></tr>
+<tr><td style="white-space:nowrap">iCy9QPG9HY9<a name="DHIS2Attributes-iCy9QPG9HY9"> </a></td>
+<td>Place of Bith</td>
+<td>Place of Bith</td></tr>
+<tr><td style="white-space:nowrap">j0RWl7MZZjF<a name="DHIS2Attributes-j0RWl7MZZjF"> </a></td>
+<td>Place of birth_FSW</td>
+<td>Place of birth_FSW</td></tr>
+<tr><td style="white-space:nowrap">tbLiYMxG0M1<a name="DHIS2Attributes-tbLiYMxG0M1"> </a></td>
+<td>Place of first commercial sex_District</td>
+<td>Place of first commercial sex_District</td></tr>
+<tr><td style="white-space:nowrap">GUd2L4V5Qu5<a name="DHIS2Attributes-GUd2L4V5Qu5"> </a></td>
+<td>Plate number </td>
+<td>Plate number </td></tr>
+<tr><td style="white-space:nowrap">TXDvRJ9wWBv<a name="DHIS2Attributes-TXDvRJ9wWBv"> </a></td>
+<td>Pregnancy Number</td>
+<td>Pregnancy Number</td></tr>
+<tr><td style="white-space:nowrap">xngC89Ip5E7<a name="DHIS2Attributes-xngC89Ip5E7"> </a></td>
+<td>Program Type</td>
+<td>Program Type</td></tr>
+<tr><td style="white-space:nowrap">nuqA7EFKonT<a name="DHIS2Attributes-nuqA7EFKonT"> </a></td>
+<td>Program duration</td>
+<td>Program duration</td></tr>
+<tr><td style="white-space:nowrap">l9WS5ketbhX<a name="DHIS2Attributes-l9WS5ketbhX"> </a></td>
+<td>Province of next of kin</td>
+<td>Province of orgin</td></tr>
+<tr><td style="white-space:nowrap">FBm5ftjnCj2<a name="DHIS2Attributes-FBm5ftjnCj2"> </a></td>
+<td>Province of residence</td>
+<td>Province of residence</td></tr>
+<tr><td style="white-space:nowrap">bayoL96sEsL<a name="DHIS2Attributes-bayoL96sEsL"> </a></td>
+<td>Province of the client</td>
+<td>Province of the client</td></tr>
+<tr><td style="white-space:nowrap">l70Rt7f0YNE<a name="DHIS2Attributes-l70Rt7f0YNE"> </a></td>
+<td>Register facilityName</td>
+<td>Register facilityName</td></tr>
+<tr><td style="white-space:nowrap">I0RIIcxm6G3<a name="DHIS2Attributes-I0RIIcxm6G3"> </a></td>
+<td>Registration date</td>
+<td>Registration date</td></tr>
+<tr><td style="white-space:nowrap">pDx163TL9N2<a name="DHIS2Attributes-pDx163TL9N2"> </a></td>
+<td>Relationship</td>
+<td>Relationship patient</td></tr>
+<tr><td style="white-space:nowrap">ysatfqnP6ZJ<a name="DHIS2Attributes-ysatfqnP6ZJ"> </a></td>
+<td>Rwanda nationality ?</td>
+<td>Rwanda nationality ?</td></tr>
+<tr><td style="white-space:nowrap">wnfbyVsNj4h<a name="DHIS2Attributes-wnfbyVsNj4h"> </a></td>
+<td>Sector Current residence</td>
+<td>Sector Current residence</td></tr>
+<tr><td style="white-space:nowrap">rXWNI9jQhXs<a name="DHIS2Attributes-rXWNI9jQhXs"> </a></td>
+<td>Sector of Residence</td>
+<td>Sector of Residence</td></tr>
+<tr><td style="white-space:nowrap">bUnEh0yWeC0<a name="DHIS2Attributes-bUnEh0yWeC0"> </a></td>
+<td>Sector of next of kin</td>
+<td>Sector of orgin</td></tr>
+<tr><td style="white-space:nowrap">rMxZNZXHIFQ<a name="DHIS2Attributes-rMxZNZXHIFQ"> </a></td>
+<td>Sector of residence</td>
+<td>Sector of residence</td></tr>
+<tr><td style="white-space:nowrap">T4oNeTO7Tk8<a name="DHIS2Attributes-T4oNeTO7Tk8"> </a></td>
+<td>Sector of the client</td>
+<td>Sector of the client</td></tr>
+<tr><td style="white-space:nowrap">CklPZdOd6H1<a name="DHIS2Attributes-CklPZdOd6H1"> </a></td>
+<td>Sex</td>
+<td>Gender of Person</td></tr>
+<tr><td style="white-space:nowrap">y1x29lfx2Pl<a name="DHIS2Attributes-y1x29lfx2Pl"> </a></td>
+<td>Sex of the client</td>
+<td>Sex of the client</td></tr>
+<tr><td style="white-space:nowrap">KIWNuC2w5K7<a name="DHIS2Attributes-KIWNuC2w5K7"> </a></td>
+<td>Site_FSW</td>
+<td>Site_FSW</td></tr>
+<tr><td style="white-space:nowrap">FIeADYwBKjB<a name="DHIS2Attributes-FIeADYwBKjB"> </a></td>
+<td>Social Category</td>
+<td>Social Category</td></tr>
+<tr><td style="white-space:nowrap">JE04bCG3rk2<a name="DHIS2Attributes-JE04bCG3rk2"> </a></td>
+<td>Staff</td>
+<td>Staff</td></tr>
+<tr><td style="white-space:nowrap">ldGZfMMlzFZ<a name="DHIS2Attributes-ldGZfMMlzFZ"> </a></td>
+<td>Student Registration Number</td>
+<td>Student Registration Number</td></tr>
+<tr><td style="white-space:nowrap">c18OAOb1qet<a name="DHIS2Attributes-c18OAOb1qet"> </a></td>
+<td>TB Case Number</td>
+<td>TB Case Number</td></tr>
+<tr><td style="white-space:nowrap">BxV3tbviVZq<a name="DHIS2Attributes-BxV3tbviVZq"> </a></td>
+<td>TB_Current age</td>
+<td>TB_Current age</td></tr>
+<tr><td style="white-space:nowrap">t71wTbckFTI<a name="DHIS2Attributes-t71wTbckFTI"> </a></td>
+<td>Telefone ya Nyina</td>
+<td>Telefone ya Nyina</td></tr>
+<tr><td style="white-space:nowrap">WamA2Upu9ii<a name="DHIS2Attributes-WamA2Upu9ii"> </a></td>
+<td>Telefone ya Se Cyangwa Umurera</td>
+<td>Telefone ya Se Cyangwa Umurera</td></tr>
+<tr><td style="white-space:nowrap">TueBWX6YRtp<a name="DHIS2Attributes-TueBWX6YRtp"> </a></td>
+<td>Telefoni y'Umujyanama w'ubuzima</td>
+<td>Telefoni y'Umujyanama w'ubuzima</td></tr>
+<tr><td style="white-space:nowrap">BvHmOeOGIG7<a name="DHIS2Attributes-BvHmOeOGIG7"> </a></td>
+<td>Telephone (new)</td>
+<td>Telephone (new)</td></tr>
+<tr><td style="white-space:nowrap">pB7G5BZh6bJ<a name="DHIS2Attributes-pB7G5BZh6bJ"> </a></td>
+<td>Telephone of the client</td>
+<td>Telephone Number</td></tr>
+<tr><td style="white-space:nowrap">QyhGvFhiMF3<a name="DHIS2Attributes-QyhGvFhiMF3"> </a></td>
+<td>Twins or More</td>
+<td>Twins or More</td></tr>
+<tr><td style="white-space:nowrap">zH60KBzMsBo<a name="DHIS2Attributes-zH60KBzMsBo"> </a></td>
+<td>Ubudehe category</td>
+<td>Ubudehe category</td></tr>
+<tr><td style="white-space:nowrap">Z5LvDzazkft<a name="DHIS2Attributes-Z5LvDzazkft"> </a></td>
+<td>Ubwishingizi</td>
+<td>Ubwishingizi</td></tr>
+<tr><td style="white-space:nowrap">utBUvfIq5Dl<a name="DHIS2Attributes-utBUvfIq5Dl"> </a></td>
+<td>Umudugudu</td>
+<td>Umudugudu</td></tr>
+<tr><td style="white-space:nowrap">Za5dJxPRUfg<a name="DHIS2Attributes-Za5dJxPRUfg"> </a></td>
+<td>Umujyanama w'ubuzima</td>
+<td>Umujyanama w'ubuzima</td></tr>
+<tr><td style="white-space:nowrap">HKAjtWQUMCq<a name="DHIS2Attributes-HKAjtWQUMCq"> </a></td>
+<td>Umurenge</td>
+<td>Umurenge</td></tr>
+<tr><td style="white-space:nowrap">z0JpTH95uHR<a name="DHIS2Attributes-z0JpTH95uHR"> </a></td>
+<td>Unique Identification Code_FSW</td>
+<td>Unique Identification Code_FSW</td></tr>
+<tr><td style="white-space:nowrap">O5oZvRUPYIQ<a name="DHIS2Attributes-O5oZvRUPYIQ"> </a></td>
+<td>Village Current residence</td>
+<td>Village Current residence</td></tr>
+<tr><td style="white-space:nowrap">fSGeXjMM7Iw<a name="DHIS2Attributes-fSGeXjMM7Iw"> </a></td>
+<td>Village of Residance</td>
+<td>Village of Residance</td></tr>
+<tr><td style="white-space:nowrap">ZB2q2bG9j4s<a name="DHIS2Attributes-ZB2q2bG9j4s"> </a></td>
+<td>Village of Residance (New)</td>
+<td>Village of Residance (New)</td></tr>
+<tr><td style="white-space:nowrap">frmU1Hjwp6w<a name="DHIS2Attributes-frmU1Hjwp6w"> </a></td>
+<td>Village of next of kin</td>
+<td>Village of orgin</td></tr>
+<tr><td style="white-space:nowrap">fSS6j77BXyo<a name="DHIS2Attributes-fSS6j77BXyo"> </a></td>
+<td>Village of residence</td>
+<td>Village of residence</td></tr>
+<tr><td style="white-space:nowrap">qq0Ly8akdYR<a name="DHIS2Attributes-qq0Ly8akdYR"> </a></td>
+<td>Village of the client</td>
+<td>Village of the client</td></tr>
+<tr><td style="white-space:nowrap">IYm5bpgSe3Y<a name="DHIS2Attributes-IYm5bpgSe3Y"> </a></td>
+<td>Villagecode</td>
+<td>Villagecode</td></tr>
+<tr><td style="white-space:nowrap">niy3ldrnH1k<a name="DHIS2Attributes-niy3ldrnH1k"> </a></td>
+<td>Vocation Training Received_FSW</td>
+<td>Vocation Training Received_FSW</td></tr>
+<tr><td style="white-space:nowrap">t9i9Bc9MNwX<a name="DHIS2Attributes-t9i9Bc9MNwX"> </a></td>
+<td>Warranty Duration (in months)</td>
+<td>Warranty Duration (in months)</td></tr>
+<tr><td style="white-space:nowrap">aH29RtPc19V<a name="DHIS2Attributes-aH29RtPc19V"> </a></td>
+<td>Warranty start date</td>
+<td>Warranty start date</td></tr>
+<tr><td style="white-space:nowrap">cM7Q2YcXhH0<a name="DHIS2Attributes-cM7Q2YcXhH0"> </a></td>
+<td>Weight at Birth (Kgs)</td>
+<td>Weight at Birth (Kgs)</td></tr>
+<tr><td style="white-space:nowrap">OPh3UFCaht4<a name="DHIS2Attributes-OPh3UFCaht4"> </a></td>
+<td>Year of fabrication</td>
+<td>Year of fabrication</td></tr>
+<tr><td style="white-space:nowrap">AE6ExmcrLmo<a name="DHIS2Attributes-AE6ExmcrLmo"> </a></td>
+<td>Year started commercial sex</td>
+<td>Year started commercial sex</td></tr>
+<tr><td style="white-space:nowrap">dx3uJl25IKr<a name="DHIS2Attributes-dx3uJl25IKr"> </a></td>
+<td>Yigeze avurwa</td>
+<td>Yigeze avurwa</td></tr>
+<tr><td style="white-space:nowrap">Zf9XyUDtGFC<a name="DHIS2Attributes-Zf9XyUDtGFC"> </a></td>
+<td>applicationNumber</td>
+<td>applicationNumber</td></tr>
+<tr><td style="white-space:nowrap">csE2iyxUvZM<a name="DHIS2Attributes-csE2iyxUvZM"> </a></td>
+<td>facilityOfficeType</td>
+<td>facilityOfficeType</td></tr>
+<tr><td style="white-space:nowrap">LS3cqxurOem<a name="DHIS2Attributes-LS3cqxurOem"> </a></td>
+<td>notificationDate</td>
+<td>notificationDate</td></tr>
+<tr><td style="white-space:nowrap">af8cbO1aI9Y<a name="DHIS2Attributes-af8cbO1aI9Y"> </a></td>
+<td>rbf-Mother TRACnet number</td>
+<td>rbf-Mother TRACnet number</td></tr>
+<tr><td style="white-space:nowrap">C1V9Q8GeV2m<a name="DHIS2Attributes-C1V9Q8GeV2m"> </a></td>
+<td>rbf_Did the child took Nevirapine at birth</td>
+<td>rbf_Did the child took Nevirapine at birth</td></tr>
+<tr><td style="white-space:nowrap">d2g1HtmUlHj<a name="DHIS2Attributes-d2g1HtmUlHj"> </a></td>
+<td>rbf_Does HF have an exposed infant in the period April,May,June 2016</td>
+<td>rbf_Does HF have an exposed infant in the period April,May,June 2016</td></tr>
+<tr><td style="white-space:nowrap">OBt2GiMHgHy<a name="DHIS2Attributes-OBt2GiMHgHy"> </a></td>
+<td>rbf_Does HF have an exposed infant in the period July,2016-June,2017?</td>
+<td>rbf_Does HF have an exposed infant in the period July,2016-June,2017?</td></tr>
+<tr><td style="white-space:nowrap">eN57OHpTlQQ<a name="DHIS2Attributes-eN57OHpTlQQ"> </a></td>
+<td>rbf_Does HF have an exposed infant in the period July,2017-June,2018?</td>
+<td>rbf_Does HF have an exposed infant in the period July,2017-June,2018?</td></tr>
+<tr><td style="white-space:nowrap">MuHGufOGFw9<a name="DHIS2Attributes-MuHGufOGFw9"> </a></td>
+<td>rbf_Does HF have an exposed infant in the period July,2018-June,2019?</td>
+<td>rbf_Does HF have an exposed infant in the period July,2018-June,2019?</td></tr>
+<tr><td style="white-space:nowrap">QN0VAPDV8BG<a name="DHIS2Attributes-QN0VAPDV8BG"> </a></td>
+<td>rbf_Does HF have an exposed infant in the period July,2019-June,2020?</td>
+<td>rbf_Does HF have an exposed infant in the period July,2019-June,2020?</td></tr>
+<tr><td style="white-space:nowrap">tkcL6xyUGjN<a name="DHIS2Attributes-tkcL6xyUGjN"> </a></td>
+<td>rbf_ID</td>
+<td>rbf_ID</td></tr>
+<tr><td style="white-space:nowrap">Tiz0xDPMXC9<a name="DHIS2Attributes-Tiz0xDPMXC9"> </a></td>
+<td>rbf_Patient DoB</td>
+<td>rbf_Patient DoB</td></tr>
+<tr><td style="white-space:nowrap">QzUggPwl61f<a name="DHIS2Attributes-QzUggPwl61f"> </a></td>
+<td>rbf_Patient Tracknet Number</td>
+<td>rbf_Patient Tracknet Number</td></tr>
+<tr><td style="white-space:nowrap">axUuQMzM1PD<a name="DHIS2Attributes-axUuQMzM1PD"> </a></td>
+<td>rbf_Patient sex</td>
+<td>rbf_Patient sex</td></tr>
+<tr><td style="white-space:nowrap">ATMg1kDxkZi<a name="DHIS2Attributes-ATMg1kDxkZi"> </a></td>
+<td>rbf_Regisration date</td>
+<td>rbf_Regisration date</td></tr>
+<tr><td style="white-space:nowrap">W0p422otuka<a name="DHIS2Attributes-W0p422otuka"> </a></td>
+<td>rbf_Registration place</td>
+<td>rbf_Registration place</td></tr>
+<tr><td style="white-space:nowrap">oMCcGOzPpOI<a name="DHIS2Attributes-oMCcGOzPpOI"> </a></td>
+<td>rbf_month of birth </td>
+<td>rbf_month of birth </td></tr>
+<tr><td style="white-space:nowrap">C6XGReyQjst<a name="DHIS2Attributes-C6XGReyQjst"> </a></td>
+<td>rbf_month of birth old</td>
+<td>rbf_month of birth old</td></tr>
+<tr><td style="white-space:nowrap">ztFYx9bppif<a name="DHIS2Attributes-ztFYx9bppif"> </a></td>
+<td>rbf_order number</td>
+<td>rbf_order number</td></tr></table></div>
+
+  
+
+    <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>    <!-- /inner-wrapper -->
+      </div>    <!-- /row -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-content -->
+
+  <script src="assets/js/jquery.js" type="text/javascript"> </script>       <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script src="assets/js/jquery-ui.min.js" type="text/javascript"> </script>
+
+  <script src="assets/js/window-hash.js" type="text/javascript"> </script>
+  <a name="bottom"> </a>
+  <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
+    <div class="container">    <!-- container -->
+
+      <div class="inner-wrapper">
+        <p><a name="l2912">​</a>
+          IG &copy; 2024+ <a style="color:var(--footer-hyperlink-text-color)" href="https://dhis2.org">DHIS2</a>.  Package dhis2-rwanda-attribute-harmonization#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Jun 20, 2024 14:32+0000">2024-06-20</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)"><a name="l2925">​</a>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+| <a style="color: #81BEF7" href="https://dhis2.org/history.html" target="_blank">Version History</a> | <a rel="license" style="color: #81BEF7" href="license.html">License</a>
+          </span>
+        </p>
+      </div>    <!-- /inner-wrapper -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">    <!-- segment-post-footer -->
+    <div class="container">    <!-- container -->
+    </div>    <!-- /container -->
+  </div>    <!-- /segment-post-footer -->
+  
+    <!-- JS and analytics only. -->
+    <!-- Bootstrap core JavaScript
+  ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+  <script src="assets/js/bootstrap.min.js" type="text/javascript"> </script>
+  <script src="assets/js/respond.min.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard.min.js" type="text/javascript"> </script>
+  <script src="assets/js/clipboard-btn.js" type="text/javascript"> </script>
+  <script src="assets/js/anchor-hover.js" type="text/javascript"> </script>
+  
+    <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>

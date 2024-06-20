@@ -3,14 +3,14 @@
   "id" : "dhis2-rwanda-attribute-harmonization",
   "text" : {
     "status" : "extensions",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Dhis2RwandaAttributeHarmonization</h2><p>The official URL for this implementation guide is: </p><pre>https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization</pre><div><p>IG to help with DHIS2 Tracker metadata governance in Rwanda</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Dhis2RwandaAttributeHarmonization</h2><p>The official URL for this implementation guide is: </p><pre>https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization</pre><div><p>IG to help with DHIS2 Tracker metadata governance in</p>\n</div></div>"
   },
   "url" : "https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization",
   "version" : "0.1.0",
   "name" : "Dhis2RwandaAttributeHarmonization",
   "title" : "DHIS2 Rwanda Tracked Entity Attribute Harmonization IG",
   "status" : "draft",
-  "date" : "2024-05-27T13:19:02+00:00",
+  "date" : "2024-06-20T14:32:32+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -19,7 +19,7 @@
       "value" : "https://dhis2.org"
     }]
   }],
-  "description" : "IG to help with DHIS2 Tracker metadata governance in Rwanda",
+  "description" : "IG to help with DHIS2 Tracker metadata governance in",
   "packageId" : "dhis2-rwanda-attribute-harmonization",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
@@ -62,7 +62,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "draft"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -341,7 +341,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "ci-build"
+        "valueString" : "draft"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -599,6 +599,54 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     }],
     "resource" : [{
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/AmbulanceActivityReport"
+      },
+      "name" : "Ambulance Activity Report",
+      "description" : "Attributes for the 'Ambulance Activity Report' tracker program.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BirthRegistration"
+      },
+      "name" : "Birth Registration",
+      "description" : "Attributes for the 'Birth registration' tracker program.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/DHIS2Attributes"
+      },
+      "name" : "DHIS2 Tracked Entity Attributes",
+      "description" : "This code system defines tracked entity attributes used in DHIS2",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:logical"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/Immunization"
+      },
+      "name" : "Immunization",
+      "description" : "Attributes for the 'Immunization' tracker program.",
+      "exampleBoolean" : false
+    },
+    {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:resource"

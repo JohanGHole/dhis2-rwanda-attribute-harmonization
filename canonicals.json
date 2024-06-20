@@ -1,10 +1,38 @@
 [
   {
+    "id" : "DHIS2Attributes",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/CodeSystem/DHIS2Attributes",
+    "version" : "0.1.0",
+    "name" : "DHIS2Attributes"
+  },
+  {
     "id" : "dhis2-rwanda-attribute-harmonization",
     "type" : "ImplementationGuide",
     "url" : "https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization",
     "version" : "0.1.0",
     "name" : "Dhis2RwandaAttributeHarmonization"
+  },
+  {
+    "id" : "AmbulanceActivityReport",
+    "type" : "StructureDefinition",
+    "url" : "https://dhis2.org/StructureDefinition/AmbulanceActivityReport",
+    "version" : "0.1.0",
+    "name" : "AmbulanceActivityReport"
+  },
+  {
+    "id" : "BirthRegistration",
+    "type" : "StructureDefinition",
+    "url" : "https://dhis2.org/StructureDefinition/BirthRegistration",
+    "version" : "0.1.0",
+    "name" : "BirthRegistration"
+  },
+  {
+    "id" : "Immunization",
+    "type" : "StructureDefinition",
+    "url" : "https://dhis2.org/StructureDefinition/Immunization",
+    "version" : "0.1.0",
+    "name" : "Immunization"
   },
   {
     "id" : "MyPatient",
