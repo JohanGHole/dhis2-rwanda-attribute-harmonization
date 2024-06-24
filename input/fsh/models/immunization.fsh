@@ -73,3 +73,13 @@ Description: "Attributes for the 'Immunization' tracker program."
   * ^code[+] = DHIS2Attributes#HnnLtwqPI7v
 * isDead 0..1 boolean "Is Dead"
   * ^code[+] = DHIS2Attributes#EzCMBhxLaKU
+
+// value set bindings
+* citizenship from CitizenshipVS (required)
+* gender from GenderVS (required)
+* caretaker from CaretakerVS (required)
+* mothersEducationLevel from EducationLevelVS (required)
+* fatherEducationLevel from EducationLevelVS (required)
+* socialCategory from SocialCategoryVS (required)
+* provinceOfResidence from ProvinceVS (required)
+* districtOfResidenceVacc from DistrictVS (required)

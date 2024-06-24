@@ -73,3 +73,13 @@ Description: "Attributes for the 'Birth registration' tracker program."
   * ^code[+] = DHIS2Attributes#FBm5ftjnCj2
 * inEIRAndCRVS 0..1 boolean "In EIR and CRVS"
   * ^code[+] = DHIS2Attributes#HnnLtwqPI7v
+
+  // value set bindings
+* citizenship from CitizenshipVS (required)
+* gender from GenderVS (required)
+* caretaker from CaretakerVS (required)
+* mothersEducationLevel from EducationLevelVS (required)
+* fatherEducationLevel from EducationLevelVS (required)
+* socialCategory from SocialCategoryVS (required)
+* districtOfResidenceVacc from DistrictVS (required)
+* provinceOfResidence from ProvinceVS (required)
