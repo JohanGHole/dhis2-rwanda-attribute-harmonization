@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="caretaker-vs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="CodeSystem-caretaker-cs.html"><code>https://dhis2.org/CodeSystem/caretaker-cs</code></a></li></ul></div>
+  </text>
+  <url value="https://dhis2.org/ValueSet/caretaker-vs"/>
+  <version value="0.1.0"/>
+  <name value="CaretakerVS"/>
+  <title value="Caretaker"/>
+  <status value="draft"/>
+  <date value="2024-06-24T11:41:15+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="This value set contains concepts corresponding to the options in the 'Caretaker' option set."/>
+  <compose>
+    <include>
+      <system value="https://dhis2.org/CodeSystem/caretaker-cs"/>
+    </include>
+  </compose>
+</ValueSet>

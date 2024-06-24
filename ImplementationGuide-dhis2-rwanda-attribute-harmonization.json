@@ -10,7 +10,7 @@
   "name" : "Dhis2RwandaAttributeHarmonization",
   "title" : "DHIS2 Rwanda Tracked Entity Attribute Harmonization IG",
   "status" : "draft",
-  "date" : "2024-06-20T14:32:32+00:00",
+  "date" : "2024-06-24T11:41:15+00:00",
   "publisher" : "DHIS2",
   "contact" : [{
     "name" : "DHIS2",
@@ -625,6 +625,78 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/caretaker-vs"
+      },
+      "name" : "Caretaker",
+      "description" : "This value set contains concepts corresponding to the options in the 'Caretaker' option set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/caretaker-cs"
+      },
+      "name" : "Caretaker",
+      "description" : "This code system contains concepts corresponding to the options in the 'Caretaker' option set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/citizenship-vs"
+      },
+      "name" : "Citizenship",
+      "description" : "This value set contains concepts corresponding to the options in the 'Citizenship' option set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/citizenship-cs"
+      },
+      "name" : "Citizenship",
+      "description" : "This code system contains concepts corresponding to the options in the 'Citizenship' option set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/district-vs"
+      },
+      "name" : "CR_District",
+      "description" : "This value set contains concepts corresponding to the options in the 'CR_District' option set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/district-cs"
+      },
+      "name" : "CR_District",
+      "description" : "This code system contains concepts corresponding to the options in the 'CR_District' option set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -632,6 +704,54 @@
       },
       "name" : "DHIS2 Tracked Entity Attributes",
       "description" : "This code system defines tracked entity attributes used in DHIS2",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/education-level-vs"
+      },
+      "name" : "Education Level",
+      "description" : "This value set contains concepts corresponding to the options in the 'Mcch_Education level Mat Death' option set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/education-level-cs"
+      },
+      "name" : "Education Level",
+      "description" : "This code system contains concepts corresponding to the options in the 'Mcch_Education level Mat Death' option set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/gender-vs"
+      },
+      "name" : "Gender",
+      "description" : "This value set contains concepts corresponding to the options in the 'Gender' option set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/gender-cs"
+      },
+      "name" : "Gender",
+      "description" : "This code system contains concepts corresponding to the options in the 'Gender' option set.",
       "exampleBoolean" : false
     },
     {
@@ -669,6 +789,54 @@
       "name" : "PatientExample",
       "description" : "An example of a patient with a license to krill.",
       "exampleCanonical" : "https://dhis2.org/StructureDefinition/MyPatient"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/province-vs"
+      },
+      "name" : "Province",
+      "description" : "This value set contains concepts corresponding to the options in the 'Province' option set. The option sets 'Mcch_Provinces' and 'TR_Provinces' can also be mapped to this value set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/province-cs"
+      },
+      "name" : "Province",
+      "description" : "This code system contains concepts corresponding to the options in the 'Province' option set. The option sets 'Mcch_Provinces' and 'TR_Provinces' can also be mapped to this code system.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/social-category-vs"
+      },
+      "name" : "Social Category",
+      "description" : "This value set contains concepts corresponding to the options in the 'Social Category' option set.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/social-category-cs"
+      },
+      "name" : "Social Category",
+      "description" : "This code system contains concepts corresponding to the options in the 'Social Category' option set.",
+      "exampleBoolean" : false
     }],
     "page" : {
       "extension" : [{

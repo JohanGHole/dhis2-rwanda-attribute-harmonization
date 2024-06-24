@@ -72,6 +72,97 @@
       "uses" : {
       },
       "StructureDefinition-MyPatient.html" : "MyPatient"
+    },
+    {
+      "url" : "https://dhis2.org/ValueSet/caretaker-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CaretakerVS",
+      "title" : "Caretaker",
+      "description" : "This value set contains concepts corresponding to the options in the 'Caretaker' option set.",
+      "systems" : ["https://dhis2.org/CodeSystem/caretaker-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-BirthRegistration.html" : "Birth Registration",
+      "StructureDefinition-Immunization.html" : "Immunization"
+    },
+    {
+      "url" : "https://dhis2.org/ValueSet/citizenship-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CitizenshipVS",
+      "title" : "Citizenship",
+      "description" : "This value set contains concepts corresponding to the options in the 'Citizenship' option set.",
+      "systems" : ["https://dhis2.org/CodeSystem/citizenship-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-BirthRegistration.html" : "Birth Registration",
+      "StructureDefinition-Immunization.html" : "Immunization"
+    },
+    {
+      "url" : "https://dhis2.org/ValueSet/district-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "DistrictVS",
+      "title" : "CR_District",
+      "description" : "This value set contains concepts corresponding to the options in the 'CR_District' option set.",
+      "systems" : ["https://dhis2.org/CodeSystem/district-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-BirthRegistration.html" : "Birth Registration",
+      "StructureDefinition-Immunization.html" : "Immunization"
+    },
+    {
+      "url" : "https://dhis2.org/ValueSet/education-level-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "EducationLevelVS",
+      "title" : "Education Level",
+      "description" : "This value set contains concepts corresponding to the options in the 'Mcch_Education level Mat Death' option set.",
+      "systems" : ["https://dhis2.org/CodeSystem/education-level-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-BirthRegistration.html" : "Birth Registration",
+      "StructureDefinition-Immunization.html" : "Immunization"
+    },
+    {
+      "url" : "https://dhis2.org/ValueSet/gender-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GenderVS",
+      "title" : "Gender",
+      "description" : "This value set contains concepts corresponding to the options in the 'Gender' option set.",
+      "systems" : ["https://dhis2.org/CodeSystem/gender-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-BirthRegistration.html" : "Birth Registration",
+      "StructureDefinition-Immunization.html" : "Immunization"
+    },
+    {
+      "url" : "https://dhis2.org/ValueSet/province-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ProvinceVS",
+      "title" : "Province",
+      "description" : "This value set contains concepts corresponding to the options in the 'Province' option set. The option sets 'Mcch_Provinces' and 'TR_Provinces' can also be mapped to this value set.",
+      "systems" : ["https://dhis2.org/CodeSystem/province-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-BirthRegistration.html" : "Birth Registration",
+      "StructureDefinition-Immunization.html" : "Immunization"
+    },
+    {
+      "url" : "https://dhis2.org/ValueSet/social-category-vs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SocialCategoryVS",
+      "title" : "Social Category",
+      "description" : "This value set contains concepts corresponding to the options in the 'Social Category' option set.",
+      "systems" : ["https://dhis2.org/CodeSystem/social-category-cs"],
+      "uses" : {
+      },
+      "StructureDefinition-BirthRegistration.html" : "Birth Registration",
+      "StructureDefinition-Immunization.html" : "Immunization"
     }
   ]
 }

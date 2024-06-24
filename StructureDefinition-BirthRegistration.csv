@@ -8,7 +8,7 @@
 ","applicationNumber","applicationNumber","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#Zf9XyUDtGFC
 ",,,,"BirthRegistration.applicationnumber",0,1,"",""
 "BirthRegistration.citizenship","BirthRegistration.citizenship","","","",0,1,"","","","code {[]} {[]}
-","Citizenship","Citizenship","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#VYEGPSgn908
+","Citizenship","Citizenship","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/citizenship-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#VYEGPSgn908
 ",,,,"BirthRegistration.citizenship",0,1,"",""
 "BirthRegistration.twinsOrMore","BirthRegistration.twinsOrMore","","","",0,1,"","","","boolean {[]} {[]}
 ","Twins or More","Twins or More","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#QyhGvFhiMF3
@@ -26,7 +26,7 @@
 ","Place of Bith","Place of Bith","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#iCy9QPG9HY9
 ",,,,"BirthRegistration.placeOfBith",0,1,"",""
 "BirthRegistration.gender","BirthRegistration.gender","","","",0,1,"","","","code {[]} {[]}
-","Gender","Gender","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#Rq4qM2wKYFL
+","Gender","Gender","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/gender-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#Rq4qM2wKYFL
 ",,,,"BirthRegistration.gender",0,1,"",""
 "BirthRegistration.weightAtBirth","BirthRegistration.weightAtBirth","","","",0,1,"","","","decimal {[]} {[]}
 ","Weight at Birth (Kgs)","Weight at Birth (Kgs)","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#cM7Q2YcXhH0
@@ -38,7 +38,7 @@
 ","Pregnancy Number","Pregnancy Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#TXDvRJ9wWBv
 ",,,,"BirthRegistration.pregnancyNumber",0,1,"",""
 "BirthRegistration.caretaker","BirthRegistration.caretaker","","","",0,1,"","","","code {[]} {[]}
-","Caretaker","Caretaker","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#E5D1aKa2eFb
+","Caretaker","Caretaker","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/caretaker-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#E5D1aKa2eFb
 ",,,,"BirthRegistration.caretaker",0,1,"",""
 "BirthRegistration.mothersNames","BirthRegistration.mothersNames","","","",0,1,"","","","string {[]} {[]}
 ","Mothers Names","Mothers Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#RzPmWr82V3p
@@ -53,7 +53,7 @@
 ","Mothers Date of Birth","Mothers Date of Birth","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#cUTcjBma2jK
 ",,,,"BirthRegistration.mothersDateOfBirth",0,1,"",""
 "BirthRegistration.mothersEducationLevel","BirthRegistration.mothersEducationLevel","","","",0,1,"","","","code {[]} {[]}
-","Mothers Education Level","Mothers Education Level","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#YDWk8qQbFOh
+","Mothers Education Level","Mothers Education Level","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/education-level-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#YDWk8qQbFOh
 ",,,,"BirthRegistration.mothersEducationLevel",0,1,"",""
 "BirthRegistration.fatherNames","BirthRegistration.fatherNames","","","",0,1,"","","","string {[]} {[]}
 ","Father Names","Father Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#uLotdmVESxa
@@ -65,7 +65,7 @@
 ","Fathers ID Number","Fathers ID Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#KsNhcMy9iwH
 ",,,,"BirthRegistration.fathersIdNumber",0,1,"",""
 "BirthRegistration.fatherEducationLevel","BirthRegistration.fatherEducationLevel","","","",0,1,"","","","code {[]} {[]}
-","Father Education Level","Father Education Level","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#hTdA8G5ZCEm
+","Father Education Level","Father Education Level","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/education-level-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#hTdA8G5ZCEm
 ",,,,"BirthRegistration.fatherEducationLevel",0,1,"",""
 "BirthRegistration.caretakerNames","BirthRegistration.caretakerNames","","","",0,1,"","","","string {[]} {[]}
 ","Caretaker Names","Caretaker Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#OjVFFLxlAbo
@@ -77,7 +77,7 @@
 ","Caretaker ID Number","Caretaker ID Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#QF1ewXEBT0o
 ",,,,"BirthRegistration.caretakerIdNumber",0,1,"",""
 "BirthRegistration.socialCategory","BirthRegistration.socialCategory","","","",0,1,"","","","code {[]} {[]}
-","Social Category","Social Category","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#FIeADYwBKjB
+","Social Category","Social Category","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/social-category-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#FIeADYwBKjB
 ",,,,"BirthRegistration.socialCategory",0,1,"",""
 "BirthRegistration.sectorOfResidence","BirthRegistration.sectorOfResidence","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
 ","Sector of Residence","Sector of Residence","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#rXWNI9jQhXs
@@ -101,10 +101,10 @@
 ","Villagecode","Villagecode","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#IYm5bpgSe3Y
 ",,,,"BirthRegistration.villagecode",0,1,"",""
 "BirthRegistration.districtOfResidenceVacc","BirthRegistration.districtOfResidenceVacc","","","",0,1,"","","","code {[]} {[]}
-","District of residence_vacc","District of residence_vacc","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#getkVaLr2bw
+","District of residence_vacc","District of residence_vacc","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/district-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#getkVaLr2bw
 ",,,,"BirthRegistration.districtOfResidenceVacc",0,1,"",""
 "BirthRegistration.provinceOfResidence","BirthRegistration.provinceOfResidence","","","",0,1,"","","","code {[]} {[]}
-","Province of residence","Province of residence","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#FBm5ftjnCj2
+","Province of residence","Province of residence","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/province-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#FBm5ftjnCj2
 ",,,,"BirthRegistration.provinceOfResidence",0,1,"",""
 "BirthRegistration.inEIRAndCRVS","BirthRegistration.inEIRAndCRVS","","","",0,1,"","","","boolean {[]} {[]}
 ","In EIR and CRVS","In EIR and CRVS","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#HnnLtwqPI7v

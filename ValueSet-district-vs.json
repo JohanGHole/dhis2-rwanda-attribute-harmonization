@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "district-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-district-cs.html\"><code>https://dhis2.org/CodeSystem/district-cs</code></a></li></ul></div>"
+  },
+  "url" : "https://dhis2.org/ValueSet/district-vs",
+  "version" : "0.1.0",
+  "name" : "DistrictVS",
+  "title" : "CR_District",
+  "status" : "draft",
+  "date" : "2024-06-24T11:41:15+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org"
+    }]
+  }],
+  "description" : "This value set contains concepts corresponding to the options in the 'CR_District' option set.",
+  "compose" : {
+    "include" : [{
+      "system" : "https://dhis2.org/CodeSystem/district-cs"
+    }]
+  }
+}

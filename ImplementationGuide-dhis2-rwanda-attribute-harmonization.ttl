@@ -17,7 +17,7 @@
   fhir:name [ fhir:v "Dhis2RwandaAttributeHarmonization"] ; # 
   fhir:title [ fhir:v "DHIS2 Rwanda Tracked Entity Attribute Harmonization IG"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
-  fhir:date [ fhir:v "2024-06-20T14:32:32+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-06-24T11:41:15+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "DHIS2"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "DHIS2" ] ;
@@ -537,6 +537,78 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/ValueSet/caretaker-vs> ;
+         fhir:reference [ fhir:v "ValueSet/caretaker-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Caretaker" ] ;
+       fhir:description [ fhir:v "This value set contains concepts corresponding to the options in the 'Caretaker' option set." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/CodeSystem/caretaker-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/caretaker-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Caretaker" ] ;
+       fhir:description [ fhir:v "This code system contains concepts corresponding to the options in the 'Caretaker' option set." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/ValueSet/citizenship-vs> ;
+         fhir:reference [ fhir:v "ValueSet/citizenship-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Citizenship" ] ;
+       fhir:description [ fhir:v "This value set contains concepts corresponding to the options in the 'Citizenship' option set." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/CodeSystem/citizenship-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/citizenship-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Citizenship" ] ;
+       fhir:description [ fhir:v "This code system contains concepts corresponding to the options in the 'Citizenship' option set." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/ValueSet/district-vs> ;
+         fhir:reference [ fhir:v "ValueSet/district-vs" ]
+       ] ;
+       fhir:name [ fhir:v "CR_District" ] ;
+       fhir:description [ fhir:v "This value set contains concepts corresponding to the options in the 'CR_District' option set." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/CodeSystem/district-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/district-cs" ]
+       ] ;
+       fhir:name [ fhir:v "CR_District" ] ;
+       fhir:description [ fhir:v "This code system contains concepts corresponding to the options in the 'CR_District' option set." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "CodeSystem" ]
        ] ) ;
        fhir:reference [
@@ -545,6 +617,54 @@
        ] ;
        fhir:name [ fhir:v "DHIS2 Tracked Entity Attributes" ] ;
        fhir:description [ fhir:v "This code system defines tracked entity attributes used in DHIS2" ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/ValueSet/education-level-vs> ;
+         fhir:reference [ fhir:v "ValueSet/education-level-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Education Level" ] ;
+       fhir:description [ fhir:v "This value set contains concepts corresponding to the options in the 'Mcch_Education level Mat Death' option set." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/CodeSystem/education-level-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/education-level-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Education Level" ] ;
+       fhir:description [ fhir:v "This code system contains concepts corresponding to the options in the 'Mcch_Education level Mat Death' option set." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/ValueSet/gender-vs> ;
+         fhir:reference [ fhir:v "ValueSet/gender-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Gender" ] ;
+       fhir:description [ fhir:v "This value set contains concepts corresponding to the options in the 'Gender' option set." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/CodeSystem/gender-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/gender-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Gender" ] ;
+       fhir:description [ fhir:v "This code system contains concepts corresponding to the options in the 'Gender' option set." ] ;
        fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] [
        fhir:extension ( [
@@ -585,6 +705,54 @@
          fhir:v "https://dhis2.org/StructureDefinition/MyPatient"^^xsd:anyURI ;
          fhir:link <https://dhis2.org/StructureDefinition/MyPatient>
        ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/ValueSet/province-vs> ;
+         fhir:reference [ fhir:v "ValueSet/province-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Province" ] ;
+       fhir:description [ fhir:v "This value set contains concepts corresponding to the options in the 'Province' option set. The option sets 'Mcch_Provinces' and 'TR_Provinces' can also be mapped to this value set." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/CodeSystem/province-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/province-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Province" ] ;
+       fhir:description [ fhir:v "This code system contains concepts corresponding to the options in the 'Province' option set. The option sets 'Mcch_Provinces' and 'TR_Provinces' can also be mapped to this code system." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "ValueSet" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/ValueSet/social-category-vs> ;
+         fhir:reference [ fhir:v "ValueSet/social-category-vs" ]
+       ] ;
+       fhir:name [ fhir:v "Social Category" ] ;
+       fhir:description [ fhir:v "This value set contains concepts corresponding to the options in the 'Social Category' option set." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "CodeSystem" ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://dhis2.org/CodeSystem/social-category-cs> ;
+         fhir:reference [ fhir:v "CodeSystem/social-category-cs" ]
+       ] ;
+       fhir:name [ fhir:v "Social Category" ] ;
+       fhir:description [ fhir:v "This code system contains concepts corresponding to the options in the 'Social Category' option set." ] ;
+       fhir:example [ fhir:v "false"^^xsd:boolean ]
      ] ) ;
      fhir:page [
        fhir:extension ( [

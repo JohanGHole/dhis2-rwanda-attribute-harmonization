@@ -1,0 +1,125 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/CodeSystem/district-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "district-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/CodeSystem/district-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"district-cs-11\"> </a></td><td>11-Nyarugenge</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"district-cs-12\"> </a></td><td>12-Gasabo</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"district-cs-13\"> </a></td><td>13-Kicukiro</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"district-cs-21\"> </a></td><td>21-Nyanza</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"district-cs-22\"> </a></td><td>22-Gisagara</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"district-cs-23\"> </a></td><td>23-Nyaruguru</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"district-cs-24\"> </a></td><td>24-Huye</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"district-cs-25\"> </a></td><td>25-Nyamagabe</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"district-cs-26\"> </a></td><td>26-Ruhango</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"district-cs-27\"> </a></td><td>27-Muhanga</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"district-cs-28\"> </a></td><td>28-Kamonyi</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"district-cs-31\"> </a></td><td>31-Karongi</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"district-cs-32\"> </a></td><td>32-Rutsiro</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"district-cs-33\"> </a></td><td>33-Rubavu</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"district-cs-34\"> </a></td><td>34-Nyabihu</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"district-cs-35\"> </a></td><td>35-Ngororero</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"district-cs-36\"> </a></td><td>36-Rusizi</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"district-cs-37\"> </a></td><td>37-Nyamasheke</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"district-cs-41\"> </a></td><td>41-Rulindo</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"district-cs-42\"> </a></td><td>42-Gakenke</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"district-cs-43\"> </a></td><td>43-Musanze</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"district-cs-44\"> </a></td><td>44-Burera</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"district-cs-45\"> </a></td><td>45-Gicumbi</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"district-cs-51\"> </a></td><td>51-Rwamagana</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"district-cs-52\"> </a></td><td>52-Nyagatare</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"district-cs-53\"> </a></td><td>53-Gatsibo</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"district-cs-54\"> </a></td><td>54-Kayonza</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"district-cs-55\"> </a></td><td>55-Kirehe</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"district-cs-56\"> </a></td><td>56-Ngoma</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"district-cs-57\"> </a></td><td>57-Bugesera</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/CodeSystem/district-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "DistrictCS"] ; # 
+  fhir:title [ fhir:v "CR_District"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-06-24T11:41:15+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This code system contains concepts corresponding to the options in the 'CR_District' option set."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "30"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "11" ] ;
+     fhir:display [ fhir:v "11-Nyarugenge" ]
+  ] [
+     fhir:code [ fhir:v "12" ] ;
+     fhir:display [ fhir:v "12-Gasabo" ]
+  ] [
+     fhir:code [ fhir:v "13" ] ;
+     fhir:display [ fhir:v "13-Kicukiro" ]
+  ] [
+     fhir:code [ fhir:v "21" ] ;
+     fhir:display [ fhir:v "21-Nyanza" ]
+  ] [
+     fhir:code [ fhir:v "22" ] ;
+     fhir:display [ fhir:v "22-Gisagara" ]
+  ] [
+     fhir:code [ fhir:v "23" ] ;
+     fhir:display [ fhir:v "23-Nyaruguru" ]
+  ] [
+     fhir:code [ fhir:v "24" ] ;
+     fhir:display [ fhir:v "24-Huye" ]
+  ] [
+     fhir:code [ fhir:v "25" ] ;
+     fhir:display [ fhir:v "25-Nyamagabe" ]
+  ] [
+     fhir:code [ fhir:v "26" ] ;
+     fhir:display [ fhir:v "26-Ruhango" ]
+  ] [
+     fhir:code [ fhir:v "27" ] ;
+     fhir:display [ fhir:v "27-Muhanga" ]
+  ] [
+     fhir:code [ fhir:v "28" ] ;
+     fhir:display [ fhir:v "28-Kamonyi" ]
+  ] [
+     fhir:code [ fhir:v "31" ] ;
+     fhir:display [ fhir:v "31-Karongi" ]
+  ] [
+     fhir:code [ fhir:v "32" ] ;
+     fhir:display [ fhir:v "32-Rutsiro" ]
+  ] [
+     fhir:code [ fhir:v "33" ] ;
+     fhir:display [ fhir:v "33-Rubavu" ]
+  ] [
+     fhir:code [ fhir:v "34" ] ;
+     fhir:display [ fhir:v "34-Nyabihu" ]
+  ] [
+     fhir:code [ fhir:v "35" ] ;
+     fhir:display [ fhir:v "35-Ngororero" ]
+  ] [
+     fhir:code [ fhir:v "36" ] ;
+     fhir:display [ fhir:v "36-Rusizi" ]
+  ] [
+     fhir:code [ fhir:v "37" ] ;
+     fhir:display [ fhir:v "37-Nyamasheke" ]
+  ] [
+     fhir:code [ fhir:v "41" ] ;
+     fhir:display [ fhir:v "41-Rulindo" ]
+  ] [
+     fhir:code [ fhir:v "42" ] ;
+     fhir:display [ fhir:v "42-Gakenke" ]
+  ] [
+     fhir:code [ fhir:v "43" ] ;
+     fhir:display [ fhir:v "43-Musanze" ]
+  ] [
+     fhir:code [ fhir:v "44" ] ;
+     fhir:display [ fhir:v "44-Burera" ]
+  ] [
+     fhir:code [ fhir:v "45" ] ;
+     fhir:display [ fhir:v "45-Gicumbi" ]
+  ] [
+     fhir:code [ fhir:v "51" ] ;
+     fhir:display [ fhir:v "51-Rwamagana" ]
+  ] [
+     fhir:code [ fhir:v "52" ] ;
+     fhir:display [ fhir:v "52-Nyagatare" ]
+  ] [
+     fhir:code [ fhir:v "53" ] ;
+     fhir:display [ fhir:v "53-Gatsibo" ]
+  ] [
+     fhir:code [ fhir:v "54" ] ;
+     fhir:display [ fhir:v "54-Kayonza" ]
+  ] [
+     fhir:code [ fhir:v "55" ] ;
+     fhir:display [ fhir:v "55-Kirehe" ]
+  ] [
+     fhir:code [ fhir:v "56" ] ;
+     fhir:display [ fhir:v "56-Ngoma" ]
+  ] [
+     fhir:code [ fhir:v "57" ] ;
+     fhir:display [ fhir:v "57-Bugesera" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

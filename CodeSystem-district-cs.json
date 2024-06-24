@@ -1,0 +1,145 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "district-cs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/CodeSystem/district-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">11<a name=\"district-cs-11\"> </a></td><td>11-Nyarugenge</td></tr><tr><td style=\"white-space:nowrap\">12<a name=\"district-cs-12\"> </a></td><td>12-Gasabo</td></tr><tr><td style=\"white-space:nowrap\">13<a name=\"district-cs-13\"> </a></td><td>13-Kicukiro</td></tr><tr><td style=\"white-space:nowrap\">21<a name=\"district-cs-21\"> </a></td><td>21-Nyanza</td></tr><tr><td style=\"white-space:nowrap\">22<a name=\"district-cs-22\"> </a></td><td>22-Gisagara</td></tr><tr><td style=\"white-space:nowrap\">23<a name=\"district-cs-23\"> </a></td><td>23-Nyaruguru</td></tr><tr><td style=\"white-space:nowrap\">24<a name=\"district-cs-24\"> </a></td><td>24-Huye</td></tr><tr><td style=\"white-space:nowrap\">25<a name=\"district-cs-25\"> </a></td><td>25-Nyamagabe</td></tr><tr><td style=\"white-space:nowrap\">26<a name=\"district-cs-26\"> </a></td><td>26-Ruhango</td></tr><tr><td style=\"white-space:nowrap\">27<a name=\"district-cs-27\"> </a></td><td>27-Muhanga</td></tr><tr><td style=\"white-space:nowrap\">28<a name=\"district-cs-28\"> </a></td><td>28-Kamonyi</td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"district-cs-31\"> </a></td><td>31-Karongi</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"district-cs-32\"> </a></td><td>32-Rutsiro</td></tr><tr><td style=\"white-space:nowrap\">33<a name=\"district-cs-33\"> </a></td><td>33-Rubavu</td></tr><tr><td style=\"white-space:nowrap\">34<a name=\"district-cs-34\"> </a></td><td>34-Nyabihu</td></tr><tr><td style=\"white-space:nowrap\">35<a name=\"district-cs-35\"> </a></td><td>35-Ngororero</td></tr><tr><td style=\"white-space:nowrap\">36<a name=\"district-cs-36\"> </a></td><td>36-Rusizi</td></tr><tr><td style=\"white-space:nowrap\">37<a name=\"district-cs-37\"> </a></td><td>37-Nyamasheke</td></tr><tr><td style=\"white-space:nowrap\">41<a name=\"district-cs-41\"> </a></td><td>41-Rulindo</td></tr><tr><td style=\"white-space:nowrap\">42<a name=\"district-cs-42\"> </a></td><td>42-Gakenke</td></tr><tr><td style=\"white-space:nowrap\">43<a name=\"district-cs-43\"> </a></td><td>43-Musanze</td></tr><tr><td style=\"white-space:nowrap\">44<a name=\"district-cs-44\"> </a></td><td>44-Burera</td></tr><tr><td style=\"white-space:nowrap\">45<a name=\"district-cs-45\"> </a></td><td>45-Gicumbi</td></tr><tr><td style=\"white-space:nowrap\">51<a name=\"district-cs-51\"> </a></td><td>51-Rwamagana</td></tr><tr><td style=\"white-space:nowrap\">52<a name=\"district-cs-52\"> </a></td><td>52-Nyagatare</td></tr><tr><td style=\"white-space:nowrap\">53<a name=\"district-cs-53\"> </a></td><td>53-Gatsibo</td></tr><tr><td style=\"white-space:nowrap\">54<a name=\"district-cs-54\"> </a></td><td>54-Kayonza</td></tr><tr><td style=\"white-space:nowrap\">55<a name=\"district-cs-55\"> </a></td><td>55-Kirehe</td></tr><tr><td style=\"white-space:nowrap\">56<a name=\"district-cs-56\"> </a></td><td>56-Ngoma</td></tr><tr><td style=\"white-space:nowrap\">57<a name=\"district-cs-57\"> </a></td><td>57-Bugesera</td></tr></table></div>"
+  },
+  "url" : "https://dhis2.org/CodeSystem/district-cs",
+  "version" : "0.1.0",
+  "name" : "DistrictCS",
+  "title" : "CR_District",
+  "status" : "draft",
+  "date" : "2024-06-24T11:41:15+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org"
+    }]
+  }],
+  "description" : "This code system contains concepts corresponding to the options in the 'CR_District' option set.",
+  "content" : "complete",
+  "count" : 30,
+  "concept" : [{
+    "code" : "11",
+    "display" : "11-Nyarugenge"
+  },
+  {
+    "code" : "12",
+    "display" : "12-Gasabo"
+  },
+  {
+    "code" : "13",
+    "display" : "13-Kicukiro"
+  },
+  {
+    "code" : "21",
+    "display" : "21-Nyanza"
+  },
+  {
+    "code" : "22",
+    "display" : "22-Gisagara"
+  },
+  {
+    "code" : "23",
+    "display" : "23-Nyaruguru"
+  },
+  {
+    "code" : "24",
+    "display" : "24-Huye"
+  },
+  {
+    "code" : "25",
+    "display" : "25-Nyamagabe"
+  },
+  {
+    "code" : "26",
+    "display" : "26-Ruhango"
+  },
+  {
+    "code" : "27",
+    "display" : "27-Muhanga"
+  },
+  {
+    "code" : "28",
+    "display" : "28-Kamonyi"
+  },
+  {
+    "code" : "31",
+    "display" : "31-Karongi"
+  },
+  {
+    "code" : "32",
+    "display" : "32-Rutsiro"
+  },
+  {
+    "code" : "33",
+    "display" : "33-Rubavu"
+  },
+  {
+    "code" : "34",
+    "display" : "34-Nyabihu"
+  },
+  {
+    "code" : "35",
+    "display" : "35-Ngororero"
+  },
+  {
+    "code" : "36",
+    "display" : "36-Rusizi"
+  },
+  {
+    "code" : "37",
+    "display" : "37-Nyamasheke"
+  },
+  {
+    "code" : "41",
+    "display" : "41-Rulindo"
+  },
+  {
+    "code" : "42",
+    "display" : "42-Gakenke"
+  },
+  {
+    "code" : "43",
+    "display" : "43-Musanze"
+  },
+  {
+    "code" : "44",
+    "display" : "44-Burera"
+  },
+  {
+    "code" : "45",
+    "display" : "45-Gicumbi"
+  },
+  {
+    "code" : "51",
+    "display" : "51-Rwamagana"
+  },
+  {
+    "code" : "52",
+    "display" : "52-Nyagatare"
+  },
+  {
+    "code" : "53",
+    "display" : "53-Gatsibo"
+  },
+  {
+    "code" : "54",
+    "display" : "54-Kayonza"
+  },
+  {
+    "code" : "55",
+    "display" : "55-Kirehe"
+  },
+  {
+    "code" : "56",
+    "display" : "56-Ngoma"
+  },
+  {
+    "code" : "57",
+    "display" : "57-Bugesera"
+  }]
+}

@@ -11,7 +11,7 @@
   <name value="Dhis2RwandaAttributeHarmonization"/>
   <title value="DHIS2 Rwanda Tracked Entity Attribute Harmonization IG"/>
   <status value="draft"/>
-  <date value="2024-06-20T14:32:32+00:00"/>
+  <date value="2024-06-24T11:41:15+00:00"/>
   <publisher value="DHIS2"/>
   <contact>
     <name value="DHIS2"/>
@@ -468,6 +468,72 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/caretaker-vs"/>
+      </reference>
+      <name value="Caretaker"/>
+      <description value="This value set contains concepts corresponding to the options in the 'Caretaker' option set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/caretaker-cs"/>
+      </reference>
+      <name value="Caretaker"/>
+      <description value="This code system contains concepts corresponding to the options in the 'Caretaker' option set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/citizenship-vs"/>
+      </reference>
+      <name value="Citizenship"/>
+      <description value="This value set contains concepts corresponding to the options in the 'Citizenship' option set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/citizenship-cs"/>
+      </reference>
+      <name value="Citizenship"/>
+      <description value="This code system contains concepts corresponding to the options in the 'Citizenship' option set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/district-vs"/>
+      </reference>
+      <name value="CR_District"/>
+      <description value="This value set contains concepts corresponding to the options in the 'CR_District' option set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/district-cs"/>
+      </reference>
+      <name value="CR_District"/>
+      <description value="This code system contains concepts corresponding to the options in the 'CR_District' option set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -475,6 +541,50 @@
       </reference>
       <name value="DHIS2 Tracked Entity Attributes"/>
       <description value="This code system defines tracked entity attributes used in DHIS2"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/education-level-vs"/>
+      </reference>
+      <name value="Education Level"/>
+      <description value="This value set contains concepts corresponding to the options in the 'Mcch_Education level Mat Death' option set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/education-level-cs"/>
+      </reference>
+      <name value="Education Level"/>
+      <description value="This code system contains concepts corresponding to the options in the 'Mcch_Education level Mat Death' option set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/gender-vs"/>
+      </reference>
+      <name value="Gender"/>
+      <description value="This value set contains concepts corresponding to the options in the 'Gender' option set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/gender-cs"/>
+      </reference>
+      <name value="Gender"/>
+      <description value="This code system contains concepts corresponding to the options in the 'Gender' option set."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -509,6 +619,50 @@
       <name value="PatientExample"/>
       <description value="An example of a patient with a license to krill."/>
       <exampleCanonical value="https://dhis2.org/StructureDefinition/MyPatient"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/province-vs"/>
+      </reference>
+      <name value="Province"/>
+      <description value="This value set contains concepts corresponding to the options in the 'Province' option set. The option sets 'Mcch_Provinces' and 'TR_Provinces' can also be mapped to this value set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/province-cs"/>
+      </reference>
+      <name value="Province"/>
+      <description value="This code system contains concepts corresponding to the options in the 'Province' option set. The option sets 'Mcch_Provinces' and 'TR_Provinces' can also be mapped to this code system."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/social-category-vs"/>
+      </reference>
+      <name value="Social Category"/>
+      <description value="This value set contains concepts corresponding to the options in the 'Social Category' option set."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/social-category-cs"/>
+      </reference>
+      <name value="Social Category"/>
+      <description value="This code system contains concepts corresponding to the options in the 'Social Category' option set."/>
+      <exampleBoolean value="false"/>
     </resource>
     <page>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

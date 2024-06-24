@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="district-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://dhis2.org/CodeSystem/district-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">11<a name="district-cs-11"> </a></td><td>11-Nyarugenge</td></tr><tr><td style="white-space:nowrap">12<a name="district-cs-12"> </a></td><td>12-Gasabo</td></tr><tr><td style="white-space:nowrap">13<a name="district-cs-13"> </a></td><td>13-Kicukiro</td></tr><tr><td style="white-space:nowrap">21<a name="district-cs-21"> </a></td><td>21-Nyanza</td></tr><tr><td style="white-space:nowrap">22<a name="district-cs-22"> </a></td><td>22-Gisagara</td></tr><tr><td style="white-space:nowrap">23<a name="district-cs-23"> </a></td><td>23-Nyaruguru</td></tr><tr><td style="white-space:nowrap">24<a name="district-cs-24"> </a></td><td>24-Huye</td></tr><tr><td style="white-space:nowrap">25<a name="district-cs-25"> </a></td><td>25-Nyamagabe</td></tr><tr><td style="white-space:nowrap">26<a name="district-cs-26"> </a></td><td>26-Ruhango</td></tr><tr><td style="white-space:nowrap">27<a name="district-cs-27"> </a></td><td>27-Muhanga</td></tr><tr><td style="white-space:nowrap">28<a name="district-cs-28"> </a></td><td>28-Kamonyi</td></tr><tr><td style="white-space:nowrap">31<a name="district-cs-31"> </a></td><td>31-Karongi</td></tr><tr><td style="white-space:nowrap">32<a name="district-cs-32"> </a></td><td>32-Rutsiro</td></tr><tr><td style="white-space:nowrap">33<a name="district-cs-33"> </a></td><td>33-Rubavu</td></tr><tr><td style="white-space:nowrap">34<a name="district-cs-34"> </a></td><td>34-Nyabihu</td></tr><tr><td style="white-space:nowrap">35<a name="district-cs-35"> </a></td><td>35-Ngororero</td></tr><tr><td style="white-space:nowrap">36<a name="district-cs-36"> </a></td><td>36-Rusizi</td></tr><tr><td style="white-space:nowrap">37<a name="district-cs-37"> </a></td><td>37-Nyamasheke</td></tr><tr><td style="white-space:nowrap">41<a name="district-cs-41"> </a></td><td>41-Rulindo</td></tr><tr><td style="white-space:nowrap">42<a name="district-cs-42"> </a></td><td>42-Gakenke</td></tr><tr><td style="white-space:nowrap">43<a name="district-cs-43"> </a></td><td>43-Musanze</td></tr><tr><td style="white-space:nowrap">44<a name="district-cs-44"> </a></td><td>44-Burera</td></tr><tr><td style="white-space:nowrap">45<a name="district-cs-45"> </a></td><td>45-Gicumbi</td></tr><tr><td style="white-space:nowrap">51<a name="district-cs-51"> </a></td><td>51-Rwamagana</td></tr><tr><td style="white-space:nowrap">52<a name="district-cs-52"> </a></td><td>52-Nyagatare</td></tr><tr><td style="white-space:nowrap">53<a name="district-cs-53"> </a></td><td>53-Gatsibo</td></tr><tr><td style="white-space:nowrap">54<a name="district-cs-54"> </a></td><td>54-Kayonza</td></tr><tr><td style="white-space:nowrap">55<a name="district-cs-55"> </a></td><td>55-Kirehe</td></tr><tr><td style="white-space:nowrap">56<a name="district-cs-56"> </a></td><td>56-Ngoma</td></tr><tr><td style="white-space:nowrap">57<a name="district-cs-57"> </a></td><td>57-Bugesera</td></tr></table></div>
+  </text>
+  <url value="https://dhis2.org/CodeSystem/district-cs"/>
+  <version value="0.1.0"/>
+  <name value="DistrictCS"/>
+  <title value="CR_District"/>
+  <status value="draft"/>
+  <date value="2024-06-24T11:41:15+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="This code system contains concepts corresponding to the options in the 'CR_District' option set."/>
+  <content value="complete"/>
+  <count value="30"/>
+  <concept>
+    <code value="11"/>
+    <display value="11-Nyarugenge"/>
+  </concept>
+  <concept>
+    <code value="12"/>
+    <display value="12-Gasabo"/>
+  </concept>
+  <concept>
+    <code value="13"/>
+    <display value="13-Kicukiro"/>
+  </concept>
+  <concept>
+    <code value="21"/>
+    <display value="21-Nyanza"/>
+  </concept>
+  <concept>
+    <code value="22"/>
+    <display value="22-Gisagara"/>
+  </concept>
+  <concept>
+    <code value="23"/>
+    <display value="23-Nyaruguru"/>
+  </concept>
+  <concept>
+    <code value="24"/>
+    <display value="24-Huye"/>
+  </concept>
+  <concept>
+    <code value="25"/>
+    <display value="25-Nyamagabe"/>
+  </concept>
+  <concept>
+    <code value="26"/>
+    <display value="26-Ruhango"/>
+  </concept>
+  <concept>
+    <code value="27"/>
+    <display value="27-Muhanga"/>
+  </concept>
+  <concept>
+    <code value="28"/>
+    <display value="28-Kamonyi"/>
+  </concept>
+  <concept>
+    <code value="31"/>
+    <display value="31-Karongi"/>
+  </concept>
+  <concept>
+    <code value="32"/>
+    <display value="32-Rutsiro"/>
+  </concept>
+  <concept>
+    <code value="33"/>
+    <display value="33-Rubavu"/>
+  </concept>
+  <concept>
+    <code value="34"/>
+    <display value="34-Nyabihu"/>
+  </concept>
+  <concept>
+    <code value="35"/>
+    <display value="35-Ngororero"/>
+  </concept>
+  <concept>
+    <code value="36"/>
+    <display value="36-Rusizi"/>
+  </concept>
+  <concept>
+    <code value="37"/>
+    <display value="37-Nyamasheke"/>
+  </concept>
+  <concept>
+    <code value="41"/>
+    <display value="41-Rulindo"/>
+  </concept>
+  <concept>
+    <code value="42"/>
+    <display value="42-Gakenke"/>
+  </concept>
+  <concept>
+    <code value="43"/>
+    <display value="43-Musanze"/>
+  </concept>
+  <concept>
+    <code value="44"/>
+    <display value="44-Burera"/>
+  </concept>
+  <concept>
+    <code value="45"/>
+    <display value="45-Gicumbi"/>
+  </concept>
+  <concept>
+    <code value="51"/>
+    <display value="51-Rwamagana"/>
+  </concept>
+  <concept>
+    <code value="52"/>
+    <display value="52-Nyagatare"/>
+  </concept>
+  <concept>
+    <code value="53"/>
+    <display value="53-Gatsibo"/>
+  </concept>
+  <concept>
+    <code value="54"/>
+    <display value="54-Kayonza"/>
+  </concept>
+  <concept>
+    <code value="55"/>
+    <display value="55-Kirehe"/>
+  </concept>
+  <concept>
+    <code value="56"/>
+    <display value="56-Ngoma"/>
+  </concept>
+  <concept>
+    <code value="57"/>
+    <display value="57-Bugesera"/>
+  </concept>
+</CodeSystem>

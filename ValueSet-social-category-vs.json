@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "social-category-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include all codes defined in <a href=\"CodeSystem-social-category-cs.html\"><code>https://dhis2.org/CodeSystem/social-category-cs</code></a></li></ul></div>"
+  },
+  "url" : "https://dhis2.org/ValueSet/social-category-vs",
+  "version" : "0.1.0",
+  "name" : "SocialCategoryVS",
+  "title" : "Social Category",
+  "status" : "draft",
+  "date" : "2024-06-24T11:41:15+00:00",
+  "publisher" : "DHIS2",
+  "contact" : [{
+    "name" : "DHIS2",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://dhis2.org"
+    }]
+  }],
+  "description" : "This value set contains concepts corresponding to the options in the 'Social Category' option set.",
+  "compose" : {
+    "include" : [{
+      "system" : "https://dhis2.org/CodeSystem/social-category-cs"
+    }]
+  }
+}

@@ -1,3 +1,81 @@
 {
-  "codeSystems" : []
+  "codeSystems" : [
+    {
+      "url" : "https://dhis2.org/CodeSystem/caretaker-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CaretakerCS",
+      "title" : "Caretaker",
+      "description" : "This code system contains concepts corresponding to the options in the 'Caretaker' option set.",
+      "uses" : {
+      },
+      "ValueSet-caretaker-vs.html" : "Caretaker"
+    },
+    {
+      "url" : "https://dhis2.org/CodeSystem/citizenship-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "CitizenshipCS",
+      "title" : "Citizenship",
+      "description" : "This code system contains concepts corresponding to the options in the 'Citizenship' option set.",
+      "uses" : {
+      },
+      "ValueSet-citizenship-vs.html" : "Citizenship"
+    },
+    {
+      "url" : "https://dhis2.org/CodeSystem/district-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "DistrictCS",
+      "title" : "CR_District",
+      "description" : "This code system contains concepts corresponding to the options in the 'CR_District' option set.",
+      "uses" : {
+      },
+      "ValueSet-district-vs.html" : "CR_District"
+    },
+    {
+      "url" : "https://dhis2.org/CodeSystem/education-level-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "EducationLevelCS",
+      "title" : "Education Level",
+      "description" : "This code system contains concepts corresponding to the options in the 'Mcch_Education level Mat Death' option set.",
+      "uses" : {
+      },
+      "ValueSet-education-level-vs.html" : "Education Level"
+    },
+    {
+      "url" : "https://dhis2.org/CodeSystem/gender-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "GenderCS",
+      "title" : "Gender",
+      "description" : "This code system contains concepts corresponding to the options in the 'Gender' option set.",
+      "uses" : {
+      },
+      "ValueSet-gender-vs.html" : "Gender"
+    },
+    {
+      "url" : "https://dhis2.org/CodeSystem/province-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "ProvinceCS",
+      "title" : "Province",
+      "description" : "This code system contains concepts corresponding to the options in the 'Province' option set. The option sets 'Mcch_Provinces' and 'TR_Provinces' can also be mapped to this code system.",
+      "uses" : {
+      },
+      "ValueSet-province-vs.html" : "Province"
+    },
+    {
+      "url" : "https://dhis2.org/CodeSystem/social-category-cs",
+      "version" : "0.1.0",
+      "status" : "draft",
+      "name" : "SocialCategoryCS",
+      "title" : "Social Category",
+      "description" : "This code system contains concepts corresponding to the options in the 'Social Category' option set.",
+      "uses" : {
+      },
+      "ValueSet-social-category-vs.html" : "Social Category"
+    }
+  ]
 }

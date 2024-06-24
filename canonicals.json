@@ -7,6 +7,55 @@
     "name" : "DHIS2Attributes"
   },
   {
+    "id" : "caretaker-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/CodeSystem/caretaker-cs",
+    "version" : "0.1.0",
+    "name" : "CaretakerCS"
+  },
+  {
+    "id" : "citizenship-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/CodeSystem/citizenship-cs",
+    "version" : "0.1.0",
+    "name" : "CitizenshipCS"
+  },
+  {
+    "id" : "district-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/CodeSystem/district-cs",
+    "version" : "0.1.0",
+    "name" : "DistrictCS"
+  },
+  {
+    "id" : "education-level-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/CodeSystem/education-level-cs",
+    "version" : "0.1.0",
+    "name" : "EducationLevelCS"
+  },
+  {
+    "id" : "gender-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/CodeSystem/gender-cs",
+    "version" : "0.1.0",
+    "name" : "GenderCS"
+  },
+  {
+    "id" : "province-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/CodeSystem/province-cs",
+    "version" : "0.1.0",
+    "name" : "ProvinceCS"
+  },
+  {
+    "id" : "social-category-cs",
+    "type" : "CodeSystem",
+    "url" : "https://dhis2.org/CodeSystem/social-category-cs",
+    "version" : "0.1.0",
+    "name" : "SocialCategoryCS"
+  },
+  {
     "id" : "dhis2-rwanda-attribute-harmonization",
     "type" : "ImplementationGuide",
     "url" : "https://dhis2.org/ImplementationGuide/dhis2-rwanda-attribute-harmonization",
@@ -40,5 +89,54 @@
     "url" : "https://dhis2.org/StructureDefinition/MyPatient",
     "version" : "0.1.0",
     "name" : "MyPatient"
+  },
+  {
+    "id" : "caretaker-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/ValueSet/caretaker-vs",
+    "version" : "0.1.0",
+    "name" : "CaretakerVS"
+  },
+  {
+    "id" : "citizenship-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/ValueSet/citizenship-vs",
+    "version" : "0.1.0",
+    "name" : "CitizenshipVS"
+  },
+  {
+    "id" : "district-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/ValueSet/district-vs",
+    "version" : "0.1.0",
+    "name" : "DistrictVS"
+  },
+  {
+    "id" : "education-level-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/ValueSet/education-level-vs",
+    "version" : "0.1.0",
+    "name" : "EducationLevelVS"
+  },
+  {
+    "id" : "gender-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/ValueSet/gender-vs",
+    "version" : "0.1.0",
+    "name" : "GenderVS"
+  },
+  {
+    "id" : "province-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/ValueSet/province-vs",
+    "version" : "0.1.0",
+    "name" : "ProvinceVS"
+  },
+  {
+    "id" : "social-category-vs",
+    "type" : "ValueSet",
+    "url" : "https://dhis2.org/ValueSet/social-category-vs",
+    "version" : "0.1.0",
+    "name" : "SocialCategoryVS"
   }
 ]

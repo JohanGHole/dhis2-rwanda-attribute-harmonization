@@ -1,17 +1,31 @@
 Dhis2RwandaAttributeHarmonization : Validation Results
 =========================================
 
-err = 2, warn = 16, info = 160
+err = 2, warn = 37, info = 167
 $--
 Generated $--. FHIR version $-- for dhis2-rwanda-attribute-harmonization#$-- (canonical = https://dhis2.org)
- Build Errors : 150 / 4 / 0
+ Build Errors : 402 / 4 / 0
  /github/workspace/fsh-generated/resources/CodeSystem-DHIS2Attributes : 2 / 12 / 1
+ /github/workspace/fsh-generated/resources/CodeSystem-caretaker-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-citizenship-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-district-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-education-level-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-gender-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-province-cs : 0 / 2 / 2
+ /github/workspace/fsh-generated/resources/CodeSystem-social-category-cs : 0 / 2 / 2
  /github/workspace/fsh-generated/resources/ImplementationGuide-dhis2-rwanda-attribute-harmonization : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-AmbulanceActivityReport : 0 / 0 / 17
  /github/workspace/fsh-generated/resources/StructureDefinition-BirthRegistration : 0 / 0 / 73
  /github/workspace/fsh-generated/resources/StructureDefinition-Immunization : 0 / 0 / 73
  /github/workspace/fsh-generated/resources/StructureDefinition-MyPatient : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-caretaker-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-citizenship-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-district-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-education-level-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-gender-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-province-vs : 0 / 1 / 1
+ /github/workspace/fsh-generated/resources/ValueSet-social-category-vs : 0 / 1 / 1
 </table>
 == n/a ==
 ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
@@ -32,6 +46,132 @@ ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.ttl.html#/html/body/d
 ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
 ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.xml.html#/html/body/div/div/div/p/a at Line 1333, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
 ERROR: /github/workspace/output/CodeSystem-DHIS2Attributes.xml.html#/html/body/div/div/div/p/span/a at Line 1340, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.html#/html/body/div/div/div/p/a at Line 285, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.html#/html/body/div/div/div/p/span/a at Line 292, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.json.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.json.html#/html/body/div/div/div/p/span/a at Line 294, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.ttl.html#/html/body/div/div/div/p/a at Line 288, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 295, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.xml.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-caretaker-cs.xml.html#/html/body/div/div/div/p/span/a at Line 289, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.html#/html/body/div/div/div/p/span/a at Line 294, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.json.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.json.html#/html/body/div/div/div/p/span/a at Line 294, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.ttl.html#/html/body/div/div/div/p/a at Line 288, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 295, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.xml.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-citizenship-cs.xml.html#/html/body/div/div/div/p/span/a at Line 289, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.html#/html/body/div/div/div/p/a at Line 343, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.html#/html/body/div/div/div/p/span/a at Line 350, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.json.html#/html/body/div/div/div/p/a at Line 399, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.json.html#/html/body/div/div/div/p/span/a at Line 406, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.ttl.html#/html/body/div/div/div/p/a at Line 372, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 379, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.xml.html#/html/body/div/div/div/p/a at Line 394, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-district-cs.xml.html#/html/body/div/div/div/p/span/a at Line 401, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.html#/html/body/div/div/div/p/a at Line 293, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.html#/html/body/div/div/div/p/span/a at Line 300, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.json.html#/html/body/div/div/div/p/a at Line 299, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.json.html#/html/body/div/div/div/p/span/a at Line 306, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.ttl.html#/html/body/div/div/div/p/a at Line 297, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 304, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.xml.html#/html/body/div/div/div/p/a at Line 294, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-education-level-cs.xml.html#/html/body/div/div/div/p/span/a at Line 301, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.html#/html/body/div/div/div/p/span/a at Line 294, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.json.html#/html/body/div/div/div/p/a at Line 287, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.json.html#/html/body/div/div/div/p/span/a at Line 294, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.ttl.html#/html/body/div/div/div/p/a at Line 288, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 295, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.xml.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-gender-cs.xml.html#/html/body/div/div/div/p/span/a at Line 289, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.html#/html/body/div/div/div/p/a at Line 293, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.html#/html/body/div/div/div/p/span/a at Line 300, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.json.html#/html/body/div/div/div/p/a at Line 299, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.json.html#/html/body/div/div/div/p/span/a at Line 306, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.ttl.html#/html/body/div/div/div/p/a at Line 297, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 304, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.xml.html#/html/body/div/div/div/p/a at Line 294, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-province-cs.xml.html#/html/body/div/div/div/p/span/a at Line 301, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.html#/html/body/div/div/div/p/a at Line 291, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.html#/html/body/div/div/div/p/span/a at Line 298, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.json.html#/html/body/div/div/div/p/a at Line 295, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.json.html#/html/body/div/div/div/p/span/a at Line 302, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.ttl.html#/html/body/div/div/div/p/a at Line 294, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.ttl.html#/html/body/div/div/div/p/span/a at Line 301, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.xml.html#/html/body/div/div/div/p/a at Line 290, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/CodeSystem-social-category-cs.xml.html#/html/body/div/div/div/p/span/a at Line 297, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/Patient-PatientExample.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
 ERROR: /github/workspace/output/Patient-PatientExample.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
 ERROR: /github/workspace/output/Patient-PatientExample.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
@@ -87,20 +227,20 @@ ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-testing.ht
 ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-testing.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-BirthRegistration-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.html#/html/body/div/div/div/p/a at Line 1954, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.html#/html/body/div/div/div/p/span/a at Line 1961, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.html#/html/body/div/div/div/p/a at Line 2026, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.html#/html/body/div/div/div/p/span/a at Line 2033, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.history.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.json.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.json.html#/html/body/div/div/div/p/a at Line 1892, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.json.html#/html/body/div/div/div/p/span/a at Line 1899, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.json.html#/html/body/div/div/div/p/a at Line 1956, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.json.html#/html/body/div/div/div/p/span/a at Line 1963, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.ttl.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.ttl.html#/html/body/div/div/div/p/a at Line 1280, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1287, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.ttl.html#/html/body/div/div/div/p/a at Line 1360, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1367, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.xml.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.xml.html#/html/body/div/div/div/p/a at Line 1560, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1567, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.xml.html#/html/body/div/div/div/p/a at Line 1624, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-BirthRegistration.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1631, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-Immunization-definitions.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-Immunization-definitions.html#/html/body/div/div/div/p/a at Line 627, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-Immunization-definitions.html#/html/body/div/div/div/p/span/a at Line 634, column 107: The link 'license.html' for "License" cannot be resolved
@@ -114,20 +254,20 @@ ERROR: /github/workspace/output/StructureDefinition-Immunization-testing.html#/h
 ERROR: /github/workspace/output/StructureDefinition-Immunization-testing.html#/html/body/div/div/div/p/a at Line 278, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-Immunization-testing.html#/html/body/div/div/div/p/span/a at Line 285, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-Immunization.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-Immunization.html#/html/body/div/div/div/p/a at Line 1946, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-Immunization.html#/html/body/div/div/div/p/span/a at Line 1953, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.html#/html/body/div/div/div/p/a at Line 2018, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.html#/html/body/div/div/div/p/span/a at Line 2025, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.history.html#/html/body/div/div/div/p/a at Line 260, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.history.html#/html/body/div/div/div/p/span/a at Line 267, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.json.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.json.html#/html/body/div/div/div/p/a at Line 1892, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.json.html#/html/body/div/div/div/p/span/a at Line 1899, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.json.html#/html/body/div/div/div/p/a at Line 1956, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.json.html#/html/body/div/div/div/p/span/a at Line 1963, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.ttl.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.ttl.html#/html/body/div/div/div/p/a at Line 1280, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1287, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.ttl.html#/html/body/div/div/div/p/a at Line 1360, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.ttl.html#/html/body/div/div/div/p/span/a at Line 1367, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.xml.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.xml.html#/html/body/div/div/div/p/a at Line 1557, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1564, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.xml.html#/html/body/div/div/div/p/a at Line 1621, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/StructureDefinition-Immunization.profile.xml.html#/html/body/div/div/div/p/span/a at Line 1628, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/p/a at Line 580, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MyPatient-definitions.html#/html/body/div/div/div/p/span/a at Line 587, column 107: The link 'license.html' for "License" cannot be resolved
@@ -155,9 +295,135 @@ ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.ttl.html#/
 ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/a at Line 110, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/p/a at Line 2342, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
 ERROR: /github/workspace/output/StructureDefinition-MyPatient.profile.xml.html#/html/body/div/div/div/p/span/a at Line 2349, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.html#/html/body/div/div/div/p/a at Line 324, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.html#/html/body/div/div/div/p/span/a at Line 331, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.json.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.json.html#/html/body/div/div/div/p/span/a at Line 289, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 290, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.xml.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-caretaker-vs.xml.html#/html/body/div/div/div/p/span/a at Line 284, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.html#/html/body/div/div/div/p/a at Line 324, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.html#/html/body/div/div/div/p/span/a at Line 331, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.json.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.json.html#/html/body/div/div/div/p/span/a at Line 289, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 290, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.xml.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-citizenship-vs.xml.html#/html/body/div/div/div/p/span/a at Line 284, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.html#/html/body/div/div/div/p/a at Line 324, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.html#/html/body/div/div/div/p/span/a at Line 331, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.json.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.json.html#/html/body/div/div/div/p/span/a at Line 289, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 290, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.xml.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-district-vs.xml.html#/html/body/div/div/div/p/span/a at Line 284, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.html#/html/body/div/div/div/p/a at Line 324, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.html#/html/body/div/div/div/p/span/a at Line 331, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.json.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.json.html#/html/body/div/div/div/p/span/a at Line 289, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 290, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.xml.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-education-level-vs.xml.html#/html/body/div/div/div/p/span/a at Line 284, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.html#/html/body/div/div/div/p/a at Line 324, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.html#/html/body/div/div/div/p/span/a at Line 331, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.json.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.json.html#/html/body/div/div/div/p/span/a at Line 289, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 290, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.xml.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-gender-vs.xml.html#/html/body/div/div/div/p/span/a at Line 284, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.html#/html/body/div/div/div/p/a at Line 324, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.html#/html/body/div/div/div/p/span/a at Line 331, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.json.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.json.html#/html/body/div/div/div/p/span/a at Line 289, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 290, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.xml.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-province-vs.xml.html#/html/body/div/div/div/p/span/a at Line 284, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs-testing.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs-testing.html#/html/body/div/div/div/p/a at Line 255, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs-testing.html#/html/body/div/div/div/p/span/a at Line 262, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.change.history.html#/html/body/div/div/div/a at Line 106, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.change.history.html#/html/body/div/div/div/p/a at Line 224, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.change.history.html#/html/body/div/div/div/p/span/a at Line 231, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.html#/html/body/div/div/div/p/a at Line 324, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.html#/html/body/div/div/div/p/span/a at Line 331, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.json.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.json.html#/html/body/div/div/div/p/a at Line 282, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.json.html#/html/body/div/div/div/p/span/a at Line 289, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.ttl.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.ttl.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.ttl.html#/html/body/div/div/div/p/span/a at Line 290, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.xml.html#/html/body/div/div/div/a at Line 104, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.xml.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/ValueSet-social-category-vs.xml.html#/html/body/div/div/div/p/span/a at Line 284, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 290, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/span/a at Line 297, column 107: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/a at Line 417, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/span/a at Line 424, column 107: The link 'license.html' for "License" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/a at Line 102, column 6: The link 'https://dhis2.org/integration/fhir/' for "" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/a at Line 238, column 28: The link 'https://dhis2.org' for "DHIS2" cannot be resolved
 ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/span/a at Line 245, column 107: The link 'license.html' for "License" cannot be resolved
@@ -183,6 +449,34 @@ WARNING: CodeSystem/DHIS2Attributes: CodeSystem.concept[205].display: value shou
 WARNING: CodeSystem/DHIS2Attributes: CodeSystem.concept[205].definition: value should not start or finish with whitespace 'rbf_month of birth '
 WARNING: CodeSystem/DHIS2Attributes: CodeSystem.meta.profile[0]: Profile reference 'http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareablecodesystem' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
 WARNING: CodeSystem/DHIS2Attributes: CodeSystem.meta.profile[1]: Profile reference 'http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-publishablecodesystem' has not been checked because it could not be found, and the validator is set to not fetch unknown profiles
+== fsh-generated/resources/CodeSystem-caretaker-cs.json ==
+INFORMATION: CodeSystem/caretaker-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/caretaker-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/caretaker-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-citizenship-cs.json ==
+INFORMATION: CodeSystem/citizenship-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/citizenship-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/citizenship-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-district-cs.json ==
+INFORMATION: CodeSystem/district-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/district-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/district-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-education-level-cs.json ==
+INFORMATION: CodeSystem/education-level-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/education-level-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/education-level-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-gender-cs.json ==
+INFORMATION: CodeSystem/gender-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/gender-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/gender-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-province-cs.json ==
+INFORMATION: CodeSystem/province-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/province-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/province-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
+== fsh-generated/resources/CodeSystem-social-category-cs.json ==
+INFORMATION: CodeSystem/social-category-cs: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+WARNING: CodeSystem/social-category-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.experimental is mandatory, but it is not present
+WARNING: CodeSystem/social-category-cs: CodeSystem: Published code systems SHOULD conform to the ShareableCodeSystem profile, which says that the element CodeSystem.caseSensitive is mandatory, but it is not present
 == fsh-generated/resources/ImplementationGuide-dhis2-rwanda-attribute-harmonization.json ==
 == fsh-generated/resources/Patient-PatientExample.json ==
 == fsh-generated/resources/StructureDefinition-AmbulanceActivityReport.json ==
@@ -349,3 +643,17 @@ INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.
 INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[35].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
 INFORMATION: StructureDefinition/Immunization: StructureDefinition.differential.element[36].code[0]: Reference to experimental CodeSystem https://dhis2.org/CodeSystem/DHIS2Attributes|0.1.0
 == fsh-generated/resources/StructureDefinition-MyPatient.json ==
+== fsh-generated/resources/ValueSet-caretaker-vs.json ==
+WARNING: ValueSet/caretaker-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-citizenship-vs.json ==
+WARNING: ValueSet/citizenship-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-district-vs.json ==
+WARNING: ValueSet/district-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-education-level-vs.json ==
+WARNING: ValueSet/education-level-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-gender-vs.json ==
+WARNING: ValueSet/gender-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-province-vs.json ==
+WARNING: ValueSet/province-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present
+== fsh-generated/resources/ValueSet-social-category-vs.json ==
+WARNING: ValueSet/social-category-vs: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

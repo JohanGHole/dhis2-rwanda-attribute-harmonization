@@ -1,9 +1,1058 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="d5ad8019-77e8-40f3-99f7-146731876d81"/>
+  <id value="2664f557-d562-4536-bd66-3d564cabe7a6"/>
   <meta>
-    <lastUpdated value="2024-06-20T14:32:32.261+00:00"/>
+    <lastUpdated value="2024-06-24T11:41:15.280+00:00"/>
   </meta>
   <type value="collection"/>
+  <entry>
+    <fullUrl value="https://dhis2.org/ValueSet/caretaker-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-caretaker-cs.html">codesystem Caretaker v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-caretaker-cs-Parents"> </a>  
+                  <a href="CodeSystem-caretaker-cs.html#caretaker-cs-Parents">Parents</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/caretaker-cs</td>
+                <td>Parents</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-caretaker-cs-Caretaker"> </a>  
+                  <a href="CodeSystem-caretaker-cs.html#caretaker-cs-Caretaker">Caretaker</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/caretaker-cs</td>
+                <td>Caretaker</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://dhis2.org/ValueSet/caretaker-vs"/>
+        <version value="0.1.0"/>
+        <name value="CaretakerVS"/>
+        <title value="Caretaker"/>
+        <status value="draft"/>
+        <date value="2024-06-24T11:41:15+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:8c2ea1dc-103a-4b80-9103-5d0cdc4dcf6f"/>
+          <timestamp value="2024-06-24T11:41:35+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://dhis2.org/CodeSystem/caretaker-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/caretaker-cs"/>
+            <code value="Parents"/>
+            <display value="Parents"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/caretaker-cs"/>
+            <code value="Caretaker"/>
+            <display value="Caretaker"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://dhis2.org/ValueSet/citizenship-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-citizenship-cs.html">codesystem Citizenship v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-citizenship-cs-Rwandan"> </a>  
+                  <a href="CodeSystem-citizenship-cs.html#citizenship-cs-Rwandan">Rwandan</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/citizenship-cs</td>
+                <td>Rwandan</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-citizenship-cs-Non-Rwandan"> </a>  
+                  <a href="CodeSystem-citizenship-cs.html#citizenship-cs-Non_Rwandan">Non_Rwandan</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/citizenship-cs</td>
+                <td>Non Rwandan</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://dhis2.org/ValueSet/citizenship-vs"/>
+        <version value="0.1.0"/>
+        <name value="CitizenshipVS"/>
+        <title value="Citizenship"/>
+        <status value="draft"/>
+        <date value="2024-06-24T11:41:15+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:57b85e88-711c-4361-9fc5-dad7e5b9ac6a"/>
+          <timestamp value="2024-06-24T11:41:35+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://dhis2.org/CodeSystem/citizenship-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/citizenship-cs"/>
+            <code value="Rwandan"/>
+            <display value="Rwandan"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/citizenship-cs"/>
+            <code value="Non_Rwandan"/>
+            <display value="Non Rwandan"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://dhis2.org/ValueSet/district-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-district-cs.html">codesystem CR_District v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 30 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-11"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-11">11</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>11-Nyarugenge</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-12"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-12">12</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>12-Gasabo</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-13"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-13">13</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>13-Kicukiro</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-21"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-21">21</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>21-Nyanza</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-22"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-22">22</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>22-Gisagara</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-23"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-23">23</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>23-Nyaruguru</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-24"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-24">24</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>24-Huye</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-25"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-25">25</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>25-Nyamagabe</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-26"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-26">26</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>26-Ruhango</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-27"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-27">27</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>27-Muhanga</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-28"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-28">28</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>28-Kamonyi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-31"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-31">31</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>31-Karongi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-32"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-32">32</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>32-Rutsiro</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-33"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-33">33</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>33-Rubavu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-34"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-34">34</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>34-Nyabihu</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-35"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-35">35</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>35-Ngororero</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-36"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-36">36</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>36-Rusizi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-37"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-37">37</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>37-Nyamasheke</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-41"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-41">41</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>41-Rulindo</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-42"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-42">42</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>42-Gakenke</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-43"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-43">43</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>43-Musanze</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-44"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-44">44</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>44-Burera</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-45"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-45">45</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>45-Gicumbi</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-51"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-51">51</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>51-Rwamagana</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-52"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-52">52</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>52-Nyagatare</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-53"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-53">53</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>53-Gatsibo</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-54"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-54">54</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>54-Kayonza</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-55"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-55">55</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>55-Kirehe</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-56"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-56">56</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>56-Ngoma</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-district-cs-57"> </a>  
+                  <a href="CodeSystem-district-cs.html#district-cs-57">57</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/district-cs</td>
+                <td>57-Bugesera</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://dhis2.org/ValueSet/district-vs"/>
+        <version value="0.1.0"/>
+        <name value="DistrictVS"/>
+        <title value="CR_District"/>
+        <status value="draft"/>
+        <date value="2024-06-24T11:41:15+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:f54b4ad5-f84c-4ed5-8f86-c80aaabd16f7"/>
+          <timestamp value="2024-06-24T11:41:35+00:00"/>
+          <total value="30"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://dhis2.org/CodeSystem/district-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="11"/>
+            <display value="11-Nyarugenge"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="12"/>
+            <display value="12-Gasabo"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="13"/>
+            <display value="13-Kicukiro"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="21"/>
+            <display value="21-Nyanza"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="22"/>
+            <display value="22-Gisagara"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="23"/>
+            <display value="23-Nyaruguru"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="24"/>
+            <display value="24-Huye"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="25"/>
+            <display value="25-Nyamagabe"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="26"/>
+            <display value="26-Ruhango"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="27"/>
+            <display value="27-Muhanga"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="28"/>
+            <display value="28-Kamonyi"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="31"/>
+            <display value="31-Karongi"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="32"/>
+            <display value="32-Rutsiro"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="33"/>
+            <display value="33-Rubavu"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="34"/>
+            <display value="34-Nyabihu"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="35"/>
+            <display value="35-Ngororero"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="36"/>
+            <display value="36-Rusizi"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="37"/>
+            <display value="37-Nyamasheke"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="41"/>
+            <display value="41-Rulindo"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="42"/>
+            <display value="42-Gakenke"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="43"/>
+            <display value="43-Musanze"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="44"/>
+            <display value="44-Burera"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="45"/>
+            <display value="45-Gicumbi"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="51"/>
+            <display value="51-Rwamagana"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="52"/>
+            <display value="52-Nyagatare"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="53"/>
+            <display value="53-Gatsibo"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="54"/>
+            <display value="54-Kayonza"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="55"/>
+            <display value="55-Kirehe"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="56"/>
+            <display value="56-Ngoma"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/district-cs"/>
+            <code value="57"/>
+            <display value="57-Bugesera"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://dhis2.org/ValueSet/education-level-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-education-level-cs.html">codesystem Education Level v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-education-level-cs-unknown"> </a>  
+                  <a href="CodeSystem-education-level-cs.html#education-level-cs-unknown">unknown</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/education-level-cs</td>
+                <td>Unknown</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-education-level-cs-Primary"> </a>  
+                  <a href="CodeSystem-education-level-cs.html#education-level-cs-Primary">Primary</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/education-level-cs</td>
+                <td>Primary</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-education-level-cs-Secondary"> </a>  
+                  <a href="CodeSystem-education-level-cs.html#education-level-cs-Secondary">Secondary</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/education-level-cs</td>
+                <td>Secondary</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-education-level-cs-Tertiary-University"> </a>  
+                  <a href="CodeSystem-education-level-cs.html#education-level-cs-Tertiary.47University">Tertiary/University</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/education-level-cs</td>
+                <td>Tertiary/University</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-education-level-cs-None"> </a>  
+                  <a href="CodeSystem-education-level-cs.html#education-level-cs-None">None</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/education-level-cs</td>
+                <td>None</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://dhis2.org/ValueSet/education-level-vs"/>
+        <version value="0.1.0"/>
+        <name value="EducationLevelVS"/>
+        <title value="Education Level"/>
+        <status value="draft"/>
+        <date value="2024-06-24T11:41:15+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:94508e8b-2929-4bc3-85f3-69e5894215d1"/>
+          <timestamp value="2024-06-24T11:41:35+00:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://dhis2.org/CodeSystem/education-level-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/education-level-cs"/>
+            <code value="unknown"/>
+            <display value="Unknown"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/education-level-cs"/>
+            <code value="Primary"/>
+            <display value="Primary"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/education-level-cs"/>
+            <code value="Secondary"/>
+            <display value="Secondary"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/education-level-cs"/>
+            <code value="Tertiary/University"/>
+            <display value="Tertiary/University"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/education-level-cs"/>
+            <code value="None"/>
+            <display value="None"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://dhis2.org/ValueSet/gender-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-gender-cs.html">codesystem Gender v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-gender-cs-M"> </a>  
+                  <a href="CodeSystem-gender-cs.html#gender-cs-M">M</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/gender-cs</td>
+                <td>Male</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-gender-cs-F"> </a>  
+                  <a href="CodeSystem-gender-cs.html#gender-cs-F">F</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/gender-cs</td>
+                <td>Female</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://dhis2.org/ValueSet/gender-vs"/>
+        <version value="0.1.0"/>
+        <name value="GenderVS"/>
+        <title value="Gender"/>
+        <status value="draft"/>
+        <date value="2024-06-24T11:41:15+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:70099ed9-09fc-4c6e-be44-d41eccc3122d"/>
+          <timestamp value="2024-06-24T11:41:35+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://dhis2.org/CodeSystem/gender-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/gender-cs"/>
+            <code value="M"/>
+            <display value="Male"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/gender-cs"/>
+            <code value="F"/>
+            <display value="Female"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://dhis2.org/ValueSet/province-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-province-cs.html">codesystem Province v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 5 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-province-cs-10-East"> </a>  
+                  <a href="CodeSystem-province-cs.html#province-cs-10_East">10_East</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/province-cs</td>
+                <td>East</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-province-cs-20-Kigali-City"> </a>  
+                  <a href="CodeSystem-province-cs.html#province-cs-20_Kigali_City">20_Kigali_City</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/province-cs</td>
+                <td>Kigali City</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-province-cs-30-North"> </a>  
+                  <a href="CodeSystem-province-cs.html#province-cs-30_North">30_North</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/province-cs</td>
+                <td>North</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-province-cs-40-South"> </a>  
+                  <a href="CodeSystem-province-cs.html#province-cs-40_South">40_South</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/province-cs</td>
+                <td>South</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-province-cs-50-West"> </a>  
+                  <a href="CodeSystem-province-cs.html#province-cs-50_West">50_West</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/province-cs</td>
+                <td>West</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://dhis2.org/ValueSet/province-vs"/>
+        <version value="0.1.0"/>
+        <name value="ProvinceVS"/>
+        <title value="Province"/>
+        <status value="draft"/>
+        <date value="2024-06-24T11:41:15+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:2f728520-dbf0-4f0c-b70f-37dba5f725a7"/>
+          <timestamp value="2024-06-24T11:41:35+00:00"/>
+          <total value="5"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://dhis2.org/CodeSystem/province-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/province-cs"/>
+            <code value="10_East"/>
+            <display value="East"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/province-cs"/>
+            <code value="20_Kigali_City"/>
+            <display value="Kigali City"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/province-cs"/>
+            <code value="30_North"/>
+            <display value="North"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/province-cs"/>
+            <code value="40_South"/>
+            <display value="South"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/province-cs"/>
+            <code value="50_West"/>
+            <display value="West"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://dhis2.org/ValueSet/social-category-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on 
+              <a href="CodeSystem-social-category-cs.html">codesystem Social Category v0.1.0 (CodeSystem)</a>
+            </p>
+            <p>This value set contains 4 concepts</p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-social-category-cs-Cat-1"> </a>  
+                  <a href="CodeSystem-social-category-cs.html#social-category-cs-Cat_1">Cat_1</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/social-category-cs</td>
+                <td>Cat 1</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-social-category-cs-Cat-2"> </a>  
+                  <a href="CodeSystem-social-category-cs.html#social-category-cs-Cat_2">Cat_2</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/social-category-cs</td>
+                <td>Cat 2</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-social-category-cs-Cat-3"> </a>  
+                  <a href="CodeSystem-social-category-cs.html#social-category-cs-Cat_3">Cat_3</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/social-category-cs</td>
+                <td>Cat 3</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="https---dhis2.org-CodeSystem-social-category-cs-Cat-4"> </a>  
+                  <a href="CodeSystem-social-category-cs.html#social-category-cs-Cat_4">Cat_4</a>
+                </td>
+                <td>https://dhis2.org/CodeSystem/social-category-cs</td>
+                <td>Cat 4</td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://dhis2.org/ValueSet/social-category-vs"/>
+        <version value="0.1.0"/>
+        <name value="SocialCategoryVS"/>
+        <title value="Social Category"/>
+        <status value="draft"/>
+        <date value="2024-06-24T11:41:15+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:093566c4-de01-430e-adfb-fd54036f3b0d"/>
+          <timestamp value="2024-06-24T11:41:35+00:00"/>
+          <total value="4"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://dhis2.org/CodeSystem/social-category-cs|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/social-category-cs"/>
+            <code value="Cat_1"/>
+            <display value="Cat 1"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/social-category-cs"/>
+            <code value="Cat_2"/>
+            <display value="Cat 2"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/social-category-cs"/>
+            <code value="Cat_3"/>
+            <display value="Cat 3"/>
+          </contains>
+          <contains>
+            <system value="https://dhis2.org/CodeSystem/social-category-cs"/>
+            <code value="Cat_4"/>
+            <display value="Cat 4"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
 </Bundle>

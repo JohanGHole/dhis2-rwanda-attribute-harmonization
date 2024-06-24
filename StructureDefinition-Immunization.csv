@@ -5,7 +5,7 @@
 ","Auto Gen Child ID","Auto Gen Child ID","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#jKahvk7wiQf
 ",,,,"Immunization.autoGenChildId",1,1,"",""
 "Immunization.citizenship","Immunization.citizenship","","","",0,1,"","","","code {[]} {[]}
-","Citizenship","Citizenship","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#VYEGPSgn908
+","Citizenship","Citizenship","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/citizenship-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#VYEGPSgn908
 ",,,,"Immunization.citizenship",0,1,"",""
 "Immunization.childId","Immunization.childId","","","",0,1,"","","","string {[]} {[]}
 ","Child ID (Register number)","Child ID (Register number)","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#yBT0DI1TTbT
@@ -32,7 +32,7 @@
 ","Place of Bith","Place of Bith","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#iCy9QPG9HY9
 ",,,,"Immunization.placeOfBith",0,1,"",""
 "Immunization.gender","Immunization.gender","","","",1,1,"","","","code {[]} {[]}
-","Gender","Gender","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#Rq4qM2wKYFL
+","Gender","Gender","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/gender-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#Rq4qM2wKYFL
 ",,,,"Immunization.gender",1,1,"",""
 "Immunization.weightAtBirth","Immunization.weightAtBirth","","","",0,1,"","","","decimal {[]} {[]}
 ","Weight at Birth (Kgs)","Weight at Birth (Kgs)","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#cM7Q2YcXhH0
@@ -44,7 +44,7 @@
 ","Pregnancy Number","Pregnancy Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#TXDvRJ9wWBv
 ",,,,"Immunization.pregnancyNumber",0,1,"",""
 "Immunization.caretaker","Immunization.caretaker","","","",0,1,"","","","code {[]} {[]}
-","Caretaker","Caretaker","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#E5D1aKa2eFb
+","Caretaker","Caretaker","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/caretaker-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#E5D1aKa2eFb
 ",,,,"Immunization.caretaker",0,1,"",""
 "Immunization.mothersNames","Immunization.mothersNames","","","",0,1,"","","","string {[]} {[]}
 ","Mothers Names","Mothers Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#RzPmWr82V3p
@@ -59,7 +59,7 @@
 ","Mothers Date of Birth","Mothers Date of Birth","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#cUTcjBma2jK
 ",,,,"Immunization.mothersDateOfBirth",0,1,"",""
 "Immunization.mothersEducationLevel","Immunization.mothersEducationLevel","","","",0,1,"","","","code {[]} {[]}
-","Mothers Education Level","Mothers Education Level","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#YDWk8qQbFOh
+","Mothers Education Level","Mothers Education Level","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/education-level-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#YDWk8qQbFOh
 ",,,,"Immunization.mothersEducationLevel",0,1,"",""
 "Immunization.fatherNames","Immunization.fatherNames","","","",0,1,"","","","string {[]} {[]}
 ","Father Names","Father Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#uLotdmVESxa
@@ -71,7 +71,7 @@
 ","Fathers ID Number","Fathers ID Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#KsNhcMy9iwH
 ",,,,"Immunization.fathersIdNumber",0,1,"",""
 "Immunization.fatherEducationLevel","Immunization.fatherEducationLevel","","","",0,1,"","","","code {[]} {[]}
-","Father Education Level","Father Education Level","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#hTdA8G5ZCEm
+","Father Education Level","Father Education Level","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/education-level-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#hTdA8G5ZCEm
 ",,,,"Immunization.fatherEducationLevel",0,1,"",""
 "Immunization.caretakerNames","Immunization.caretakerNames","","","",0,1,"","","","string {[]} {[]}
 ","Caretaker Names","Caretaker Names","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#OjVFFLxlAbo
@@ -83,13 +83,13 @@
 ","Caretaker ID Number","Caretaker ID Number","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#QF1ewXEBT0o
 ",,,,"Immunization.caretakerIdNumber",0,1,"",""
 "Immunization.socialCategory","Immunization.socialCategory","","","",0,1,"","","","code {[]} {[]}
-","Social Category","Social Category","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#FIeADYwBKjB
+","Social Category","Social Category","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/social-category-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#FIeADYwBKjB
 ",,,,"Immunization.socialCategory",0,1,"",""
 "Immunization.provinceOfResidence","Immunization.provinceOfResidence","","","",0,1,"","","","code {[]} {[]}
-","Province of residence","Province of residence","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#FBm5ftjnCj2
+","Province of residence","Province of residence","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/province-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#FBm5ftjnCj2
 ",,,,"Immunization.provinceOfResidence",0,1,"",""
 "Immunization.districtOfResidenceVacc","Immunization.districtOfResidenceVacc","","","",0,1,"","","","code {[]} {[]}
-","District of residence_vacc","District of residence_vacc","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#getkVaLr2bw
+","District of residence_vacc","District of residence_vacc","","","","","","","","","",,"required","","https://dhis2.org/ValueSet/district-vs","https://dhis2.org/CodeSystem/DHIS2Attributes#getkVaLr2bw
 ",,,,"Immunization.districtOfResidenceVacc",0,1,"",""
 "Immunization.sectorOfResidence","Immunization.sectorOfResidence","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
 ","Sector of Residence","Sector of Residence","","","","","","","","","",,,,,"https://dhis2.org/CodeSystem/DHIS2Attributes#rXWNI9jQhXs

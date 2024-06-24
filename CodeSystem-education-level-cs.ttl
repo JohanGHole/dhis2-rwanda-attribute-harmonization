@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://dhis2.org/CodeSystem/education-level-cs> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "education-level-cs"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This  code system <code>https://dhis2.org/CodeSystem/education-level-cs</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"education-level-cs-unknown\"> </a></td><td>Unknown</td></tr><tr><td style=\"white-space:nowrap\">Primary<a name=\"education-level-cs-Primary\"> </a></td><td>Primary</td></tr><tr><td style=\"white-space:nowrap\">Secondary<a name=\"education-level-cs-Secondary\"> </a></td><td>Secondary</td></tr><tr><td style=\"white-space:nowrap\">Tertiary/University<a name=\"education-level-cs-Tertiary.47University\"> </a></td><td>Tertiary/University</td></tr><tr><td style=\"white-space:nowrap\">None<a name=\"education-level-cs-None\"> </a></td><td>None</td></tr></table></div>"
+  ] ; # 
+  fhir:url [ fhir:v "https://dhis2.org/CodeSystem/education-level-cs"^^xsd:anyURI] ; # 
+  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:name [ fhir:v "EducationLevelCS"] ; # 
+  fhir:title [ fhir:v "Education Level"] ; # 
+  fhir:status [ fhir:v "draft"] ; # 
+  fhir:date [ fhir:v "2024-06-24T11:41:15+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "DHIS2"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "DHIS2" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "https://dhis2.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This code system contains concepts corresponding to the options in the 'Mcch_Education level Mat Death' option set."] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:count [ fhir:v "5"^^xsd:nonNegativeInteger] ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "unknown" ] ;
+     fhir:display [ fhir:v "Unknown" ]
+  ] [
+     fhir:code [ fhir:v "Primary" ] ;
+     fhir:display [ fhir:v "Primary" ]
+  ] [
+     fhir:code [ fhir:v "Secondary" ] ;
+     fhir:display [ fhir:v "Secondary" ]
+  ] [
+     fhir:code [ fhir:v "Tertiary/University" ] ;
+     fhir:display [ fhir:v "Tertiary/University" ]
+  ] [
+     fhir:code [ fhir:v "None" ] ;
+     fhir:display [ fhir:v "None" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

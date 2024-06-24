@@ -1,2 +1,9 @@
 URL,Version,Status,OIDs,Name,Title,Descriptino,Used
 https://dhis2.org/CodeSystem/DHIS2Attributes,0.1.0,draft,,DHIS2Attributes,DHIS2 Tracked Entity Attributes,"This code system defines tracked entity attributes used in DHIS2",
+https://dhis2.org/CodeSystem/caretaker-cs,0.1.0,draft,,CaretakerCS,Caretaker,"This code system contains concepts corresponding to the options in the 'Caretaker' option set.",
+https://dhis2.org/CodeSystem/citizenship-cs,0.1.0,draft,,CitizenshipCS,Citizenship,"This code system contains concepts corresponding to the options in the 'Citizenship' option set.",
+https://dhis2.org/CodeSystem/district-cs,0.1.0,draft,,DistrictCS,CR_District,"This code system contains concepts corresponding to the options in the 'CR_District' option set.",
+https://dhis2.org/CodeSystem/education-level-cs,0.1.0,draft,,EducationLevelCS,Education Level,"This code system contains concepts corresponding to the options in the 'Mcch_Education level Mat Death' option set.",
+https://dhis2.org/CodeSystem/gender-cs,0.1.0,draft,,GenderCS,Gender,"This code system contains concepts corresponding to the options in the 'Gender' option set.",
+https://dhis2.org/CodeSystem/province-cs,0.1.0,draft,,ProvinceCS,Province,"This code system contains concepts corresponding to the options in the 'Province' option set. The option sets 'Mcch_Provinces' and 'TR_Provinces' can also be mapped to this code system.",
+https://dhis2.org/CodeSystem/social-category-cs,0.1.0,draft,,SocialCategoryCS,Social Category,"This code system contains concepts corresponding to the options in the 'Social Category' option set.",

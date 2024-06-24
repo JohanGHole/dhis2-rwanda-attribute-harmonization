@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="citizenship-cs"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This  code system <code>https://dhis2.org/CodeSystem/citizenship-cs</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Rwandan<a name="citizenship-cs-Rwandan"> </a></td><td>Rwandan</td></tr><tr><td style="white-space:nowrap">Non_Rwandan<a name="citizenship-cs-Non_Rwandan"> </a></td><td>Non Rwandan</td></tr></table></div>
+  </text>
+  <url value="https://dhis2.org/CodeSystem/citizenship-cs"/>
+  <version value="0.1.0"/>
+  <name value="CitizenshipCS"/>
+  <title value="Citizenship"/>
+  <status value="draft"/>
+  <date value="2024-06-24T11:41:15+00:00"/>
+  <publisher value="DHIS2"/>
+  <contact>
+    <name value="DHIS2"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://dhis2.org"/>
+    </telecom>
+  </contact>
+  <description value="This code system contains concepts corresponding to the options in the 'Citizenship' option set."/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="Rwandan"/>
+    <display value="Rwandan"/>
+  </concept>
+  <concept>
+    <code value="Non_Rwandan"/>
+    <display value="Non Rwandan"/>
+  </concept>
+</CodeSystem>
